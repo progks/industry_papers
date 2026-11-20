@@ -13,7 +13,7 @@ https://saslexicon.org/index.html
 
 [PHUSE_EU](https://saslexicon.org/PHUSE_EU/PHUSE_EU.html)
 
-[PHUSE_APAC](https://saslexicon.org/PHUSE_APAC/PHUSE_APAC.html))
+[PHUSE_APAC](https://saslexicon.org/PHUSE_APAC/PHUSE_APAC.html)
 
 
 
