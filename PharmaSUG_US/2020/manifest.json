@@ -909,8 +909,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_DH02.pdf"
     ],
     "filename": "PAP-DH02-eab226df98.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DH02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DH02.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_DH02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_DH02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DH02.pdf",
+    "bytes": 601248,
+    "sha256": "f89d2f2e6542e56a9603739f819a32656e5d852a36bd5291ee9b38b80618e4fd"
   },
   {
     "title": "Data Standards Used for Electronic Submission of Real-World Evidence in New Drug Application (NDA)",
@@ -922,8 +924,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_SA03.pdf"
     ],
     "filename": "PAP-SA03-783d510f9c.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SA03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SA03.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_SA03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_SA03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SA03.pdf",
+    "bytes": 558385,
+    "sha256": "f12b1d7dc5b18d46a28bb595b7b52fd386b70f37686932cde3dd86bb902d3f18"
   },
   {
     "title": "Data Visualization for Medical Review",
@@ -935,8 +939,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_DV11.pdf"
     ],
     "filename": "PAP-DV11-8d1fc53b41.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DV11.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DV11.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_DV11.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_DV11.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DV11.pdf",
+    "bytes": 632511,
+    "sha256": "7797edbdc7452db2bf55772dd4deec4ed020c398fd4d5d031cb1285ecb614c25"
   },
   {
     "title": "Data Wrangling - Combining and Restructuring QS-related ADaM Datasets for Pathway Predictive Modeling",
@@ -948,8 +954,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_PP01.pdf"
     ],
     "filename": "PAP-PP01-3109042310.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP01.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_PP01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_PP01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP01.pdf",
+    "bytes": 1079568,
+    "sha256": "56375eedb0af195e7d3834c2715f089f1214e3cccbb4313e0a7dcdfe5c2cf094"
   },
   {
     "title": "Data, Metadata and the notion of Holons* (* Information concepts)",
@@ -961,8 +969,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_TT03.pdf"
     ],
     "filename": "PAP-TT03-433b297787.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT03.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_TT03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_TT03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT03.pdf",
+    "bytes": 1189402,
+    "sha256": "4fa94d46ac95f9349541d33fb38a2a219dc51e84052bec1f710a973da3a7c2f8"
   },
   {
     "title": "Demystifying the Data World of Biobanks with Machine Learning",
@@ -974,8 +984,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_AS13.pdf"
     ],
     "filename": "PAP-AS13-e6d3614d0e.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_AS13.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_AS13.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_AS13.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_AS13.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_AS13.pdf",
+    "bytes": 146179,
+    "sha256": "532967a0242a319a7e692556df6f2174fc961d99560c4ce3fdd989e4374b2f0a"
   },
   {
     "title": "Design and Conduct of Clinical Trials: Past Present and Future. New Innovative Technology Methods",
@@ -987,8 +999,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_TT19.pdf"
     ],
     "filename": "PAP-TT19-238c8d9971.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT19.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT19.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_TT19.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_TT19.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT19.pdf",
+    "bytes": 407514,
+    "sha256": "67ef0ad63567d4b3a75538c86708d867701c5dac30eda8041d5d8756d629ea55"
   },
   {
     "title": "Developing SEND for CBER - Collaborative Workstream Initiative Update",
@@ -1000,8 +1014,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_SA10.pdf"
     ],
     "filename": "PAP-SA10-5a332b162d.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SA10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SA10.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_SA10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_SA10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SA10.pdf",
+    "bytes": 148202,
+    "sha256": "b37e840d6b0232623d8305dc9df0aa906c11b7f8cb7d8b792cfa7aa67895a78c"
   },
   {
     "title": "Digitalization of Clinical Study Report (CSR) Tables and Listings for Cross-report Verification",
@@ -1013,8 +1029,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_TT02.pdf"
     ],
     "filename": "PAP-TT02-8979d7cd41.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT02.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_TT02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_TT02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT02.pdf",
+    "bytes": 612999,
+    "sha256": "9adcffb764ab55108ebdada5360aa6b032a5a67b41c3c07ea44a00590037ba10"
   },
   {
     "title": "Disruption is Personal: RWE and AI Changing the Game for Personalized Medicine",
@@ -1026,8 +1044,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_TT18.pdf"
     ],
     "filename": "PAP-TT18-358da0225c.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT18.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT18.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_TT18.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_TT18.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT18.pdf",
+    "bytes": 226160,
+    "sha256": "b3103181871ac502494f7432126c3add346ac9a605b88967246d9ed6ca47e69c"
   },
   {
     "title": "Documentation, Applicability and Automation: How Best Practices Can Help You Achieve Best Results",
