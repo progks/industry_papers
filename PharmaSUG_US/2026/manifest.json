@@ -4209,7 +4209,9 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_OS07.pdf"
     ],
     "filename": "PAP-OS07-525409ea34.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS07.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_OS07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_OS07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS07.pdf",
+    "bytes": 530831,
+    "sha256": "4999fc232f3eedfd75ea267d06e90ae9f33637e1cf879df8ab9ef782b676149f"
   }
 ]
