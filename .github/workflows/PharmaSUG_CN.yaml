@@ -7,7 +7,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: pharmasug-cn-download
+  group: industry-papers-repository-write
   cancel-in-progress: false
 
 jobs:
@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@v7
         with:
           ref: ${{ github.event.repository.default_branch }}
-          fetch-depth: 1
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v7
@@ -266,7 +266,54 @@ jobs:
               sys.exit(main())
           PYTHON
 
+      - name: Show local download location
+        if: ${{ !cancelled() && steps.download.outcome != 'skipped' }}
+        shell: bash
+        run: |
+          echo "Runner workspace: $GITHUB_WORKSPACE"
+          echo "PDF directory: $GITHUB_WORKSPACE/PharmaSUG_CN"
+          if [ -d PharmaSUG_CN ]; then
+            find PharmaSUG_CN -type f -name '*.pdf' | wc -l
+            du -sh PharmaSUG_CN
+          fi
+
+      - name: Back up PDFs independently of git push
+        if: ${{ !cancelled() && steps.download.outcome != 'skipped' }}
+        continue-on-error: true
+        uses: actions/upload-artifact@v7
+        with:
+          name: pharmasug-cn-papers
+          path: |
+            PharmaSUG_CN/
+            !PharmaSUG_CN/**/*.part
+            !PharmaSUG_CN/**/*.tmp
+          retention-days: 14
+          if-no-files-found: warn
+
+      - name: Display exact synchronization errors
+        if: ${{ !cancelled() && steps.download.outcome != 'skipped' }}
+        shell: bash
+        run: |
+          python - <<'PYTHON'
+          import json
+          import os
+          from pathlib import Path
+
+          path = Path('PharmaSUG_CN/failures.json')
+          if path.exists():
+              errors = json.loads(path.read_text(encoding='utf-8'))
+              details = json.dumps(errors, ensure_ascii=False, indent=2)
+          else:
+              details = 'No failures.json was produced. Inspect the download step log.'
+          print('Exact synchronization errors:')
+          print(details)
+          if os.environ.get('GITHUB_STEP_SUMMARY'):
+              with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
+                  f.write('\n### Exact synchronization errors\n\n```json\n' + details + '\n```\n')
+          PYTHON
+
       - name: Commit downloaded papers and reports
+        id: commit
         if: ${{ !cancelled() && steps.download.outcome != 'skipped' }}
         env:
           TARGET_BRANCH: ${{ github.event.repository.default_branch }}
@@ -285,16 +332,33 @@ jobs:
             exit 0
           fi
           git commit -m 'Sync PharmaSUG China papers and reports'
-          for attempt in 1 2 3; do
+          for attempt in $(seq 1 8); do
+            echo "Push attempt $attempt of 8"
             git fetch origin "$TARGET_BRANCH"
-            git rebase "origin/$TARGET_BRANCH"
+            if ! git rebase "origin/$TARGET_BRANCH"; then
+              git rebase --abort || true
+              echo 'Rebase has a real content conflict. No changes were force-pushed.'
+              exit 1
+            fi
             if git push origin "HEAD:refs/heads/$TARGET_BRANCH"; then
+              printf '\n### Repository submission\n\nPush succeeded to `%s`. Commit: `%s`.\n' "$TARGET_BRANCH" "$(git rev-parse HEAD)" >> "$GITHUB_STEP_SUMMARY"
               exit 0
             fi
-            sleep 5
+            if [ "$attempt" -lt 8 ]; then
+              delay=$((10 * attempt + RANDOM % 10))
+              echo "Push rejected; waiting $delay seconds before fetching and rebasing again."
+              sleep "$delay"
+            fi
           done
-          echo 'Push failed. Check write permissions and branch protection.'
+          echo 'Push failed after 8 attempts. Check competing writers and the actual git error above.'
           exit 1
+
+      - name: Explain failed repository submission
+        if: ${{ !cancelled() && steps.commit.outcome == 'failure' }}
+        shell: bash
+        run: |
+          echo '### Repository submission failed' >> "$GITHUB_STEP_SUMMARY"
+          echo 'The PDFs were downloaded to the runner, but git submission failed. Inspect the Commit downloaded papers and reports step. If artifact backup succeeded, download pharmasug-cn-papers from this run.' >> "$GITHUB_STEP_SUMMARY"
 
       - name: Report incomplete download
         if: ${{ !cancelled() && steps.download.outcome == 'failure' }}
