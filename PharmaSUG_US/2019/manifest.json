@@ -159,8 +159,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_AR03.pdf"
     ],
     "filename": "PAP-AR03-3d3a79c2ae.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR03.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_AR03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_AR03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR03.pdf",
+    "bytes": 454012,
+    "sha256": "b0cd5459e9ad19d3bc06848c78a9b212ece0c92eae0398bf1b1db748d897fbf7"
   },
   {
     "title": "An Overview of the PHUSE ML/AI Working Group Project",
@@ -172,8 +174,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_ML08.pdf"
     ],
     "filename": "PAP-ML08-ac148c7689.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_ML08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_ML08.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_ML08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_ML08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_ML08.pdf",
+    "bytes": 93234,
+    "sha256": "e9fa7b5eac4e9d37b963ffc2135c4758779e1b2e138472a0b906c5f200613d6f"
   },
   {
     "title": "Analysis and Reporting Workbench (ARW) Demo",
@@ -185,8 +189,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_SD08.pdf"
     ],
     "filename": "PAP-SD08-d089059fa7.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SD08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SD08.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SD08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SD08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SD08.pdf",
+    "bytes": 128200,
+    "sha256": "3a1ffffaad2a3224e5fc13c95a99b0b6993172083bff5bd94d4eec1d066e2f24"
   },
   {
     "title": "Applying Risk Based Approach to Portfolio Management",
@@ -198,8 +204,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_AR08.pdf"
     ],
     "filename": "PAP-AR08-75382e5e35.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR08.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_AR08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_AR08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR08.pdf",
+    "bytes": 95978,
+    "sha256": "9de50d658dcee1669f9de56403169ba00d1a5f15b4ed361582a274172f5defb6"
   },
   {
     "title": "Approach of Programming Production Harmonized with Submission",
@@ -211,8 +219,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_SA05.pdf"
     ],
     "filename": "PAP-SA05-6308805e5f.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA05.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SA05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SA05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA05.pdf",
+    "bytes": 272544,
+    "sha256": "ae1269841183279a947b0f3289a795bacc14ca248aa50fcfdba9e37b2365e2ac"
   },
   {
     "title": "Artificial Intelligence and Healthcare",
@@ -224,8 +234,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_ML01.pdf"
     ],
     "filename": "PAP-ML01-2f9a37733b.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_ML01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_ML01.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_ML01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_ML01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_ML01.pdf",
+    "bytes": 238210,
+    "sha256": "ee59d929b1714248dea0e543cd562af9f77e752336bc2ed9eaff57de18a58940"
   },
   {
     "title": "Auto Charts - Hidden Gem in SAS ODS Graphics Designer",
@@ -237,8 +249,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_CT11.pdf"
     ],
     "filename": "PAP-CT11-62d15af8de.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_CT11.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_CT11.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_CT11.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_CT11.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_CT11.pdf",
+    "bytes": 509050,
+    "sha256": "147fbf48f880344370f708710d2e4c2202fdaa4c7c483beb8117d94d33087ff0"
   },
   {
     "title": "Automated Compliance Checks on Programs Using SAS",
@@ -250,8 +264,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_CT07.pdf"
     ],
     "filename": "PAP-CT07-b157439967.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_CT07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_CT07.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_CT07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_CT07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_CT07.pdf",
+    "bytes": 250569,
+    "sha256": "03782904b6fc3b693f2facbad27297011c644cc6f3f80bcd1af928c069832989"
   },
   {
     "title": "Automated Log Checking with LOG_CHECK.SAS",
@@ -263,8 +279,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_PP09.pdf"
     ],
     "filename": "PAP-PP09-bf31428c01.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_PP09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_PP09.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_PP09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_PP09.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_PP09.pdf",
+    "bytes": 226850,
+    "sha256": "67fbaaa9ef0e542fac988e74ff3b25b830dbba70213741542e4f889d5ae34237"
   },
   {
     "title": "Best Practices for Reproducible Package Management in R",
@@ -276,8 +294,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_AB09.pdf"
     ],
     "filename": "PAP-AB09-195f2e33ca.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AB09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AB09.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_AB09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_AB09.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AB09.pdf",
+    "bytes": 222606,
+    "sha256": "8469a926cdc9974d974de0666cfb3c430f60e05cd9731833f215a643b4364968"
   },
   {
     "title": "Best Practices for the Preparation of the ISS/ISE Datasets",
