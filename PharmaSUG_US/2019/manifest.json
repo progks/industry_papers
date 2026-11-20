@@ -1059,8 +1059,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_ML04.pdf"
     ],
     "filename": "PAP-ML04-1535a61ff2.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_ML04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_ML04.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_ML04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_ML04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_ML04.pdf",
+    "bytes": 567474,
+    "sha256": "c141120baccaa04b44d32d10e938f2969c309c55b515572552b65422af6e484c"
   },
   {
     "title": "How Do I Pick an R Package for My Clinical Workflow?",
@@ -1072,8 +1074,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_TT11.pdf"
     ],
     "filename": "PAP-TT11-29f23822c6.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_TT11.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_TT11.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_TT11.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_TT11.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_TT11.pdf",
+    "bytes": 427590,
+    "sha256": "9e279ed1affc9a74bf9be753bf1e0f38381a16174ca58f1381fd2912cc475ad8"
   },
   {
     "title": "How to Take the Risk Out of Risk-based Monitoring",
@@ -1085,8 +1089,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_AR06.pdf"
     ],
     "filename": "PAP-AR06-1d5677440c.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR06.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_AR06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_AR06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR06.pdf",
+    "bytes": 446029,
+    "sha256": "1ba0e63fc547c5734766fec78679e4a09e779c6b91e1b6fd364f5dcb42be6fb2"
   },
   {
     "title": "Identifying Hurdles for Submission of Electronic Nonclinical Data (SEND)",
@@ -1098,8 +1104,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_SA08.pdf"
     ],
     "filename": "PAP-SA08-af26499cd3.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA08.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SA08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SA08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA08.pdf",
+    "bytes": 1138320,
+    "sha256": "29212de5d5a421c2de2206da28faa4706cd1fd944fe6b60dc03f694c27afc8b8"
   },
   {
     "title": "Impact of SEND Data on FDA Review of Nonclinical Studies",
@@ -1111,8 +1119,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_SA09.pdf"
     ],
     "filename": "PAP-SA09-3162d7958b.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA09.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SA09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SA09.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA09.pdf",
+    "bytes": 458501,
+    "sha256": "5ee9dcfe5e6a9c3e7c499e9e9df8261e752b402b9144cf45134e3a64df057e7a"
   },
   {
     "title": "Implementing a Scalable Risk-based Monitoring Strategy",
@@ -1124,8 +1134,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_AR01.pdf"
     ],
     "filename": "PAP-AR01-a117e53bd0.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR01.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_AR01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_AR01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR01.pdf",
+    "bytes": 238308,
+    "sha256": "9c90a260f20cb485c9a7f34d8b7fc19dc3de522b25ea0f3fbb88851696694b83"
   },
   {
     "title": "Implementing Imputation Rules and Creating Analysis Flags Following CDISC Guidelines",
@@ -1137,8 +1149,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_CT15.pdf"
     ],
     "filename": "PAP-CT15-8946a6437c.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_CT15.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_CT15.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_CT15.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_CT15.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_CT15.pdf",
+    "bytes": 260961,
+    "sha256": "a9f12b98f04a3a36df54f4569743313894d35f611af1f48d99da1f5127f07d03"
   },
   {
     "title": "Improving Processes in Biostatistics/Programming Departments",
@@ -1150,8 +1164,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_SP08.pdf"
     ],
     "filename": "PAP-SP08-6edadb165e.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP08.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SP08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SP08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP08.pdf",
+    "bytes": 103181,
+    "sha256": "a62c444923c8b86075d182a1a3ee55124bd1755be5117f1e418c942788e3d9d1"
   },
   {
     "title": "Incremental Changes: ADaMIG v1.2 Update",
@@ -1163,8 +1179,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_DS10.pdf"
     ],
     "filename": "PAP-DS10-82cb1bf6e6.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DS10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DS10.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_DS10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_DS10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DS10.pdf",
+    "bytes": 229051,
+    "sha256": "c0c5d4e21529ac3dee15cbd65a4cbedd49df68c61f3fd357579f727a085f91f0"
   },
   {
     "title": "Integrative Analysis of Circulating Tumor Cell Counts and Gene Expression Levels",
@@ -1176,8 +1194,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_AB03.pdf"
     ],
     "filename": "PAP-AB03-0c932ef72b.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AB03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AB03.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_AB03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_AB03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AB03.pdf",
+    "bytes": 547813,
+    "sha256": "811f1d56d7d08963e953554ee27f8b0e6f7d2a8fab7d33c70203508baeeabac9"
   },
   {
     "title": "Interactive Exploratory Analysis and Visualization for Late-phase Clinical Data",
