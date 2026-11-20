@@ -759,8 +759,10 @@
       "https://saslexicon.org/PHUSE_US/2023/POS_PP28.pdf"
     ],
     "filename": "POS-PP28-84c2ff98a0.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP28.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP28.pdf | https://saslexicon.org/PHUSE_US/2023/POS_PP28.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/POS_PP28.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP28.pdf",
+    "bytes": 402645,
+    "sha256": "5aff41dbfd2ab00d6ec9aa34484e8a6f4ce98f6fbd5482c32b2fcec01b5fd3a8"
   },
   {
     "title": "DV-04",
@@ -772,8 +774,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PAP_DV04.pdf"
     ],
     "filename": "PAP-DV04-250b629d02.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_DV04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_DV04.pdf | https://saslexicon.org/PHUSE_US/2023/PAP_DV04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PAP_DV04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_DV04.pdf",
+    "bytes": 671932,
+    "sha256": "9265e58c2e6974ef9d4d01d915b6e6ca34cf6522fe9fa17fcfbcb6230abbec0a"
   },
   {
     "title": "EDC Raw Data to SDTM Curation, Mapping and Automation with XBiom Tool",
@@ -785,8 +789,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PAP_SD04.pdf"
     ],
     "filename": "PAP-SD04-3632dc8b2d.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SD04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SD04.pdf | https://saslexicon.org/PHUSE_US/2023/PAP_SD04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PAP_SD04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SD04.pdf",
+    "bytes": 1102275,
+    "sha256": "36862b8e7222e6d44b8c013a5e7c4990d934704405fe27eb91f5868203f4bb95"
   },
   {
     "title": "Effectively Transition Your Team to Open Source",
@@ -798,8 +804,10 @@
       "https://saslexicon.org/PHUSE_US/2023/POS_PP12.pdf"
     ],
     "filename": "POS-PP12-3684832f73.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP12.pdf | https://saslexicon.org/PHUSE_US/2023/POS_PP12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/POS_PP12.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP12.pdf",
+    "bytes": 297694,
+    "sha256": "4ddf522352fcb2f002aa752cfdf57e5a91d05dff034adef2016042a494a7be56"
   },
   {
     "title": "Efficient Integration Programming Techniques",
@@ -811,8 +819,10 @@
       "https://saslexicon.org/PHUSE_US/2023/POS_PP15.pdf"
     ],
     "filename": "POS-PP15-8d1cf4b76a.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP15.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP15.pdf | https://saslexicon.org/PHUSE_US/2023/POS_PP15.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/POS_PP15.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP15.pdf",
+    "bytes": 243666,
+    "sha256": "64db8a118cede2733a340f5e6897139e45db055190bda20f68afb0ec00d72f4c"
   },
   {
     "title": "EI (Emotional Intelligence) vs AI (Artificial Intelligence) exploring the potential of human emotions in an artificially driven virtual world",
@@ -824,8 +834,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PAP_PD16.pdf"
     ],
     "filename": "PAP-PD16-c90d11b89a.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_PD16.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_PD16.pdf | https://saslexicon.org/PHUSE_US/2023/PAP_PD16.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PAP_PD16.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_PD16.pdf",
+    "bytes": 176946,
+    "sha256": "fa0369b980572548b87e366a4ead4fe32e1df9d39706be5c113a683291d93d3a"
   },
   {
     "title": "Eminent Transitional Approach to Data Management: A Data Strategist's Journey from QbD to Reporting",
@@ -837,8 +849,10 @@
       "https://saslexicon.org/PHUSE_US/2023/POS_PP25.pdf"
     ],
     "filename": "POS-PP25-619b8d8099.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP25.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP25.pdf | https://saslexicon.org/PHUSE_US/2023/POS_PP25.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/POS_PP25.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP25.pdf",
+    "bytes": 266904,
+    "sha256": "1ccca96d36108bd2c09dfbab5d0dcfdce593062097fb7f52626b8c4cc40936a4"
   },
   {
     "title": "Enabling Comprehensive Interactive Data Analysis and Exploration in R with an Open-Sourced, Scalable Shiny Framework",
@@ -850,8 +864,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PRE_OS15.pdf"
     ],
     "filename": "PRE-OS15-2d57b4392d.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_OS15.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_OS15.pdf | https://saslexicon.org/PHUSE_US/2023/PRE_OS15.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PRE_OS15.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_OS15.pdf",
+    "bytes": 802321,
+    "sha256": "54af69591c9f95ad765cc2c4c23f35085535d84c76156d1a6fa3c7f31f5d5413"
   },
   {
     "title": "Enabling the Digital Data Flow from eProtocol to Downstream Processes",
@@ -863,8 +879,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PRE_ET12.pdf"
     ],
     "filename": "PRE-ET12-b66b16739e.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ET12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ET12.pdf | https://saslexicon.org/PHUSE_US/2023/PRE_ET12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PRE_ET12.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ET12.pdf",
+    "bytes": 1532560,
+    "sha256": "9662a6f5ffdbf8fd66f700301fdb9c1036b5b07eecc8d89a3a9d89856397c609"
   },
   {
     "title": "Exploring the Possibility of Automating SDTM Domain Subject Visits (SV)",
@@ -876,8 +894,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PAP_SS08.pdf"
     ],
     "filename": "PAP-SS08-569c7dfb82.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SS08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SS08.pdf | https://saslexicon.org/PHUSE_US/2023/PAP_SS08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PAP_SS08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SS08.pdf",
+    "bytes": 482107,
+    "sha256": "080f1193f60b03143a6287c95c785dc8009db0c7411146ed833334ef45e536f3"
   },
   {
     "title": "Exporting and Importing Annotations Between PDFs (CRF versions) When the Page Counts Do Not Match",
