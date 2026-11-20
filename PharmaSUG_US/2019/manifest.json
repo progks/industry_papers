@@ -1509,8 +1509,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_SP07.pdf"
     ],
     "filename": "PAP-SP07-16d041202e.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP07.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SP07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SP07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP07.pdf",
+    "bytes": 80876,
+    "sha256": "bf0693d64ec7c410bfa88c29d0e26b145051e6d21465ca512a347749b084650f"
   },
   {
     "title": "Misuse and Misapplication in Statistical Data Analysis - A Topic that Never Goes Out of Style",
@@ -1522,8 +1524,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_AB11.pdf"
     ],
     "filename": "PAP-AB11-9b8f57fc14.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AB11.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AB11.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_AB11.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_AB11.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AB11.pdf",
+    "bytes": 516563,
+    "sha256": "a7a6cb0866d6f55dd1b7998335240705a3b89d89445f7980933d9c250b838bde"
   },
   {
     "title": "Modeling Safety Pharmacology Study Designs in SEND: An Analysis of a Proof-of-Concept Dataset",
@@ -1535,8 +1539,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_SI09.pdf"
     ],
     "filename": "PAP-SI09-2b3ad1c287.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SI09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SI09.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SI09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SI09.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SI09.pdf",
+    "bytes": 252389,
+    "sha256": "6bdcff2a4bda7e9837b9bc4793ea978263361d9d1ee49879988cb51e3fe16610"
   },
   {
     "title": "New Drug Development Paradigm",
@@ -1548,8 +1554,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PRE_TT12.pdf"
     ],
     "filename": "PRE-TT12-a5aeaf2c68.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PRE_TT12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PRE_TT12.pdf | https://saslexicon.org/PHUSE_US/2019/PRE_TT12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PRE_TT12.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PRE_TT12.pdf",
+    "bytes": 25606005,
+    "sha256": "9273625f112fdb78dc262c8707065d2e89d31b8633d8531e2700afd0fca34001"
   },
   {
     "title": "Next Generation Data Management: Case Studies for Ontology-driven Graph Databases",
@@ -1561,8 +1569,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_TT08.pdf"
     ],
     "filename": "PAP-TT08-0859093ffa.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_TT08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_TT08.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_TT08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_TT08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_TT08.pdf",
+    "bytes": 534484,
+    "sha256": "fcb95330f4b10ede895df1b06c9325cdc5071ebba3deda9a8e3a6dcc489d3a01"
   },
   {
     "title": "Optimize PRO Data Analysis with an Interactive Approach",
@@ -1574,8 +1584,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_DV12.pdf"
     ],
     "filename": "PAP-DV12-b807521ec2.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DV12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DV12.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_DV12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_DV12.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DV12.pdf",
+    "bytes": 1037502,
+    "sha256": "4fb4e7e3bbcd772d23586bd09ab7a7ca53b7f16e3d37557d6f4de233e6d6b123"
   },
   {
     "title": "Optimizing Over Time Plots Via Analytics",
@@ -1587,8 +1599,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_PP12.pdf"
     ],
     "filename": "PAP-PP12-166fea52e7.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_PP12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_PP12.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_PP12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_PP12.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_PP12.pdf",
+    "bytes": 363709,
+    "sha256": "f7cf4d3a053e00f4091e61967b7d391bee091b7690615cdb7631de3d966b1105"
   },
   {
     "title": "Organize and Report Your Clinical Data Today!",
@@ -1600,8 +1614,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_DH14.pdf"
     ],
     "filename": "PAP-DH14-f95db22b27.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH14.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH14.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_DH14.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_DH14.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH14.pdf",
+    "bytes": 497303,
+    "sha256": "55493972eb334bdb58c62a9c24663dcea09266296ffc6ad8a44cb58de7d98284"
   },
   {
     "title": "Overview of SAS Studio",
@@ -1613,8 +1629,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PRE_SD04.pdf"
     ],
     "filename": "PRE-SD04-da0fed7796.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PRE_SD04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PRE_SD04.pdf | https://saslexicon.org/PHUSE_US/2019/PRE_SD04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PRE_SD04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PRE_SD04.pdf",
+    "bytes": 7763763,
+    "sha256": "490e8fe0f84b1fd42ed81bba4972c3a2142e9b372de8e0b85a6c8a45a27b1ea5"
   },
   {
     "title": "Perl Functions in SAS: Perl Functions Can Add Pearl in Your Code",
@@ -1626,8 +1644,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_CT05.pdf"
     ],
     "filename": "PAP-CT05-e3b2d868f3.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_CT05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_CT05.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_CT05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_CT05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_CT05.pdf",
+    "bytes": 70553,
+    "sha256": "2484a843ff0ea6f29f83c347dd595ac4458a158101f7ce31ad0677d6ed47d0d0"
   },
   {
     "title": "Practical Implementation of Central Statistical Surveillance in Clinical Trials",
