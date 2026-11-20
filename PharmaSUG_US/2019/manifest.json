@@ -909,8 +909,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_SP09.pdf"
     ],
     "filename": "PAP-SP09-af71bda9a2.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP09.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SP09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SP09.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP09.pdf",
+    "bytes": 430148,
+    "sha256": "c2534b1e8dfc4d700a1d0076f46d5f449099d5c6c3542dd01fe439725bb1fdb9"
   },
   {
     "title": "Formedix On: Advanced Metadata Management Now With Data!",
@@ -922,8 +924,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PRE_SD05.pdf"
     ],
     "filename": "PRE-SD05-aada8abc81.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PRE_SD05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PRE_SD05.pdf | https://saslexicon.org/PHUSE_US/2019/PRE_SD05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PRE_SD05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PRE_SD05.pdf",
+    "bytes": 2436207,
+    "sha256": "7a37383cd10e5f2b9aefe5adc4df78860fd441702ae5f9a1792a5e001fc4c600"
   },
   {
     "title": "Free Duplicates Here! Get Your Free Duplicates",
@@ -935,8 +939,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_CT01.pdf"
     ],
     "filename": "PAP-CT01-ea84360fb5.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_CT01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_CT01.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_CT01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_CT01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_CT01.pdf",
+    "bytes": 60298,
+    "sha256": "ad78b35e68e31d00dd177e58d0bb15b63d7c05819bafd3dd139e7e10e8f8036d"
   },
   {
     "title": "From Source Data to SDTM: Enabling a Semi-automated Conversion",
@@ -948,8 +954,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_DH03.pdf"
     ],
     "filename": "PAP-DH03-33a370edbe.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH03.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_DH03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_DH03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH03.pdf",
+    "bytes": 112593,
+    "sha256": "14ad56016b74822497448363f9986edacd180aac35e7d494ddda8ec8871222eb"
   },
   {
     "title": "Getting REAL with Supervised and Unsupervised Machine Learning Algorithms in the Real World",
@@ -961,8 +969,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_ML02.pdf"
     ],
     "filename": "PAP-ML02-ab880cd295.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_ML02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_ML02.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_ML02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_ML02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_ML02.pdf",
+    "bytes": 92589,
+    "sha256": "1098f11126bcf18058814470c23127199e287370fe733e618bd7339a40cb4c9d"
   },
   {
     "title": "Graphical Examination of PK Parameters Versus Dose-in-Dose Escalation Trials using SAS GTL",
@@ -974,8 +984,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_PP10.pdf"
     ],
     "filename": "PAP-PP10-674dc885bb.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_PP10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_PP10.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_PP10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_PP10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_PP10.pdf",
+    "bytes": 209294,
+    "sha256": "cf397d376029d31d051a253b1c21dae9989abc56dedf1e1bbe3186b3ad6c4339"
   },
   {
     "title": "Harness the Power of Ontologies to Build Better Information Platforms",
@@ -987,8 +999,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_DH07.pdf"
     ],
     "filename": "PAP-DH07-6f0c132415.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH07.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_DH07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_DH07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH07.pdf",
+    "bytes": 528478,
+    "sha256": "3009bc93e494b490058dc69a45b9a1f70b866764924c2422a1aeac1797d707c2"
   },
   {
     "title": "Have You Ever Wanted to Join a CDISC Team?",
@@ -1000,8 +1014,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_PP16.pdf"
     ],
     "filename": "PAP-PP16-8645ae03d6.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_PP16.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_PP16.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_PP16.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_PP16.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_PP16.pdf",
+    "bytes": 41215,
+    "sha256": "4553470c31ba1811a81083991a6c32c00c4868bb71be1af1d2f90050a1ad51a8"
   },
   {
     "title": "Have You Met Define-XML v2.0?",
@@ -1013,8 +1029,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_SI07.pdf"
     ],
     "filename": "PAP-SI07-b64d6f19ca.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SI07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SI07.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SI07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SI07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SI07.pdf",
+    "bytes": 887554,
+    "sha256": "45677f8b2290fa2eeb4fb69df58783404efd7d19f58cc6433a2b5ae1f9c15b6b"
   },
   {
     "title": "High-quality Study Data Standards for Submission",
@@ -1026,8 +1044,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_SA03.pdf"
     ],
     "filename": "PAP-SA03-02be8f91be.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA03.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SA03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SA03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA03.pdf",
+    "bytes": 420426,
+    "sha256": "02e9c3e09693368ad157867477b99e0740be2c7e61f3423705f4ef7a167babeb"
   },
   {
     "title": "Hit and Miss: An Evaluation of Imputation Techniques from Machine Learning",
