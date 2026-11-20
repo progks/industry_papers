@@ -159,8 +159,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PAP_ML13.pdf"
     ],
     "filename": "PAP-ML13-b2d0adb294.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_ML13.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_ML13.pdf | https://saslexicon.org/PHUSE_US/2021/PAP_ML13.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PAP_ML13.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_ML13.pdf",
+    "bytes": 481073,
+    "sha256": "fbdb313da86bebd8eacf6659c95fa5d82e8673daa7001770bfe2bd554fdf0d53"
   },
   {
     "title": "Artificial Intelligence (AI) Innovations in Clinical Research",
@@ -172,8 +174,10 @@
       "https://saslexicon.org/PHUSE_US/2021/POS_PP04.pdf"
     ],
     "filename": "POS-PP04-d6b8d92d55.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP04.pdf | https://saslexicon.org/PHUSE_US/2021/POS_PP04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/POS_PP04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP04.pdf",
+    "bytes": 303007,
+    "sha256": "97c8f54e043f42119e633bf22f3ce6070492fb6cdc9f9dda9c2bfe39464f0061"
   },
   {
     "title": "Automate Scientific Document such as CSR Generation using ML/NLP",
@@ -185,8 +189,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_ML01.pdf"
     ],
     "filename": "PRE-ML01-c91427ccba.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ML01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ML01.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_ML01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_ML01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ML01.pdf",
+    "bytes": 884879,
+    "sha256": "b5aea9d2409583c933ff50094be6c49840054471f48f5ec364e9804678d78407"
   },
   {
     "title": "Automated Validation of Clinical Trial Analysis and Reporting Deliverables Using 'testthat'",
@@ -198,8 +204,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_SP03.pdf"
     ],
     "filename": "PRE-SP03-ef8dd7f493.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SP03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SP03.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_SP03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_SP03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SP03.pdf",
+    "bytes": 529338,
+    "sha256": "9bbd6d0cfebd4460e07b252041fa1f40a3fb3a761cbe14a42ed36d7536c39da2"
   },
   {
     "title": "Automation of a Web-based Metadata Repository for SAS Datasets with Selenium Technology",
@@ -211,8 +219,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_TT03.pdf"
     ],
     "filename": "PRE-TT03-19a76c187a.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT03.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_TT03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_TT03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT03.pdf",
+    "bytes": 684941,
+    "sha256": "c94277cd2b7fd1355cd10185905424c92520ff41b259197817bf328858155ef0"
   },
   {
     "title": "Automation of CDISC ADaM Using Statistical Data and Metadata eXchange (SDMX)",
@@ -224,8 +234,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_SI08.pdf"
     ],
     "filename": "PRE-SI08-a7f3d72c96.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SI08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SI08.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_SI08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_SI08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SI08.pdf",
+    "bytes": 3119991,
+    "sha256": "fe3c30c8bb0b37e290df8fcea2c7a497ff81fd7b36bf37315cd9ed78b0da2677"
   },
   {
     "title": "Automation of Patient Narratives Using Natural Language Generation",
@@ -237,8 +249,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_ML02.pdf"
     ],
     "filename": "PRE-ML02-ea7baea9fc.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ML02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ML02.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_ML02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_ML02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ML02.pdf",
+    "bytes": 2245029,
+    "sha256": "c51f2f0c6d60b3588f3dab22e2a6a5e45e16f4a04af2466c6e0ebc27752bba3e"
   },
   {
     "title": "Becoming Agile in a Regulated Environment",
@@ -250,8 +264,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_LE04.pdf"
     ],
     "filename": "PRE-LE04-7e4d00dc46.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_LE04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_LE04.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_LE04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_LE04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_LE04.pdf",
+    "bytes": 1300331,
+    "sha256": "b18064bef1ac413c50bd28dcee24e6adb54754c5a509458d9119864ff1817245"
   },
   {
     "title": "Building an SCE that Users Want to Use",
@@ -263,8 +279,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_SD06.pdf"
     ],
     "filename": "PRE-SD06-048abe8544.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SD06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SD06.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_SD06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_SD06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SD06.pdf",
+    "bytes": 3278394,
+    "sha256": "0cc44a8facf06a54a1df8712cfdd6440f656afc104f4e25f95ac909df5d1f9e2"
   },
   {
     "title": "Central Statistical False Positives - Predicting True Signals with Machine Learning",
@@ -276,8 +294,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_ML12.pdf"
     ],
     "filename": "PRE-ML12-d929dc6e33.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ML12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ML12.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_ML12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_ML12.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ML12.pdf",
+    "bytes": 3270157,
+    "sha256": "f00dee6762cb00edf15068d33e16e06f14cbaccafa38d90446374f79abcf7857"
   },
   {
     "title": "Challenges and Solutions in SDTM Implementation and Programming of the Ophthalmic Examinations (OE) Domain",
