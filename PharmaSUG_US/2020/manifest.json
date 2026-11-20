@@ -2409,8 +2409,10 @@
       "https://saslexicon.org/PHUSE_US/2020/POS_PP24.pdf"
     ],
     "filename": "POS-PP24-4b1114551a.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/POS_PP24.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/POS_PP24.pdf | https://saslexicon.org/PHUSE_US/2020/POS_PP24.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/POS_PP24.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/POS_PP24.pdf",
+    "bytes": 199485,
+    "sha256": "3158f6d277a6f2633394dc54ab7818c765ea871932b2d06f6aee3e2caaf12dc3"
   },
   {
     "title": "Statistical Programming Team Contributions for RWE Regulatory Submissions",
@@ -2422,8 +2424,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_PP19.pdf"
     ],
     "filename": "PAP-PP19-75cd13b265.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP19.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP19.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_PP19.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_PP19.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP19.pdf",
+    "bytes": 360343,
+    "sha256": "ad9377073e7d9a850b1f723a2b7ea6a7926f6fda2542c79421361d67234e3148"
   },
   {
     "title": "SUPPQUAL Datasets: Good Bad and Ugly",
@@ -2435,8 +2439,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_DS09.pdf"
     ],
     "filename": "PAP-DS09-467e4b03c2.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DS09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DS09.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_DS09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_DS09.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DS09.pdf",
+    "bytes": 167659,
+    "sha256": "e0afe1ac2f8e88038408d04f79578a53b9a5dfa6c349968696d64f49cf712206"
   },
   {
     "title": "Tables, Figures & Listings Metadata and Traceability",
@@ -2448,8 +2454,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_SI12.pdf"
     ],
     "filename": "PAP-SI12-13378d12b4.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SI12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SI12.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_SI12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_SI12.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SI12.pdf",
+    "bytes": 1378171,
+    "sha256": "05f3f118f1068eb14a774e90ea1e5a23629979223cca501b2042e2f874df64c9"
   },
   {
     "title": "The Elusive Goal of Automation in SDTM Mapping: A CRO perspective",
@@ -2461,8 +2469,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_TT07.pdf"
     ],
     "filename": "PAP-TT07-7b33b87c23.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT07.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_TT07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_TT07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT07.pdf",
+    "bytes": 220582,
+    "sha256": "32ee4a2d40b1e2371a76193eb199239a4f318ca16be102729722e76f97ac047a"
   },
   {
     "title": "The Future of Pharma Through the Lens of Blockchain and AI Technology",
@@ -2474,8 +2484,10 @@
       "https://saslexicon.org/PHUSE_US/2020/POS_PP28.pdf"
     ],
     "filename": "POS-PP28-afe5a84c7e.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/POS_PP28.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/POS_PP28.pdf | https://saslexicon.org/PHUSE_US/2020/POS_PP28.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/POS_PP28.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/POS_PP28.pdf",
+    "bytes": 1361900,
+    "sha256": "e400fc2858b342b923772464c5bde732b608d7b2acb6df1642945cd8e23e2ef4"
   },
   {
     "title": "The Importance of General Linear Models (GLMs) in Clinical Research",
@@ -2487,8 +2499,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_AS15.pdf"
     ],
     "filename": "PAP-AS15-856685c5d3.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_AS15.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_AS15.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_AS15.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_AS15.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_AS15.pdf",
+    "bytes": 1518144,
+    "sha256": "1a25c6f03f4bdc53f748cd7bd3229ea469d9b03192cc86acb1ad0eff858ece7b"
   },
   {
     "title": "The JumpStart Traceability Assessment",
@@ -2500,8 +2514,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_SA09.pdf"
     ],
     "filename": "PAP-SA09-c2af8fd1cc.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SA09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SA09.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_SA09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_SA09.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SA09.pdf",
+    "bytes": 348989,
+    "sha256": "0adfc4a85c37910aa234470cb94ce1188d0a1d93aabddd5f60a8bdad6239df83"
   },
   {
     "title": "The Misery of the Miscellaneous Folder in Module 5",
@@ -2513,8 +2529,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_SA02.pdf"
     ],
     "filename": "PAP-SA02-b6687d3857.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SA02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SA02.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_SA02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_SA02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SA02.pdf",
+    "bytes": 279948,
+    "sha256": "05411a76f41023048bc4abb65c10dc0a3cbbefe0360cfa7953b71982187b27cc"
   },
   {
     "title": "Titles Are a Programmer's Best Friend",
@@ -2526,8 +2544,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_PP05.pdf"
     ],
     "filename": "PAP-PP05-bbe6286e6a.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP05.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_PP05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_PP05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP05.pdf",
+    "bytes": 216625,
+    "sha256": "46d5052b59aa00913b9b19bea4ac4a852ae41721f26b0027cc5f21b4ae1d6bd5"
   },
   {
     "title": "Untangling the Subject Elements Domain",
