@@ -1959,8 +1959,10 @@
       "https://saslexicon.org/PHUSE_US/2018/POS_PP25.pdf"
     ],
     "filename": "POS-PP25-ccf671a464.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/POS_PP25.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/POS_PP25.pdf | https://saslexicon.org/PHUSE_US/2018/POS_PP25.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/POS_PP25.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/POS_PP25.pdf",
+    "bytes": 392410,
+    "sha256": "68a32729286e7a060815dc9dfbf98f0e108c4503708da01f365460394477d9a0"
   },
   {
     "title": "Step Up Your ADaM Compliance Game",
@@ -1972,8 +1974,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_SI13.pdf"
     ],
     "filename": "PAP-SI13-b246bde479.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_SI13.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_SI13.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_SI13.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_SI13.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_SI13.pdf",
+    "bytes": 340726,
+    "sha256": "3790f2ee5aa28ee06474ffb3213deaed37b60d18f0e8f560033c5d00f04f526f"
   },
   {
     "title": "Streamline the Collaboration - From Whitepaper Targets (TFL) to Sharable Scripts",
@@ -1985,8 +1989,10 @@
       "https://saslexicon.org/PHUSE_US/2018/POS_PP03.pdf"
     ],
     "filename": "POS-PP03-f782ceda01.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/POS_PP03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/POS_PP03.pdf | https://saslexicon.org/PHUSE_US/2018/POS_PP03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/POS_PP03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/POS_PP03.pdf",
+    "bytes": 696301,
+    "sha256": "434f578ea89980e2efaa12c8fb1d0c364a0f095aafafdb87fd340841a691ee26"
   },
   {
     "title": "Subgroup Explorer and AdEPro - The Full Picture on Clinical Trial Data",
@@ -1998,8 +2004,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PRE_DV06.pdf"
     ],
     "filename": "PRE-DV06-75e41f50a0.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PRE_DV06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PRE_DV06.pdf | https://saslexicon.org/PHUSE_US/2018/PRE_DV06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PRE_DV06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PRE_DV06.pdf",
+    "bytes": 14178238,
+    "sha256": "b2f41c099c02a7942a86335430e7a74294056a85e918e4a72e0d140c904fa391"
   },
   {
     "title": "Supporting a Data Review and Visualization Application with SDTM",
@@ -2011,8 +2019,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_DV09.pdf"
     ],
     "filename": "PAP-DV09-161410287d.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DV09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DV09.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_DV09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_DV09.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DV09.pdf",
+    "bytes": 614788,
+    "sha256": "1b65efa636c0d272072aec82e9f9a37f4be290e28b6f0c7fa6ad07adae378db6"
   },
   {
     "title": "The Changing Landscape of Data Quality at CDER: an Overview of the Core DataFitness Assessment",
@@ -2024,8 +2034,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_RG13.pdf"
     ],
     "filename": "PAP-RG13-8fbcb158af.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_RG13.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_RG13.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_RG13.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_RG13.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_RG13.pdf",
+    "bytes": 309821,
+    "sha256": "c18631cfab22e821465b440ca8e214732a33ddc29579029f1af9ea85474fc2e2"
   },
   {
     "title": "The First and Last Words of ADaM",
@@ -2037,8 +2049,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_SI15.pdf"
     ],
     "filename": "PAP-SI15-f33436a032.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_SI15.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_SI15.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_SI15.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_SI15.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_SI15.pdf",
+    "bytes": 132177,
+    "sha256": "713d74024a5e48afec49eea5acf32ed7524496a2f17438b555c3e54950220ea5"
   },
   {
     "title": "The Next Generation \"Smart Program Repository\"",
@@ -2050,8 +2064,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_TT08.pdf"
     ],
     "filename": "PAP-TT08-3dc3ea8115.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_TT08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_TT08.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_TT08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_TT08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_TT08.pdf",
+    "bytes": 1082488,
+    "sha256": "ee3c4d588b5fa9db9625e4b2c61025313255959f8b3a2acd09b92fdc5c7ced17"
   },
   {
     "title": "The Untapped Potential of the Protocol Representation Model",
@@ -2063,8 +2079,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_SI01.pdf"
     ],
     "filename": "PAP-SI01-0ea1b510da.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_SI01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_SI01.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_SI01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_SI01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_SI01.pdf",
+    "bytes": 519054,
+    "sha256": "23254c3267e19b0ecf372e893f477fa03f1c014e0d621f7d3ed9788ea71f9e25"
   },
   {
     "title": "Touchpoints for the Study Data Standardization Plan",
@@ -2076,8 +2094,10 @@
       "https://saslexicon.org/PHUSE_US/2018/POS_PP18.pdf"
     ],
     "filename": "POS-PP18-7747e85b31.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/POS_PP18.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/POS_PP18.pdf | https://saslexicon.org/PHUSE_US/2018/POS_PP18.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/POS_PP18.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/POS_PP18.pdf",
+    "bytes": 730956,
+    "sha256": "9c19275965fa440e8e4f08607526059f5fab4b75a589cdf3214a4e2070f19a01"
   },
   {
     "title": "Transforming Clinical Trials with Linked Data",
