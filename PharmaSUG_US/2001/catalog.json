@@ -1,0 +1,991 @@
+{
+  "year": 2001,
+  "source": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+  "papers": [
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/CC11_lassman.pdf",
+      "year": 2001,
+      "title": "%ICS - A SAS Macro to Automate Individual Case Summaries",
+      "authors": "Doug E. Lassman",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/CC11_lassman.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/CC11-lassman-6c69c0805703.pdf",
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/2001/CC11_lassman.pdf",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/TT06_foose.pdf",
+      "year": 2001,
+      "title": "_hitlist Macro - A Tool to Obtain Consistent Results in an Integrated Database",
+      "authors": "Diane E. Foose, David C. Izard",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/TT06_foose.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/TT06-foose-6d3cda719cfe.pdf",
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/2001/TT06_foose.pdf",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/TT04_carpenter.pdf",
+      "year": 2001,
+      "title": "A Bit More on Job Security: Long Names and Other V8 Tips",
+      "authors": "Arthur L. Carpenter, Tony Payne",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/TT04_carpenter.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/TT04-carpenter-56f816943f29.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/P07_glenn.pdf",
+      "year": 2001,
+      "title": "A Comparison of Cross-Database Access Techniques Using SAS with SAS/ACCESS Version 6.12 and SAS with SAS/ACCESS Version 8.1",
+      "authors": "Karen Glenn",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/P07_glenn.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/P07-glenn-0d9dc8d1ddfd.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/SP04_senk.pdf",
+      "year": 2001,
+      "title": "A Data Null Reporting Method",
+      "authors": "Frank Senk",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/SP04_senk.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/SP04-senk-0a2f61defbe2.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/ad09_palmer.pdf",
+      "year": 2001,
+      "title": "A Method to Import, Process, and Export Arbitrary XML Files with SAS",
+      "authors": "Michael C. Palmer, Cecilia A. Hale",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/ad09_palmer.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/ad09-palmer-15bdffc0100f.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/CC02_collins.pdf",
+      "year": 2001,
+      "title": "A SAS Macro for Evaluating Whether All, Any, or None of the Variables in a List Have Been Marked - Application for Clinical Data Validation",
+      "authors": "Arthur Collins",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/CC02_collins.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/CC02-collins-90ee1105d7b3.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/CC07_foley.pdf",
+      "year": 2001,
+      "title": "A Wildcard Character for Variable Lists",
+      "authors": "Malachy J. Foley",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/CC07_foley.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/CC07-foley-2a4be9f29a64.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/eb03_burger.pdf",
+      "year": 2001,
+      "title": "Adopting e-Strategy for Information Delivery",
+      "authors": "Thomas H. Burger, John M. LaBore",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/eb03_burger.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/eb03-burger-0c3e061b6522.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/fda11_walke.pdf",
+      "year": 2001,
+      "title": "An Analysis Programming Process Focused on Data Derivation",
+      "authors": "Lee Walke",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/fda11_walke.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/fda11-walke-89e622cafa2e.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/SP13_ishizuka.pdf",
+      "year": 2001,
+      "title": "An Application of Continual Reassessment Method Using SAS System",
+      "authors": "Naoki Ishizuka",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/SP13_ishizuka.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/SP13-ishizuka-e0176a9b54f6.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/DM12_lashley.pdf",
+      "year": 2001,
+      "title": "Applying Statistical Sampling Plans To Data Entry Procedures To Increase Data Quality",
+      "authors": "Roderick Lashley",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/DM12_lashley.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/DM12-lashley-d7b6bbd0e1e0.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/CC03_mao.pdf",
+      "year": 2001,
+      "title": "Automate and Customize Printing of SAS Output in UNIX",
+      "authors": "Cailiang Mao",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/CC03_mao.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/CC03-mao-1f25cc6de306.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/SP08_li.pdf",
+      "year": 2001,
+      "title": "Automatic Estimation of Dixon's Test for Extreme Values Using a SAS Macro Driven Program",
+      "authors": "Don (Dongguang) Li, Edmond Edwards",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/SP08_li.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/SP08-li-1f06fa2eca99.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/SP14_morris.pdf",
+      "year": 2001,
+      "title": "Can standards be implemented effectively without compromising science?",
+      "authors": "Amy Morris, Blue Bell",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/SP14_morris.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/SP14-morris-36ae206d9bbc.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/DM05_gerend.pdf",
+      "year": 2001,
+      "title": "Clinical Data Warehouse Development with Base SAS Software and Common Desktop Tools",
+      "authors": "Patricia L. Gerend",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/DM05_gerend.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/DM05-gerend-7e040a81fed8.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/ad18_truong.pdf",
+      "year": 2001,
+      "title": "Communicating Data Effectively with e-Data and e-Notes",
+      "authors": "Sy J. Truong",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/ad18_truong.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/ad18-truong-9589a1f90ef5.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/ad12_vorst.pdf",
+      "year": 2001,
+      "title": "Compass: a web interface to a Data Warehouse for Pharmaceutical Decision Support",
+      "authors": "Christine Vander Vorst",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/ad12_vorst.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/ad12-vorst-81aaeb0483be.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/TT05_troxell.pdf",
+      "year": 2001,
+      "title": "Complex Macros v. Simple Programs: Resolving the Conflict",
+      "authors": "John K. Troxell",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/TT05_troxell.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/TT05-troxell-2185e787bf0d.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/P05_dong.pdf",
+      "year": 2001,
+      "title": "Converting CP World Application to SAS V8: A Discussion of Issues and Hurdles Encountered",
+      "authors": "Fang Dong",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/P05_dong.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/P05-dong-77c69fcb7fd5.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/fda05_jansen.pdf",
+      "year": 2001,
+      "title": "Creating PDF Documents including Links, Bookmarks and a Table of Contents with the SAS Software",
+      "authors": "Lex Jansen",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/fda05_jansen.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/fda05-jansen-09eb2f990197.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/ad03_synowiec.pdf",
+      "year": 2001,
+      "title": "Data Visualization of Phase 1 Clinical Studies - \"Big Al's World\" or Using SAS Version 8 to Acquire Quality Ice Cream",
+      "authors": "Richard F. Synowiec",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/ad03_synowiec.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/ad03-synowiec-5c6e04ac3643.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/P10_smith.pdf",
+      "year": 2001,
+      "title": "Detecting Anomalies in Your Data Using Benford's Law",
+      "authors": "Curtis A. Smith",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/P10_smith.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/P10-smith-4de52d3be205.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/ad14_melson.pdf",
+      "year": 2001,
+      "title": "Developing a SAS Macro Library to Create Standard Clinical Data Summary Reports",
+      "authors": "Chad W. Melson, James T. Decker",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/ad14_melson.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/ad14-melson-e439fd1a660e.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/ad08_wilson.pdf",
+      "year": 2001,
+      "title": "Developing Clinical Data Management Systems using Version 8.1 of SAS/AF",
+      "authors": "Steven A. Wilson",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/ad08_wilson.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/ad08-wilson-c0818b2a0706.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/TT01_brucken.pdf",
+      "year": 2001,
+      "title": "Digging for Gold: SAS Tools for Extracting Clinical Study Information from Oracle Clinical",
+      "authors": "Nancy Brucken",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/TT01_brucken.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/TT01-brucken-d96cf6d5e93e.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/ad11_otsu.pdf",
+      "year": 2001,
+      "title": "Electronic Clinical Study Reports (e-CSR) using ODS in SAS V8e",
+      "authors": "Hiroshi Otsu, Tadayuki Kitagawa",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/ad11_otsu.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/ad11-otsu-c7074f0066dc.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/DM13_curnutt.pdf",
+      "year": 2001,
+      "title": "Energizing End Users with a Slice of SAS and a Cup of Java",
+      "authors": "Randy Curnutt, Michael J. Pell, John M. LaBore",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/DM13_curnutt.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/DM13-curnutt-3970916344c0.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/TT13_goodrich.pdf",
+      "year": 2001,
+      "title": "Enhancing Code with the SQL Procedure",
+      "authors": "Jeff Goodrich",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/TT13_goodrich.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/TT13-goodrich-b42ba44dedec.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/fda01_hung.pdf",
+      "year": 2001,
+      "title": "ESUB11, an Application to Automate the Production of Item 11 For NDA Electronic Submissions",
+      "authors": "Margaret Hung",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/fda01_hung.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/fda01-hung-64cfebec3f9d.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/fda09_vachal.pdf",
+      "year": 2001,
+      "title": "FDA Reviewers as Ultimate End Users: Using the SAS System to Construct e-Submissions that Actually Facilitate the NDA / BLA Review Process",
+      "authors": "Rich Vachal",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/fda09_vachal.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/fda09-vachal-7e303a7a1972.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/sp17_xiang.pdf",
+      "year": 2001,
+      "title": "Fitting Generalized Additive Models with the GAM Procedure",
+      "authors": "Dong Xiang",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/sp17_xiang.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/sp17-xiang-057f13eb75bc.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/SP03_song.pdf",
+      "year": 2001,
+      "title": "Fitting Gompertz Nonlinear Mixed Model to Infancy Growth Data with SAS version 8 Procedure NLMIXED",
+      "authors": "Cindy Q. Song, Olga M. Kuznetsova",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/SP03_song.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/SP03-song-3ade1a6534b1.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/ad10_zhou.pdf",
+      "year": 2001,
+      "title": "From SAS ASCII Output to Word Document - A SAS Macro Approach",
+      "authors": "Jianlin (Jay) Zhou",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/ad10_zhou.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/ad10-zhou-b06defe7b5cc.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/ad01_yam.pdf",
+      "year": 2001,
+      "title": "Have You Ever Wished That You Do Not Need to Type or Change Report Numbers and Titles in Your SAS Programs?",
+      "authors": "Aileen L. Yam",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/ad01_yam.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/ad01-yam-64d2e00c0ef4.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/SP09_khutoryansky.pdf",
+      "year": 2001,
+      "title": "Imputation Techniques Using SAS Software For Incomplete Data In Diabetes Clinical Trials",
+      "authors": "Naum M. Khutoryansky, Won-Chin Huang",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/SP09_khutoryansky.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/SP09-khutoryansky-2ee80bc4e013.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/TT07_curnutt.pdf",
+      "year": 2001,
+      "title": "Integrating SAS/Connect with Java",
+      "authors": "Randy Curnutt, Michael J. Pell, John M. LaBore",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/TT07_curnutt.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/TT07-curnutt-b7cae45bce7b.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/eb01_testa.pdf",
+      "year": 2001,
+      "title": "Leveraging Existing SAS Programs for Wireless Delivery",
+      "authors": "Deborah A. Testa, Russell Holmes",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/eb01_testa.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/eb01-testa-a9387e73b366.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/DM02_carpenter.pdf",
+      "year": 2001,
+      "title": "Library and File Management: Building a Dynamic Application",
+      "authors": "Arthur L. Carpenter",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/DM02_carpenter.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/DM02-carpenter-acc320075878.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/DM07_wolf.pdf",
+      "year": 2001,
+      "title": "Loading Oracle Clinical studies using SAS methodology",
+      "authors": "Curtis Wolf, Steven Light",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/DM07_wolf.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/DM07-wolf-578ce8b96da2.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/P09_tomb.pdf",
+      "year": 2001,
+      "title": "Macros with Global Vision: Using The SAS Dictionary Tables to Create Tools",
+      "authors": "Michael E. Tomb, James R. Carter",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/P09_tomb.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/P09-tomb-9b3c7081397f.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/TT12_lee.pdf",
+      "year": 2001,
+      "title": "Multiple Column Transposition",
+      "authors": "Solomon Lee",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/TT12_lee.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/TT12-lee-f407acf38c55.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/P14_patel.pdf",
+      "year": 2001,
+      "title": "New Visualization in V8.2",
+      "authors": "Himesh Patel",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/P14_patel.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/P14-patel-7ff29122b1b7.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/SP12_gaccione.pdf",
+      "year": 2001,
+      "title": "Nonlinear Least Squares Analysis of HIV Viral Load Data - Aids in Parameter Estimation",
+      "authors": "Peter P. Gaccione",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/SP12_gaccione.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/SP12-gaccione-af03fc07b50c.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/TT10_shilling.pdf",
+      "year": 2001,
+      "title": "Open a Window and Lock the Door A User Friendly Application That Maintains Validation Integrity",
+      "authors": "Brian C. Shilling",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/TT10_shilling.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/TT10-shilling-8c7231e7bb15.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/CC01_xia.pdf",
+      "year": 2001,
+      "title": "P-Value Calculation Made Easy with the SAS Call Execute Routine",
+      "authors": "Huanhong Xia",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/CC01_xia.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/CC01-xia-2a245d47965c.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/TT15_delgobbo.pdf",
+      "year": 2001,
+      "title": "Point and Click Web Pages with Design-Time Controls and SAS/IntrNet",
+      "authors": "Vincent DelGobbo, John Leveille",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/TT15_delgobbo.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/TT15-delgobbo-bc1d522dfae7.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/sp16_castelloe.pdf",
+      "year": 2001,
+      "title": "Power and Sample Size Determination for Linear Models",
+      "authors": "John M. Castelloe",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/sp16_castelloe.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/sp16-castelloe-92157b9a2404.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/fda08_izard.pdf",
+      "year": 2001,
+      "title": "Pre-requisite to Effective Validation: Evaluating Your Clinical Trials Software Development Environment Using SEI's Capability Maturity Model for Software",
+      "authors": "David C. Izard",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/fda08_izard.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/fda08-izard-0cdb08522fbf.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/TT03_johnson.pdf",
+      "year": 2001,
+      "title": "Programming Squared (Writing Programs that Write Programs)",
+      "authors": "Jim Johnson",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/TT03_johnson.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/TT03-johnson-8d970ee4a942.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/P11_parsons.pdf",
+      "year": 2001,
+      "title": "Reducing Bias in a Propensity Score Matched-Pair Sample Using Greedy Matching Techniques",
+      "authors": "Lori S. Parsons",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/P11_parsons.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/P11-parsons-7afca58362fd.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/TT09_aster.pdf",
+      "year": 2001,
+      "title": "SAS Routines for Calendar and Clock Elements",
+      "authors": "Rick Aster",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/TT09_aster.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/TT09-aster-68637b8a2cc1.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/DM01_kelly.pdf",
+      "year": 2001,
+      "title": "Saving Trees: Managing the Edit Check Process Electronically",
+      "authors": "Timothy D. Kelly",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/DM01_kelly.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/DM01-kelly-8f5ca585eb8e.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/eb07_fagan.pdf",
+      "year": 2001,
+      "title": "Security Issues for Web-based Applications: Issues and solutions for the safe transfer of Clinical Trials data over the Internet",
+      "authors": "Andrew T. Fagan, Christopher R. Olinger",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/eb07_fagan.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/eb07-fagan-f676a2fe20c4.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/fda10_palmer.pdf",
+      "year": 2001,
+      "title": "Softerware: Replace SAS Programs with XML Documents to Help People and Computers Be Happier with Each Other",
+      "authors": "Michael C. Palmer",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/fda10_palmer.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/fda10-palmer-f76ff8e6543a.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/fda13_obenshain.pdf",
+      "year": 2001,
+      "title": "Standards for Electronic Submissions to FDA",
+      "authors": "Kay Obenshain",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/fda13_obenshain.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/fda13-obenshain-ce5362dca0e3.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/ad02_testa.pdf",
+      "year": 2001,
+      "title": "SynCoder: A SAS/AF Application for Implementing MedDRA Coding in Clinical Trials",
+      "authors": "Deborah A. Testa, Russell Holmes, Daphne Ewing",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/ad02_testa.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/ad02-testa-f175b3944371.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/DM17_ward.pdf",
+      "year": 2001,
+      "title": "Techniques and Strategies Used in Building a SAS-Based Clinical Data Management System",
+      "authors": "David L. Ward",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/DM17_ward.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/DM17-ward-d22243bbb03a.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/sp15_zhang.pdf",
+      "year": 2001,
+      "title": "Testing the Trend of a Response Curve to an Increasing Sequence of Doses: A SAS Macro to Automate the Analysis",
+      "authors": "Donghui Zhang",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/sp15_zhang.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/sp15-zhang-17c8f9074d5c.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/DM11_wang.pdf",
+      "year": 2001,
+      "title": "The Application of SAS Data Mart in Clinical Laboratory Testing",
+      "authors": "Cheng Wang, Jianming He, R Peter Mallon",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/DM11_wang.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/DM11-wang-ab87b6884e87.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/DM19_mcneill.pdf",
+      "year": 2001,
+      "title": "The Basics of ODS and Templates for Data Analysis",
+      "authors": "Sandy McNeill",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/DM19_mcneill.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/DM19-mcneill-c93fb0f76f86.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/fda12_light.pdf",
+      "year": 2001,
+      "title": "The Changing Nature of SAS Programming in the Pharmaceuticals Industry",
+      "authors": "Steven Light",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/fda12_light.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/fda12-light-d70786be3d56.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/CC05_stroupe.pdf",
+      "year": 2001,
+      "title": "The Efficiency of Proc SQL in Place of Traditional Procedures for Large Data Sets",
+      "authors": "Cindy Stroupe",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/CC05_stroupe.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/CC05-stroupe-6981c811adb6.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/eb06_olinger.pdf",
+      "year": 2001,
+      "title": "The iBiomatics Portal: Leveraging SAS and other technologies to develop a Web-based informatics Portal",
+      "authors": "Christopher R. Olinger, Andrew T. Fagan",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/eb06_olinger.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/eb06-olinger-247ebb86d8a7.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/DM18_hayden.pdf",
+      "year": 2001,
+      "title": "Unit-of-Analysis Programming",
+      "authors": "Vanessa C. Hayden, Fidelity Investments",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/DM18_hayden.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/DM18-hayden-882015fbad00.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/P06_russell.pdf",
+      "year": 2001,
+      "title": "Use of SAS to Automate Nonlinear Regression Analysis in WinNonlin",
+      "authors": "Darrell A. Russell, David E. Burgio",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/P06_russell.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/P06-russell-c8fcba218367.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/DM06_DeCooman.pdf",
+      "year": 2001,
+      "title": "Use of statistical techniques for tracking patients",
+      "authors": "Franky De Cooman",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/DM06_DeCooman.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/DM06-DeCooman-af740394e071.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/DM14_cochran.pdf",
+      "year": 2001,
+      "title": "Using Functions and Arrays in the SAS System to Manage and Manipulate Data",
+      "authors": "Ben Cochran",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/DM14_cochran.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/DM14-cochran-0f18f6433748.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/CC12_ward.pdf",
+      "year": 2001,
+      "title": "Using Recursion in the SAS System",
+      "authors": "David L. Ward",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/CC12_ward.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/CC12-ward-79746804c6ef.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/TT14_joseph.pdf",
+      "year": 2001,
+      "title": "Using SAS to Create a Centralized Parameter File for Analysis and Reporting",
+      "authors": "Phebe Joseph",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/TT14_joseph.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/TT14-joseph-8fde95f8e5cf.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/SP11_bartelson.pdf",
+      "year": 2001,
+      "title": "Using SAS Version 8.1 Output Delivery System to Automate Two Sample",
+      "authors": "Test Selection",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/SP11_bartelson.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/SP11-bartelson-55bd18127bc6.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/CC04_ren.pdf",
+      "year": 2001,
+      "title": "Using Special Characters and Formats with SAS",
+      "authors": "Quan Ren",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/CC04_ren.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/CC04-ren-2cb5c28dce3e.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/TT02_guttadauro.pdf",
+      "year": 2001,
+      "title": "VALIDATION: Let SAS do the comparisons for you",
+      "authors": "Lara E.H. Guttadauro",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/TT02_guttadauro.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/TT02-guttadauro-ede0b84ab859.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/DM16_pochon.pdf",
+      "year": 2001,
+      "title": "Warehousing Clinical Pharmacogenomics Data",
+      "authors": "Philip M. Pochon",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/DM16_pochon.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/DM16-pochon-86d5511ad6eb.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2001/ad15_ward.pdf",
+      "year": 2001,
+      "title": "Web-Enabling Your SAS Applications Using Only Base SAS",
+      "authors": "David L. Ward",
+      "index": "https://saslexicon.org/PharmaSUG/2001/PharmaSUG_2001.html",
+      "urls": [
+        "https://saslexicon.org/PharmaSUG/2001/ad15_ward.pdf"
+      ],
+      "path": "PharmaSUG_US/2001/ad15-ward-3a144d868f96.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    }
+  ]
+}
