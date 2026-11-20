@@ -1,4 +1,4 @@
-**Note: Repo created for AI reference and retrieval, not for human learning.**
+**Note: Repo created for AI reference and retrieval, not for human reading.**
 
 
 
