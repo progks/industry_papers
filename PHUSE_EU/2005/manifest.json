@@ -1208,7 +1208,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_AS03.pdf",
       "https://saslexicon.org/PHUSE_EU/2005/PAP_AS03.pdf"
     ],
-    "filename": "PAP-AS03-ecc25b54d1.pdf"
+    "filename": "PAP-AS03-ecc25b54d1.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_AS03.pdf",
+    "status": "ok",
+    "bytes": 487153,
+    "sha256": "b16291a282a12bb769bb0fde0c0dba1133dc28c32b1eabdae8b25f048e06315d"
   },
   {
     "title": "Visions of a Drug Development Data Warehouse",
@@ -1219,7 +1223,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_PS24.pdf",
       "https://saslexicon.org/PHUSE_EU/2005/PAP_PS24.pdf"
     ],
-    "filename": "PAP-PS24-d39ceeb2e4.pdf"
+    "filename": "PAP-PS24-d39ceeb2e4.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_PS24.pdf",
+    "status": "ok",
+    "bytes": 3018722,
+    "sha256": "b5900e3c74faac41cb7f0724548539174e83c59d1543f1768dd34fda59ef3809"
   },
   {
     "title": "Welcome to Dullsville!! The System Testing of SAS Macros",
@@ -1230,7 +1238,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_RC02.pdf",
       "https://saslexicon.org/PHUSE_EU/2005/PAP_RC02.pdf"
     ],
-    "filename": "PAP-RC02-db7e657089.pdf"
+    "filename": "PAP-RC02-db7e657089.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_RC02.pdf",
+    "status": "ok",
+    "bytes": 81962,
+    "sha256": "09478907b546fbec8b3bc57afec8b62eabcabe91adca57f2b96297ce31297db9"
   },
   {
     "title": "What SAS is doing for the FDA's Critical Path Initiative?",
@@ -1241,7 +1253,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_CD06.pdf",
       "https://saslexicon.org/PHUSE_EU/2005/PAP_CD06.pdf"
     ],
-    "filename": "PAP-CD06-e9d2a4ad67.pdf"
+    "filename": "PAP-CD06-e9d2a4ad67.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_CD06.pdf",
+    "status": "ok",
+    "bytes": 635442,
+    "sha256": "b42b505e71f7a5c51cf69f5344c8d406bd78dc7f34a0a16a1d4109a51bc55db6"
   },
   {
     "title": "You don't need second sight to use the LIBNAME ORACLE",
@@ -1252,6 +1268,10 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_DM06.pdf",
       "https://saslexicon.org/PHUSE_EU/2005/PAP_DM06.pdf"
     ],
-    "filename": "PAP-DM06-dbce944ec5.pdf"
+    "filename": "PAP-DM06-dbce944ec5.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_DM06.pdf",
+    "status": "ok",
+    "bytes": 134005,
+    "sha256": "0f3f99b6d189bc46d66bc7c1cfb4085976cd6f33951b0993e4d2bf2b74cfe073"
   }
 ]
