@@ -1358,7 +1358,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2008/Connect/EU/Manchester/PAP_PO06.pdf",
       "https://saslexicon.org/PHUSE_EU/2008/PAP_PO06.pdf"
     ],
-    "filename": "PAP-PO06-e29190422f.pdf"
+    "filename": "PAP-PO06-e29190422f.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2008/Connect/EU/Manchester/PAP_PO06.pdf",
+    "status": "ok",
+    "bytes": 58738,
+    "sha256": "dcede6f9cd8987aebd7e3f04ca63338690c58e60beb0bb37a5b4560c11f7ac2e"
   },
   {
     "title": "WorldWide Deployment of an Application",
@@ -1369,7 +1373,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2008/Connect/EU/Manchester/PAP_PD06.pdf",
       "https://saslexicon.org/PHUSE_EU/2008/PAP_PD06.pdf"
     ],
-    "filename": "PAP-PD06-1496163f78.pdf"
+    "filename": "PAP-PD06-1496163f78.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2008/Connect/EU/Manchester/PAP_PD06.pdf",
+    "status": "ok",
+    "bytes": 182449,
+    "sha256": "0ce41ab63c9cbf957aa40489d238dd963666d3ede1bbc9bccfdc1d74424705a8"
   },
   {
     "title": "XML by eXaMpLe",
@@ -1380,6 +1388,10 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2008/Connect/EU/Manchester/PAP_TU03.pdf",
       "https://saslexicon.org/PHUSE_EU/2008/PAP_TU03.pdf"
     ],
-    "filename": "PAP-TU03-5be557492e.pdf"
+    "filename": "PAP-TU03-5be557492e.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2008/Connect/EU/Manchester/PAP_TU03.pdf",
+    "status": "ok",
+    "bytes": 310132,
+    "sha256": "ab187817f97ee2dbe433a4036dd69f1098263efdfdc57f6624d28a747a39522d"
   }
 ]
