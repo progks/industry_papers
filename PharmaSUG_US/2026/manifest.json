@@ -1509,8 +1509,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_DS11.pdf"
     ],
     "filename": "PAP-DS11-f57af55227.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DS11.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DS11.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_DS11.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_DS11.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DS11.pdf",
+    "bytes": 911112,
+    "sha256": "dbe50550a7e91dec16b88e817f77453cc88d44759684cd1b508030d7d3ca8bae"
   },
   {
     "title": "End-to-End Workflow for CDISC Estimand Framework in Clinical Trials",
@@ -1522,8 +1524,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_PP20.pdf"
     ],
     "filename": "PAP-PP20-38966614f3.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PP20.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PP20.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_PP20.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_PP20.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PP20.pdf",
+    "bytes": 402638,
+    "sha256": "febb919ca3b9ac2c2404b979d2cf6525dafa7d9f22788b39845ae8e9a6f36e29"
   },
   {
     "title": "Enhancing Clinical Study Processes Through AI-Driven Documentation Automation",
@@ -1535,8 +1539,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_ML33.pdf"
     ],
     "filename": "PAP-ML33-b64d95aea1.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML33.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML33.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_ML33.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_ML33.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML33.pdf",
+    "bytes": 125947,
+    "sha256": "2411f1679f614e39c669500d731e248841ae20c73c6d15c026ea5da41fe3887e"
   },
   {
     "title": "Enhancing Clinical Study Report Authoring with Generative AI: Lessons Learned on TFL Formatting and Metadata Integration in Merck's iRAP Tool",
@@ -1548,8 +1554,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_ML27.pdf"
     ],
     "filename": "PAP-ML27-71cf8dd00e.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML27.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML27.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_ML27.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_ML27.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML27.pdf",
+    "bytes": 406441,
+    "sha256": "83b86c78da9722c02e37c9d801a2c288832699db09802170dbdfab236a288258"
   },
   {
     "title": "Enhancing Clinical Trial Dataset Mapping with AI/ML Techniques: An Approach for CDISC Variable Prediction",
@@ -1561,8 +1569,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_DH04.pdf"
     ],
     "filename": "PAP-DH04-70d2d9f5ab.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DH04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DH04.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_DH04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_DH04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DH04.pdf",
+    "bytes": 529104,
+    "sha256": "2662a5a2647ffb1f7f886ba8cc0075e134a81f45094d71118e72bc87db459266"
   },
   {
     "title": "Enhancing ISS Analyses with the Continuity-Corrected CMH Method: An SAS-Based Solution for Zero-Event Strata",
@@ -1574,8 +1584,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_AS05.pdf"
     ],
     "filename": "PAP-AS05-75e85d5334.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS05.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_AS05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_AS05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS05.pdf",
+    "bytes": 476905,
+    "sha256": "36d08484598f742c9551ea519779797876141a18cc3f4d4a30c5f988135c557e"
   },
   {
     "title": "Enhancing Protection of Confidential Commercial Information through Unified Cross-Functional Strategic Alignment",
@@ -1587,8 +1599,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PRE_DT23.pdf"
     ],
     "filename": "PRE-DT23-07f312d086.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_DT23.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_DT23.pdf | https://saslexicon.org/PHUSE_US/2026/PRE_DT23.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PRE_DT23.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_DT23.pdf",
+    "bytes": 1262954,
+    "sha256": "5cee5616566a7dc806ec240ed24ead69905276c957bae164c051f251db5fd098"
   },
   {
     "title": "Ensuring Reliability of Medical Devices Through Statistical Oversight in the Age of AI",
@@ -1600,8 +1614,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_AS10.pdf"
     ],
     "filename": "PAP-AS10-81744ea2a7.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS10.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_AS10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_AS10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS10.pdf",
+    "bytes": 266356,
+    "sha256": "93a0768ed6a1392b7dfe85dc0f6c76de35ff4c847c1f700509cfe07bb9ce7ead"
   },
   {
     "title": "Equity as a Dimension of Quality: Embedding Equity into Risk-Based Quality Management",
@@ -1613,8 +1629,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_RM03.pdf"
     ],
     "filename": "PAP-RM03-3b0e94bfae.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_RM03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_RM03.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_RM03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_RM03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_RM03.pdf",
+    "bytes": 218906,
+    "sha256": "f5b8bb077dbf5f461ab8e89423fc2460e6c642543524e96258ae49ddb5bc9e39"
   },
   {
     "title": "Estimand-Aligned Multiple Imputation Strategies in CNS Trials with Complex Intercurrent Events",
@@ -1626,8 +1644,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_AS01.pdf"
     ],
     "filename": "PAP-AS01-826f13e03b.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS01.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_AS01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_AS01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS01.pdf",
+    "bytes": 279956,
+    "sha256": "bd271d97ffe999536088e34b32f4b2771213d9dc3f3986d7e0302dcb27d71bc7"
   },
   {
     "title": "Evolve Clinical Data Management: A Python-Based Framework for Clinical Data Transformation with Generative AI Integration",
