@@ -48,8 +48,13 @@
         "https://saslexicon.org/PharmaSUG/1998/DUDLEY.PDF"
       ],
       "path": "PharmaSUG_US/1998/DUDLEY-ab61271587e7.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/DUDLEY.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/KUNGURTS.PDF",
@@ -61,8 +66,13 @@
         "https://saslexicon.org/PharmaSUG/1998/KUNGURTS.PDF"
       ],
       "path": "PharmaSUG_US/1998/KUNGURTS-50515a0ded82.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/KUNGURTS.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/ZHAO.PDF",
@@ -74,8 +84,13 @@
         "https://saslexicon.org/PharmaSUG/1998/ZHAO.PDF"
       ],
       "path": "PharmaSUG_US/1998/ZHAO-89baaea9cdf0.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/ZHAO.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/MITCHELL.PDF",
@@ -87,8 +102,13 @@
         "https://saslexicon.org/PharmaSUG/1998/MITCHELL.PDF"
       ],
       "path": "PharmaSUG_US/1998/MITCHELL-b1cce161dfd9.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/MITCHELL.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/DOUCETTE.PDF",
@@ -100,8 +120,13 @@
         "https://saslexicon.org/PharmaSUG/1998/DOUCETTE.PDF"
       ],
       "path": "PharmaSUG_US/1998/DOUCETTE-dfc84157933a.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/DOUCETTE.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/CARPENT.PDF",
@@ -113,8 +138,10 @@
         "https://saslexicon.org/PharmaSUG/1998/CARPENT.PDF"
       ],
       "path": "PharmaSUG_US/1998/CARPENT-2828862fcf42.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 26261,
+      "sha256": "f179309c53b70a42f90ac6222be07a87b5b5151ae1c1a9f9b5a023e508ad4037",
+      "downloaded-from": "https://saslexicon.org/PharmaSUG/1998/CARPENT.PDF"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/LIU.PDF",
@@ -126,8 +153,13 @@
         "https://saslexicon.org/PharmaSUG/1998/LIU.PDF"
       ],
       "path": "PharmaSUG_US/1998/LIU-d834156e0b77.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/LIU.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/CUNNINGG.PDF",
@@ -139,8 +171,13 @@
         "https://saslexicon.org/PharmaSUG/1998/CUNNINGG.PDF"
       ],
       "path": "PharmaSUG_US/1998/CUNNINGG-259d37ed0426.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/CUNNINGG.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/WEHR.PDF",
@@ -152,8 +189,13 @@
         "https://saslexicon.org/PharmaSUG/1998/WEHR.PDF"
       ],
       "path": "PharmaSUG_US/1998/WEHR-2062cd2dd0c5.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/WEHR.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/HLINA2.PDF",
@@ -165,8 +207,13 @@
         "https://saslexicon.org/PharmaSUG/1998/HLINA2.PDF"
       ],
       "path": "PharmaSUG_US/1998/HLINA2-5d4f2e25d5e8.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/HLINA2.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/CARPENT2.PDF",
@@ -178,8 +225,10 @@
         "https://saslexicon.org/PharmaSUG/1998/CARPENT2.PDF"
       ],
       "path": "PharmaSUG_US/1998/CARPENT2-210274c4a3f3.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 15837,
+      "sha256": "cec6968627d795d216308b1127f9ef7c2e0caefbf8f1c623ee9c8b55e7bdc8a4",
+      "downloaded-from": "https://saslexicon.org/PharmaSUG/1998/CARPENT2.PDF"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/BURGER.PDF",
@@ -191,8 +240,13 @@
         "https://saslexicon.org/PharmaSUG/1998/BURGER.PDF"
       ],
       "path": "PharmaSUG_US/1998/BURGER-fc3c1a63e505.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/BURGER.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/SUN.PDF",
@@ -204,8 +258,13 @@
         "https://saslexicon.org/PharmaSUG/1998/SUN.PDF"
       ],
       "path": "PharmaSUG_US/1998/SUN-a8d531ba1f69.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/SUN.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/SAGAR.PDF",
@@ -217,8 +276,13 @@
         "https://saslexicon.org/PharmaSUG/1998/SAGAR.PDF"
       ],
       "path": "PharmaSUG_US/1998/SAGAR-2b53a2c7f299.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/SAGAR.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/GLOBSYS.PDF",
@@ -230,8 +294,13 @@
         "https://saslexicon.org/PharmaSUG/1998/GLOBSYS.PDF"
       ],
       "path": "PharmaSUG_US/1998/GLOBSYS-84f49363e669.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/GLOBSYS.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/HLINA.PDF",
@@ -243,8 +312,13 @@
         "https://saslexicon.org/PharmaSUG/1998/HLINA.PDF"
       ],
       "path": "PharmaSUG_US/1998/HLINA-321328c61ed4.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/HLINA.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/LI_SUN.PDF",
@@ -256,8 +330,13 @@
         "https://saslexicon.org/PharmaSUG/1998/LI_SUN.PDF"
       ],
       "path": "PharmaSUG_US/1998/LI-SUN-610eee825309.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/LI_SUN.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/OHEARN.PDF",
@@ -269,8 +348,13 @@
         "https://saslexicon.org/PharmaSUG/1998/OHEARN.PDF"
       ],
       "path": "PharmaSUG_US/1998/OHEARN-c0f4f8094395.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/OHEARN.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/WOOLRIDG.PDF",
@@ -282,8 +366,13 @@
         "https://saslexicon.org/PharmaSUG/1998/WOOLRIDG.PDF"
       ],
       "path": "PharmaSUG_US/1998/WOOLRIDG-4f3f04a5a484.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/WOOLRIDG.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/KUNINA.PDF",
@@ -295,8 +384,13 @@
         "https://saslexicon.org/PharmaSUG/1998/KUNINA.PDF"
       ],
       "path": "PharmaSUG_US/1998/KUNINA-39e156310b63.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/KUNINA.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/KUMAR.PDF",
@@ -308,8 +402,13 @@
         "https://saslexicon.org/PharmaSUG/1998/KUMAR.PDF"
       ],
       "path": "PharmaSUG_US/1998/KUMAR-7e722656bc17.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/KUMAR.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/ROSTAMI.PDF",
@@ -321,8 +420,13 @@
         "https://saslexicon.org/PharmaSUG/1998/ROSTAMI.PDF"
       ],
       "path": "PharmaSUG_US/1998/ROSTAMI-5a70e45f638e.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/ROSTAMI.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/VIRGILE1.PDF",
@@ -334,8 +438,13 @@
         "https://saslexicon.org/PharmaSUG/1998/VIRGILE1.PDF"
       ],
       "path": "PharmaSUG_US/1998/VIRGILE1-a6ee1413be6c.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/VIRGILE1.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/GILBERT.PDF",
@@ -347,8 +456,13 @@
         "https://saslexicon.org/PharmaSUG/1998/GILBERT.PDF"
       ],
       "path": "PharmaSUG_US/1998/GILBERT-6b9a55d1c9d9.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/GILBERT.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/OBENSH.PDF",
@@ -360,8 +474,13 @@
         "https://saslexicon.org/PharmaSUG/1998/OBENSH.PDF"
       ],
       "path": "PharmaSUG_US/1998/OBENSH-12bc26814bb4.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/OBENSH.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/ABOUTAL.PDF",
@@ -373,8 +492,13 @@
         "https://saslexicon.org/PharmaSUG/1998/ABOUTAL.PDF"
       ],
       "path": "PharmaSUG_US/1998/ABOUTAL-6975e5f85a17.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/ABOUTAL.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/YAO.PDF",
@@ -386,8 +510,13 @@
         "https://saslexicon.org/PharmaSUG/1998/YAO.PDF"
       ],
       "path": "PharmaSUG_US/1998/YAO-500bc879d858.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/YAO.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/WILLIAM2.PDF",
@@ -399,8 +528,13 @@
         "https://saslexicon.org/PharmaSUG/1998/WILLIAM2.PDF"
       ],
       "path": "PharmaSUG_US/1998/WILLIAM2-7305d029fdde.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/WILLIAM2.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/SIX.PDF",
@@ -412,8 +546,13 @@
         "https://saslexicon.org/PharmaSUG/1998/SIX.PDF"
       ],
       "path": "PharmaSUG_US/1998/SIX-41c7f91c5cd4.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/SIX.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/BISHOP.PDF",
@@ -425,8 +564,13 @@
         "https://saslexicon.org/PharmaSUG/1998/BISHOP.PDF"
       ],
       "path": "PharmaSUG_US/1998/BISHOP-7e8dfe938a12.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/BISHOP.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/TANG.PDF",
@@ -438,8 +582,13 @@
         "https://saslexicon.org/PharmaSUG/1998/TANG.PDF"
       ],
       "path": "PharmaSUG_US/1998/TANG-494467d3b02f.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/TANG.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/JOHNS.PDF",
@@ -451,8 +600,13 @@
         "https://saslexicon.org/PharmaSUG/1998/JOHNS.PDF"
       ],
       "path": "PharmaSUG_US/1998/JOHNS-38e6c2418f73.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/JOHNS.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/VISHNEV.PDF",
@@ -464,8 +618,13 @@
         "https://saslexicon.org/PharmaSUG/1998/VISHNEV.PDF"
       ],
       "path": "PharmaSUG_US/1998/VISHNEV-56ae47f7be97.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/VISHNEV.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/COHEN.PDF",
@@ -477,8 +636,13 @@
         "https://saslexicon.org/PharmaSUG/1998/COHEN.PDF"
       ],
       "path": "PharmaSUG_US/1998/COHEN-ba6e2b283655.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/COHEN.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/CHENG.PDF",
@@ -490,8 +654,13 @@
         "https://saslexicon.org/PharmaSUG/1998/CHENG.PDF"
       ],
       "path": "PharmaSUG_US/1998/CHENG-314d121e1b6e.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/CHENG.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/VILLERS.PDF",
@@ -503,8 +672,13 @@
         "https://saslexicon.org/PharmaSUG/1998/VILLERS.PDF"
       ],
       "path": "PharmaSUG_US/1998/VILLERS-9b0abe9d5c72.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/VILLERS.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/HOTALING.PDF",
@@ -516,8 +690,13 @@
         "https://saslexicon.org/PharmaSUG/1998/HOTALING.PDF"
       ],
       "path": "PharmaSUG_US/1998/HOTALING-ba5e8d90eeda.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/HOTALING.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/VIRGILE2.PDF",
@@ -529,8 +708,13 @@
         "https://saslexicon.org/PharmaSUG/1998/VIRGILE2.PDF"
       ],
       "path": "PharmaSUG_US/1998/VIRGILE2-1375d4c7b69a.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/VIRGILE2.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/EWING2.PDF",
@@ -542,8 +726,13 @@
         "https://saslexicon.org/PharmaSUG/1998/EWING2.PDF"
       ],
       "path": "PharmaSUG_US/1998/EWING2-0eab8f164cde.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/EWING2.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/CORNMEAD.PDF",
@@ -555,8 +744,13 @@
         "https://saslexicon.org/PharmaSUG/1998/CORNMEAD.PDF"
       ],
       "path": "PharmaSUG_US/1998/CORNMEAD-44ab1aa7a280.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/CORNMEAD.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/WANG.PDF",
@@ -568,8 +762,13 @@
         "https://saslexicon.org/PharmaSUG/1998/WANG.PDF"
       ],
       "path": "PharmaSUG_US/1998/WANG-3ff356d46575.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/WANG.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/USAVAGE.PDF",
@@ -581,8 +780,13 @@
         "https://saslexicon.org/PharmaSUG/1998/USAVAGE.PDF"
       ],
       "path": "PharmaSUG_US/1998/USAVAGE-cd5337ff3147.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/USAVAGE.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/ROOT.PDF",
@@ -594,8 +798,13 @@
         "https://saslexicon.org/PharmaSUG/1998/ROOT.PDF"
       ],
       "path": "PharmaSUG_US/1998/ROOT-ddacef8ccd07.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/ROOT.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/LIRANSO.PDF",
@@ -607,8 +816,13 @@
         "https://saslexicon.org/PharmaSUG/1998/LIRANSO.PDF"
       ],
       "path": "PharmaSUG_US/1998/LIRANSO-23b730c115c0.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/LIRANSO.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/POCHON.PDF",
@@ -620,8 +834,13 @@
         "https://saslexicon.org/PharmaSUG/1998/POCHON.PDF"
       ],
       "path": "PharmaSUG_US/1998/POCHON-88a663e05aa6.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/POCHON.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/1998/JANGA.PDF",
@@ -633,8 +852,13 @@
         "https://saslexicon.org/PharmaSUG/1998/JANGA.PDF"
       ],
       "path": "PharmaSUG_US/1998/JANGA-ec505e1deffa.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "failed",
+      "errors": [
+        {
+          "url": "https://saslexicon.org/PharmaSUG/1998/JANGA.PDF",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
     }
   ]
 }
