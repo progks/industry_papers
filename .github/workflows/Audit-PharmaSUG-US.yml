@@ -1,0 +1,319 @@
+name: Audit PharmaSUG US
+
+on:
+  workflow_dispatch:
+    inputs:
+      years:
+        description: 'Audit years: all, 2026, 2024-2026, or 2024,2026'
+        type: string
+        required: true
+        default: 'all'
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - name: Check live index and verify committed PDFs
+        env:
+          YEARS: ${{ inputs.years }}
+        run: |
+          python -B - <<'PY'
+          """Read-only audit against the live PharmaSUG index; no PDF downloads or commits."""
+          import hashlib
+          import json
+          import os
+          import re
+          import sys
+          import time
+          from collections import Counter
+          from html.parser import HTMLParser
+          from pathlib import Path
+          from urllib.error import HTTPError, URLError
+          from urllib.parse import urljoin, urlsplit
+          from urllib.request import Request, urlopen
+          from urllib.robotparser import RobotFileParser
+          
+          INDEX = 'https://saslexicon.org/PharmaSUG/PharmaSUG.html'
+          AGENT = 'IndustryPapersAudit/1.0'
+          
+          
+          class Table(HTMLParser):
+              def __init__(self, html):
+                  super().__init__(convert_charrefs=True)
+                  self.rows = []
+                  self.row = self.cell = self.link = None
+                  self.feed(html)
+          
+              def handle_starttag(self, tag, attrs):
+                  if tag == 'tr':
+                      self.row = []
+                  elif tag in ('td', 'th') and self.row is not None:
+                      self.cell = {'text': '', 'links': []}
+                  elif tag == 'a':
+                      self.link = dict(attrs).get('href', '')
+          
+              def handle_data(self, text):
+                  if self.cell is not None:
+                      self.cell['text'] += text
+          
+              def handle_endtag(self, tag):
+                  if tag == 'a':
+                      if self.link is not None and self.cell is not None:
+                          self.cell['links'].append(self.link)
+                      self.link = None
+                  elif tag in ('td', 'th') and self.cell is not None:
+                      self.cell['text'] = ' '.join(self.cell['text'].split())
+                      self.row.append(self.cell)
+                      self.cell = None
+                  elif tag == 'tr' and self.row is not None:
+                      self.rows.append(self.row)
+                      self.row = None
+          
+          
+          def years_from_html(html):
+              result = {}
+              for cells in Table(html).rows:
+                  if len(cells) < 2:
+                      continue
+                  for href in cells[0]['links']:
+                      url = urljoin(INDEX, href)
+                      p = urlsplit(url)
+                      match = re.fullmatch(r'/PharmaSUG/(\d{4})/PharmaSUG_\1\.html', p.path)
+                      if match and p.netloc == urlsplit(INDEX).netloc:
+                          count = int(cells[1]['text'].replace(',', ''))
+                          result[match[1]] = (url, count)
+              if not result:
+                  raise ValueError('No year rows found; cannot establish completeness')
+              return result
+          
+          
+          def ids_from_html(html, base):
+              result = []
+              for cells in Table(html).rows:
+                  links = [urljoin(base, href) for cell in cells for href in cell['links']]
+                  pdfs = [url for url in links if urlsplit(url).scheme in ('http', 'https')
+                          and urlsplit(url).path.lower().endswith('.pdf')]
+                  if pdfs:
+                      result.append(pdfs[0])
+              if not result:
+                  raise ValueError('No PDF rows found; cannot establish completeness')
+              if len(result) != len(set(result)):
+                  raise ValueError('Duplicate paper identifiers in source; manual review required')
+              return set(result)
+          
+          
+          def select(spec, available):
+              if spec.strip().lower() == 'all':
+                  return sorted(available, reverse=True)
+              wanted = set()
+              for part in spec.split(','):
+                  part = part.strip()
+                  if re.fullmatch(r'\d{4}', part):
+                      wanted.add(part)
+                  elif re.fullmatch(r'\d{4}-\d{4}', part):
+                      low, high = map(int, part.split('-'))
+                      if low > high or high - low > 200:
+                          raise ValueError('Invalid year range')
+                      wanted.update(str(y) for y in range(low, high + 1))
+                  else:
+                      raise ValueError('years must be all, 2026, 2024-2026, or 2024,2026')
+              if not wanted <= available.keys():
+                  raise ValueError('Years not listed in source: ' + ', '.join(sorted(wanted - available.keys())))
+              return sorted(wanted, reverse=True)
+          
+          
+          class Client:
+              def __init__(self):
+                  self.last = 0
+                  self.robot = None
+                  self.delay = 1.0
+          
+              def raw(self, url):
+                  # Only fetch index HTML from the source host, not PDF or arbitrary URLs.
+                  if urlsplit(url).netloc != urlsplit(INDEX).netloc:
+                      raise ValueError('Unexpected external redirect/source')
+                  for attempt in range(3):
+                      time.sleep(max(0, self.delay - (time.monotonic() - self.last)))
+                      self.last = time.monotonic()
+                      try:
+                          with urlopen(Request(url, headers={'User-Agent': AGENT}), timeout=40) as response:
+                              if urlsplit(response.geturl()).netloc != urlsplit(INDEX).netloc:
+                                  raise ValueError('Unexpected redirect host')
+                              data = response.read(10 * 1024 * 1024 + 1)
+                              if len(data) > 10 * 1024 * 1024:
+                                  raise ValueError('Index response too large')
+                              return data.decode(response.headers.get_content_charset() or 'utf-8', 'replace')
+                      except HTTPError as exc:
+                          retry = exc.code in (408, 429, 500, 502, 503, 504)
+                          wait = exc.headers.get('Retry-After', '')
+                          exc.close()
+                          if not retry or attempt == 2:
+                              raise
+                          if wait and (not wait.isdigit() or int(wait) > 120):
+                              raise RuntimeError('Server requested a pause; rerun audit later') from exc
+                          time.sleep(max(2 ** (attempt + 1), int(wait or 0)))
+                      except (URLError, OSError):
+                          if attempt == 2:
+                              raise
+                          time.sleep(2 ** (attempt + 1))
+                  raise RuntimeError('Request failed')
+          
+              def get(self, url):
+                  if self.robot is None:
+                      self.robot = RobotFileParser()
+                      try:
+                          text = self.raw('https://saslexicon.org/robots.txt')
+                          if '<html' in text.lower() or '<!doctype' in text.lower():
+                              raise ValueError('Unexpected robots.txt content; cannot establish access policy')
+                          self.robot.parse(text.splitlines())
+                      except HTTPError as exc:
+                          if exc.code not in (404, 410):
+                              raise
+                          self.robot.parse([])
+                      self.delay = max(1, self.robot.crawl_delay(AGENT) or 0)
+                  if not self.robot.can_fetch(AGENT, url):
+                      raise ValueError('Source robots.txt disallows this page')
+                  return self.raw(url)
+          
+          
+          def check_file(record, folder):
+              relative = record.get('path')
+              if not isinstance(relative, str):
+                  raise ValueError('Missing PDF path')
+              path = Path(relative)
+              if path.is_symlink() or not path.resolve().is_relative_to(folder.resolve()):
+                  raise ValueError('PDF path outside expected year folder')
+              if path.suffix.lower() != '.pdf' or not path.is_file():
+                  raise ValueError('PDF is absent or not a file')
+              if path.stat().st_size != record.get('bytes'):
+                  raise ValueError('PDF byte count does not match catalog')
+              with path.open('rb') as f:
+                  if b'%PDF-' not in f.read(1024):
+                      raise ValueError('PDF header missing (possibly an HTML error or LFS pointer)')
+                  f.seek(max(0, path.stat().st_size - 8192))
+                  if b'%%EOF' not in f.read():
+                      raise ValueError('PDF EOF marker missing')
+              sha = hashlib.sha256()
+              with path.open('rb') as f:
+                  for block in iter(lambda: f.read(1024 * 1024), b''):
+                      sha.update(block)
+              if sha.hexdigest() != record.get('sha256'):
+                  raise ValueError('PDF SHA-256 does not match catalog')
+              return path.resolve()
+          
+          
+          def audit_year(year, expected, declared):
+              folder = Path('PharmaSUG_US') / year
+              issues = []
+              records = []
+              try:
+                  data = json.loads((folder / 'catalog.json').read_text('utf-8'))
+                  if data.get('year') != int(year):
+                      raise ValueError('Wrong/missing catalog year')
+                  records = data['papers']
+                  if not isinstance(records, list) or not all(isinstance(r, dict) and isinstance(r.get('id'), str) for r in records):
+                      raise ValueError('Invalid catalog records')
+              except Exception as exc:
+                  issues.append(f'Catalog unavailable/invalid: {exc}')
+                  records = []
+              counts = Counter(r['id'] for r in records)
+              duplicates = [identity for identity, n in counts.items() if n > 1]
+              if duplicates:
+                  issues.append(f'Duplicate catalog identifiers: {len(duplicates)}')
+              by_id = {r['id']: r for r in records}
+              missing = expected - by_id.keys()
+              extra = by_id.keys() - expected
+              issues.extend('Missing catalog entry: ' + identity for identity in sorted(missing))
+              issues.extend('Catalog entry not in live source: ' + identity for identity in sorted(extra))
+              if len(expected) != declared:
+                  issues.append(f'Source discrepancy: main index says {declared}, annual page has {len(expected)} unique PDF rows')
+              good, invalid, not_done, paths = 0, 0, 0, set()
+              for identity in sorted(expected & by_id.keys()):
+                  r = by_id[identity]
+                  if r.get('status') != 'downloaded':
+                      not_done += 1
+                      issues.append(f"Not downloaded ({r.get('status', 'unknown')}): {identity}")
+                      continue
+                  try:
+                      path = check_file(r, folder)
+                      if path in paths:
+                          raise ValueError('Multiple papers use the same local PDF path')
+                      paths.add(path)
+                      good += 1
+                  except Exception as exc:
+                      invalid += 1
+                      issues.append(f"Invalid PDF {r.get('path')}: {exc}")
+              all_local = {p.resolve() for p in folder.rglob('*') if p.is_file() and p.suffix.lower() == '.pdf'} if folder.exists() else set()
+              unverified = all_local - paths
+              # Surplus files are shown but do not mean an expected source paper is missing.
+              return {'year': year, 'expected': len(expected), 'good': good, 'missing': len(missing),
+                      'not-done': not_done, 'invalid': invalid, 'issues': issues,
+                      'unverified-local': len(unverified), 'pass': not issues}
+          
+          
+          def emit(text):
+              print(text)
+              if os.environ.get('GITHUB_STEP_SUMMARY'):
+                  with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as out:
+                      out.write(text + '\n')
+          
+          
+          def main():
+              try:
+                  client = Client()
+                  available = years_from_html(client.get(INDEX))
+                  selected = select(os.environ.get('YEARS', 'all'), available)
+              except Exception as exc:
+                  emit('## Audit could not establish completeness\n\nSource/input error: ' + str(exc))
+                  return 1
+              rows = []
+              for year in selected:
+                  page, declared = available[year]
+                  try:
+                      expected = ids_from_html(client.get(page), page)
+                      result = audit_year(year, expected, declared)
+                  except Exception as exc:
+                      result = {'year': year, 'expected': declared, 'good': 0, 'missing': '?',
+                                'not-done': '?', 'invalid': '?', 'issues': ['Could not audit year: ' + str(exc)],
+                                'unverified-local': '?', 'pass': False}
+                  rows.append(result)
+                  print(f"{year}: {'PASS' if result['pass'] else 'CHECK'}; verified={result['good']}/{result['expected']}", flush=True)
+              ok = all(r['pass'] for r in rows)
+              text = ['# PharmaSUG US completeness audit', '',
+                      f"Verdict: **{'PASS — selected years complete relative to live index' if ok else 'CHECK — incomplete, inconsistent, or not verifiable'}**", '',
+                      f"Scope: `{os.environ.get('YEARS', 'all')}`; checked-out commit: `{os.environ.get('GITHUB_SHA', 'local')}`.", '',
+                      '| Year | Source papers | Verified PDFs | Missing entries | Failed/pending/other | Invalid files | Result |',
+                      '| --- | ---: | ---: | ---: | ---: | ---: | --- |']
+              for r in rows:
+                  text.append(f"| {r['year']} | {r['expected']} | {r['good']} | {r['missing']} | {r['not-done']} | {r['invalid']} | {'PASS' if r['pass'] else 'CHECK'} |")
+              for r in rows:
+                  if r['issues'] or r['unverified-local']:
+                      text.extend(['', f"## {r['year']} details"])
+                      text.extend('- ' + str(issue).replace('\n', ' ') for issue in r['issues'][:20])
+                      if len(r['issues']) > 20:
+                          text.append(f"- Plus {len(r['issues']) - 20} additional issues (see catalog).")
+                      if r['unverified-local']:
+                          text.append(f"- Local PDFs not verified against expected source records: {r['unverified-local']} (may include invalid or surplus files).")
+              text.extend(['', 'Checks: live year coverage, live paper IDs/counts, catalog status, file existence, byte count, SHA-256, PDF header and EOF.',
+                           'This reads website HTML, but does not download paper PDFs, repair files, or commit changes.',
+                           'SHA-256 verifies stored files against their saved catalog, not against an independently trusted publisher checksum.',
+                           'A PASS is relative to the live index at audit time, not a guarantee of every conference paper ever published or full PDF structural validity.',
+                           'Run after downloads finish. A download still in progress may commit newer files after the audited checkout.'])
+              emit('\n'.join(text))
+              return 0 if ok else 1
+          
+          
+          if __name__ == '__main__':
+              sys.exit(main())
+          PY
