@@ -3459,8 +3459,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_ET27.pdf"
     ],
     "filename": "PAP-ET27-02a2f877db.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET27.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET27.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_ET27.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_ET27.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET27.pdf",
+    "bytes": 668631,
+    "sha256": "3f7a5db3c1c89841d8454b6f044b1d5db2c90a39789a5b6276d400735f826f45"
   },
   {
     "title": "Scaling Interactive Applications for Clinical & RWE Insights Best Practices for Adoption, Compliance, and Long-Term Impact",
@@ -3472,8 +3474,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_DV05.pdf"
     ],
     "filename": "PAP-DV05-46f93f733b.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DV05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DV05.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_DV05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_DV05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DV05.pdf",
+    "bytes": 202666,
+    "sha256": "991a21c4cd3390eba138de6d3be24911c43954d3d7c5074241c3dcd60a80ec3f"
   },
   {
     "title": "SCE White Paper 2.0 - A Modernised Framework for the Next Generation of Data Analysis",
@@ -3485,8 +3489,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_ET08.pdf"
     ],
     "filename": "PAP-ET08-79f33a9d0e.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET08.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_ET08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_ET08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET08.pdf",
+    "bytes": 205995,
+    "sha256": "7e21d6ba3feb35f8cf12e11e1afc29cb68c736b1a211448043abd3ac16c3037a"
   },
   {
     "title": "SDTM Automation: Implementation, Rollout and Lessons Learnt",
@@ -3498,8 +3504,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_DS16.pdf"
     ],
     "filename": "PAP-DS16-b11275a54c.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DS16.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DS16.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_DS16.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_DS16.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DS16.pdf",
+    "bytes": 279982,
+    "sha256": "61dc401278069a09078f4f7db800cff95fb588a3fc0d1ee1ad9b5ad6dfc05b58"
   },
   {
     "title": "SDTM Navigator: An Agent-Based LLM Framework for Automated Specification and Programming",
@@ -3511,8 +3519,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_SD03.pdf"
     ],
     "filename": "PAP-SD03-e998674bfc.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SD03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SD03.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_SD03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_SD03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SD03.pdf",
+    "bytes": 166849,
+    "sha256": "2b4cb7f8c25be7cc5ecb81599d4d3f658bb59787396a617364c64955a00c5b13"
   },
   {
     "title": "SDTMIG v4.0: Are You Ready For It?",
@@ -3524,8 +3534,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_DS13.pdf"
     ],
     "filename": "PAP-DS13-7976fcb2da.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DS13.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DS13.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_DS13.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_DS13.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DS13.pdf",
+    "bytes": 818192,
+    "sha256": "6154ed1a64209b95a0ff3e23649ea8fc3cb7cb0d8c87f91e7adda15e3cf9f51c"
   },
   {
     "title": "Semi-automating Case Report Form Annotations Using Python and a Metadata Repository",
@@ -3537,8 +3549,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_DH12.pdf"
     ],
     "filename": "PAP-DH12-7b4c9a913a.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DH12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DH12.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_DH12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_DH12.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DH12.pdf",
+    "bytes": 929551,
+    "sha256": "25fb715f55dcd8a6878f55e07ab3b03e118017aadf97daa18076d9228e371a0c"
   },
   {
     "title": "SpecToSAS: AI-Powered SAS Code Generation from Study Specs",
@@ -3550,8 +3564,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_ML19.pdf"
     ],
     "filename": "PAP-ML19-529bffe762.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML19.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML19.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_ML19.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_ML19.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML19.pdf",
+    "bytes": 1452848,
+    "sha256": "c1d4976f8adf44db86e16e4b4e80da65ede9f691d5f52aed71821ec536e7e8f6"
   },
   {
     "title": "Standardising Exposure-Response Data for Modelling and Simulation Using CDISC Principles and {admiral}",
@@ -3563,8 +3579,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_DS12.pdf"
     ],
     "filename": "PAP-DS12-d848101de1.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DS12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DS12.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_DS12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_DS12.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DS12.pdf",
+    "bytes": 139016,
+    "sha256": "53d8da6f5741584eda79697bfdb7b2e7c5587698a592d9f755f1d09f92a7aaf9"
   },
   {
     "title": "Statistical Programming Methods for Evaluating the Impact of Immunogenicity on Safety and Efficacy Outcomes",
@@ -3576,8 +3594,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_AS16.pdf"
     ],
     "filename": "PAP-AS16-1e2bbaa466.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS16.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS16.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_AS16.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_AS16.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS16.pdf",
+    "bytes": 658513,
+    "sha256": "3e9dc26162699061cf4db07bef3d5edde82fffcf0d8956a0ad568c3240daf99c"
   },
   {
     "title": "Straight to the Source: Interactive Visual Dashboards for Data Cleaning",
