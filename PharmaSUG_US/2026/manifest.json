@@ -459,8 +459,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_AS11.pdf"
     ],
     "filename": "PAP-AS11-95c997ad6d.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS11.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS11.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_AS11.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_AS11.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS11.pdf",
+    "bytes": 307316,
+    "sha256": "ddfe89c2aee77be9536037d775b31d4e4862832f8a6f3d32ea6d66aed9cb8acb"
   },
   {
     "title": "Around the Data DOSE-y Doe: Using DOSExx Variables within ADaM Datasets",
@@ -487,8 +489,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_SM06.pdf"
     ],
     "filename": "PAP-SM06-abc617c15d.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SM06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SM06.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_SM06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_SM06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SM06.pdf",
+    "bytes": 277077,
+    "sha256": "302716ed24fec838446b69cc11d9916fc0244e1a7c73e5c11533b2e42c499215"
   },
   {
     "title": "Automated Code Generation: Evaluating Deterministic and Probabilistic Approaches",
@@ -500,8 +504,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_ET03.pdf"
     ],
     "filename": "PAP-ET03-69fab2aff5.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET03.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_ET03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_ET03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET03.pdf",
+    "bytes": 109975,
+    "sha256": "abd182c432b254bb6b950a6ff060f515904862d14f52297529c8c5fde4d93014"
   },
   {
     "title": "Automated File Comparison and Validation Across Programming Platforms",
@@ -513,8 +519,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_SM09.pdf"
     ],
     "filename": "PAP-SM09-71802bb921.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SM09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SM09.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_SM09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_SM09.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SM09.pdf",
+    "bytes": 320800,
+    "sha256": "d23819d853d9277447b59bf329d2203b487d581c457469c46eb0599f40750297"
   },
   {
     "title": "Automated Programming Consistency Checks: Enhancing Clinical Programming Quality, Efficiency and Scalability",
@@ -526,8 +534,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_SM04.pdf"
     ],
     "filename": "PAP-SM04-be5baffaa3.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SM04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SM04.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_SM04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_SM04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SM04.pdf",
+    "bytes": 288096,
+    "sha256": "0c583be942976f0fbaa06b09b46ec9d81e8447eb569331521c75205c6f329623"
   },
   {
     "title": "Automating Analysis Report Programming in SAS with VGSART: A Metadata-Driven Approach",
@@ -539,8 +549,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_SM12.pdf"
     ],
     "filename": "PAP-SM12-0c22985842.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SM12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SM12.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_SM12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_SM12.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SM12.pdf",
+    "bytes": 906073,
+    "sha256": "8ea29681e4af2a9281217f1b80a71caf13934b7472fbf3da4b3924ebc378cb96"
   },
   {
     "title": "Automating SDTM Compliance: A Web-Based SDTM Quality Control Tool Enhancing Clinical Trial Data Integrity",
@@ -552,8 +564,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_PP03.pdf"
     ],
     "filename": "PAP-PP03-86291df669.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PP03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PP03.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_PP03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_PP03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PP03.pdf",
+    "bytes": 1646767,
+    "sha256": "f4e8c0d9947787c5b529f66e0806a485c0e216e7c61aceda9053b101d52f4d15"
   },
   {
     "title": "Automation vs AI: A Debate on Strategic Priorities in the Era of Data Science",
@@ -565,8 +579,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_ET05.pdf"
     ],
     "filename": "PAP-ET05-81b00c98fb.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET05.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_ET05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_ET05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET05.pdf",
+    "bytes": 321960,
+    "sha256": "ca56b2aff7c0a40103d04723c332d0826613f849e4890f73bb710805129c92d6"
   },
   {
     "title": "AutoProgramming: Agents Are All Y ou Need",
@@ -578,8 +594,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_ML03.pdf"
     ],
     "filename": "PAP-ML03-c3efc880a4.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML03.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_ML03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_ML03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML03.pdf",
+    "bytes": 257450,
+    "sha256": "e8e6fd16093619a48f7c6127e901f06b19a6a2dde617a0d580c7af081cfdb867"
   },
   {
     "title": "Balancing Privacy and Utility with Smart Anonymisation",
