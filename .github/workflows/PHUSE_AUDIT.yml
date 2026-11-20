@@ -1,19 +1,21 @@
 # Save as .github/workflows/PHUSE_AUDIT.yml
-# Read-only EU/APAC audit. No PDF downloads, changes, commits, or pushes.
-name: PHUSE EU APAC - Audit Completeness
+# Read-only US/EU/APAC audit. No PDF downloads, changes, commits, or pushes.
+name: PHUSE US EU APAC - Audit Completeness
 
 on:
   workflow_dispatch:
     inputs:
       region:
-        description: 'Conference collection to audit'
+        description: 'ALL = US + EU + APAC; BOTH = EU + APAC (legacy)'
         type: choice
         required: true
-        default: BOTH
+        default: ALL
         options:
-          - BOTH
+          - ALL
+          - US
           - EU
           - APAC
+          - BOTH
       year:
         description: 'all = every indexed year; or choose one year'
         type: string
@@ -24,7 +26,7 @@ permissions:
   contents: read
 
 concurrency:
-  # Audit after active download jobs, against a fresh checkout.
+  # Share the supplied download workflows' group to avoid concurrent writes.
   group: phuse-us-sync
   cancel-in-progress: false
 
@@ -33,10 +35,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 330
     steps:
-      - name: Check out the default branch
+      - name: Check out main
         uses: actions/checkout@v7
         with:
-          ref: ${{ github.event.repository.default_branch }}
+          ref: main
           persist-credentials: false
 
       - name: Set up Python
@@ -50,7 +52,7 @@ jobs:
       - name: Audit current website index against repository PDFs
         env:
           PYTHONUNBUFFERED: '1'
-          REGION: ${{ inputs.region || 'BOTH' }}
+          REGION: ${{ inputs.region || 'ALL' }}
           SELECTED_YEAR: ${{ inputs.year || 'all' }}
           REPORT_DIR: ${{ runner.temp }}/phuse-audit-report
         shell: bash
@@ -65,7 +67,6 @@ jobs:
           import re
           import subprocess
           import time
-          from collections import Counter
           from datetime import datetime, timezone
           from urllib.parse import urljoin, urlsplit, urldefrag, unquote
           from urllib.robotparser import RobotFileParser
@@ -76,6 +77,7 @@ jobs:
 
           AGENT = 'IndustryPapersArchiver'
           MAX_BYTES = 95 * 1024 * 1024
+
 
           class Fetcher:
               def __init__(self, delay=0.8):
@@ -94,8 +96,8 @@ jobs:
                       with self.session.get(robots_url, timeout=(15, 45)) as response:
                           print(f'ROBOTS {robots_url} -> HTTP {response.status_code}', flush=True)
                           parser = RobotFileParser(robots_url)
-                          # RFC 9309 2.3.1.3: robots 4xx is unavailable, not a site-wide ban.
-                          # 429 is retried as a temporary error. Actual PDF 401/403 still fails.
+                          # RFC 9309 2.3.1.3: unavailable robots is not a site-wide ban.
+                          # This does not authorize a PDF that itself returns 401/403.
                           if 400 <= response.status_code < 500 and response.status_code != 429:
                               parser.parse([])
                           else:
@@ -115,10 +117,10 @@ jobs:
                   time.sleep(max(0, interval - (time.monotonic() - self.last.get(origin, 0))))
                   self.last[origin] = time.monotonic()
 
-              def get(self, url, stream=False):
+              def get(self, url):
                   for _ in range(6):
                       self.policy(url)
-                      response = self.session.get(url, stream=stream, allow_redirects=False, timeout=(15, 90))
+                      response = self.session.get(url, allow_redirects=False, timeout=(15, 90))
                       if response.status_code in (301, 302, 303, 307, 308):
                           location = response.headers.get('Location')
                           response.close()
@@ -238,7 +240,6 @@ jobs:
                           info['pages'] = len(reader.pages)
                           if not info['pages']:
                               errors.append('PDF contains zero pages')
-                          # Check page trees and page content streams; not a complete PDF conformance test.
                           for page in reader.pages:
                               contents = page.get_contents()
                               if contents is not None:
@@ -345,7 +346,7 @@ jobs:
 
 
           def render_summary(report):
-              lines = ['# PHUSE EU / APAC completeness audit', '',
+              lines = ['# PHUSE US / EU / APAC completeness audit', '',
                        f'Overall: **{report["status"]}**',
                        f'Checked checkout: `{report.get("commit", "unknown")}`', '',
                        '| Region | Year | Site rows | Expected PDFs | Passed | Missing | Invalid | Review | Result |',
@@ -364,17 +365,28 @@ jobs:
               return '\n'.join(lines) + '\n'
 
 
-          def main(region='BOTH', year='all', report_dir=None):
+          def select_regions(region):
               region = region.upper().strip()
-              if region not in ('BOTH', 'EU', 'APAC') or (year != 'all' and not re.fullmatch(r'20\d{2}', year)):
-                  raise ValueError('region must be BOTH/EU/APAC, year must be all or a four-digit year')
+              if region == 'ALL':
+                  return ['US', 'EU', 'APAC']
+              if region == 'BOTH':
+                  return ['EU', 'APAC']
+              if region in ('US', 'EU', 'APAC'):
+                  return [region]
+              raise ValueError('region must be ALL/US/EU/APAC/BOTH; BOTH means EU + APAC only')
+
+
+          def main(region='ALL', year='all', report_dir=None):
+              regions = select_regions(region)
+              if year != 'all' and not re.fullmatch(r'20\d{2}', year):
+                  raise ValueError('year must be all or a four-digit year')
               output = Path(report_dir or os.getenv('REPORT_DIR', 'phuse-audit-report'))
               output.mkdir(parents=True, exist_ok=True)
               fetcher = Fetcher()
               report = dict(timestamp=datetime.now(timezone.utc).isoformat(), scope='Current index main source PDFs', years=[])
               proc = subprocess.run(['git', 'rev-parse', 'HEAD'], text=True, capture_output=True)
               report['commit'] = proc.stdout.strip() if proc.returncode == 0 else 'unknown'
-              for name in (['EU', 'APAC'] if region == 'BOTH' else [region]):
+              for name in regions:
                   index = f'https://saslexicon.org/PHUSE_{name}/PHUSE_{name}.html'
                   try:
                       years = discover_years(fetcher.text(index), index, name)
@@ -388,6 +400,7 @@ jobs:
                   for date, metadata in years.items():
                       try:
                           rows, expected = discover_papers(fetcher.text(metadata['url']), metadata['url'])
+                          # Deliberately no fallback to the old PharmaSUG_US location.
                           result = audit_year(name, date, Path(f'PHUSE_{name}') / date,
                                               expected, rows, metadata['advertised'])
                       except Exception as exc:
@@ -408,7 +421,7 @@ jobs:
 
 
           if __name__ == '__main__':
-              raise SystemExit(main(os.getenv('REGION', 'BOTH'), os.getenv('SELECTED_YEAR', 'all').strip()))
+              raise SystemExit(main(os.getenv('REGION', 'ALL'), os.getenv('SELECTED_YEAR', 'all').strip()))
           PYTHON
 
       - name: Upload detailed report even if audit fails
