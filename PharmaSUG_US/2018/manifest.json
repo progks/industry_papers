@@ -9,8 +9,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_RG08.pdf"
     ],
     "filename": "PAP-RG08-124e49f6b4.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_RG08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_RG08.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_RG08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_RG08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_RG08.pdf",
+    "bytes": 201110,
+    "sha256": "e1917958f4c4dc5e65d166c32685d59d1cc05e1925faa297a9c2b53bf9fc9627"
   },
   {
     "title": "A Gentle Introduction to R Graphics from a SAS Programmer's Perspective",
@@ -22,8 +24,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_DV07.pdf"
     ],
     "filename": "PAP-DV07-19c86aa65d.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DV07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DV07.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_DV07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_DV07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DV07.pdf",
+    "bytes": 1452886,
+    "sha256": "8130157524dac83c27ece7e893718b809a5d23733e548071d89f54615c564779"
   },
   {
     "title": "A Macro Tool to Find and/or Split Variable Text String Greater Than 200 Characters for Regulatory Submission Datasets",
@@ -35,8 +39,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_CT06.pdf"
     ],
     "filename": "PAP-CT06-3e685ac04e.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_CT06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_CT06.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_CT06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_CT06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_CT06.pdf",
+    "bytes": 239774,
+    "sha256": "a82d5ed65e89d42c9d7c24f33889578e1f3c45bf1f29d06a47b2ba0e0ef354cc"
   },
   {
     "title": "A Measurement Error Model Framework for Biomarkers based on Emerging Technologies",
@@ -48,8 +54,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_AB05.pdf"
     ],
     "filename": "PAP-AB05-31dcf55e28.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_AB05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_AB05.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_AB05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_AB05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_AB05.pdf",
+    "bytes": 402932,
+    "sha256": "0d67a1e07ab22e62d4096d9fcc5825d900a4752de6a34b985e9759bf26bc71fa"
   },
   {
     "title": "A Picture is Worth a Thousand Words; Analyzing Clinical Data with Sequencing Data",
@@ -61,8 +69,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_DV10.pdf"
     ],
     "filename": "PAP-DV10-7abd004d3c.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DV10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DV10.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_DV10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_DV10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DV10.pdf",
+    "bytes": 535510,
+    "sha256": "8e174f7f32a85467be68be78e9ae5a29c3b729195df17e6d193a3634b831dd56"
   },
   {
     "title": "A Practical and Efficient Method of Calculating Actual Time Since Last Dose Data in PK Analysis",
@@ -74,8 +84,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_CT02.pdf"
     ],
     "filename": "PAP-CT02-59dd02665e.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_CT02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_CT02.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_CT02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_CT02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_CT02.pdf",
+    "bytes": 168750,
+    "sha256": "3f3f0e2d84fbbdbe113e833a358aa574caed9418295fce66e3bf04b2843217d5"
   },
   {
     "title": "A Semantic NLP Approach for Structuring and Analysis of FDA Meeting Minutes Documents",
@@ -87,8 +99,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_TT07.pdf"
     ],
     "filename": "PAP-TT07-adde180ba0.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_TT07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_TT07.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_TT07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_TT07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_TT07.pdf",
+    "bytes": 276237,
+    "sha256": "2331e75ecc20d5ef1aff63ef7c41af0a84ac4028e7afe58cd987fb09c76693d0"
   },
   {
     "title": "A Standardized Collaborative Approach for Statistical Programming Project Information",
@@ -100,8 +114,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_SP10.pdf"
     ],
     "filename": "PAP-SP10-5093e40b3f.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_SP10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_SP10.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_SP10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_SP10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_SP10.pdf",
+    "bytes": 146998,
+    "sha256": "fcd2909acbe1d825458e14b430bda2f2eb2ac457dd28308b8206dca633b87354"
   },
   {
     "title": "A Statistics-based Tool to Inform Risk-based Monitoring Approaches",
@@ -113,8 +129,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_TT13.pdf"
     ],
     "filename": "PAP-TT13-baf13ca99a.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_TT13.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_TT13.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_TT13.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_TT13.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_TT13.pdf",
+    "bytes": 1278623,
+    "sha256": "3ac435087ecb36915695c2d379bbe79cf485da2086b7bde1a681961924fae392"
   },
   {
     "title": "A Successful Meta-Data Repository (MDR): It's About Managing Relationships",
@@ -126,8 +144,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_SI08.pdf"
     ],
     "filename": "PAP-SI08-e91f90db3f.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_SI08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_SI08.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_SI08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_SI08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_SI08.pdf",
+    "bytes": 429199,
+    "sha256": "749d4b691089337091ba93aa9f31d01a7228f39f03d0f08fcde838d36904443a"
   },
   {
     "title": "Achieving Highest Quality and Usability of SEND through Industry and Regulatory Collaboration",
