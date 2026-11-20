@@ -45,8 +45,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-TT04.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-TT04-a32298814c50.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 606438,
+      "sha256": "ab2fde5bae19a7dd3b356c700506462c5a87420fbc79fe031b2a3cd3f19169da",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/TT/PharmaSUG-2014-TT04.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC32.pdf",
@@ -59,8 +61,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC32.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC32-1c05cfd5ed10.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 207641,
+      "sha256": "1b57fde115cd65e522080cd26c246fce5046323777620a1a4ac5ebbebdfff11c",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC32.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-MS11.pdf",
@@ -73,8 +77,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-MS11.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-MS11-b14685d2152a.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 60810,
+      "sha256": "dcd80fa8096436c6fc4fd00ab03e2633bc038e120c8ea088c5074f8addca979f",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/MS/PharmaSUG-2014-MS11.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS11.pdf",
@@ -87,8 +93,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS11.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DS11-3a71d8678f3a.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 318939,
+      "sha256": "1f3908f0216cc78a25196f7be8fc663455241bcb8c17b37f7e674a5cb98d5170",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DS/PharmaSUG-2014-DS11.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HT04.pdf",
@@ -101,8 +109,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HT04.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-HT04-3baf97197d0c.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 281831,
+      "sha256": "7ae4adfd455ca6b7ec18bcd6017bd1f3536479bab6035ad8d67dfe37d9ac94ed",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/HT/PharmaSUG-2014-HT04.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC12.pdf",
@@ -115,8 +125,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC12.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC12-392c58048ef9.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 114233,
+      "sha256": "d61de27085349ed380003cff01a70b75b7e599153e02a194c7a27aeba7c89f9f",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC12.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC44.pdf",
@@ -129,8 +141,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC44.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC44-e71988298b1f.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 189753,
+      "sha256": "c394dd10961a904bd1d4e9f3f60f5dcb9c94baf307d9238093d3b124744289b8",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC44.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-SP06.pdf",
@@ -143,8 +157,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-SP06.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-SP06-319994ad5b50.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 645524,
+      "sha256": "2bf293d79174eec374f8d94d4535809d7c3d42fbf27e5245749d2d1aea66e354",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/SP/PharmaSUG-2014-SP06.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-MS01.pdf",
@@ -157,8 +173,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-MS01.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-MS01-7e3110e871e8.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 188433,
+      "sha256": "669fbca51db099fd0d1615eb4a1ec0755b75df564b654598b8820dcf2f8dc7d5",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/MS/PharmaSUG-2014-MS01.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO20.pdf",
@@ -171,8 +189,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO20.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-PO20-5645baa33140.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 120030,
+      "sha256": "e067fcaf05dfcb0266ac50605ad0610fa548fb0102b23a2e731777740bd5732c",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/PO/PharmaSUG-2014-PO20.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS15.pdf",
@@ -185,8 +205,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS15.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DS15-9071555d67f6.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 601268,
+      "sha256": "5f0e6229ab6c72459e505f8a7b13b999e2897731811b69b271ff5fb09b32ae7b",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DS/PharmaSUG-2014-DS15.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-SP05.pdf",
@@ -199,8 +221,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-SP05.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-SP05-61dec707a2e9.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 72559,
+      "sha256": "c7f80a5878d4ba8a3fe8ba33ee1de9e25d41e402b9c5c61c51c175cb20fe6105",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/SP/PharmaSUG-2014-SP05.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-SP07.pdf",
@@ -213,8 +237,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-SP07.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-SP07-44f57ea46e29.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 129827,
+      "sha256": "b42181963d453111d0bec797568d4a4004ed629514254d3c35896ba8d63cf78a",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/SP/PharmaSUG-2014-SP07.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC22.pdf",
@@ -227,8 +253,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC22.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC22-e163caf400d1.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 334770,
+      "sha256": "fd98410a6f0f80005b16c46999aa97ac7f4f49cf9599fca91697b313f1c33387",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC22.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB14.pdf",
@@ -241,8 +269,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB14.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-BB14-2cf96565bc41.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 218866,
+      "sha256": "cf6870095da889bfa127a8bb86402de08b8dc02d867e68a6ed506b9e07fef016",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/BB/PharmaSUG-2014-BB14.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC49.pdf",
@@ -255,8 +285,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC49.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC49-7bfe672b0c2a.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 51421,
+      "sha256": "dbe479bb6ab2fa9ddf4cee7aea3bd6fd44417551c0c2e761a53539331985d450",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC49.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC14.pdf",
@@ -269,8 +301,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC14.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC14-64025c450630.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 73834,
+      "sha256": "f7e109a8527ef4fd0551a0b575ae4693d9a31001e3526e2ddefa0f8b388d98d5",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC14.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO01.pdf",
@@ -283,8 +317,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO01.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-PO01-9b22464cba60.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 197513,
+      "sha256": "06537cc3de6c601d320b8bbc31219095138ca2360014d4eb83b5a7926df2ff16",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/PO/PharmaSUG-2014-PO01.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD14.pdf",
@@ -297,8 +333,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD14.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-AD14-fb315188e8b6.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 812914,
+      "sha256": "9a531a9050d9b72b90ad75dba7a7ec1b0e5ebb61fc32ba28591badd8a4f96755",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/AD/PharmaSUG-2014-AD14.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC08.pdf",
@@ -311,8 +349,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC08.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC08-5e4308a927dd.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 251840,
+      "sha256": "15a21ab6b661dbbc98b9787fa475cbbe7d517bf951dc549ffe771cd843f24054",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC08.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO13.pdf",
@@ -325,8 +365,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO13.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-PO13-f02b054e9043.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 651636,
+      "sha256": "1c91aeb63cbe5cb1e66419b866fa0bc9a86e11d76d7611a17ffaba44262f6ea8",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/PO/PharmaSUG-2014-PO13.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS09.pdf",
@@ -339,8 +381,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS09.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DS09-89630f5958a4.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 86605,
+      "sha256": "9ad842fcce80d92a677714c4b6e02ce5004795c6f5da155226106991a1535e04",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DS/PharmaSUG-2014-DS09.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS18.pdf",
@@ -353,8 +397,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS18.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DS18-cb51f6152ce8.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 51737,
+      "sha256": "e795962795dc55449dc39171c5d313ebbfdb56b9bb364ed9a9b9110ec5b05e1f",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DS/PharmaSUG-2014-DS18.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC09.pdf",
@@ -367,8 +413,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC09.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC09-22a8cb913597.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 31175,
+      "sha256": "82f934846c040caa8675ae310cf89c478b46eee3acb1176b0d3d3ddc6d72fdc3",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC09.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO19.pdf",
@@ -381,8 +429,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO19.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-PO19-e0bc4522f30f.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 5385107,
+      "sha256": "090584321a560d6dfd5d611fc0346d0cfae36e4b78ea1b0e56aec92a80a01c8c",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/PO/PharmaSUG-2014-PO19.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS07.pdf",
@@ -395,8 +445,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS07.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DS07-7747d3a672ac.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 232022,
+      "sha256": "3d6ba3ea52f1b9b24705dc0feac083f0fc484b4a1dd38883e10fc03a271fb45b",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DS/PharmaSUG-2014-DS07.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-TT02.pdf",
@@ -409,8 +461,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-TT02.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-TT02-1f55d214eb81.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 319991,
+      "sha256": "e93c1a8448d2d088b9392d2e8c6c1630b4410df27893b6da572933b11f017c2c",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/TT/PharmaSUG-2014-TT02.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-IB05.pdf",
@@ -423,8 +477,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-IB05.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-IB05-0127c3a95138.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 141114,
+      "sha256": "b7d461f76265a9b88c08c120ebdb7a2e6c914b4f51c07b6dab0546c3c47245e2",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/IB/PharmaSUG-2014-IB05.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB15.pdf",
@@ -437,8 +493,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB15.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-BB15-5dc260569257.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 1000604,
+      "sha256": "e4102a16c52640741c92165b5d1574f534baa628df19702ca18634363084676c",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/BB/PharmaSUG-2014-BB15.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DG12.pdf",
@@ -451,8 +509,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DG12.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DG12-acfe7ed9401b.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 713573,
+      "sha256": "978e6edcaf97270118ef40a64aca49484be7c58089f20d81605fe5ab905bbf12",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DG/PharmaSUG-2014-DG12.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB16.pdf",
@@ -465,8 +525,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB16.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-BB16-2c9dda25e2a3.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 226801,
+      "sha256": "47c58f2a14633b03059a2d8b852540cab72c12835bede062ec96e9e347130b92",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/BB/PharmaSUG-2014-BB16.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD06.pdf",
@@ -479,8 +541,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD06.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-AD06-2e27689293fa.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 631425,
+      "sha256": "a3b3af72e26155e76f370813c164017b3cf1876f7dcc5d1114d56f9928d04702",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/AD/PharmaSUG-2014-AD06.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-SP16.pdf",
@@ -493,8 +557,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-SP16.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-SP16-43393e887729.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 883089,
+      "sha256": "794e6fea94cf53c5b46586ac6ac94e5280fe871c5f5811cd6583ec6778ae73ff",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/SP/PharmaSUG-2014-SP16.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC21.pdf",
@@ -507,8 +573,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC21.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC21-e72a4034decc.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 296364,
+      "sha256": "d0c5c3186917d3eada59b1969dac2f315528aa4c2ab557e51d424c1663ec6458",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC21.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC10.pdf",
@@ -521,8 +589,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC10.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC10-db58f413c9eb.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 50132,
+      "sha256": "e63bd2593029757603aa9d3ecb66ce5f1cf99efe0e895e48824f1ebdd42f383f",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC10.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO16.pdf",
@@ -535,8 +605,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO16.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-PO16-4d69a4fe4af6.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 762847,
+      "sha256": "504979141387cb98d8f83aae22d9960bdc95d3b2d9602fcd5e2be290feace428",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/PO/PharmaSUG-2014-PO16.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD22.pdf",
@@ -549,8 +621,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD22.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-AD22-0be00e3df6c5.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 835955,
+      "sha256": "d82036a20b069a121bb45d531a01ab09680f90f8220e3f4255135a1573996161",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/AD/PharmaSUG-2014-AD22.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO09.pdf",
@@ -563,8 +637,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO09.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-PO09-2346968d2f7c.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 89269,
+      "sha256": "debc2b456af2a9b10f3a0837b034ffeb326082719e7f41de8b46cc2bd9a995af",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/PO/PharmaSUG-2014-PO09.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB12.pdf",
@@ -577,8 +653,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB12.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-BB12-52a86d6b24e7.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 44852,
+      "sha256": "e7b095f5ac453cc9c8f36e7d86cbd278e37c1c2a93e7f3e575d4ac026b5d22d0",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/BB/PharmaSUG-2014-BB12.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC20.pdf",
@@ -591,8 +669,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC20.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC20-a7935dba2152.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 51183,
+      "sha256": "a5f606781e22114edfd4e24cbeb927e65d8ecad25a8acb58ee280e60b619dd13",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC20.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-MS02.pdf",
@@ -605,8 +685,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-MS02.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-MS02-5cce41fea169.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 32735,
+      "sha256": "f63481dcc4fb8d4b02c60ff3e6249daff08c9eb4bddd019e728f36ec62cb9907",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/MS/PharmaSUG-2014-MS02.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CP05.pdf",
@@ -619,8 +701,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CP05.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CP05-8a926e84623b.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 164218,
+      "sha256": "1ded86477e8d64b4e3d91b505c8539acbc8166964e10316ecc6a688e812c22b2",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CP/PharmaSUG-2014-CP05.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CP09.pdf",
@@ -633,8 +717,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CP09.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CP09-55d86a6e9ebd.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 53305,
+      "sha256": "04b560f34876cd535138c3e073838cf2d51bb2da48c27952c40190410d0bda1d",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CP/PharmaSUG-2014-CP09.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CP07.pdf",
@@ -647,8 +733,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CP07.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CP07-50f950f74bd3.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 62107,
+      "sha256": "3ae6c8c29ff83c8deea70fd9a1233e0aaf507141aabc89b5d320e8e71c67d8a8",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CP/PharmaSUG-2014-CP07.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS14.pdf",
@@ -661,8 +749,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS14.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DS14-b143798dcc69.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 276174,
+      "sha256": "56e97cbddc425c1942185be6d5e0e4cafe8dad0528970da1021936f626788c24",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DS/PharmaSUG-2014-DS14.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO04.pdf",
@@ -675,8 +765,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO04.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-PO04-c7e4473a5476.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 373805,
+      "sha256": "4d9beef6837092efc250a4625359abf750f16780b113e73d5112dbc28816bd5b",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/PO/PharmaSUG-2014-PO04.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD08.pdf",
@@ -689,8 +781,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD08.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-AD08-eab5593192b0.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 271572,
+      "sha256": "35f90303055dd7a9f441fa898beb5fcddb665b4c15be04e13b78331cdb4aac93",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/AD/PharmaSUG-2014-AD08.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-IB01.pdf",
@@ -703,8 +797,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-IB01.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-IB01-9d96e4e08e4a.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 666793,
+      "sha256": "4940032b3e9b0762d78c4708cd8e9018117e83a567058bf17da71b9517cbe67e",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/IB/PharmaSUG-2014-IB01.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS08.pdf",
@@ -717,8 +813,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS08.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DS08-d28fabe65470.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 813657,
+      "sha256": "2130c55c8022eb7b0702cc9ede16c1d59ce3a1b3add6c4605c7124ef85620e69",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DS/PharmaSUG-2014-DS08.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC15.pdf",
@@ -731,8 +829,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC15.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC15-471f5e15bf2a.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 383851,
+      "sha256": "c7315ad07a6b3f6e792da1d5228d2b9a9a91a4946e0bdffe60bbe2b61b3ac821",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC15.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DG09.pdf",
@@ -745,8 +845,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DG09.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DG09-2bc3c9d65db4.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 324498,
+      "sha256": "97147c3312d86c2dfe5d35d7e760a3e44dcfde9d778092b21ed63ae7a18eda8b",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DG/PharmaSUG-2014-DG09.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-IB09.pdf",
@@ -759,8 +861,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-IB09.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-IB09-4215f0343748.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 53315,
+      "sha256": "a534319a4617cc578b3ce0bd913816da04544483cb9eff168ab08fb7f4b26ad8",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/IB/PharmaSUG-2014-IB09.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD21.pdf",
@@ -773,8 +877,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD21.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-AD21-d3c8f10ea6b8.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 290089,
+      "sha256": "acd399214a5b27826dd771ad447cccf03b78efc9719d80e12d1b0795760fdb7a",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/AD/PharmaSUG-2014-AD21.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB17.pdf",
@@ -787,8 +893,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB17.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-BB17-dd7f41297c92.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 585845,
+      "sha256": "f8638d72ddb6bbf8e57dfd677455afbd008d278c647ee1dcb0b7aad7d39b011d",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/BB/PharmaSUG-2014-BB17.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HA02.pdf",
@@ -801,8 +909,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HA02.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-HA02-545934604e77.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 295425,
+      "sha256": "4bc2f69635d425a463ccc6e3f3a87566ad6c7c79e674d2134ece9917c30f8174",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/HA/PharmaSUG-2014-HA02.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-IB03.pdf",
@@ -815,8 +925,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-IB03.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-IB03-7f364305739f.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 227542,
+      "sha256": "acdd7d43ff366b00791b070d31eb53a52e77256472abf92c0c27fa73d1e118c5",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/IB/PharmaSUG-2014-IB03.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO18.pdf",
@@ -829,8 +941,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO18.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-PO18-d7cb0a9f4074.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 901900,
+      "sha256": "d3ca8a10b03d96f15daa6e8672f0befe1a64b86614481f3256101eb9df3c6aae",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/PO/PharmaSUG-2014-PO18.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS03.pdf",
@@ -843,8 +957,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS03.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DS03-862e1112e552.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 163115,
+      "sha256": "27f4bf2d9d5f26ec0133f953ef21a173f2e276ea4973075f4f4b7f02507bb912",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DS/PharmaSUG-2014-DS03.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS04.pdf",
@@ -857,8 +973,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS04.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DS04-0c5615bf6614.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 49305,
+      "sha256": "e43d7e0c762ce612eeeae6477fd90c7bda0a7e2149932b4a7dc8e1b560b580e9",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DS/PharmaSUG-2014-DS04.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD01.pdf",
@@ -871,8 +989,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD01.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-AD01-bfdc015734ce.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 172594,
+      "sha256": "51a8af05eb5b4fcf9e10c2b685a6dba95ec57fa90fd6b3d2cce493dd08cbcfbb",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/AD/PharmaSUG-2014-AD01.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-IB04.pdf",
@@ -885,8 +1005,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-IB04.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-IB04-9973aafed18c.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 426254,
+      "sha256": "71cd7b21e73d37f9758fbfec08d4e3b245efe08257ccd82f5dd77ff9cda1d737",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/IB/PharmaSUG-2014-IB04.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO24.pdf",
@@ -899,8 +1021,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO24.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-PO24-49b2901a06db.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 741872,
+      "sha256": "e8831ba6016f3e4c55bffa3f103a4a58ddd49c199092b6b27d053b981094bb44",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/PO/PharmaSUG-2014-PO24.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CP03.pdf",
@@ -913,8 +1037,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CP03.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CP03-f081b2808aa6.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 28627,
+      "sha256": "e222c5551bee1329481588dfa3ad21f2f53147821d2e91078af6642188caf4e4",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CP/PharmaSUG-2014-CP03.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-SP14-SAS.pdf",
@@ -927,8 +1053,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-SP14-SAS.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-SP14-SAS-3b3acb6d8594.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 2350369,
+      "sha256": "2b82ce619b9d25f78f7619ac7e4b54b0ba3614bfde7a8f174f26dce27554a34f",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/SP/PharmaSUG-2014-SP14-SAS.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS23-SAS.pdf",
@@ -941,8 +1069,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS23-SAS.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DS23-SAS-524eba33e6d1.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 1362880,
+      "sha256": "851f38696971a1f9dda6411c6983d04b0a9f817dd801e912e942877069f736ea",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DS/PharmaSUG-2014-DS23-SAS.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD02.pdf",
@@ -955,8 +1085,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD02.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-AD02-e49663019079.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 492293,
+      "sha256": "80264ea5f0de0eff6dc80b1d4974c9a47139f0833de340ca262b958b0728a84c",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/AD/PharmaSUG-2014-AD02.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HT08-SAS.pdf",
@@ -969,8 +1101,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HT08-SAS.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-HT08-SAS-9ade14d95b66.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 582727,
+      "sha256": "937fc29408ccb5dbc6d6016e6e50f326410da31154809a0483a0a1e80e1b405a",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/HT/PharmaSUG-2014-HT08-SAS.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC48.pdf",
@@ -983,8 +1117,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC48.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC48-163f95896da3.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 272688,
+      "sha256": "d649adbd25f7c2ca21f801ed729628f6c1e4b3205192519295f9208683b57463",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC48.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB04.pdf",
@@ -997,8 +1133,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB04.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-BB04-c6383c4d329f.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 82498,
+      "sha256": "b3c4aedb7c7f3b7b73ea653038af086eb00ff671981568f69ed8757c79bcd41c",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/BB/PharmaSUG-2014-BB04.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS05.pdf",
@@ -1011,8 +1149,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS05.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DS05-2bb58ada5998.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 240651,
+      "sha256": "f71e93a2f12eea0549fc97f5592e87b9bb78ad2db5b6e3c58af28872f65dffee",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DS/PharmaSUG-2014-DS05.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD11.pdf",
@@ -1025,8 +1165,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD11.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-AD11-72a3573e3ab5.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 748670,
+      "sha256": "03244e0c35b98c36019123f3d281935a31e44604f5535fb708c65e759865b0bd",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/AD/PharmaSUG-2014-AD11.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB19.pdf",
@@ -1039,8 +1181,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB19.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-BB19-0cad9c3f8a2b.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 296501,
+      "sha256": "a05f8687e2e80dcf6784b2f8d8b0ef846a0ef5697bc1191d1e151dd1a5f73260",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/BB/PharmaSUG-2014-BB19.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-SP03.pdf",
@@ -1053,8 +1197,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-SP03.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-SP03-011bcdbf429c.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 589263,
+      "sha256": "9aec70e5b350aa1cc543be224de76390a4ce9862af80d54700abae05ba532f08",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/SP/PharmaSUG-2014-SP03.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD10.pdf",
@@ -1067,8 +1213,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD10.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-AD10-dac1c07d1e2c.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 182923,
+      "sha256": "85b7e36401c8ca3bfb159d33e601a0b839661e389003259ebbdba18c6911b84e",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/AD/PharmaSUG-2014-AD10.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-MS08.pdf",
@@ -1081,8 +1229,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-MS08.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-MS08-7e5484214af1.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 96808,
+      "sha256": "55517a6e321512a6dec09d7a9605c3ddc016be3e9fba403a70a37d78e51f97f6",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/MS/PharmaSUG-2014-MS08.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD04.pdf",
@@ -1095,8 +1245,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD04.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-AD04-fb44914899e6.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 80411,
+      "sha256": "d000bee579dfea8271df9ae6fe5c8440e1cb5b6f84fb82f13e57d0447fbc4ac3",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/AD/PharmaSUG-2014-AD04.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO08.pdf",
@@ -1109,8 +1261,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO08.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-PO08-1daf736530ab.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 451157,
+      "sha256": "7992d56b3f3989c9383c938678117d939ea382cd4046fed2a652983b18411490",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/PO/PharmaSUG-2014-PO08.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS10.pdf",
@@ -1123,8 +1277,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS10.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DS10-1df58de97a91.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 374547,
+      "sha256": "e853ee375695f647fac0d1e87bffaa8380ec52c31126b0c757e00366b30faa9a",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DS/PharmaSUG-2014-DS10.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DG03.pdf",
@@ -1137,8 +1293,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DG03.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DG03-33ccd4c7eb3d.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 57100,
+      "sha256": "242357c17fd74da6bc63f06382d6112c4317d1116809dcef07a59db61396863f",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DG/PharmaSUG-2014-DG03.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS01.pdf",
@@ -1151,8 +1309,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS01.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DS01-6a43cdf43675.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 1444520,
+      "sha256": "8e29df0c03a1964aa502af5acb9b93fcc25108df514c6742cb0fb7f15e446ee5",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DS/PharmaSUG-2014-DS01.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-MS03.pdf",
@@ -1165,8 +1325,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-MS03.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-MS03-6b544bd9b360.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 109575,
+      "sha256": "c4b0d39e5bde3bd17d6e9005ec54acb4014f52e9745132101aae91722c00617d",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/MS/PharmaSUG-2014-MS03.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD18.pdf",
@@ -1179,8 +1341,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD18.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-AD18-dc61a4fe6575.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 273201,
+      "sha256": "83e5e4c7f68c8a731d6ff5a1486728c575cf8b154c646f0ab2b243f7fd998782",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/AD/PharmaSUG-2014-AD18.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS12.pdf",
@@ -1193,8 +1357,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS12.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DS12-3364e81e218a.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 401927,
+      "sha256": "69e0d3fd32e62ce32b1bedc5ad80323a054faf5c95bfecaa14f1b75fe7720865",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DS/PharmaSUG-2014-DS12.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB20.pdf",
@@ -1207,8 +1373,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB20.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-BB20-25fc9a6cbe25.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 117864,
+      "sha256": "6f680c08010b30518d2c0eb52e76f8a3a52db606b6770d8938d4c5e124728ea4",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/BB/PharmaSUG-2014-BB20.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CP06.pdf",
@@ -1221,8 +1389,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CP06.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CP06-f736421509b2.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 204383,
+      "sha256": "ffda7e9c8bc055599fe282fb7269c200b743cbd28ed3e51194ae5c24a45b786b",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CP/PharmaSUG-2014-CP06.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HA10.pdf",
@@ -1235,8 +1405,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HA10.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-HA10-e307c53f8c00.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 548980,
+      "sha256": "2c398089ecabd62b46de2feabe7594507390565e06ea73244d827c53cc4d4f99",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/HA/PharmaSUG-2014-HA10.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO15.pdf",
@@ -1249,8 +1421,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO15.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-PO15-c7b22d5a4342.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 1214880,
+      "sha256": "624200ed97dec3883f70e23cfd4d407da36a6a0a326670dfe27ffdbd34dee4b2",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/PO/PharmaSUG-2014-PO15.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD27.pdf",
@@ -1263,8 +1437,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD27.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-AD27-05cf60ab0f4b.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 412758,
+      "sha256": "b27691d140eec480bd94827d246513bcba47b381a6028b6fad2628da5c737450",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/AD/PharmaSUG-2014-AD27.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB08.pdf",
@@ -1277,8 +1453,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB08.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-BB08-9ec3bcfedf7a.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 80138,
+      "sha256": "0160a6045ee5e9d2dc7b3ef94b2e0cefd915a8cb3f2ef956a397bb67baf50915",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/BB/PharmaSUG-2014-BB08.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-SP01.pdf",
@@ -1291,8 +1469,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-SP01.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-SP01-5e0b3af3325f.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 99070,
+      "sha256": "4737673317bd71fa3897a7da30afde0d846e2fa08f4c3c60b746c6d0d2199a21",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/SP/PharmaSUG-2014-SP01.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB07.pdf",
@@ -1305,8 +1485,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB07.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-BB07-4b25a2f4ffe7.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 156794,
+      "sha256": "3af03264072ee745fe52cef4733a87c37f83725526007e34e5ce8361ae84e04b",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/BB/PharmaSUG-2014-BB07.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS02.pdf",
@@ -1319,8 +1501,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS02.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DS02-ae0df79cb6ea.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 151522,
+      "sha256": "0b4ed512fd08dafd404e4a5e83607646401914fe3053a24f511a23b336ddf37c",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DS/PharmaSUG-2014-DS02.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-IB07.pdf",
@@ -1333,8 +1517,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-IB07.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-IB07-74f9341b2b02.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 767788,
+      "sha256": "1f85854fc1be52f35cb4747182cda7200856cc87f25f629c424125f5f2894775",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/IB/PharmaSUG-2014-IB07.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-TT06.pdf",
@@ -1347,8 +1533,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-TT06.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-TT06-cbb5d9e52f30.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 107133,
+      "sha256": "f0f1a73efc4d707159a3e794f63f1ebc5327be7c3e9f3fa32164cf9bf56e4ba0",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/TT/PharmaSUG-2014-TT06.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC43.pdf",
@@ -1361,8 +1549,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC43.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC43-9bdaa6671452.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 206683,
+      "sha256": "216101171531af2b725040dec9f7651a585c571b42b575e8a91d9d0450d47a80",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC43.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-IB06.pdf",
@@ -1375,8 +1565,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-IB06.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-IB06-f04d0e4dfab4.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 205373,
+      "sha256": "86d75b31368d218f7c346b3cfae619afa168a9c4c8287acb2035bf18d01689de",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/IB/PharmaSUG-2014-IB06.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DG02.pdf",
@@ -1389,8 +1581,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DG02.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DG02-156ed4d58599.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 251801,
+      "sha256": "0f9d4d6db035ba10dd0b39ee3059c7c113d388feb534a72049e5fa9ae2959f33",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DG/PharmaSUG-2014-DG02.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO11.pdf",
@@ -1403,8 +1597,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO11.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-PO11-c4937a0de86d.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 635403,
+      "sha256": "3504ef214aded67202a7df69ab620e34f3102969b46119848707d955e95f7e3a",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/PO/PharmaSUG-2014-PO11.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-SP02.pdf",
@@ -1417,8 +1613,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-SP02.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-SP02-91cf01636ac1.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 395795,
+      "sha256": "ca3a7b4bc68a0c6c890949e224a1cb5b76382df1de66b00ae3038cdf5514857d",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/SP/PharmaSUG-2014-SP02.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HT03.pdf",
@@ -1431,8 +1629,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HT03.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-HT03-d90c2baef16d.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 211958,
+      "sha256": "fcdc0187c43b5641a9edd19ea4d35ca477b5381ed9e98fc8312b3641c8648262",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/HT/PharmaSUG-2014-HT03.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC05.pdf",
@@ -1445,8 +1645,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC05.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC05-c5427e4151d4.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 38459,
+      "sha256": "96562080274cc6a33ff281d4bee12e46dd6e0e09178e34a6edcf50664002be0e",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC05.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO17.pdf",
@@ -1459,8 +1661,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO17.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-PO17-005388486bbd.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 142025,
+      "sha256": "1997d4cca74a584b2646b4700736b2a32a45bbd7fd0a076ae321eb9f55556413",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/PO/PharmaSUG-2014-PO17.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC01.pdf",
@@ -1473,8 +1677,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC01.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC01-e4b6f62f1077.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 1268367,
+      "sha256": "6e5090349c51938f7aa1f263efef0e6acf7f433109a3c122d2dc4c01d8d206be",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC01.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-MS05.pdf",
@@ -1487,8 +1693,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-MS05.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-MS05-641b8818af46.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 239924,
+      "sha256": "af93622af62f116df8a548746e50f40a15b0df168485dc93ea09a303e9ef7f70",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/MS/PharmaSUG-2014-MS05.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS13.pdf",
@@ -1501,8 +1709,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS13.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DS13-a41f743f195e.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 417881,
+      "sha256": "0126ec2d9d9e0095744552209309bf173b1af859fa32919f09c7d7f773ce4c2d",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DS/PharmaSUG-2014-DS13.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DG13.pdf",
@@ -1515,8 +1725,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DG13.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DG13-505431896151.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 897432,
+      "sha256": "46967d3e852db9daca6b190582d06bc6c40ead399758807f68db5351de3787ce",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DG/PharmaSUG-2014-DG13.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB05.pdf",
@@ -1529,8 +1741,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB05.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-BB05-8a180ef4d464.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 207076,
+      "sha256": "856e2ed05496be8103f9fff900869a1f18572248d5315f52156592ca925c87de",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/BB/PharmaSUG-2014-BB05.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB01.pdf",
@@ -1543,8 +1757,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB01.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-BB01-e2323158b65d.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 177236,
+      "sha256": "90d279eaf63da5a2715d14c295134025703b275ca80d63886bbc075d56d40048",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/BB/PharmaSUG-2014-BB01.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC40.pdf",
@@ -1557,8 +1773,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC40.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC40-600eb6c50e01.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 83590,
+      "sha256": "4afa2f73fc3791137603af3b1b16309debee7ae21ab860726fe122f89df6346e",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC40.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-TT13.pdf",
@@ -1571,8 +1789,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-TT13.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-TT13-160413bc1e97.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 524917,
+      "sha256": "dbab6119fcaec5a9db291d44e127350d4b3d4a1e25b9be6e028afaa8bd0276a3",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/TT/PharmaSUG-2014-TT13.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-TT08.pdf",
@@ -1585,8 +1805,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-TT08.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-TT08-75818757edf6.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 146797,
+      "sha256": "c1ba978962261e97d03f3686647a2226bc428ef060a9cab38de5a472a671c632",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/TT/PharmaSUG-2014-TT08.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC47.pdf",
@@ -1599,8 +1821,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC47.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC47-ef9803a9f8ff.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 1661267,
+      "sha256": "9f4702cacb1d5862cfe1b0be74ca6c243cea671d13f8bb50ef2cb9d2a0b1cd56",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC47.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DG05.pdf",
@@ -1613,8 +1837,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DG05.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DG05-a37a6ad6e78e.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 1113850,
+      "sha256": "46afedfd2db4aa37258b76e152d8687ec442299ffb9650d2cee2483c41eb6d9c",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DG/PharmaSUG-2014-DG05.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-MS10.pdf",
@@ -1627,8 +1853,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-MS10.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-MS10-41e230482842.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 104733,
+      "sha256": "324c517d63ea429ca5f7dfc5d33c1e92a1fb960ce20db2d54edbf8d2e4f2d004",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/MS/PharmaSUG-2014-MS10.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB13.pdf",
@@ -1641,8 +1869,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB13.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-BB13-be60b489ae20.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 680879,
+      "sha256": "979858554841f5ce0b15a376e832d80bde19e3d2d1d45c6f3010d8a3951aa603",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/BB/PharmaSUG-2014-BB13.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC19.pdf",
@@ -1655,8 +1885,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC19.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC19-31121d8927e9.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 143009,
+      "sha256": "e65fb8b35c4529de81d497e7e940a6324512ab1d733a9f7977d19af97b826040",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC19.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC02.pdf",
@@ -1669,8 +1901,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC02.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC02-9dfd5090031b.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 358224,
+      "sha256": "3d0f9982d3fb80f6602492fabf79d0b76e79105d8b6cefc7c48ea013b416897f",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC02.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC38.pdf",
@@ -1683,8 +1917,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC38.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC38-ee5b1197805f.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 168715,
+      "sha256": "37e6cf790e97cd59878f6a84fe27243172b34fcd41237df5f85f990d49c5fe75",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC38.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD13.pdf",
@@ -1697,8 +1933,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD13.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-AD13-1f7f935ebb83.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 513365,
+      "sha256": "f4d221d1b251c7591f005db0a8c239a77333e0c7da05afbc329733ccffe5ac35",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/AD/PharmaSUG-2014-AD13.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC31.pdf",
@@ -1711,8 +1949,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC31.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC31-2cc791c6d99a.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 136055,
+      "sha256": "b5ae618a3e4a9364220199e8f0342dfebbcf3771b7e5e8a120ee363dc3cc428d",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC31.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-TT12.pdf",
@@ -1725,8 +1965,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-TT12.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-TT12-5c7a1447a06a.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 62073,
+      "sha256": "356a9b00b628bbc90ef42c94aaebe8a449a34a12dd8b708d7ffdc216656383a9",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/TT/PharmaSUG-2014-TT12.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HA04.pdf",
@@ -1739,8 +1981,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HA04.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-HA04-fc0aa80f3fad.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 161259,
+      "sha256": "9653b5384f27bea165b0ecdd4a03f19e6f6e15c52f0137fb5c5f4e0939647a30",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/HA/PharmaSUG-2014-HA04.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-TT15.pdf",
@@ -1753,8 +1997,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-TT15.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-TT15-d3454f17ac1a.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 442213,
+      "sha256": "498bc73f51781874b6df24bad9d1afe9ba79de4e5fad1e945759c9585f8eb989",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/TT/PharmaSUG-2014-TT15.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC36.pdf",
@@ -1767,8 +2013,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC36.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC36-ec50d8699afb.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 139218,
+      "sha256": "13ca123cc743a14f47b25f1f220f72cc875cfcadaa538772f59d2b2035119955",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC36.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD09.pdf",
@@ -1781,8 +2029,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD09.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-AD09-7e111459bd4e.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 956269,
+      "sha256": "cd6df509afa9f7fd6df7d09fd63fe54bdb1db2474c971e33783fb83fbff82f7a",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/AD/PharmaSUG-2014-AD09.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC18.pdf",
@@ -1795,8 +2045,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC18.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC18-489b0b5c1d2d.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 276518,
+      "sha256": "8df76cace787a3dff23828991ed93783c55401c7af7f6ad1a9d23e1a3d233cdb",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC18.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD12.pdf",
@@ -1809,8 +2061,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD12.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-AD12-513ae95ed5aa.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 508149,
+      "sha256": "93f06479cb0f24f4e5d3cdbcd7352fffab7f2c0a75f02108b203a6f545759675",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/AD/PharmaSUG-2014-AD12.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD20.pdf",
@@ -1823,8 +2077,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD20.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-AD20-4b012cc1dd4e.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 398786,
+      "sha256": "53aed47b9900b9845b0dda65f4ee34f8555920c70ad17801c502a89891228209",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/AD/PharmaSUG-2014-AD20.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD23.pdf",
@@ -1837,8 +2093,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD23.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-AD23-29512cb33ae8.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 688659,
+      "sha256": "d24c496ce08e46589f8776038529a209f19df8c2a56d5040ee532c5c3567fc9b",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/AD/PharmaSUG-2014-AD23.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-SP08.pdf",
@@ -1851,8 +2109,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-SP08.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-SP08-25ceea3ced7b.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 125821,
+      "sha256": "9f5ebf1765677184308b4e6eb8bbbd452e64085d80a10215eede22bfa01e88e7",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/SP/PharmaSUG-2014-SP08.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-TT01.pdf",
@@ -1865,8 +2125,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-TT01.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-TT01-cf280adbf26c.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 2569883,
+      "sha256": "a70e2ac28a7901d36d6016e9a9443ea013fef1073e218784dacba037d0f1bb33",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/TT/PharmaSUG-2014-TT01.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-MS09.pdf",
@@ -1879,8 +2141,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-MS09.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-MS09-90652f6f7ac0.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 191959,
+      "sha256": "9c6697f3fee882e915aa5f9411913645759cb7d4f452588ae802c46be41c2e97",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/MS/PharmaSUG-2014-MS09.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD24.pdf",
@@ -1893,8 +2157,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD24.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-AD24-4681089113c5.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 354879,
+      "sha256": "c6edc22f7d31d1712d79a410ab82459eaded58c0d5056787a55d701521928797",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/AD/PharmaSUG-2014-AD24.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DG08.pdf",
@@ -1907,8 +2173,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DG08.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DG08-3b83bec011b1.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 756788,
+      "sha256": "991a29ff59664ad7166a0cada14c3b0001c52771e61474b59243ce9ede8bbfa9",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DG/PharmaSUG-2014-DG08.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC16.pdf",
@@ -1921,8 +2189,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC16.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC16-4706dfb3fb5a.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 275830,
+      "sha256": "58db068e20b14b1cd9d4132af1a68f5ac00971def3810b233a15a0c31c7df8a0",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC16.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC23.pdf",
@@ -1935,8 +2205,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC23.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC23-3789f5134468.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 290395,
+      "sha256": "09a8548cac396ea4ab4c2262f4b8ee2466a5003b8f7edad011f681426cd6d7a3",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC23.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DG10.pdf",
@@ -1949,8 +2221,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DG10.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DG10-18d28a290c45.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 641326,
+      "sha256": "17229f45502f5058c61360e4b26bbef26d0295fb1d40e1ca2b346c24fe0eef26",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DG/PharmaSUG-2014-DG10.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS16.pdf",
@@ -1963,8 +2237,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS16.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DS16-5785242e8de5.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 291691,
+      "sha256": "c73cd48b7dc83001036bd0922d4778c3fbca7a7e9f88aabff3465509e3f722b2",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DS/PharmaSUG-2014-DS16.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-SP10.pdf",
@@ -1977,8 +2253,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-SP10.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-SP10-43873272d616.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 482533,
+      "sha256": "94f91a3b6d97c13fc6f48aceab7f03a1e972df76735365ff33dbf40a48904d27",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/SP/PharmaSUG-2014-SP10.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CP04.pdf",
@@ -1991,8 +2269,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CP04.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CP04-57beaa384b70.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 183301,
+      "sha256": "0d0c46994cd325f5fe5766edaeda7085d6f817fba176505aa1d0a8ea36db271d",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CP/PharmaSUG-2014-CP04.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CP08.pdf",
@@ -2005,8 +2285,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CP08.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CP08-2f242dff4379.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 205748,
+      "sha256": "564151267055769da6d6a39af394871cfd0d0813d17206584956522f313dce1c",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CP/PharmaSUG-2014-CP08.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HT02-SAS.pdf",
@@ -2019,8 +2301,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HT02-SAS.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-HT02-SAS-50a96d3df57e.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 767727,
+      "sha256": "4752c89c93750b3637329abc20c91c26f2708b8f1ffd0bacb9d7e630d04546e3",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/HT/PharmaSUG-2014-HT02-SAS.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC41.pdf",
@@ -2033,8 +2317,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC41.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC41-aa338139fb5d.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 194899,
+      "sha256": "a30e9a8cde3b996a68100f1ff3e4a6f3c0e7fd7a84d30af6cd327a94c0508228",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC41.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC07.pdf",
@@ -2047,8 +2333,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC07.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC07-e56a0aff7666.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 78236,
+      "sha256": "97249f26052b34062f26f841004a5f57be533b59fad034628b7a60d6680bc577",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC07.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-TT05.pdf",
@@ -2061,8 +2349,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-TT05.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-TT05-7eb980af775d.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 184960,
+      "sha256": "4cfd7796c99feafd9f6d3b16d47da685df4b58a20434f8281260ed27278c0ca7",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/TT/PharmaSUG-2014-TT05.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO12.pdf",
@@ -2075,8 +2365,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO12.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-PO12-c1a6b541da48.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 787597,
+      "sha256": "98fb47b31c925f887d40f2275e76527aa4da3952491ef5ec556fe99c604fbeb9",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/PO/PharmaSUG-2014-PO12.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HT01.pdf",
@@ -2089,8 +2381,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HT01.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-HT01-a63c27960d0f.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 289178,
+      "sha256": "b3b49c746d0535ccf3454b414c8dca2f2a006c0e99de37682101a96d82953ee2",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/HT/PharmaSUG-2014-HT01.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC33.pdf",
@@ -2103,8 +2397,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC33.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC33-0cc38d04f13c.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 204289,
+      "sha256": "f6def1aa836e0ad1dbf6a9daed8b3628d57241252d294b186c91c98eb61fba34",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC33.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC29.pdf",
@@ -2117,8 +2413,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC29.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC29-ed772d3851a2.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 149390,
+      "sha256": "4085ad5bc67fb8e4fcdb54e284515005e67f5b6f88ee73f2e7ec4edb6317462a",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC29.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC03.pdf",
@@ -2131,8 +2429,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC03.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC03-5526ce65292e.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 226581,
+      "sha256": "5990fb6ee4ae174cc03daa1d9fb27fac993b662486e300409e6488ffae8f916d",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC03.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-MS12.pdf",
@@ -2145,8 +2445,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-MS12.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-MS12-07bd4eb15f3d.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 34123,
+      "sha256": "8474043baf25d21b36920236c59c35b0d730db4ffd0991de4b2ace36821ec131",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/MS/PharmaSUG-2014-MS12.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC37.pdf",
@@ -2159,8 +2461,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC37.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC37-6089f90a96da.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 190279,
+      "sha256": "af93826d68ed41efbb27e8bc8b1a2ee3002d22b2ed568fd4d05a2a1832a176d6",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC37.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS06.pdf",
@@ -2173,8 +2477,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS06.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DS06-8d23fbde33a6.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 508680,
+      "sha256": "135f17eec3c871fad9be9936e658a5de5467f0f7fc3fbce486e302c16ffc708f",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DS/PharmaSUG-2014-DS06.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HA01.pdf",
@@ -2187,8 +2493,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HA01.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-HA01-4cc664660f22.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 4769421,
+      "sha256": "63d6fe4d787c48c0fb83dd899875a36222362389e2d983037d2efa06f0fd2f02",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/HA/PharmaSUG-2014-HA01.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB18.pdf",
@@ -2201,8 +2509,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB18.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-BB18-732dae09a459.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 888473,
+      "sha256": "b28d5a4e8eb650535b1fca3a72abcd3cbb6848fdf66abac51e261682f9beeb90",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/BB/PharmaSUG-2014-BB18.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-JP01-SAS.pdf",
@@ -2215,8 +2525,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-JP01-SAS.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-JP01-SAS-1ad5f6113e18.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 990654,
+      "sha256": "89e29f402e3489474ae3eff09313dac3b74568208b3c59aaa348ab1b6ff87d40",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/JP/PharmaSUG-2014-JP01-SAS.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS21-SAS.pdf",
@@ -2229,8 +2541,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS21-SAS.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DS21-SAS-4170002ed39d.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 408072,
+      "sha256": "9323506da9bf1a2c63b9abd984e9729504096e8c4d0ce61f8577e969374964df",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DS/PharmaSUG-2014-DS21-SAS.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO14.pdf",
@@ -2243,8 +2557,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO14.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-PO14-13d1570515ea.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 661249,
+      "sha256": "8d677848e82012df79641a8ce656fd5694e03e8c7556bcb48493d1a4e7df64d4",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/PO/PharmaSUG-2014-PO14.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-SP09.pdf",
@@ -2257,8 +2573,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-SP09.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-SP09-3e39cf74ec98.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 78128,
+      "sha256": "e1771aea4eab005ac5dcdc0ec79c77c0893887c67eade2eac228ec28cdb0eafa",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/SP/PharmaSUG-2014-SP09.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS19.pdf",
@@ -2271,8 +2589,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS19.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DS19-2ba394d9741c.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 731811,
+      "sha256": "eee40e6a5776137c3c27335164e2b03ba2ada2a21b19c62433bed935a5637060",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DS/PharmaSUG-2014-DS19.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO07.pdf",
@@ -2285,8 +2605,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO07.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-PO07-6aaa701d0e46.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 274839,
+      "sha256": "8bfc3427fb95542804b826d6f0f9cfad17bb0442900558906979eb390fe35d19",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/PO/PharmaSUG-2014-PO07.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC25.pdf",
@@ -2299,8 +2621,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC25.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC25-291c7747b588.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 27399,
+      "sha256": "e09cb8dc937f501619eb0e5ef09cf0857ad406bbf0acbe805bd4e1595cd57f75",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC25.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HT07.pdf",
@@ -2313,8 +2637,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HT07.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-HT07-d4e20196f3de.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 1852372,
+      "sha256": "dbebe00f86709926c79ca310d196aed4bfda5fe7ff988bb2238fec25f563259c",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/HT/PharmaSUG-2014-HT07.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC45.pdf",
@@ -2327,8 +2653,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC45.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC45-2ec720db65cc.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 236857,
+      "sha256": "63642acea4a1a4d8edc5d9c1f2fc0d30cf293f6921c8f02e1bc2973ec0e19656",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC45.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CP02.pdf",
@@ -2341,8 +2669,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CP02.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CP02-562906107de0.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 730689,
+      "sha256": "28660fd356b62fc4245073aab6444d211744964ff0fa0e841d8135d13210ccfe",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CP/PharmaSUG-2014-CP02.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HT06.pdf",
@@ -2355,8 +2685,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HT06.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-HT06-2f70442adf42.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 245334,
+      "sha256": "dbff40f1e1de527f395554078b416dd959043a2bc7ae86f4a9a420f175be251a",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/HT/PharmaSUG-2014-HT06.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC04.pdf",
@@ -2369,8 +2701,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC04.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC04-9292dbec343b.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 117384,
+      "sha256": "59b83c68718ac15eed78af2a55dd7d6f8d323df5336aab84b0d577b8c7711ff3",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC04.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-TT09.pdf",
@@ -2383,8 +2717,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-TT09.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-TT09-6acb228153fd.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 1161677,
+      "sha256": "c8d3310fe41709110aebd0006c1328c4dcd7c0959111889aed4ad591b21bd88c",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/TT/PharmaSUG-2014-TT09.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-TT10.pdf",
@@ -2397,8 +2733,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-TT10.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-TT10-623266d0326e.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 603964,
+      "sha256": "e3830c1c29f5257379f26dbb2de38353545eca04f4e983aee086803842b7fd71",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/TT/PharmaSUG-2014-TT10.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC11.pdf",
@@ -2411,8 +2749,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC11.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC11-63531c8d4fcd.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 235641,
+      "sha256": "f5f3ca1d0b8228081b235a5111d09483481f8e442d5b68d6116920b9e21f1b45",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC11.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HA03.pdf",
@@ -2425,8 +2765,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HA03.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-HA03-463d47f9953c.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 89431,
+      "sha256": "db271f8c0c877c7cd631334e48ed8c1d3b949c3e4700d39791d259548d0987dc",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/HA/PharmaSUG-2014-HA03.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HT05.pdf",
@@ -2439,8 +2781,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HT05.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-HT05-b26089096d43.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 909491,
+      "sha256": "428f6e93773bd4a99dd7939461922d8e57ccb143b38fb413d25e23cc2a003cab",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/HT/PharmaSUG-2014-HT05.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO02.pdf",
@@ -2453,8 +2797,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO02.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-PO02-c3069f1276fc.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 328428,
+      "sha256": "033031ca58384885dfa23f8ef0fb073d5033c3e2f535f0a9d9eb96b5f98a2bdf",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/PO/PharmaSUG-2014-PO02.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DG07.pdf",
@@ -2467,8 +2813,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DG07.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DG07-3d6db2c73653.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 239567,
+      "sha256": "3bf30990be588b944b893e223f052e35e360a93f7e2619ffae3d7b46e5c07d96",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DG/PharmaSUG-2014-DG07.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO10.pdf",
@@ -2481,8 +2829,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO10.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-PO10-67f24f0e3e2d.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 731509,
+      "sha256": "7a09d4cef92e9ab2d38a3a30563219328645f8a2d724f3d099139a6091bd1c76",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/PO/PharmaSUG-2014-PO10.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD03.pdf",
@@ -2495,8 +2845,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD03.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-AD03-a8b7502bd599.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 285791,
+      "sha256": "28b65075771fef5f4edc440e817fef77f6a5165a85a76b018316e215194eeab9",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/AD/PharmaSUG-2014-AD03.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD07.pdf",
@@ -2509,8 +2861,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD07.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-AD07-de190822f2f6.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 884866,
+      "sha256": "cd796681a86769b14958061fae862bf0cf7bc185b13484217b3f36e3c20214dd",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/AD/PharmaSUG-2014-AD07.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DG01.pdf",
@@ -2523,8 +2877,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DG01.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DG01-fddc7ef8967d.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 1116512,
+      "sha256": "182cd27828d35576b371681c5655d185f6206087d605fb7a7e4bf5b6f9cc9f4f",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DG/PharmaSUG-2014-DG01.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB03.pdf",
@@ -2537,8 +2893,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB03.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-BB03-83261bf1850b.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 76480,
+      "sha256": "9df06b8a99fff005a075a7876789d8145e3913e931f6c730ca33875a949d95a2",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/BB/PharmaSUG-2014-BB03.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HA06.pdf",
@@ -2551,8 +2909,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HA06.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-HA06-9a341409f193.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 461038,
+      "sha256": "ee770459b925cca63050f9542282932b53a38005d210f2412d95c0c758d086d7",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/HA/PharmaSUG-2014-HA06.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD17.pdf",
@@ -2565,8 +2925,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD17.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-AD17-f41fb5df4dd4.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 565013,
+      "sha256": "3e73fb7f9ca9cc88be53f8f501737abd2dc73f1284612f80da640ccc5ec22e13",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/AD/PharmaSUG-2014-AD17.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-SP13.pdf",
@@ -2579,8 +2941,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-SP13.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-SP13-9a974d062a60.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 217466,
+      "sha256": "59d0ceefce8eb8d652ed97c3ca4f10407a1f16d41f05cf14234cd17f18a177c0",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/SP/PharmaSUG-2014-SP13.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD05.pdf",
@@ -2593,8 +2957,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD05.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-AD05-c2154c54e3a0.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 170937,
+      "sha256": "3d2e7e25dbdf8e0633c0715a5a3cc4762c144c63d6dc0de6ed404d82e2a39a74",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/AD/PharmaSUG-2014-AD05.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-TT14.pdf",
@@ -2607,8 +2973,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-TT14.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-TT14-092ddb4d826a.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 587764,
+      "sha256": "b5cfe232e96b37918422f143f51fadc5c403b9ff6f436f5b4ba6da7761c4f849",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/TT/PharmaSUG-2014-TT14.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC30.pdf",
@@ -2621,8 +2989,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC30.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC30-3e715dfaaebe.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 98442,
+      "sha256": "d42efda6edc19974abfdeaa35132249bf1875549ef3d6b967a3686111316cc19",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC30.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD19.pdf",
@@ -2635,8 +3005,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD19.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-AD19-56203cb27aa7.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 190782,
+      "sha256": "9858d40da9c3e510ec8fffb8dd3833913eb817db1ac68e92b4e0bf6652f65182",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/AD/PharmaSUG-2014-AD19.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO22.pdf",
@@ -2649,8 +3021,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-PO22.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-PO22-0c0a730e9351.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 223297,
+      "sha256": "297ff136cbf193bbd1e6e07e544e3a5d2985b206df96567be621880b4bc2b254",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/PO/PharmaSUG-2014-PO22.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC06.pdf",
@@ -2663,8 +3037,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC06.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC06-e54384d79402.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 40908,
+      "sha256": "348712f48c07b62b10d42b4d579ccf425e3763f5357aa6719407340d1ec0466a",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC06.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-IB02.pdf",
@@ -2677,8 +3053,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-IB02.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-IB02-0b81e6b67292.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 653871,
+      "sha256": "4a30b776f73788af4856329482fe2f7dc6b70f2f50aabf1494c08d0b400b4631",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/IB/PharmaSUG-2014-IB02.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB02.pdf",
@@ -2691,8 +3069,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB02.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-BB02-696dbabf46b9.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 173760,
+      "sha256": "07d334d22924258273d79fad0d6dacc507c727334e984d6065d43631f3d4b547",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/BB/PharmaSUG-2014-BB02.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DG14-SAS.pdf",
@@ -2705,8 +3085,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DG14-SAS.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DG14-SAS-20c8a834a7c9.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 1687055,
+      "sha256": "4c584a0119139969d4c3d05d5667bed7e20574c5a10ee7e6ad050d991df8d23e",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DG/PharmaSUG-2014-DG14-SAS.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS17.pdf",
@@ -2719,8 +3101,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DS17.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DS17-5226f2fb38e6.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 34541,
+      "sha256": "4783e3ef9671786421494e52e4437ecc339f3bbe1508c58b6e623b79e5dceca8",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DS/PharmaSUG-2014-DS17.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HA09.pdf",
@@ -2733,8 +3117,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HA09.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-HA09-79edf78d7668.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 436077,
+      "sha256": "cf9473d3722c96d194a5d4d9023b81922c4e6485a8f85bcdb893cf1b05bebad0",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/HA/PharmaSUG-2014-HA09.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB10.pdf",
@@ -2747,8 +3133,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB10.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-BB10-342f12e86c3f.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 135343,
+      "sha256": "c6e9a0d9954ddfedd4bc01b77aadef82e252944f5dd01f9e9b30bdabf6cf7942",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/BB/PharmaSUG-2014-BB10.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HA07.pdf",
@@ -2761,8 +3149,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-HA07.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-HA07-e9d09c2b1b8a.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 761595,
+      "sha256": "c24973a9b3ddadd24dd974b13915a9c18bf454a9e76c0d8a6f28cf6b37a206ba",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/HA/PharmaSUG-2014-HA07.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD26.pdf",
@@ -2775,8 +3165,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-AD26.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-AD26-c852cb99a29d.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 313696,
+      "sha256": "7f7d67c61c02dddcf5ec2ea49ba940d22c89cfb9df6a46462c28c7b0f06d86a6",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/AD/PharmaSUG-2014-AD26.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DG06.pdf",
@@ -2789,8 +3181,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-DG06.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-DG06-163171e56dee.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 293165,
+      "sha256": "f5a1c06bd47eff021711922e801d3f6df158a03e498717273115740f721c159d",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/DG/PharmaSUG-2014-DG06.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-MS04.pdf",
@@ -2803,8 +3197,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-MS04.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-MS04-25eb8b2decb1.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 47060,
+      "sha256": "1047bc44984d55c881e16b131f69f6350b272c546432737725af9fbb14b8701a",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/MS/PharmaSUG-2014-MS04.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC50.pdf",
@@ -2817,8 +3213,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC50.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC50-9bed213b0bdd.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 80217,
+      "sha256": "fc94a65ab65e823301cd5d16aa3e3f76422a9000496bcd9d1a580eaa8f2172db",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC50.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-TT11.pdf",
@@ -2831,8 +3229,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-TT11.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-TT11-a667ce767e5d.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 72100,
+      "sha256": "ffdc0b2212bbaa47d62256d899a6562bac2d6a81de1e82b4af1ace53607b6184",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/TT/PharmaSUG-2014-TT11.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CP01.pdf",
@@ -2845,8 +3245,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CP01.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CP01-ca1218e67719.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 525790,
+      "sha256": "763e757da96205856f0513a550b6482ec9f26125a46eae87c4540f5bf7cca102",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CP/PharmaSUG-2014-CP01.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC13.pdf",
@@ -2859,8 +3261,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-CC13.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-CC13-480140f0d902.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 150269,
+      "sha256": "63060171cd5c8a2ef0647b91048b833218dd814c6c5940b348765ef6618d3aa9",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/CC/PharmaSUG-2014-CC13.pdf"
     },
     {
       "id": "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB11.pdf",
@@ -2873,8 +3277,10 @@
         "https://saslexicon.org/PharmaSUG/2014/PharmaSUG-2014-BB11.pdf"
       ],
       "path": "PharmaSUG_US/2014/PharmaSUG-2014-BB11-ed54b77ab163.pdf",
-      "status": "pending",
-      "reason": "Batch limit reached; rerun to continue"
+      "status": "downloaded",
+      "bytes": 150480,
+      "sha256": "7435a32f4b1bbb1a3e1071a362b55784748419d6bd2b314766b91e1118c570ba",
+      "downloaded-from": "https://pharmasug.org/proceedings/2014/BB/PharmaSUG-2014-BB11.pdf"
     }
   ]
 }
