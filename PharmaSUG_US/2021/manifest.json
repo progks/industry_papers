@@ -2088,7 +2088,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP15.pdf",
       "https://saslexicon.org/PHUSE_US/2021/POS_PP15.pdf"
     ],
-    "filename": "POS-PP15-5d6e2b7483.pdf"
+    "filename": "POS-PP15-5d6e2b7483.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP15.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP15.pdf | https://saslexicon.org/PHUSE_US/2021/POS_PP15.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/POS_PP15.pdf"
   },
   {
     "title": "Why Business Users Should Care About Systems Architecture",
@@ -2099,7 +2101,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT13.pdf",
       "https://saslexicon.org/PHUSE_US/2021/PRE_TT13.pdf"
     ],
-    "filename": "PRE-TT13-ac666adf0b.pdf"
+    "filename": "PRE-TT13-ac666adf0b.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT13.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT13.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_TT13.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_TT13.pdf"
   },
   {
     "title": "Wiki - Your Team's Collective Memory",
@@ -2110,6 +2114,8 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SP09.pdf",
       "https://saslexicon.org/PHUSE_US/2021/PRE_SP09.pdf"
     ],
-    "filename": "PRE-SP09-cd792eccd4.pdf"
+    "filename": "PRE-SP09-cd792eccd4.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SP09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SP09.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_SP09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_SP09.pdf"
   }
 ]
