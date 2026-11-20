@@ -2559,8 +2559,10 @@
       "https://saslexicon.org/PHUSE_US/2025/PAP_ML20.pdf"
     ],
     "filename": "PAP-ML20-4c49f93934.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_ML20.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_ML20.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_ML20.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_ML20.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_ML20.pdf",
+    "bytes": 238520,
+    "sha256": "82e788633a59266699e2180c4e81485126efd6c3be9d0004b1f24ea83d37de7c"
   },
   {
     "title": "SDTM UP - Versioning - Do's & Don'ts",
@@ -2572,8 +2574,10 @@
       "https://saslexicon.org/PHUSE_US/2025/PAP_DS15.pdf"
     ],
     "filename": "PAP-DS15-015eaaf5c0.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DS15.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DS15.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_DS15.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_DS15.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DS15.pdf",
+    "bytes": 299692,
+    "sha256": "1eeebdacb99f8197d6eeec020789d6374da4729cc4730d9bb2290ef2e8d88de0"
   },
   {
     "title": "Selecting GeARS: Analysis Results Standard Implementation Options for Accelerated Analysis and TFL Automation",
@@ -2585,8 +2589,10 @@
       "https://saslexicon.org/PHUSE_US/2025/PAP_DS09.pdf"
     ],
     "filename": "PAP-DS09-7e94286765.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DS09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DS09.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_DS09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_DS09.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DS09.pdf",
+    "bytes": 217544,
+    "sha256": "342ffbafefafdf45ce2e1c9333b23dbd0889951c19804f0d7e615a591c1ebaf9"
   },
   {
     "title": "Solving real-world data (RWD) reliability challenges for use in regulatory decision-making",
@@ -2598,8 +2604,10 @@
       "https://saslexicon.org/PHUSE_US/2025/PAP_DH13.pdf"
     ],
     "filename": "PAP-DH13-ff533f2bad.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DH13.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DH13.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_DH13.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_DH13.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DH13.pdf",
+    "bytes": 2526209,
+    "sha256": "01af7bc4f13847cb8b3b54d615293c988f17d90102a20e49896d019d94b6ecd8"
   },
   {
     "title": "Spot-It: A Shiny Application for Visual QC at Scale",
@@ -2611,8 +2619,10 @@
       "https://saslexicon.org/PHUSE_US/2025/PAP_SM04.pdf"
     ],
     "filename": "PAP-SM04-7af3cf93e4.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_SM04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_SM04.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_SM04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_SM04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_SM04.pdf",
+    "bytes": 988069,
+    "sha256": "19508fbcd1d11012944b83dd0b5f8ca5dc61ec5540764f7924c0bf70391f3cda"
   },
   {
     "title": "Standardised and Automated Template for Dose Escalation Decision-Making",
@@ -2624,8 +2634,10 @@
       "https://saslexicon.org/PHUSE_US/2025/PAP_SM03.pdf"
     ],
     "filename": "PAP-SM03-bdacdc1aaf.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_SM03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_SM03.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_SM03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_SM03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_SM03.pdf",
+    "bytes": 226219,
+    "sha256": "362e054881d59f45181cf92ec0ef089bec408ad0df205f7a201559eed652af34"
   },
   {
     "title": "Staying Out of the Ditch - How Governance Can Provide Your Team Guardrails",
@@ -2637,8 +2649,10 @@
       "https://saslexicon.org/PHUSE_US/2025/PAP_DS17.pdf"
     ],
     "filename": "PAP-DS17-8105cc9f6b.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DS17.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DS17.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_DS17.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_DS17.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DS17.pdf",
+    "bytes": 86043,
+    "sha256": "dc2f6220a57820ecec929ffaecfc68af92902cd2618b57dc472cd5754f80978e"
   },
   {
     "title": "Strategic Authoring of Clinical Study Reports to Leverage AI for Data Privacy and Public Disclosure",
@@ -2650,8 +2664,10 @@
       "https://saslexicon.org/PHUSE_US/2025/PAP_ML21.pdf"
     ],
     "filename": "PAP-ML21-65e90381b8.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_ML21.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_ML21.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_ML21.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_ML21.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_ML21.pdf",
+    "bytes": 274319,
+    "sha256": "52c2be730f7fd4c6cb58611a212ea634bd56162e3c2cf63a97606c8e36bfcf21"
   },
   {
     "title": "Streamlining Machine Learning Modelling in Neuroscience Clinical Trials Through Cross-Functional Collaboration",
@@ -2663,8 +2679,10 @@
       "https://saslexicon.org/PHUSE_US/2025/PAP_ML02.pdf"
     ],
     "filename": "PAP-ML02-f1a7c87a80.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_ML02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_ML02.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_ML02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_ML02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_ML02.pdf",
+    "bytes": 198948,
+    "sha256": "9e4a2998d7f60bb8c2416289863dca9b98c603b4b1097e27a67c1544d1f81f42"
   },
   {
     "title": "Surviving a Sunset: Being Resilient in the Face of Open-Source Disruption",
@@ -2676,8 +2694,10 @@
       "https://saslexicon.org/PHUSE_US/2025/PAP_OS18.pdf"
     ],
     "filename": "PAP-OS18-f525951358.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_OS18.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_OS18.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_OS18.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_OS18.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_OS18.pdf",
+    "bytes": 302042,
+    "sha256": "2ef956fd095ddef7f66d3dab6799dc8636c54944af243f0e2e8a2abf8a572369"
   },
   {
     "title": "Synthetic Data Generation: A Process Paradigm",
