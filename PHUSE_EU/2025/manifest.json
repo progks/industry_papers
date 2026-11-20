@@ -3158,7 +3158,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/EU/Hamburg/PAP_PM02.pdf",
       "https://saslexicon.org/PHUSE_EU/2025/PAP_PM02.pdf"
     ],
-    "filename": "PAP-PM02-eaff70dde5.pdf"
+    "filename": "PAP-PM02-eaff70dde5.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/EU/Hamburg/PAP_PM02.pdf",
+    "status": "ok",
+    "bytes": 282675,
+    "sha256": "181359c53e02a16b0f6c70b75ab84fb316c5fd7d5d04c53c0be56c19f1d0ade8"
   },
   {
     "title": "Why Wait for Real Data? The Power of Synthetic Data in Modern Clinical Trials",
@@ -3169,7 +3173,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/EU/Hamburg/PAP_TT02.pdf",
       "https://saslexicon.org/PHUSE_EU/2025/PAP_TT02.pdf"
     ],
-    "filename": "PAP-TT02-64bce18d77.pdf"
+    "filename": "PAP-TT02-64bce18d77.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/EU/Hamburg/PAP_TT02.pdf",
+    "status": "ok",
+    "bytes": 236330,
+    "sha256": "cc2f6e197d7e881b5c8a13131fa50b9829624d930f9cb926242f7c11576d981a"
   },
   {
     "title": "Your Outputs Deserve a Second Set of Eyes - Meet ELARA",
@@ -3180,7 +3188,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/EU/Hamburg/PAP_DV03.pdf",
       "https://saslexicon.org/PHUSE_EU/2025/PAP_DV03.pdf"
     ],
-    "filename": "PAP-DV03-b21871050c.pdf"
+    "filename": "PAP-DV03-b21871050c.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/EU/Hamburg/PAP_DV03.pdf",
+    "status": "ok",
+    "bytes": 852957,
+    "sha256": "9ba1e2bbe4be8277218c28ef52f9855568fde202fffc4b8fc2dcd2a2b28f0e14"
   },
   {
     "title": "{AdmiralMetabolic}: A Collaborative Journey To Develop an Admiral Extension Package for Metabolic Data",
@@ -3191,6 +3203,10 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/EU/Hamburg/PAP_OS10.pdf",
       "https://saslexicon.org/PHUSE_EU/2025/PAP_OS10.pdf"
     ],
-    "filename": "PAP-OS10-ce349fc128.pdf"
+    "filename": "PAP-OS10-ce349fc128.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/EU/Hamburg/PAP_OS10.pdf",
+    "status": "ok",
+    "bytes": 342870,
+    "sha256": "95141748bcab51ef7691bd104ce50a702919a72235b305d50afd8421e67d58a3"
   }
 ]
