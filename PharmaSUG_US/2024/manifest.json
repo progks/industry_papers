@@ -1509,8 +1509,10 @@
       "https://saslexicon.org/PHUSE_US/2024/PAP_IC06.pdf"
     ],
     "filename": "PAP-IC06-f7e8bb0460.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_IC06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_IC06.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_IC06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_IC06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_IC06.pdf",
+    "bytes": 168074,
+    "sha256": "939e732977d2f9f5253090c639a0120937143939a20472d207028de11a357e84"
   },
   {
     "title": "Implementation of the ICH E9(R1) Estimands Framework Using Data Standards",
@@ -1522,8 +1524,10 @@
       "https://saslexicon.org/PHUSE_US/2024/POS_PP24.pdf"
     ],
     "filename": "POS-PP24-e0c9d2ce65.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/POS_PP24.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/POS_PP24.pdf | https://saslexicon.org/PHUSE_US/2024/POS_PP24.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/POS_PP24.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/POS_PP24.pdf",
+    "bytes": 1258988,
+    "sha256": "1598d5e1ecf209dcde2ae69647f48941db0044f8c2e6ecb6f0c0d4cecc247dc6"
   },
   {
     "title": "Incorporating Real-World Data in a Low-Interventional Study: Challenges and Considerations",
@@ -1535,8 +1539,10 @@
       "https://saslexicon.org/PHUSE_US/2024/PAP_RE07.pdf"
     ],
     "filename": "PAP-RE07-c88feeceb6.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_RE07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_RE07.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_RE07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_RE07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_RE07.pdf",
+    "bytes": 558981,
+    "sha256": "46663582178a175497a27c1f8a0a1fc21320c4086ea8f7c8fcdf1ec0bd9df9b5"
   },
   {
     "title": "Ingenious Raw Data Tracking in SDTM Programs: A New Perspective",
@@ -1548,8 +1554,10 @@
       "https://saslexicon.org/PHUSE_US/2024/PAP_DH11.pdf"
     ],
     "filename": "PAP-DH11-7d10ccc5e9.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_DH11.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_DH11.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_DH11.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_DH11.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_DH11.pdf",
+    "bytes": 263958,
+    "sha256": "f3becb08fd24f53d8db29e12c1f8912d85e0ee7d80055ff688704a63ee7befab"
   },
   {
     "title": "InnoRand - Innovative Randomisation",
@@ -1561,8 +1569,10 @@
       "https://saslexicon.org/PHUSE_US/2024/PAP_SM08.pdf"
     ],
     "filename": "PAP-SM08-1d37f4d9cf.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_SM08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_SM08.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_SM08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_SM08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_SM08.pdf",
+    "bytes": 329808,
+    "sha256": "d9ffa97985ead475702ee80f23a4b1d4740c497aafa436fc4a01550b3ce550ea"
   },
   {
     "title": "It is Time to Get Answers: Handling Questionnaire Data in Respiratory Studies",
@@ -1574,8 +1584,10 @@
       "https://saslexicon.org/PHUSE_US/2024/PAP_TA06.pdf"
     ],
     "filename": "PAP-TA06-ebb598ddbd.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_TA06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_TA06.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_TA06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_TA06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_TA06.pdf",
+    "bytes": 1672835,
+    "sha256": "83899528e1c1e485065e80d2f2c5b377fd2a358bed31d4d88c73f303046b6e51"
   },
   {
     "title": "Journey of Reactogenicity Data from EDC to SDTM to Analysis Datasets",
@@ -1587,8 +1599,10 @@
       "https://saslexicon.org/PHUSE_US/2024/PAP_TA07.pdf"
     ],
     "filename": "PAP-TA07-cc146f0904.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_TA07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_TA07.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_TA07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_TA07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_TA07.pdf",
+    "bytes": 1796891,
+    "sha256": "6fd65cf486b8cff4f3facb52bf129eb9e1e3b9d5c98cce99cfe6d9a29270f576"
   },
   {
     "title": "Key to EU-CTIS Success: Plan, Prepare, Participate",
@@ -1600,8 +1614,10 @@
       "https://saslexicon.org/PHUSE_US/2024/PAP_PP10.pdf"
     ],
     "filename": "PAP-PP10-c461eda0ab.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_PP10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_PP10.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_PP10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_PP10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_PP10.pdf",
+    "bytes": 168361,
+    "sha256": "86675f718ea33b79f7637b8dcfd14848400849bb5e2306c08d6e0581e33e30f9"
   },
   {
     "title": "Large Language Models to Support RBM and Clinical Trial Development",
@@ -1613,8 +1629,10 @@
       "https://saslexicon.org/PHUSE_US/2024/PAP_IC01.pdf"
     ],
     "filename": "PAP-IC01-f80d738199.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_IC01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_IC01.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_IC01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_IC01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_IC01.pdf",
+    "bytes": 478014,
+    "sha256": "5f01779a4880c4f108fa364147d56bab69d74e694acb54a5766b27b637014d6c"
   },
   {
     "title": "Leadership Beyond Borders ...",
@@ -1626,8 +1644,10 @@
       "https://saslexicon.org/PHUSE_US/2024/PAP_PM01.pdf"
     ],
     "filename": "PAP-PM01-97724dda2f.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_PM01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_PM01.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_PM01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_PM01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_PM01.pdf",
+    "bytes": 164210,
+    "sha256": "708611563fde90af3b4e78781240d3af0aebececfde88992d5b6de2caa266dce"
   },
   {
     "title": "Leadership Insights - Let's Learn How to Lead the Leaders",
