@@ -1,0 +1,977 @@
+[
+  {
+    "title": "A Practical Introduction to the Bootstrap Using the SAS System",
+    "authors": "Nancy Barker",
+    "abstract": "Discovering new medications is a field p o p u l a t e d b y m a n y u n k n o w n s . E v e n w h e n t h e h u m a n p h y s i o l o g y i s w e ll understood it can be difficult to predict the way in which the body will react to a new drug in order to assess what the effects will be. Moreover, knowledge of the corresponding distributions for any derived measurements may be limited. In today's world of clinical trials it is not only important to know how a novel product performed, it is necessary to give some indication of the accuracy of any estimate of the performance. Without knowledge of the distribution, standard parametric techniques cannot be reliably executed and so an alternative is required. Many conventional statistical methods of analysis make assumptions about normality, including correlation, regression, t tests, and analysis of variance. When these assumptions are violated, such met hods may fail",
+    "keywords": "sample , bootstrap , confidence interval , proc calis , normal distribution , change from baseline , statistic , point= option , standard deviation , sample size , histogram , proc step , regression analysis",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_PK02.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_PK02.pdf"
+    ],
+    "filename": "PAP-PK02-600a8aac6e.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_PK02.pdf",
+    "status": "ok",
+    "bytes": 255827,
+    "sha256": "2c6f2fd7f937b4899b82cc42212263a632b9f7629eded4678f6bba204502b763"
+  },
+  {
+    "title": "A Sample Web-Based Reporting Container for ODS XML Reports",
+    "authors": "Christopher R. Olinger",
+    "abstract": "The SAS system offers a wide variety of tools for reporting needs. From data _NULL_ to ODS PDF , there are many avenues to produce and surface SAS reports. What is less obvious is what to do with these reports once you have created them. This advanced tutorial describes techniques for building a simple Web container for ODS XML and other SAS reports. This tutorial covers various SAS technologies including ODS HTML /XML/ TAGSETS , SAS/INTEGRATION Technologies, Java, and XML transforms. This paper is for anyone who is interested in how abstract reports can be generated in SAS and how they can be displayed in a web infrastructure",
+    "keywords": "sample , ods html , macro variable , sas output",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_AS14.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_AS14.pdf"
+    ],
+    "filename": "PAP-AS14-928326e133.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_AS14.pdf",
+    "status": "ok",
+    "bytes": 440415,
+    "sha256": "a07ca23268d84b2016645e03d60a96fdf4ab5f076a725bd7244bfb18c3bc5fa2"
+  },
+  {
+    "title": "A SAS-based solution to perform a documented selective copy of files on Microsoft Windows platform",
+    "authors": "FrÃ©dÃ©ric Coppin , Carl Herremans",
+    "abstract": "",
+    "keywords": "",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_TS02.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_TS02.pdf"
+    ],
+    "filename": "PAP-TS02-fd9bdd199b.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_TS02.pdf",
+    "status": "ok",
+    "bytes": 290988,
+    "sha256": "2577c0b37c25c90872e171860df24ef17a8f982aa5a01845722aa5f87302d589"
+  },
+  {
+    "title": "An Introduction to CDISC - Available CDISC Standards and Models and How SAS Supports These",
+    "authors": "Laurie Rose",
+    "abstract": "",
+    "keywords": "clinical data , adam dataset , clinical trial , dataset , 21 cfr part 11 , adverse events , audit trail , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_CD02.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_CD02.pdf"
+    ],
+    "filename": "PAP-CD02-41793b0d56.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_CD02.pdf",
+    "status": "ok",
+    "bytes": 2029253,
+    "sha256": "6463a51dd6d7c10fcd2fe8e7426e6ca02605818b08b5661a5d4a4c1df3ff6ef1"
+  },
+  {
+    "title": "An Introduction to CDISC - CDISC Collaborations and Standards in Progress",
+    "authors": "Becky Kush",
+    "abstract": "",
+    "keywords": "clinical research , clinical trial , clinical trial protocol , data science , adverse events",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_CD03.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_CD03.pdf"
+    ],
+    "filename": "PAP-CD03-f294cd968d.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_CD03.pdf",
+    "status": "ok",
+    "bytes": 2097283,
+    "sha256": "90c652e8e41b151179337f7df66a9e5216eda2706d31a86890a39198ba30b605"
+  },
+  {
+    "title": "An Introduction to CDISC - What is CDISC and Why Standards?",
+    "authors": "Laurie Rose , Becky Kush",
+    "abstract": "",
+    "keywords": "clinical trial , clinical data , clinical research , regulatory submission , edc , alternative hypothesis , adam dataset , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_CD01.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_CD01.pdf"
+    ],
+    "filename": "PAP-CD01-0d28ef71cf.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_CD01.pdf",
+    "status": "ok",
+    "bytes": 1574652,
+    "sha256": "0ce05eef11a2ae6eab32ce4d3c119405b8587a389af54ed7670148b815f68721"
+  },
+  {
+    "title": "An Introduction to ODS",
+    "authors": "Neville Cope",
+    "abstract": "",
+    "keywords": "proc step , ods rtf , output delivery system , proc report",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_PS03.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_PS03.pdf"
+    ],
+    "filename": "PAP-PS03-f99f09e00a.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_PS03.pdf",
+    "status": "ok",
+    "bytes": 310057,
+    "sha256": "3321a28182499badcfe632ad6d946feee31bcc85247a793a043b949f90282dc7"
+  },
+  {
+    "title": "Analysis of Pharmacokinetic Data : Using SAS to Create an Autonomous Environment for the Pharmacokineticist",
+    "authors": "Stephen Prust",
+    "abstract": "When analysing pharmacokinetic (PK) data it is necessary to combine and handle various items of data (assay date/times, dosing date/times, concentration results, demographic data etc.). Typically, such data has to go through a series of SAS programming steps e.g. validation, merge, reporting of potential problems before it can be handled by the pharmacokineticist. A further aspect of this type of work is that the pharmacokineticist will be making decisions about data - e.g. which results are anomalous - that will require databasing prior to the production of tables, figures, and listings. This paper looks at a setting where - in order to improve turnaround times and enable more autonomy for the PK department - a hybrid SAS environment was created that enabled direct use of data by the pharmacokineticist together with automatic databasing of the pharmacokineticist's decisions, all without the need for SAS programming intervention",
+    "keywords": "excel , data cleaning , macro put , proc compare , macro conditional , sample , macro definition , proc step , macro variable",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_AS07.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_AS07.pdf"
+    ],
+    "filename": "PAP-AS07-531e1221ec.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_AS07.pdf",
+    "status": "ok",
+    "bytes": 156328,
+    "sha256": "ac4a545359f3d5fa8a62a148f0b98c37c5f26e098572eb6afd6094aa721fcadd"
+  },
+  {
+    "title": "Analysis of Pharmacokinetic data: using SAS to create an autonomous environment for the Phamacokineticist",
+    "authors": "Stephen Prust",
+    "abstract": "",
+    "keywords": "excel , proc compare , data cleaning , proc step",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_PS23.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_PS23.pdf"
+    ],
+    "filename": "PAP-PS23-0a660297f3.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_PS23.pdf",
+    "status": "ok",
+    "bytes": 220885,
+    "sha256": "734f24647589230b92a05895d04c6cf7c9dcc31960390671cce49abc7fa629d4"
+  },
+  {
+    "title": "Automatic Parameter Checking",
+    "authors": "Greg Silva",
+    "abstract": "",
+    "keywords": "",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_PS04.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_PS04.pdf"
+    ],
+    "filename": "PAP-PS04-be7cf8780b.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_PS04.pdf",
+    "status": "ok",
+    "bytes": 894016,
+    "sha256": "739bf719822435e911f367d62c2d41d7e08e32c074cad1de4b60f66e40a573c1"
+  },
+  {
+    "title": "Automatic Parameter Checking",
+    "authors": "Greg Silva",
+    "abstract": "Much of applications development involving the SAS\" system involves macros. The most useful are parameter driven. By giving the user choices, the power of the application can be greatly extended. The problem for the developer is keeping track of the parameters and their acceptable values. This paper will show that by using standards parts of the SAS system and developing standard naming conventions, the developer can be relieved of the burden of checking parameters",
+    "keywords": "macro parameter , macro variable , macro definition , %if-%then-%else",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_TS08.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_TS08.pdf"
+    ],
+    "filename": "PAP-TS08-ba9b41c5e3.pdf"
+  },
+  {
+    "title": "Automatically Right-Size Every Character Column after Importing Your Data to SAS: From the 255-byte Default to the Real Requirements",
+    "authors": "LeRoy Bessler",
+    "abstract": "If you use the SAS Enterprise Gui de Import Data function, during the Import process you do have the option to override the default length of 255 bytes for character columns. However, in many, if not most, real situations you may encounter numerous character columns for a potentially huge number of rows, with no practical way of guessing their actual length requirements, or of determining it by inspection. The macro solution presented here was validated in SAS 8. A demo of Import Data in SAS 9 / SAS Enterprise Guide 3 did not show any relie f for the problem. The author has also encountered over-sized columns from some other SAS import methods. Besides right -sizing the columns, the macro optionally provides length-appropriate formats and informats for the character columns. The Macro Solutio n To demonstrate the problem, export (Save As) sashelp.class to, e.g., C: \\class.xls. Then use the SAS Enterprise Guide Import Data function to get the data back, saving it as work.FromExcel",
+    "keywords": "sas enterprise guide , sas log",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_CC05.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_CC05.pdf"
+    ],
+    "filename": "PAP-CC05-35f7bd6cae.pdf"
+  },
+  {
+    "title": "Best Practices for Managing Clinical Research Information",
+    "authors": "David D. Handelsman",
+    "abstract": "",
+    "keywords": "clinical research , clinical data management , adaptive design , clinical data , data governance , data standard , quality control",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_CD04.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_CD04.pdf"
+    ],
+    "filename": "PAP-CD04-b1f8f56226.pdf"
+  },
+  {
+    "title": "CDISC Activities in Europe",
+    "authors": "Udo Siegmann",
+    "abstract": "",
+    "keywords": "proof of concept , clinical research",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_CD14.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_CD14.pdf"
+    ],
+    "filename": "PAP-CD14-afc4bcebf5.pdf"
+  },
+  {
+    "title": "CLIREV - A friendly and flexible Clinical Data Review Tool",
+    "authors": "Angelo Tinazzi",
+    "abstract": "As a small cooperative group in oncology working with many companies, each one with different size and methodologies, we have to continuously adapt our systems and, in certain circumstances, our processes, to the different company requirements. We therefore developed a SAS Clinical Data Review Tool in which data are periodically loaded from a number of different clinical databases and data structures. While the structure of each clinical database is tailored as much as possible to comply with the individual company standards, the 'data-review' tool provides standardised reports for all SENDO personnel who need to have access to the clinical data. These standard reports range from individual patient or panel listings (data-dump) to patient profiles and ad-hoc reports for safety and efficacy data review. In addition basic statistics for both administrative data (e.g.CRFs tracking) and clinical data (e.g. adverse events) are made available",
+    "keywords": "clinical database , clinical data , adverse events , data review",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_PS21.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_PS21.pdf"
+    ],
+    "filename": "PAP-PS21-50c5b8d64d.pdf"
+  },
+  {
+    "title": "Complex Laboratory Data, Strategies and Tools for a Way out of the Maze",
+    "authors": "Benjamin Szilagyi , Christof Binder",
+    "abstract": "For programmers assigned to work with laboratory data from a multi center study without a central lab, two reactions are common: Active suppression of past experiences or wet palms. The problems faced with this task are manifold and complex. They include: Different formats of data from the different centers, varying units for the same parameters, normal ranges that a) change over time, b) are dependent on the age and/or gender of the subject, c) are not easily comparable (% vs. counts) between centers, d) missing. To analyze the data a uniform representation across all centers is needed but not easily achieved without considerable data management and programming effort. The aim of this paper is to sketch a framework for programmers to streamline the process from raw data to analysis data sets",
+    "keywords": "proc sql , sample , laboratory data , raw data , proc step , data cleaning",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_DM05.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_DM05.pdf"
+    ],
+    "filename": "PAP-DM05-deccbbc26a.pdf"
+  },
+  {
+    "title": "Consistent Variables + Consistent Checks = Cleaner Data",
+    "authors": "Greg Silva",
+    "abstract": "Data cleaning is one of the most important functions of a Biometrics group. Without clean data, programs have to be written defensibly, analysis cannot be completed correctly and deadlines are missed. This paper will outline a case for standardizing variable names across studies. Once names are consistent, then a method for standardizing checks using a set of SAS macro will be presented",
+    "keywords": "data cleaning , data validation rules",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_DM01.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_DM01.pdf"
+    ],
+    "filename": "PAP-DM01-8c06d226f5.pdf"
+  },
+  {
+    "title": "Customer oriented CDISC implementation",
+    "authors": "Edelbert Arnold , Ulrike Plank",
+    "abstract": "The Clinical Data Interchange Standards Consortium (CDISC) represents the most important development in data exchange within the pharmaceutical industry and between the industry and regulatory authorities. After recommendation by the Food and Drug Administration (FDA), this data standard has been rapidly implemented by regulatory bodies such as the FDA, contract research organizations (CROs), pharmaceutical / biotechnological companies and other data suppliers (e.g. laboratories, and users of electronic patient record outcomes). Depending on the scope and extent of internal standardizations (e.g. global data dictionaries, and standard analysis tools in SAS Â£) companies may choose different concepts for implementation of CDISC standards. The CRO Accovion (formerly Covidence) has chosen a fully integrated approach to the implementation of CDISC",
+    "keywords": "adam dataset , crosswalk , raw data , change from baseline , clinical data , clinical database , data science , sdtm domain , proc step , data cleaning , adverse events , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_CD10.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_CD10.pdf"
+    ],
+    "filename": "PAP-CD10-10070b6d78.pdf"
+  },
+  {
+    "title": "Data Mining in a Pharmaceutical Environment",
+    "authors": "Franky De Cooman",
+    "abstract": "Until now, most of the statistics are used in the R&D department. It is also observed that DM techniques are seldom used in a Pha rmaceutical environment. This paper will show that these techniques can be easily and successfully used outside of their normal habitat",
+    "keywords": "adverse events , confidence interval , clinical trial , proc hpsplit , proc freq",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_DM04.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_DM04.pdf"
+    ],
+    "filename": "PAP-DM04-4049965e74.pdf"
+  },
+  {
+    "title": "Data Step Functions in SAS9",
+    "authors": "Bob Newman",
+    "abstract": "",
+    "keywords": "",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_PS22.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_PS22.pdf"
+    ],
+    "filename": "PAP-PS22-73bdf52369.pdf"
+  },
+  {
+    "title": "Design Principles & Implementation of a Reporting System",
+    "authors": "Anup Patel",
+    "abstract": "The GlaxoSmithKline merger in Dec 2000 highlighted the need for standardisation, which lead to the development of a new in-house global standard reporting system called HARP (Harmonisation Analysis & Reporting Program). This presentation will cover the design principles of the HARP Application and Reporting Tools. It covers how the system has evolved over time to ensure standardisation across different functions and how enhancements have been implemented to benefit users. Finally it covers the implementation process in more details focusing on successful UAT (User Acceptance Testing), training and support",
+    "keywords": "macro definition , proc means",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_AS05.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_AS05.pdf"
+    ],
+    "filename": "PAP-AS05-d52525be50.pdf"
+  },
+  {
+    "title": "Designing a Global SAS9 Architecture for Clinical Trials Analysis and Reporting",
+    "authors": "Gregory S. Barnes Nelson , Michael Walega",
+    "abstract": "Covance has a long tradition of utilizing SAS to analyze pre-clinical and clinical trails data, as drug candidates move from early discovery to late stage development. To continue to add value to shareholders, Covance has constantly looked to identify ways to fully leverage its global workforce and to maximize hardware and software toolsets. The goal: deliver high quality clinical trials reporting and analytic results to clients in an efficient and timely manner. Covance commissioned a study to evaluate their business processes relating to how they utilize SAS, to identify better ways to bring value to their clients, while keeping an eye on how SAS 9 could solve problems of today and for the future. This presentation outlines the challenges that Covance has faced, along with a high level overview of what was done to create a new global SAS architecture that will result in a balanced, upgraded and technologically competitive SAS environment for Covance",
+    "keywords": "sas enterprise guide , sas 9 , sas base , clinical trial , raw data",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_AS13.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_AS13.pdf"
+    ],
+    "filename": "PAP-AS13-8268f0eac8.pdf"
+  },
+  {
+    "title": "Easy, Elegant, and Effective SAS Graphs: Inform and Influence with Your Data",
+    "authors": "LeRoy Bessler",
+    "abstract": "Are you an existing SAS/GRAPH user who would like to create charts that are more communication-effective? Or are you one of those software users who process their data with the SAS System, but then export the output to some other tool to graph it? This tutorial assumes no prior knowledge of SAS/GRAPH . It cuts through all the documentation and bypasses the problem of \"\"Options OverChoice\"\" to empower you to make elegant and effective pie charts, bar charts, and trend charts--to get them right from the start. You will come away with widely applicable design principles and examples, and with supporting code that you can understand, and can point at your own data when you get back to the office. Once comfortable with the most powerful graphics tool available, you will find that SAS/GRAPH lets you overcome all the design and functional barriers of EXCEL graphics",
+    "keywords": "bar chart , vertical bar chart , horizontal bar chart , proc step , footnote statement , proc gchart , excel",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_PS05.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_PS05.pdf"
+    ],
+    "filename": "PAP-PS05-551fc1bb89.pdf"
+  },
+  {
+    "title": "Easy, Elegant, and Effective SAS Graphs: Inform and Influence with Your Data",
+    "authors": "LeRoy Bessler",
+    "abstract": "Are you an existing SAS/GRAPH user who would like to create charts that are more communication-effective? Or are you one of those software users who process their data with the SAS System, but then export the output to some other tool to graph it? This tutorial assumes no prior knowledge of SAS/GRAPH . It cuts through all the documentation and bypasses the problem of \"\"Options OverChoice\"\" to empower you to make elegant and effective pie charts, bar charts, and trend charts--to get them right from the start. You will come away with widely applicable design principles and examples, and with supporting code that you can understand, and can point at your own data when you get back to the office. Once comfortable with the most powerful graphics tool available, you will find that SAS/GRAPH lets you overcome all the design and functional barriers of EXCEL graphics",
+    "keywords": "bar chart , vertical bar chart , horizontal bar chart , proc step , footnote statement , proc gchart , excel",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_TU07.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_TU07.pdf"
+    ],
+    "filename": "PAP-TU07-6bb2fb5f64.pdf"
+  },
+  {
+    "title": "Effective communication with colour",
+    "authors": "LeRoy Bessler",
+    "abstract": "Though it includes information and coding specific to SAS, SAS/GRAPH , and ODS , this paper is also a software-independent guide to using colour to communicate, rather than decorate. Colour does more than merely add visual excitement to your output. Some visual communication situations require colour--the human eye can reliably distinguish only five shades of gray (actually, five shades of any one colour). The commonest form of colour blindness cannot distinguish red from green--yet red, yellow, and green is (unnecessarily) the most popular form of colour-coding for information, the so- called \"\"Traffic Lighting\"\". Furthermore, it is not uncommon to encounter nearly unreadable black text on a medium-to-dark blue background, or even yellow on white. There is a best colour system for web publishing, and a small safe subset of that 16.7-million-colour palette. And there is a most-convenient- to-use colour system for print-only publishing",
+    "keywords": "sample , proc step , macro loop , output delivery system , macro definition , sas output , %if-%then-%else",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_PS18.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_PS18.pdf"
+    ],
+    "filename": "PAP-PS18-f6798c86d9.pdf"
+  },
+  {
+    "title": "Empty lines in SAS tables (list output and ODS RTF) produced by Proc Tabulate",
+    "authors": "Twan van Berkel",
+    "abstract": "Within our pharmaceutical company NV Organon clinical studies are performed and statistical appendices are created using the SAS System (1). These appendices contain among other things large tables. To reduce the size of these tables and to make the tables more readable, empty lines instead of normal line separators were introduced. The empty line tables are produced by specially written SAS macros containing large amounts of SAS code. For some tabular designs the creation of empty lines can be done a lot easier by using PROC TABULATE instead of SAS macros. Four different methods describe how to introduce empty lines formatted as ODS LISTING output. In addition, two methods are introduced that explain how to create empty lines using PROC TABULATE and ODS RTF , formatted as RTF output. Every method has its own features and the user can use the different methods for his/her own tabular design",
+    "keywords": "proc tabulate , proc step , missing value , class variable , binary variable , sas output , proc format , macro definition , ods rtf , proc freq , output delivery system",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_CC06.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_CC06.pdf"
+    ],
+    "filename": "PAP-CC06-e7176f9c13.pdf"
+  },
+  {
+    "title": "Empty lines in SAS tables (list output and ODS RTF) produced by Proc Tabulate",
+    "authors": "Twan van Berkel",
+    "abstract": "",
+    "keywords": "",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_PS10.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_PS10.pdf"
+    ],
+    "filename": "PAP-PS10-54413c9f8e.pdf"
+  },
+  {
+    "title": "Experiences of using ODS : moving from ASCII to RTF output",
+    "authors": "Stephen Prust",
+    "abstract": "This paper examines the steps necessary to change SAS code from producing ASCII text to that capable of creating Microsoft Word compatible RTF (rich text format). The starting point is an environment using PROC REPORT where ASCII output was post-processed to use appropriate fonts, page margins, etc. The target was to develop code that would create Word documents directly from SAS with richer formatting capabilities. This paper relates to ODS within SAS version 8.2",
+    "keywords": "sample , proc report , proc step , output delivery system , ods rtf , macro variable",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_TS06.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_TS06.pdf"
+    ],
+    "filename": "PAP-TS06-94b78ae5ae.pdf"
+  },
+  {
+    "title": "Getting Started with, and Getting the Most out of, SAS ODS PDF: No Mastery of PROC TEMPLATE Required",
+    "authors": "LeRoy Bessler",
+    "abstract": "Adobe's Portable Document Format (PDF) provides the ability to deliver documents that display content exactly as you intended, and that are not easily modified by a recipient. Though SAS ODS (Output Delivery System) does support creation of PDF output, there are several important ways to make ODS do it much better. Some of the means to do so are not obvious, if documented at all. After presenting the basics, this paper shows you how to most effectively combine small PROC outputs, or a table plus a graph, on one PDF page. For larger documents, to replace the default PDF Table of Contents (a.k.a. \"Bookmarks\"), it shows you how to create a HyperLinked Table of Contents, and CrossLinked PDF pages. For PDF documents with only one output component, the ODS -provided Table of Contents is best suppressed. While pop-up text may be familiar for web pages, that it is also possible for PDF pages is less well known. Here you can learn how to do it",
+    "keywords": "proc step , output delivery system , sas output , proc print , ods pdf , sas 9 , macro variable",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_TS05.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_TS05.pdf"
+    ],
+    "filename": "PAP-TS05-de0bc2ee2c.pdf"
+  },
+  {
+    "title": "Harmonised PK Analysis & Reporting",
+    "authors": "Ian Barretto",
+    "abstract": "",
+    "keywords": "key , pk parameter",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_PS01.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_PS01.pdf"
+    ],
+    "filename": "PAP-PS01-816668f53a.pdf"
+  },
+  {
+    "title": "How can you make the entire clinical trial process easy and fun for the users and also reduce your costs?",
+    "authors": "Carl-Olow Magnusson , Ann-Sofie Bergstrom",
+    "abstract": "",
+    "keywords": "clinical research , clinical trial",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_PS06.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_PS06.pdf"
+    ],
+    "filename": "PAP-PS06-9d770a48b1.pdf"
+  },
+  {
+    "title": "Implementing CFR 21 part 11 for SAS without tears or joins",
+    "authors": "David J. Garbutt",
+    "abstract": "This paper argues that the best way to construct an easy-to-program i n a n d C F R 2 1 p a r t 1 1 - c o mpliant environment for SAS program ming is by using a version control system, specifically the IBM Rational product ClearCase. It concentrates on architectural issues to do with protecting data and outputs as well as programs, and stresses the importance of linking an output with its constituent parts. The main reasons for using ClearCase are explained and illustrated with examples from a successful implementation. Enough information about ClearCase is included to show wh y it is uniquely suited, amongst all Source Code Management Systems, for this task. Although this paper focuses on SAS the environment can also be used for other programs with little or no changes",
+    "keywords": "data cleaning , dataset , txt , sas programming , sas programmer",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_AS09.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_AS09.pdf"
+    ],
+    "filename": "PAP-AS09-57cec364f5.pdf"
+  },
+  {
+    "title": "Implementing CFR 21 part 11 for SAS without tears or joins",
+    "authors": "David J. Garbutt",
+    "abstract": "This paper argues that the best way to construct an easy-to-program i n a n d C F R 2 1 p a r t 1 1 - c o mpliant environment for SAS program ming is by using a version control system, specifically the IBM Rational product ClearCase. It concentrates on architectural issues to do with protecting data and outputs as well as programs, and stresses the importance of linking an output with its constituent parts. The main reasons for using ClearCase are explained and illustrated with examples from a successful implementation. Enough information about ClearCase is included to show wh y it is uniquely suited, amongst all Source Code Management Systems, for this task. Although this paper focuses on SAS the environment can also be used for other programs with little or no changes",
+    "keywords": "data cleaning , dataset , txt , sas programming , sas programmer",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_RC05.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_RC05.pdf"
+    ],
+    "filename": "PAP-RC05-02902f2a3c.pdf"
+  },
+  {
+    "title": "Implementing Shared Column Variables",
+    "authors": "Shan Lee",
+    "abstract": "The purpose of this paper is to illustrate how SAS PROC REPORT can be used to generate data displays with shared column variables. I will use an example to explain what I mean by \"\"shared column variables\"\": let''s suppose we need to create a data display showing the numbers of adverse events for each preferred term, and let''s suppose the preferred terms need to be grouped by system organ class",
+    "keywords": "proc report , system organ class , proc step , txt , in= , macro loop , adverse events , macro definition , %if-%then-%else",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_CC04.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_CC04.pdf"
+    ],
+    "filename": "PAP-CC04-6938018080.pdf"
+  },
+  {
+    "title": "Implementing Shared Column Variables",
+    "authors": "Shan Lee",
+    "abstract": "",
+    "keywords": "",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_PS08.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_PS08.pdf"
+    ],
+    "filename": "PAP-PS08-6bd263fbf8.pdf"
+  },
+  {
+    "title": "Integrating SAS With Open Software in a Validated Drug Safety Environment",
+    "authors": "Jeremy Fletcher",
+    "abstract": "",
+    "keywords": "exception handling , data cleaning , data step , data transformation , data validation rules , macro parameter , raw data",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_AS15.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_AS15.pdf"
+    ],
+    "filename": "PAP-AS15-b97e24ce5d.pdf"
+  },
+  {
+    "title": "It's Proc Tabulate Jim, but not as we know it!",
+    "authors": "Robert Walls",
+    "abstract": "PROC T ABULATE h a s r e c e i v e d a ver y b a d p ress in the last few years. Most SAS Users have come to look on it as an antiquated, cumbersome and inflexible procedure to use, when compared to PROC REPORT . What a l ot of S AS u s e r s a re n ot a ware o f a r e the advantages o f PROC T ABULATE a s a statisti cal procedure. In this presentation we will discuss the pros and cons of using this sorely maligned procedure to analyse and manipulate data. We will present you with real life scenarios aimed to show you the strengths (and maybe a few of the weaknesses) of using PROC TABULATE (SAS version 8.2) and how it could help to save you unnecessary coding in the future",
+    "keywords": "proc tabulate , proc step , class variable , automatic variable , proc freq",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_SS02.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_SS02.pdf"
+    ],
+    "filename": "PAP-SS02-9cc0eb814c.pdf"
+  },
+  {
+    "title": "Kisses, Nakedness and Love Or What makes a good clinical trials programmer ?",
+    "authors": "Josephine Duvoid",
+    "abstract": "",
+    "keywords": "clinical trial , clinical data",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_PD05.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_PD05.pdf"
+    ],
+    "filename": "PAP-PD05-597b090be9.pdf"
+  },
+  {
+    "title": "Macro Design & Development by Example",
+    "authors": "Dante Di Tommaso",
+    "abstract": "Thoughtful design and careful development can make the difference between one-off programs and a collection of efficient and robust macros. The authors intend this paper to complement and extend previously published design considerations (see References & Recommended Reading). Our discussion is based on demonstrations of concepts that the authors keep in mind while designing and developing generic utilities",
+    "keywords": "macro definition , sas base",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_TU08.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_TU08.pdf"
+    ],
+    "filename": "PAP-TU08-8ff555de48.pdf"
+  },
+  {
+    "title": "Macro MDU: a flowchart of used programs, datasets and TLF's based upon the Final Run",
+    "authors": "Herman Ament",
+    "abstract": "Within the Biometrics department of Organon N.V. SAS programs are run accordingly to the so-called FINAL RUN procedure. The FINAL RUN is used to create to-be-released statistical output. The FINAL RUN provides a unified way of producing output of a clinical trial that can be reproduced straightforwardly. According to the FINAL RUN the statistical programmer of a trial has to start one program, the Final Run, that calls each SAS program in the appropriate order. The result of the Final Run is the creation of intermediate SAS datasets (so called NOMASTER datasets), final datasets (MASTER datasets) and report files (tables, listings and figures). Based on the FINAL RUN macro MDU determines which SAS statements are executed per program. By determining the boundaries of PROC and DATA steps and macro calls, macro MDU can determine a) which datasets are read, created and deleted and b) which macros are called by each program",
+    "keywords": "txt , proc step , permanent dataset , clinical trial , macro call , proc sort , macro definition , macro parameter , %macro parameters , data science",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_AS04.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_AS04.pdf"
+    ],
+    "filename": "PAP-AS04-13788a24f5.pdf"
+  },
+  {
+    "title": "Managing Clinical Trials Data using SAS",
+    "authors": "Martin J. Rosenberg",
+    "abstract": "For over five years, one of the largest clinical trials ever conducted (over 670,000 pages from 90,000 patients and 2,000 investigators) was managed using a SAS Powered clinical data management system. All data were entered, stored, managed, and analyzed using SAS/SHARE as the database server, SAS tables for physical storage, and Microsoft Windows as the operating system on both the server and desktop. Electronic images of Case Report Forms (CRFs) were used extensively in lieu of the paper CRFs. Although it origins are in statistical analysis, the SAS system has evolved to encompass many features once thought to be the exclusive province of traditional transaction oriented relational database management systems",
+    "keywords": "data governance , clinical data management , clinical data , clinical trial , dataset , clinical data management system , where statement , audit trail , relational database , data science , proc step , proc sql , index",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_DM03.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_DM03.pdf"
+    ],
+    "filename": "PAP-DM03-a5b9f62f0a.pdf"
+  },
+  {
+    "title": "Mapping Corporate Data Standards to the CDISC Model",
+    "authors": "David Parker",
+    "abstract": "This paper will discuss the recent publications from the Clinical Data Interchange Standards Consortium (CDISC), relating to data standards including the Case Report Tabulation Data Definition Specification document and the Study Data Tabulation Model document and discuss mapping approaches from a hypothetical corporate standard to the CDISC Operational Data Model (ODM) and Study Data Tabulation Model (STDM). In recent years CDISC have developed and published recommendations for data standards for Biopharmaceutical Companies, helping to move the industry towards a customer focused standardised way of presenting regulatory submissions. Mapping strategies for transforming existing corporate standards to the CDISC standards are important as some companies do not yet have the confidence that the CDISC models are stable enough to build corporate reporting systems around",
+    "keywords": "clinical trial , adam dataset , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_CD11.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_CD11.pdf"
+    ],
+    "filename": "PAP-CD11-47de6235af.pdf"
+  },
+  {
+    "title": "Migration of a Flexible Reporting System from SAS 6.12 to SAS 9.1.3 - A project experience",
+    "authors": "Raymond Ebben",
+    "abstract": "This paper will discuss the execution of a project to migrate a flexible reporting application from version 6.12 of SAS to version 9.1.3. T he application is in use at a leading research facility for pre-clinical studies in The Netherlands called NOTOX B.V. The main function of the application is to provide a flexible reporting environment for pre-clinical toxicology and reproduction studies executed for a variety of sponsors in the pharmaceutical industry",
+    "keywords": "sas base , proc means , data cleaning",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_AS12.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_AS12.pdf"
+    ],
+    "filename": "PAP-AS12-c6a7c103b7.pdf"
+  },
+  {
+    "title": "ODM & define.xml",
+    "authors": "David Iberson-Hurst",
+    "abstract": "",
+    "keywords": "adverse events , 21 cfr part 11 , clinical trial , raw data , adam dataset , annotated crf , audit trail , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_CD07.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_CD07.pdf"
+    ],
+    "filename": "PAP-CD07-f2cc631925.pdf"
+  },
+  {
+    "title": "Only Interactive Graphics Will Do",
+    "authors": "Nelson Kinnersley",
+    "abstract": "The requirements for ongoing review of clinical trial data by physicians at pharmaceutical and biotechnology companies are growing faster than ever. Regulatory agencies are issuing guidelines on safety risk management at a time when withdrawal of medicines from the market has occurred for fears of safety. Traditional, periodic review of line listings and summary tables from data accumulating in an ongoing clinical trial is no longer sufficient for a physician. The physicians not only require real-time access to (raw) clinical data as collected on the Case Report Form but also to the (derived) endpoints as-specified in the protocol or analysis plan. Integrating raw data from Oracle Clinical with derived data from SAS datasets over SAS/SHARE for interactive, drill-down capable graphics can be achieved with the Integrated Review application",
+    "keywords": "raw data , clinical trial , dataset , clinical data , adverse events",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_TS04.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_TS04.pdf"
+    ],
+    "filename": "PAP-TS04-ceaba99b2d.pdf"
+  },
+  {
+    "title": "Opportunities for efficiency created by the ODS",
+    "authors": "John Kirkpatrick",
+    "abstract": "The ODS can greatly simplify the creation of attractive, report-ready output from the SAS System. This talk describes the findings of a feasibility study into the use of ODS tables in a regulatory reporting environment. Colossal savings in coding effort can be achieved. In one case, a program of 14500 lines was reduced to one of seventy. However, these savings may be limited by a rigid adherence to templates defined without reference to ODS functionality. For maximum benefit to the organisation, an entrepreneurial approach from programming managers is required, together with flexibility from clients from both within the organisation and without",
+    "keywords": "proc tabulate , proc means",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_TS07.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_TS07.pdf"
+    ],
+    "filename": "PAP-TS07-3601ffe8c2.pdf"
+  },
+  {
+    "title": "Pagination in the ODS",
+    "authors": "John Kirkpatrick",
+    "abstract": "The ability to use non-proportional fonts in ODS output creates attractive tabular presentations but considerably increases the complexity of accurate manual pagination. In this talk, I illustrate why the problem is complex and demonstrate a simple, flexible and reliable solution that is easily integrated into existing workflows",
+    "keywords": "",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_TS03.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_TS03.pdf"
+    ],
+    "filename": "PAP-TS03-3f13965aad.pdf"
+  },
+  {
+    "title": "Pharmacovigilance Using SAS Technology , Analytics and CDISC Data Standards, including the SDTM-ADaM Submission Relationship",
+    "authors": "Edward D. Helton",
+    "abstract": "",
+    "keywords": "cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_CD05.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_CD05.pdf"
+    ],
+    "filename": "PAP-CD05-2ba0186599.pdf"
+  },
+  {
+    "title": "Power calculation of non-inferiority trials assuming poisson distributions",
+    "authors": "Corinna Miede , Jochen MÃ¼ller-Cohrs",
+    "abstract": "Rare events are often described by a Poisson distribution. I nc l i n i c a lr e s e a r c ht h ee x - amination of such rare events could be the basis of a non-infe riority trial. In order to plan such a trial the power of a statistical test comparing two Poi sson distributions is required. The purpose of this paper is to present a method for calculati ng size and power of three statistical tests. The method can be easily realized with a short SASRâprogram. The paper will depict the approach graphically and theoretically. 1I n t r o d u c t i o n In the ICH E9 guideline \"Statistical Principles for Clinica lT r i a l s \"[ 1 ]t h en o n - i n f e r i o r i t yt r i a li s described as a possible type of comparison in clinical research. Especially if a standard treat- ment still exists and a placebo controlled trial is not pract icable because of ethical reasons the non-inferiority trial is an appropriate method [2]",
+    "keywords": "sample , poisson distribution , sample size , likelihood function , significance level , type i error , probability distribution",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_PK01.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_PK01.pdf"
+    ],
+    "filename": "PAP-PK01-7ef2eb1a73.pdf"
+  },
+  {
+    "title": "QualityView - a SAS program database and validation documentation tool",
+    "authors": "Peter Gerber , Michael Ludwig",
+    "abstract": "During the analysis of a clinical study a large number of SAS programs have to be developed for the generation of derived datasets and production of tables, listings and figures for clinical study reports and summary documents. In this process, program validation is a central point to ensure the quality of programs. Individual validation steps must be documented. In the past, this process was highly paper orientated and time consuming. Validation information had to be retrieved from several sources. With QualityView, a tool developed with Microsoft Visual Basic, we are able to store all validation information electronically in a central place, a Microsoft Access database, and to print the information into standard reports (validation sheets, Microsoft EXCEL sheets or Microsoft Word documents)",
+    "keywords": "data cleaning , delimited file , validation documentation",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_RC03.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_RC03.pdf"
+    ],
+    "filename": "PAP-RC03-9d7a3490b7.pdf"
+  },
+  {
+    "title": "Regulatory Compliant Validation and Deployment of SAS Programs with the Colibri Server",
+    "authors": "Andreas Mangold",
+    "abstract": "This paper shows the concepts and demonstrates the use of Colibri, which is a SAS based server for the regulatory compliant management of data analysis programs and analysis results. Colibri is designed for speeding up the validation process by providing a framework for every activity of developers, testers and software administrators in a complex, multi-client environment in large organizations. The framework extends to an end user environment compliant to 21 CFR Part 11, where users who have no programming knowledge apply the validated SAS programs to their data and where they manage and archive the results. Colibri (\"Code Libraries\") supports the software lifecycle in the regulated industries with built in tools for change management and version control, configuration management, programming in the team, multi language support and web-deployment without additional coding. The testing environment reduces the effort for the specification, execution and documentation of tests",
+    "keywords": "data science , data cleaning , sas enterprise guide , regression analysis",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_RC01.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_RC01.pdf"
+    ],
+    "filename": "PAP-RC01-e1c4e7b959.pdf"
+  },
+  {
+    "title": "Rich, Handsome & Successful: The Power of SAS to the Scientists & Statisticians in Research",
+    "authors": "David Shannon",
+    "abstract": "This paper presents how a successful SAS/AF application used by scientists and researchers was presented to users through a Windows application for usability and speed whilst retaining the robustness of the SAS 9. SAS Integration Technologies was used to interface the tried and trusted algorithms to a bespoke application developed using Microsoft Visual Basic .NET. This created an interoperable and scalable environment for the current and future of the business. A discussion and presentation is made of the techniques used to integrate SAS via the integrated object model (IOM) of Integration Technologies, through the use of workspaces, stored processes and access to SAS metadata and data via OLEDB. A presentation will be given of the final application demonstrating the ability to harness the power of SAS/STAT and SAS/GRAPH to users who are focussed on the rapid delivery of answers within Unilever's Research and Development Division",
+    "keywords": "sas enterprise guide , macro variable , anova , dataset , proc step , macro quoting function",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_AS01.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_AS01.pdf"
+    ],
+    "filename": "PAP-AS01-0324e0d439.pdf"
+  },
+  {
+    "title": "SAS Certification: Is it for You?",
+    "authors": "Sarbjit Rai",
+    "abstract": "",
+    "keywords": "sas base , pharmaceutical industry",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_PS02.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_PS02.pdf"
+    ],
+    "filename": "PAP-PS02-d84a5e2269.pdf"
+  },
+  {
+    "title": "SAS Dataset Content Conversion to CDISC Data Standards",
+    "authors": "Anthony L. Friebel , Thomas W. Cox , Edward D. Helton",
+    "abstract": "The CDISC Operational Data Model (ODM) is a vendor neutral, platform independent format for interchange and archive of data collected in clinical trials1. The model represents study metadata, administrative metadata, and subject data associated with a clinical trial. Program fragments used for forward and backward conversions of data from SAS to ODM v1.2 format will be presented here, along with displays of the data before and after conversion",
+    "keywords": "libname engine , dataset , proc step , adverse events , clinical trial , controlled terminology , data cleaning , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_CD08.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_CD08.pdf"
+    ],
+    "filename": "PAP-CD08-6f339af51d.pdf"
+  },
+  {
+    "title": "SAS to R to SAS",
+    "authors": "Philip R. Holland",
+    "abstract": "",
+    "keywords": "numeric variable , proc format",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_CC03.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_CC03.pdf"
+    ],
+    "filename": "PAP-CC03-15e1c93f3f.pdf"
+  },
+  {
+    "title": "SAS with Excel Application Development: Tools and Techniques",
+    "authors": "LeRoy Bessler",
+    "abstract": "The commonest non-SAS tool for data presentation, and working with data, is Microsoft EXCEL . Other people may want your SAS report formatted as a spreadsheet. Dynamic Data Exchange (DDE) can empower and augment your use of SAS with EXCEL . You can develop SAS programs to load worksheets, and format them without point-and-click. Almost anything that you can do directly in EXCEL can also be done using DDE commands from your SAS program. You can access EXCEL data, even to the level of a specific cell, for writing, reading, or formatting data. To eliminate worry about getting code details right every time, you can simplify and routinize your use of DDE with macros. The presentation shows two different ways to simultaneously deliver data at summary and detail levels in one EXCEL workbook. Nowhere-else-available technical tidbits are included. E.g., custom indenting of cell contents is unsupported by DDE, but you will learn how to accomplish it",
+    "keywords": "excel , symbol table , sample , sas log , data step , macro variable",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_TU04.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_TU04.pdf"
+    ],
+    "filename": "PAP-TU04-9b00419982.pdf"
+  },
+  {
+    "title": "SAS/AF and Software Prototyping - Having your PIE and eating it!",
+    "authors": "Edward Foster",
+    "abstract": "All good quality software projects must clearly map business process (how work actually gets done) to a set of well defined requirements produced by the users as part of the requirements gathering exercise. Clear requirements, devoid of ambiguous statements, will mean that the end product is more likely to conform to the original specification for the system as developers should not be making any ''leaps of faith'' in assuming what the customer wants. One way to reduce the risk of errors arising from requirements is to adopt a prototyping methodology either as part of the requirements gathering stage or as part of the development process itself. SAS/AF can be used as a prototyping tool because its simple interface and standard objects make it quick and easy to build a prototype for demonstration, which can be used to clarify and firm up what is actually required from a system",
+    "keywords": "excel , proc step",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_AS08.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_AS08.pdf"
+    ],
+    "filename": "PAP-AS08-280438590b.pdf"
+  },
+  {
+    "title": "SAS/AF and Software Prototyping - Having your PIE and eating it!",
+    "authors": "Edward Foster",
+    "abstract": "",
+    "keywords": "",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_PS25.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_PS25.pdf"
+    ],
+    "filename": "PAP-PS25-3a5ba96c21.pdf"
+  },
+  {
+    "title": "Signal Detection in EudraVigilance",
+    "authors": "Jim Slattery",
+    "abstract": "This paper does not present finished work but discusses a current problem faced by the EMEA in detecting when a new safety problem with a marketed pharmaceutical product is emerging. This detection is based on analysis of a very large database of spontaneous reports by healthcare professionals. The mixture of complexity but also known structure within the data appear to call for a combination of formal statistical modeling and data-mining",
+    "keywords": "adverse events , adverse drug reaction , main effect , numeric functions",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_CC09.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_CC09.pdf"
+    ],
+    "filename": "PAP-CC09-0516ce4e0b.pdf"
+  },
+  {
+    "title": "Software Tools for working with CDISC ODM, SDTM, LAB and define.xml",
+    "authors": "Jozef Aerts",
+    "abstract": "The choice for XML as the basis of the CDISC standards made it possible to easily develop new software tools for working with these standards, as many libraries, parsers and frameworks for working with XML already exist. The presentation gives an overview of the IT-opportunities (enabling faster clinical trials with higher quality data) that have been made possible by the XML-based CDISC standards, such as automatic database creation, automatic generation of e-CRFs, web services for exchange of clinical data, etc.. An overview of tools for viewing CDISC files and for validating them against the standards is provided. The lecture includes a number of demos showing the power of the CDISC set of standards",
+    "keywords": "clinical data , 21 cfr part 11 , clinical trial , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_CD09.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_CD09.pdf"
+    ],
+    "filename": "PAP-CD09-6520a1beb9.pdf"
+  },
+  {
+    "title": "Sort Your SAS Graphs and Create a Bookmarked PDF Document Using ODS PDF",
+    "authors": "Dirk Spruck , Monika Kawohl",
+    "abstract": "Graphs are a great tool to visualize data and they are commonly used as part of the analysis and reporting of clinical trial data. In SAS there are different possibilities for creating and storing graphs available. If it is important to provide the graphs in a user-friendly format bookmarked PDF documents are a good choice. This paper describes a technique used to automate the sorting of graphs and the creation of bookmarked PDF documents containing all graphs using ODS PDF under SAS 8.2. New graphs are stored in a SAS graphics catalog using a standardized description. This description, extracted from the SAS dictionary table CATALOGS, is used to sort the graphs and to create PROC GREPLAY code. The generated code can reproduce the graphs in the specified order. To create the PDF file this code is embedded in ODS statements. The descriptions are automatically translated into PDF bookmarks",
+    "keywords": "ods pdf , proc greplay , proc step , dictionary tables",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_CC01.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_CC01.pdf"
+    ],
+    "filename": "PAP-CC01-aa16fcaa8e.pdf"
+  },
+  {
+    "title": "Sort Your SAS Graphs and Create a Bookmarked PDF Document Using ODS PDF",
+    "authors": "Dirk Spruck , Monika Kawohl",
+    "abstract": "",
+    "keywords": "catalog , ods pdf",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_PS07.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_PS07.pdf"
+    ],
+    "filename": "PAP-PS07-b793de8d58.pdf"
+  },
+  {
+    "title": "Splendida fugilente oculi, e.g. dummy randomization lists to more than designed patient profiles",
+    "authors": "Magnus Mengelbier",
+    "abstract": "There are many different and popular programming techniques to protect the integrity of open label and blinded clinical trials. We consider common approaches from a program development point of view where both conscious and unconscious influence may originate from generating draft added-value data sets and report output. Dummy randomization lists, rescaling, recycling, designed subject response profiles and data scrambling all aim to hide and obscure any true treatment differences. We also consider experiences from clinical study teams to support trial integrity in order to offer sensible and applicable tactics",
+    "keywords": "randomization , treatment arm , adverse events",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_PK03.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_PK03.pdf"
+    ],
+    "filename": "PAP-PK03-7542d9912c.pdf"
+  },
+  {
+    "title": "Strategic recruitment of SAS Programmers: Wisdom or Folly?",
+    "authors": "Katherine Hutchinson",
+    "abstract": "This paper compares and contrasts two very different recruitment strategies for SAS programmers used by Oxford Pharmaceutical Sciences (OPS). The first, adopted in 2001, was to recruit graduates with no SAS knowledge into the company and train them via an external training facility and subsequent place them at client sites. The process from interview to recruitment is described in detail. The second, involving placement of SAS programmers in-house, is still currently being used. The process from interview to recruitment is described in detail. The merits, or otherwise, of the strategies are compared, and the use of contractors versus permanent staff is discussed. The paper finishes with the ultimate formula for the SAS programmer",
+    "keywords": "sas programmer , sas programming , pharmaceutical industry , business intelligence , macro facility",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_PD02.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_PD02.pdf"
+    ],
+    "filename": "PAP-PD02-bc4b23bb9b.pdf"
+  },
+  {
+    "title": "Technical application of SAS ETL Studio in the clinical reporting process",
+    "authors": "David Smith",
+    "abstract": "The clinical reporting process has become an increasing area of focus as pharmaceutical companies seek to improve its efficiency. The main approach taken up to now has been to enforce standards of metadata and process to re-use as much as possible from earlier trials. This approach has largely failed to deliver the expected gains because scientific research, clinical investigators and patients consistently refuse to adhere to standards. In a growing number of companies, SAS ETL Studio is being seen as the answer to this problem. In this presentation we will examine how SAS ETL Studio can be aligned with the existing clinical process, how an implementation team can use metadata scripting and extended attributes to automate that process, and how standards such as CDISC SDTM can be implemented",
+    "keywords": "data cleaning , sas 9 , clinical trial , clinical research , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_TS10.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_TS10.pdf"
+    ],
+    "filename": "PAP-TS10-13c7b1711a.pdf"
+  },
+  {
+    "title": "The Dataset Diet - How to transform short and fat into long and thin",
+    "authors": "Kathryn Wright",
+    "abstract": "",
+    "keywords": "",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_PS14.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_PS14.pdf"
+    ],
+    "filename": "PAP-PS14-80a7831b52.pdf"
+  },
+  {
+    "title": "The Dataset Diet - How to transform short and fat into long and thin",
+    "authors": "Kathryn Wright",
+    "abstract": "What do you do when you are given a dataset with one observation per subject and hundreds of variables? The dataset is not particularly usable in this format. It is generally more useful to convert the data into several observations per subject with fewer variables. There are a few methods in SAS that can be used to achieve this effect. This paper will look into simple DO LOOPs, DO LOOPs with SQL and MACROS, ARRAYS and PROC TRANSPOSE",
+    "keywords": "do loop , proc step , proc transpose , adverse events , macro variable , proc contents , vital signs , proc sql , out=",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_TU06.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_TU06.pdf"
+    ],
+    "filename": "PAP-TU06-7420e3f7f3.pdf"
+  },
+  {
+    "title": "The Developing Role of XML",
+    "authors": "David Shannon",
+    "abstract": "This paper discusses the use of extensible mark-up language (XML) within the SAS 9. The impact to users of the SAS language is discussed and demonstrated. The use of XML is positioned within the pharmaceutical industry by giving reference to regulatory guidance. Briefly discussed will be the developments made by SAS Institute over of previous versions of their software with regards to the use of XML as a data source and output format. Practical demonstrations of using XML as a data source and writing to output destinations w ill be given with SAS 9. This paper is of relevance to all users of SAS who expect to be involved with the use of extensible mark-up language either as data source, transfer or delivery format",
+    "keywords": "proc step , dataset , libname statement , proc report , libname engine , pharmaceutical industry , sas 9 , data step , proc print , format statement , sample",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_TU09.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_TU09.pdf"
+    ],
+    "filename": "PAP-TU09-d5fafe54dd.pdf"
+  },
+  {
+    "title": "The European System for Monitoring Drug Safety, EudraVigilance",
+    "authors": "Hans-Georg Wagner , Olivier Simoen",
+    "abstract": "Monitoring the safety of medicinal products before and after t hey receive marketing authorisat ion is a top priority for regulators and pharmaceutical industry. The new European pharmaceutical legisl ation makes electronic reporting of adverse drug reactions mandatory from N o v e m b e r 2 0 0 5 . I n 2 0 0 1 t h e E u r o p e a n Medicines Agency put in place a system to be used by pharmaceutical i ndustry and national regulators to electroni cally transmit safety reports in an internationally agreed exchange format, E2B. This system , called EudraVigilance has b e e n c o n t i n u o u s l y i m p r o v e d and extended since. It consists of a secu re electronic gateway, a transactional database where all safety reports are stored, a medicinal product dictionar y, a pilot data warehouse, and a business intelligence part for reporting and analysing the safety reports received",
+    "keywords": "adverse drug reaction , clinical trial , pharmaceutical industry , data science , data warehouse , duplicate detection , data validation rules , regression analysis , sas enterprise guide , proc princomp , data cleaning",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_RC07.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_RC07.pdf"
+    ],
+    "filename": "PAP-RC07-f6b72715f6.pdf"
+  },
+  {
+    "title": "The FORMAT procedure - more than just a VALUE statement",
+    "authors": "Lawrence Heaton-Wright",
+    "abstract": "The FORMAT procedure is most frequently used to define formats for variables. However, there is also extended functionality available within the FORMAT procedure which allows users to define informats, picture formats, create data sets of formats, use data sets (also known as control data sets) to create formats and to display the formats catalog information. This paper aims to show users how informats and picture formats work, how to create and use control data sets and how to display the formats catalog. The audience for this paper does not have to be of a high technical level but should be familiar with the workings of base SAS. The contents are not restricted to one particular operating system",
+    "keywords": "proc format , character variable , proc step , numeric variable , date variable , sysdate9",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_TU05.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_TU05.pdf"
+    ],
+    "filename": "PAP-TU05-bc338dd6b7.pdf"
+  },
+  {
+    "title": "The Future of CDISC",
+    "authors": "Becky Kush",
+    "abstract": "",
+    "keywords": "clinical research , clinical trial , data science , adam dataset , raw data , regulatory submission , randomization , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_CD13.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_CD13.pdf"
+    ],
+    "filename": "PAP-CD13-1b75b72316.pdf"
+  },
+  {
+    "title": "The HAWK has a good (SAS) view",
+    "authors": "Oliver LeConte",
+    "abstract": "Like many pharmaceutical companies, SERVIER uses ClintrialÂ¥ for Clinical Data Management. In order to access the data in ClintrialÂ¥, SERVIER has chosen to use SAS views. This paper describes HAWK, an in-house application developed using SAS\\AF, to create and manage these views. The focus is on how Data Managers create views with high quality labels and formats using ClintrialÂ¥ metadata, and on the use of a batch tool to make daily updates of the views",
+    "keywords": "create view , clinical data , view , proc step , proc sql",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_AS02.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_AS02.pdf"
+    ],
+    "filename": "PAP-AS02-ffd5300d23.pdf"
+  },
+  {
+    "title": "The SAS Data Step/Macro Interface",
+    "authors": "Lawrence Heaton-Wright",
+    "abstract": "The SAS macro facility is an extremely useful part of the SAS System. However, macro variables and the macros themselves do not have to be exclusively referenced from within the macro facility. The SAS DATA STEP can create, resolve and execute macros using 2 functions: SYMGET and RESOLVE and 2 routines: CALL SYMPUT and CALL",
+    "keywords": "macro variable , data step , call symput , call execute , sas log , macro definition , macro facility , proc sql , macro parameter , proc step , cpu time",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_TS09.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_TS09.pdf"
+    ],
+    "filename": "PAP-TS09-3bf97a5840.pdf"
+  },
+  {
+    "title": "To ODS RTF and Beyond, Third Edition",
+    "authors": "David Shannon",
+    "abstract": "The ability to send output to Microsoft Word was the most commonly requested function during the development of the Output Delivery System. Since version 8.1 ODS RTF has been formally available. The Rich Text Format (RTF) specification is a method of encoding formatted text and graphics which is read by Microsoft Word and several other text editors. So now that we have the ability to send output to Word, how can we apply it? What are the advantages over traditional fixed space output? How can we go beyond the documentation to extract some of Microsoft Word''s features? This paper will address these questions demonstrating how to define and apply generic appearance to a project and consider the advantages of RTF output to both the programmer and end user. Furthermore it will be shown how to go beyond the documentation by embedding RTF codes to enhance your reports. Finally this paper addresses some practical considerations when generating and distributing RTF files",
+    "keywords": "output delivery system , ods rtf , sas 9 , proc step , proc report",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_TS01.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_TS01.pdf"
+    ],
+    "filename": "PAP-TS01-101777c11e.pdf"
+  },
+  {
+    "title": "Understanding the Japanese culture and approval process",
+    "authors": "Richard Harvey",
+    "abstract": "Gaining approval for a drug product in the West is a well-understood and documented process. Japanese approvals have often been more time consuming and, in the past, companies would often complete their \"\"Western development\"\" before thinking about Japan. However, as Japan is the second largest single pharmaceutical market, it is clearly an important part of the drug development process and needs to be considered in parallel with work targeted at the Western regulatory authorities. An important factor in achieving success in Japan is to understand the culture as well as the regulatory environment and processes, both of which have changed considerably in the past few years. Gaining agreement with the regulatory authority on completing a full Phase III development within Japan or implementing ICH E5 to make use of foreign data is also an important step in the process",
+    "keywords": "clinical data , concomitant medications , medical history , clinical trial , excel",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_RC04.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_RC04.pdf"
+    ],
+    "filename": "PAP-RC04-1270a73951.pdf"
+  },
+  {
+    "title": "Understanding what 'make' can do for you",
+    "authors": "David J. Garbutt",
+    "abstract": "",
+    "keywords": "adam dataset , macro variable",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_PS27.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_PS27.pdf"
+    ],
+    "filename": "PAP-PS27-c23e56fe90.pdf"
+  },
+  {
+    "title": "Using ODS RTF with Style!",
+    "authors": "Robert Walls",
+    "abstract": "In the last few years ODS functionality has virtually exploded. There is now ODS functionality which will allow a user to output to almost every possible desired destination, from PDF to XML. One of the most well used and documented of these destinations is the R TF destination, and because of this the output created by OD S RTF is probably the most malleable of all the destinations. The aim of this paper is t o e x p l a i n s o m e o f t h e t e c h n i q u e s w h i c h c a n b e u s e d t o manipulate the appearance of RTF output. Some of the techniques which will be covered include, in-line formatting and the escape character, inserting raw RTF code, protecting special characters, traffic lighting and using the style statement within procedures. Each of these techniques will allow the user to change the structur e, appearance and format of the outputted data with ease",
+    "keywords": "proc step , proc report , output delivery system , ods rtf , proc print , proc template , proc tabulate",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_SS03.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_SS03.pdf"
+    ],
+    "filename": "PAP-SS03-fe9a84c382.pdf"
+  },
+  {
+    "title": "Using tagsets to provide customised output: A tutorial",
+    "authors": "John Kirkpatrick",
+    "abstract": "The ODS is a flexible and reliable method of producing custom output to publication quality. Ho wever, using the conventional destinations (RTF, PDF and HTML) some effects and layouts are still difficult or even impossible to achieve. With TAGSETS , a much greater level of flexibility is achievable. This tutorial will provide a basic introduction to the theory of TAGSETS and provide some practical guidance on how to go about developing your own TAGSETS . The example is based on moving TITLE and FOOTNOTE text from the document header to the body of a data table",
+    "keywords": "output delivery system , proc step",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_TU03.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_TU03.pdf"
+    ],
+    "filename": "PAP-TU03-f396963374.pdf"
+  },
+  {
+    "title": "Using VBA and BASE SAS to Get Data from SAS to Excel Without Data Integrity Issues",
+    "authors": "Timothy Adlington",
+    "abstract": "There have been many excellent papers detailing the transfer of data from SAS to Microsoft EXCEL using various methods such as DDE, ODS and OLE. However for some of these methods there is one aspect of the process which perhaps hasn't received enough attention. Unless you take some precautions EXCEL will quite happily corrupt your data without a second thought by applying it's own automatic formatting. This paper explains how to pump data into EXCEL using DDE & ODS with no loss of data integrity, and also how to utilise EXCEL 's most powerful feature, it's Visual Basic for Applications programming language, to pull data from SAS. The paper concludes with the code required to create an EXCEL Add-In which enables a non-SAS user to access SAS datasets from within EXCEL without the intervention of the SAS programmer, and with no loss of data integrity",
+    "keywords": "excel , dataset , sas log , proc printto , sas programmer , proc step , sas base",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_AS11.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_AS11.pdf"
+    ],
+    "filename": "PAP-AS11-743f2d5644.pdf"
+  },
+  {
+    "title": "Using VBA and BASE SAS to Get Data from SAS to Excel Without Data Integrity Issues",
+    "authors": "Timothy Adlington",
+    "abstract": "",
+    "keywords": "excel , data integrity",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_PS26.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_PS26.pdf"
+    ],
+    "filename": "PAP-PS26-7589375430.pdf"
+  },
+  {
+    "title": "Visions of a Drug Development Data Warehouse",
+    "authors": "Paul Vervuren",
+    "abstract": "Data warehouses are information systems designed to deliver information that cannot be provided by operational systems. At Organon a data warehouse project has been initiated with the primary aims to allow study data exploration across compounds, to link clinical, pre-clinical and research data, and make drug development data more easily and widely available. This paper presents some of the experiences and results of an early phase of a data warehouse project, which was restricted to clinical data. It includes a proposal for the simultaneous implementation of a data warehouse and the CDISC SDTM standards, and a query/reporting application build in SAS/AF in support of a data warehouse pilot",
+    "keywords": "data warehouse , clinical data , clinical trial , sdtm domain , trial summary , clinical research , macro definition , adverse events , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_AS03.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_AS03.pdf"
+    ],
+    "filename": "PAP-AS03-ecc25b54d1.pdf"
+  },
+  {
+    "title": "Visions of a Drug Development Data Warehouse",
+    "authors": "Paul Vervuren",
+    "abstract": "",
+    "keywords": "",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_PS24.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_PS24.pdf"
+    ],
+    "filename": "PAP-PS24-d39ceeb2e4.pdf"
+  },
+  {
+    "title": "Welcome to Dullsville!! The System Testing of SAS Macros",
+    "authors": "James McGiffen",
+    "abstract": "GSK has recently undertaken a project in which there was a requirement to test a new suite of SAS macros that created analysis ready datasets. This type of work presents both technical and managerial issues to not only our company but the entire pharmaceutical industry. This paper presents and discusses the approach that GSK has taken to solve this challenge so that we can produce high quality, reusable testing in an environment which is technically challenging and motivating for the programmers involved. It also stresses the need to develop a high quality, rapidly repeatable series of tests so that the quality of the development does not suffer",
+    "keywords": "pharmaceutical industry , macro definition",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_RC02.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_RC02.pdf"
+    ],
+    "filename": "PAP-RC02-db7e657089.pdf"
+  },
+  {
+    "title": "What SAS is doing for the FDA's Critical Path Initiative?",
+    "authors": "Andrew T. Fagan",
+    "abstract": "",
+    "keywords": "business intelligence , clinical research , sas base , data cleaning , sas enterprise guide , data mining , life sciences",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_CD06.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_CD06.pdf"
+    ],
+    "filename": "PAP-CD06-e9d2a4ad67.pdf"
+  },
+  {
+    "title": "You don't need second sight to use the LIBNAME ORACLE",
+    "authors": "Oliver LeConte",
+    "abstract": "Up to 2002, SERVIER used SAS to validate clinical data in a Clintrial Â¥ database. In order to have a real-time access to these databases, SAS views were created using the SQL PASS-THROUGH facilities. Once set-up, these views were also used by the Biostatisticians to make their statistical analysis. In SAS version 8, LIBNAME ORACLE was introduced as a new way to access ORACLE data. It allows users to access ORACLE databases as if they were regular datasets and to execute any SAS procedure on that data. This paper describes how SERVIER implemented this new functionality, the issues encountered, and the choices made to resolve them",
+    "keywords": "where statement , proc sql , oracle",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2005/Connect/EU/Heidelberg/PAP_DM06.pdf",
+      "https://saslexicon.org/PHUSE_EU/2005/PAP_DM06.pdf"
+    ],
+    "filename": "PAP-DM06-dbce944ec5.pdf"
+  }
+]
