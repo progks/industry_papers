@@ -920,7 +920,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_ET03.pdf",
       "https://saslexicon.org/PHUSE_US/2024/PAP_ET03.pdf"
     ],
-    "filename": "PAP-ET03-9b048d045b.pdf"
+    "filename": "PAP-ET03-9b048d045b.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_ET03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_ET03.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_ET03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_ET03.pdf"
   },
   {
     "title": "Enabling the Breakthroughs of Tomorrow: The Data Lakehouse for Clinical Trials",
@@ -931,7 +933,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_DH10.pdf",
       "https://saslexicon.org/PHUSE_US/2024/PAP_DH10.pdf"
     ],
-    "filename": "PAP-DH10-d650250d32.pdf"
+    "filename": "PAP-DH10-d650250d32.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_DH10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_DH10.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_DH10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_DH10.pdf"
   },
   {
     "title": "Enabling the Interoperable Data Ecosystem with the elluminate Clinical Data Cloud",
@@ -942,7 +946,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PRE_SD03.pdf",
       "https://saslexicon.org/PHUSE_US/2024/PRE_SD03.pdf"
     ],
-    "filename": "PRE-SD03-f551c434f5.pdf"
+    "filename": "PRE-SD03-f551c434f5.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PRE_SD03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PRE_SD03.pdf | https://saslexicon.org/PHUSE_US/2024/PRE_SD03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PRE_SD03.pdf"
   },
   {
     "title": "Enhancing PK Data Exploration and Visualization by using a R Shiny Application",
@@ -953,7 +959,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_DV03.pdf",
       "https://saslexicon.org/PHUSE_US/2024/PAP_DV03.pdf"
     ],
-    "filename": "PAP-DV03-1418591e15.pdf"
+    "filename": "PAP-DV03-1418591e15.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_DV03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_DV03.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_DV03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_DV03.pdf"
   },
   {
     "title": "EOSS_MMRM V1.0: A Shiny Application for Estimand-Oriented Sample Size and Power Simulation Using MMRM Modelling",
@@ -964,7 +972,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_AS03.pdf",
       "https://saslexicon.org/PHUSE_US/2024/PAP_AS03.pdf"
     ],
-    "filename": "PAP-AS03-e1ff9d8e0f.pdf"
+    "filename": "PAP-AS03-e1ff9d8e0f.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_AS03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_AS03.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_AS03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_AS03.pdf"
   },
   {
     "title": "Evaluating Safety Compliance in Clinical Trials by Leveraging Patient Narratives and Deep Learning",
@@ -975,7 +985,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_ET19.pdf",
       "https://saslexicon.org/PHUSE_US/2024/PAP_ET19.pdf"
     ],
-    "filename": "PAP-ET19-dd0d470a31.pdf"
+    "filename": "PAP-ET19-dd0d470a31.pdf",
+    "downloaded_from": "https://saslexicon.org/PHUSE_US/2024/PAP_ET19.pdf",
+    "status": "ok",
+    "bytes": 839859,
+    "sha256": "1d27efcd3f58897cd23197f9ea4d9e3cc77087022f67590279942a78696668fe"
   },
   {
     "title": "Expanding Collaboration and Innovation in R&D: Leveraging the Power of Open-Source Tools",
@@ -986,7 +1000,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_OS11.pdf",
       "https://saslexicon.org/PHUSE_US/2024/PAP_OS11.pdf"
     ],
-    "filename": "PAP-OS11-becec6b259.pdf"
+    "filename": "PAP-OS11-becec6b259.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_OS11.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_OS11.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_OS11.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_OS11.pdf"
   },
   {
     "title": "Exploring the Potential Use of Generative AI in the Regulatory Review Process",
@@ -997,7 +1013,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PRE_SA06.pdf",
       "https://saslexicon.org/PHUSE_US/2024/PRE_SA06.pdf"
     ],
-    "filename": "PRE-SA06-d3a97a4ae6.pdf"
+    "filename": "PRE-SA06-d3a97a4ae6.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PRE_SA06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PRE_SA06.pdf | https://saslexicon.org/PHUSE_US/2024/PRE_SA06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PRE_SA06.pdf"
   },
   {
     "title": "Fidelity Assessment of Real-World Data (RWD) as an External Control Arm",
@@ -1008,7 +1026,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_PP27.pdf",
       "https://saslexicon.org/PHUSE_US/2024/PAP_PP27.pdf"
     ],
-    "filename": "PAP-PP27-6f2351d633.pdf"
+    "filename": "PAP-PP27-6f2351d633.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_PP27.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_PP27.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_PP27.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_PP27.pdf"
   },
   {
     "title": "Fight the Power - Supporting Study Teams with Niche R Packages for Delivering Statistical Packages",
@@ -1019,7 +1039,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_OS01.pdf",
       "https://saslexicon.org/PHUSE_US/2024/PAP_OS01.pdf"
     ],
-    "filename": "PAP-OS01-60f4c2d939.pdf"
+    "filename": "PAP-OS01-60f4c2d939.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_OS01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_OS01.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_OS01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_OS01.pdf"
   },
   {
     "title": "From Data Iron to Data Gold",
