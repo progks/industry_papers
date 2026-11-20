@@ -3009,8 +3009,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_AS23.pdf"
     ],
     "filename": "PAP-AS23-85db6d9896.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS23.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS23.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_AS23.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_AS23.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS23.pdf",
+    "bytes": 230011,
+    "sha256": "671d59f2f0d5e7e95ecf8762f0b171004a0f46cbc633f6054ce72fdb6fb80eb6"
   },
   {
     "title": "Process and Tools for Supporting Haematology Blinded Patient Disease Response Review",
@@ -3022,8 +3024,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_PP17.pdf"
     ],
     "filename": "PAP-PP17-0380d2f8a3.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PP17.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PP17.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_PP17.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_PP17.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PP17.pdf",
+    "bytes": 1076617,
+    "sha256": "ad1326c576d1dfaad73a24f847af325272c81442de9587261df20d2afa4f821a"
   },
   {
     "title": "Programmatically Modifying a Document Created by ODS Excel: Adding a Password and Concatenating Multiple Worksheets into One",
@@ -3035,8 +3039,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_SM17.pdf"
     ],
     "filename": "PAP-SM17-40aa8d34dc.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SM17.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SM17.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_SM17.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_SM17.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SM17.pdf",
+    "bytes": 1017611,
+    "sha256": "489091a6d43e744533d9c523d755e1bf028393ba02e36c5abdd797a7f2f3b1da"
   },
   {
     "title": "Prompt Engineering in Gen AI: A Game Changer for the professional development of Statistical Programmers and Data Scientists",
@@ -3048,8 +3054,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_PD06.pdf"
     ],
     "filename": "PAP-PD06-8c23a79d35.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PD06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PD06.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_PD06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_PD06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PD06.pdf",
+    "bytes": 325539,
+    "sha256": "1f76b24da0d1f07323052107c83f872c4f3a2affed2f4414d99bb96001317739"
   },
   {
     "title": "Prompting for Precision: Leveraging Agentic Workflows to Accelerate Clinical Trial Document Understanding",
@@ -3061,8 +3069,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_ML17.pdf"
     ],
     "filename": "PAP-ML17-af37efdf79.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML17.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML17.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_ML17.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_ML17.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML17.pdf",
+    "bytes": 434004,
+    "sha256": "15b19abd0ab46418c2765541c30ab0732465ff3ad2312a3c8e6b32578b37314a"
   },
   {
     "title": "Protecting Commercially Confidential Information (CCI) Under the EU Clinical Trials Regulation",
@@ -3074,8 +3084,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PRE_DT25.pdf"
     ],
     "filename": "PRE-DT25-5ec480f6eb.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_DT25.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_DT25.pdf | https://saslexicon.org/PHUSE_US/2026/PRE_DT25.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PRE_DT25.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_DT25.pdf",
+    "bytes": 1071913,
+    "sha256": "413dbb5247dbcc1abc758530497728e5982fef2d250861ed0544181c4031d2b8"
   },
   {
     "title": "QC Without Code: ChatGPT Enterprise for Sponsor Oversight of Outsourced TFLs",
@@ -3087,8 +3099,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_ML24.pdf"
     ],
     "filename": "PAP-ML24-9c0ff1e09b.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML24.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML24.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_ML24.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_ML24.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML24.pdf",
+    "bytes": 1035647,
+    "sha256": "12fc414b3dda929e5248e4083628ab5058500771ecaeb0ba2ab1ade7a2192da6"
   },
   {
     "title": "R We There Yet? A Readiness-Assessment Framework for Adoption of R and Open-Source Solutions",
@@ -3100,8 +3114,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_ET24.pdf"
     ],
     "filename": "PAP-ET24-ce5495a9cb.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET24.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET24.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_ET24.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_ET24.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET24.pdf",
+    "bytes": 588367,
+    "sha256": "c1a49f1eb5953815a7f53334ac918b7b7fab66e31a55bb4b1aad7933151ea398"
   },
   {
     "title": "Ready for Next-Level SDTM and ADaM Compliance with End-to-End Processing?",
@@ -3113,8 +3129,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_DH01.pdf"
     ],
     "filename": "PAP-DH01-c9a8b3b435.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DH01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DH01.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_DH01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_DH01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DH01.pdf",
+    "bytes": 225476,
+    "sha256": "794ff47f539bc6e5bbc97ea5391ca0bf7eec40d694b8332736c2fb0a6db2e1f2"
   },
   {
     "title": "Real-Time AI-Driven TLF Generation with GAutoTLF",
@@ -3126,8 +3144,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_ML18.pdf"
     ],
     "filename": "PAP-ML18-843509eb8c.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML18.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML18.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_ML18.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_ML18.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML18.pdf",
+    "bytes": 1200958,
+    "sha256": "fd35dffe99aa5960c9a40edd5401939a6fa13986e4a658ccb27a9ee1bf4be906"
   },
   {
     "title": "Real-Time Integration of EDC and Third-Party Data and Query Actions within an R Shiny Data Review and Patient Profile Tool",
