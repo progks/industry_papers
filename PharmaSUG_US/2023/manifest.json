@@ -788,7 +788,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP01.pdf",
       "https://saslexicon.org/PHUSE_US/2023/POS_PP01.pdf"
     ],
-    "filename": "POS-PP01-2c20cc6bf3.pdf"
+    "filename": "POS-PP01-2c20cc6bf3.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP01.pdf | https://saslexicon.org/PHUSE_US/2023/POS_PP01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/POS_PP01.pdf"
   },
   {
     "title": "Extending your .Rprofile with {envsetup} & {renv}",
@@ -799,7 +801,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_OS03.pdf",
       "https://saslexicon.org/PHUSE_US/2023/PRE_OS03.pdf"
     ],
-    "filename": "PRE-OS03-0c1300a19f.pdf"
+    "filename": "PRE-OS03-0c1300a19f.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_OS03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_OS03.pdf | https://saslexicon.org/PHUSE_US/2023/PRE_OS03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PRE_OS03.pdf"
   },
   {
     "title": "FDA Dataset Walkthrough - Statistical Programming Perspectives",
@@ -810,7 +814,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SA05.pdf",
       "https://saslexicon.org/PHUSE_US/2023/PAP_SA05.pdf"
     ],
-    "filename": "PAP-SA05-d235b39104.pdf"
+    "filename": "PAP-SA05-d235b39104.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SA05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SA05.pdf | https://saslexicon.org/PHUSE_US/2023/PAP_SA05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PAP_SA05.pdf"
   },
   {
     "title": "Fishing for Code Plagiarism in Clinical SAS Programming",
@@ -821,7 +827,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SS01.pdf",
       "https://saslexicon.org/PHUSE_US/2023/PAP_SS01.pdf"
     ],
-    "filename": "PAP-SS01-92bbeb4bed.pdf"
+    "filename": "PAP-SS01-92bbeb4bed.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SS01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SS01.pdf | https://saslexicon.org/PHUSE_US/2023/PAP_SS01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PAP_SS01.pdf"
   },
   {
     "title": "FORESTLY - An R Package to Generate Interactive Forest Plots",
@@ -832,7 +840,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_DV07.pdf",
       "https://saslexicon.org/PHUSE_US/2023/PAP_DV07.pdf"
     ],
-    "filename": "PAP-DV07-a01eaeaf4b.pdf"
+    "filename": "PAP-DV07-a01eaeaf4b.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_DV07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_DV07.pdf | https://saslexicon.org/PHUSE_US/2023/PAP_DV07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PAP_DV07.pdf"
   },
   {
     "title": "Friends Don't Let Friends Make Ugly Dashboards",
@@ -843,7 +853,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_DV01.pdf",
       "https://saslexicon.org/PHUSE_US/2023/PRE_DV01.pdf"
     ],
-    "filename": "PRE-DV01-1d92bba0d2.pdf"
+    "filename": "PRE-DV01-1d92bba0d2.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_DV01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_DV01.pdf | https://saslexicon.org/PHUSE_US/2023/PRE_DV01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PRE_DV01.pdf"
   },
   {
     "title": "From Graduate to Study Lead - What's in my Toolkit?",
@@ -854,7 +866,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_PD09.pdf",
       "https://saslexicon.org/PHUSE_US/2023/PRE_PD09.pdf"
     ],
-    "filename": "PRE-PD09-a029566aad.pdf"
+    "filename": "PRE-PD09-a029566aad.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_PD09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_PD09.pdf | https://saslexicon.org/PHUSE_US/2023/PRE_PD09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PRE_PD09.pdf"
   },
   {
     "title": "Future Workforce: How to invest in your team through Innovative transformation",
@@ -865,7 +879,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_PD15.pdf",
       "https://saslexicon.org/PHUSE_US/2023/PAP_PD15.pdf"
     ],
-    "filename": "PAP-PD15-fea205f77f.pdf"
+    "filename": "PAP-PD15-fea205f77f.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_PD15.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_PD15.pdf | https://saslexicon.org/PHUSE_US/2023/PAP_PD15.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PAP_PD15.pdf"
   },
   {
     "title": "Generating Violin, eDISH, Box and Mean and Standard Deviation Line Graphs for Regulatory Submission: Comparison of SAS and R",
@@ -876,7 +892,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_DV05.pdf",
       "https://saslexicon.org/PHUSE_US/2023/PAP_DV05.pdf"
     ],
-    "filename": "PAP-DV05-2247263bbd.pdf"
+    "filename": "PAP-DV05-2247263bbd.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_DV05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_DV05.pdf | https://saslexicon.org/PHUSE_US/2023/PAP_DV05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PAP_DV05.pdf"
   },
   {
     "title": "Graph Designer: An R Shiny Application to Create Publication-quality Graphs in Minutes",
@@ -887,7 +905,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_DV06.pdf",
       "https://saslexicon.org/PHUSE_US/2023/PAP_DV06.pdf"
     ],
-    "filename": "PAP-DV06-4560f0da3e.pdf"
+    "filename": "PAP-DV06-4560f0da3e.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_DV06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_DV06.pdf | https://saslexicon.org/PHUSE_US/2023/PAP_DV06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PAP_DV06.pdf"
   },
   {
     "title": "Graph vs Table - Take Your Pick",
