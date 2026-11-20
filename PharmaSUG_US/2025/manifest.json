@@ -2480,7 +2480,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_AS17.pdf",
       "https://saslexicon.org/PHUSE_US/2025/PAP_AS17.pdf"
     ],
-    "filename": "PAP-AS17-a2969f71a5.pdf"
+    "filename": "PAP-AS17-a2969f71a5.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_AS17.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_AS17.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_AS17.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_AS17.pdf"
   },
   {
     "title": "The Show Must Go On: Best Practices for Submitting SDTM Data for Ongoing Studies",
@@ -2491,7 +2493,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_SA06.pdf",
       "https://saslexicon.org/PHUSE_US/2025/PAP_SA06.pdf"
     ],
-    "filename": "PAP-SA06-b99cbd7e05.pdf"
+    "filename": "PAP-SA06-b99cbd7e05.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_SA06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_SA06.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_SA06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_SA06.pdf"
   },
   {
     "title": "The Ultimate Randomisation App",
@@ -2502,7 +2506,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DH08.pdf",
       "https://saslexicon.org/PHUSE_US/2025/PAP_DH08.pdf"
     ],
-    "filename": "PAP-DH08-68ef7a3132.pdf"
+    "filename": "PAP-DH08-68ef7a3132.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DH08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DH08.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_DH08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_DH08.pdf"
   },
   {
     "title": "Three Pointers for Effective and Accurate LLM Integration!",
@@ -2513,7 +2519,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_ML22.pdf",
       "https://saslexicon.org/PHUSE_US/2025/PAP_ML22.pdf"
     ],
-    "filename": "PAP-ML22-31ff8df9ae.pdf"
+    "filename": "PAP-ML22-31ff8df9ae.pdf",
+    "downloaded_from": "https://saslexicon.org/PHUSE_US/2025/PAP_ML22.pdf",
+    "status": "ok",
+    "bytes": 925214,
+    "sha256": "2217db5b96875ce44db2686070c2f27eec0e7dfcc6248f476350c648ed817496"
   },
   {
     "title": "Tips and Tricks for Using the CMS Platform",
@@ -2524,7 +2534,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_PP26.pdf",
       "https://saslexicon.org/PHUSE_US/2025/PAP_PP26.pdf"
     ],
-    "filename": "PAP-PP26-433dec65fa.pdf"
+    "filename": "PAP-PP26-433dec65fa.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_PP26.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_PP26.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_PP26.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_PP26.pdf"
   },
   {
     "title": "Topline Considerations for Double-Blind Trials",
@@ -2535,7 +2547,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_PP07.pdf",
       "https://saslexicon.org/PHUSE_US/2025/PAP_PP07.pdf"
     ],
-    "filename": "PAP-PP07-e98d5c92e3.pdf"
+    "filename": "PAP-PP07-e98d5c92e3.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_PP07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_PP07.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_PP07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_PP07.pdf"
   },
   {
     "title": "Transforming Clinical Trial Risk Assessments: From Checkbox to Quality-Driven Success",
@@ -2546,7 +2560,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/POS_PP10.pdf",
       "https://saslexicon.org/PHUSE_US/2025/POS_PP10.pdf"
     ],
-    "filename": "POS-PP10-7996406b6e.pdf"
+    "filename": "POS-PP10-7996406b6e.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/POS_PP10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/POS_PP10.pdf | https://saslexicon.org/PHUSE_US/2025/POS_PP10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/POS_PP10.pdf"
   },
   {
     "title": "Transforming Clinical Trials with AI-Driven Protocol Optimization and Next-Gen Statistical Programming",
@@ -2557,7 +2573,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_ET15.pdf",
       "https://saslexicon.org/PHUSE_US/2025/PAP_ET15.pdf"
     ],
-    "filename": "PAP-ET15-88de9a1771.pdf"
+    "filename": "PAP-ET15-88de9a1771.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_ET15.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_ET15.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_ET15.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_ET15.pdf"
   },
   {
     "title": "Transforming Clinical Trials: Leveraging Bayesian Statistics in Innovative Trial Design, Analysis, Applications and Navigating Challenges",
@@ -2568,7 +2586,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_AS07.pdf",
       "https://saslexicon.org/PHUSE_US/2025/PAP_AS07.pdf"
     ],
-    "filename": "PAP-AS07-3bb4c2a9a6.pdf"
+    "filename": "PAP-AS07-3bb4c2a9a6.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_AS07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_AS07.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_AS07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_AS07.pdf"
   },
   {
     "title": "Transforming Pharma Master Data Management: Integrating Neo4j Knowledge Graphs with GraphRAG and Generative AI for Enhanced Data Querying and Analytics",
@@ -2579,7 +2599,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_ML15.pdf",
       "https://saslexicon.org/PHUSE_US/2025/PAP_ML15.pdf"
     ],
-    "filename": "PAP-ML15-a049b8c7d3.pdf"
+    "filename": "PAP-ML15-a049b8c7d3.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_ML15.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_ML15.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_ML15.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_ML15.pdf"
   },
   {
     "title": "Turbocharge Your Trials: Transform CRF Creation and the CDISC standardization process with Xbiom's Smart Metadata Repository and AI/ML Integrations",
