@@ -2409,8 +2409,10 @@
       "https://saslexicon.org/PHUSE_US/2021/POS_PP15.pdf"
     ],
     "filename": "POS-PP15-5d6e2b7483.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP15.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP15.pdf | https://saslexicon.org/PHUSE_US/2021/POS_PP15.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/POS_PP15.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP15.pdf",
+    "bytes": 560608,
+    "sha256": "8a663e4274a773082d8694dd037761943405b192ba530a1e0348824882c31c9f"
   },
   {
     "title": "Why Business Users Should Care About Systems Architecture",
@@ -2422,8 +2424,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_TT13.pdf"
     ],
     "filename": "PRE-TT13-ac666adf0b.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT13.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT13.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_TT13.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_TT13.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT13.pdf",
+    "bytes": 1849441,
+    "sha256": "92b3900cd6917da8e042ebf24d9fd8019fca018cef00d3a499fd6b1f8d5c6eee"
   },
   {
     "title": "Wiki - Your Team's Collective Memory",
@@ -2435,7 +2439,9 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_SP09.pdf"
     ],
     "filename": "PRE-SP09-cd792eccd4.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SP09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SP09.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_SP09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_SP09.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SP09.pdf",
+    "bytes": 923589,
+    "sha256": "5e0e557bcef41c718d40f5814f6ec67d314d6919f40746b4f1a1b9a94a6863fc"
   }
 ]
