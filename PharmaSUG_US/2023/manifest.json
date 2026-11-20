@@ -1959,8 +1959,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PAP_PP03.pdf"
     ],
     "filename": "PAP-PP03-e1fb3e2365.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_PP03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_PP03.pdf | https://saslexicon.org/PHUSE_US/2023/PAP_PP03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PAP_PP03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_PP03.pdf",
+    "bytes": 846207,
+    "sha256": "fe8ffa3976745c938fc33cfc792a46e7cf51ff0d47550ef76084321f1bdc9ac2"
   },
   {
     "title": "SAS Macro for Converting Variable Attributes from XLSX Specifications to SDTM/ADAM SAS data sets",
@@ -1972,8 +1974,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PAP_SS03.pdf"
     ],
     "filename": "PAP-SS03-95f4bc37c5.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SS03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SS03.pdf | https://saslexicon.org/PHUSE_US/2023/PAP_SS03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PAP_SS03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SS03.pdf",
+    "bytes": 1043244,
+    "sha256": "577addabee001278e5f05a90d1e3252595e9e8c837dd199d94ff575c9486cb88"
   },
   {
     "title": "Say No to Stale Data!! Implementation of Automated GxP Data Pipelines Using KNIME",
@@ -1985,8 +1989,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PRE_ST06.pdf"
     ],
     "filename": "PRE-ST06-7462247e04.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ST06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ST06.pdf | https://saslexicon.org/PHUSE_US/2023/PRE_ST06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PRE_ST06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ST06.pdf",
+    "bytes": 1486734,
+    "sha256": "302ad64c28666da4c4996173d2e75c842682f58bc0ac96531858f5ded6ac50ea"
   },
   {
     "title": "Scrutinize Tables Listings Figures (TLFs) Prior to Customer Delivery",
@@ -1998,8 +2004,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PAP_AS03.pdf"
     ],
     "filename": "PAP-AS03-c746241ad5.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_AS03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_AS03.pdf | https://saslexicon.org/PHUSE_US/2023/PAP_AS03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PAP_AS03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_AS03.pdf",
+    "bytes": 176040,
+    "sha256": "dafdffe27fcbc2286d978db14f3e79e3bd40faf29bf074f113f962cb45702e97"
   },
   {
     "title": "SDTM Mapping Recommendation Engine - Acorn",
@@ -2011,8 +2019,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PRE_ET10.pdf"
     ],
     "filename": "PRE-ET10-56e145d418.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ET10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ET10.pdf | https://saslexicon.org/PHUSE_US/2023/PRE_ET10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PRE_ET10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ET10.pdf",
+    "bytes": 2602820,
+    "sha256": "390fc69cdfd715cd5e429fddd9a99a722e1414c4426918b5620378a79572f4d5"
   },
   {
     "title": "Self-service Data Analytics",
@@ -2024,8 +2034,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PAP_ET03.pdf"
     ],
     "filename": "PAP-ET03-49db5edeee.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_ET03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_ET03.pdf | https://saslexicon.org/PHUSE_US/2023/PAP_ET03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PAP_ET03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_ET03.pdf",
+    "bytes": 291370,
+    "sha256": "a0d76699c54227fead4937d90f9997e361d9bab0f77458c05cafa0a51dcb8f0a"
   },
   {
     "title": "Shiny for Submissions",
@@ -2037,8 +2049,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PRE_ET16.pdf"
     ],
     "filename": "PRE-ET16-f278ac5ab2.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ET16.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ET16.pdf | https://saslexicon.org/PHUSE_US/2023/PRE_ET16.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PRE_ET16.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ET16.pdf",
+    "bytes": 68787394,
+    "sha256": "ecf12c4c1394245923653652608e0722387d71e351698e6c6cda86f9f3c5ae61"
   },
   {
     "title": "SIGMA: What is the Sum of its Impact on Pfizer's Statistical A&R Space?",
@@ -2050,8 +2064,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PRE_ST01.pdf"
     ],
     "filename": "PRE-ST01-efa834791b.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ST01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ST01.pdf | https://saslexicon.org/PHUSE_US/2023/PRE_ST01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PRE_ST01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ST01.pdf",
+    "bytes": 370638,
+    "sha256": "e61255b93e6b80b9dca1bdf54bdf4202a935762e61f5fabad9ecf532d3646498"
   },
   {
     "title": "Snow White & the 7 Keys for Data Lake Hydration",
@@ -2063,8 +2079,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PRE_ST12.pdf"
     ],
     "filename": "PRE-ST12-bd055d00c0.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ST12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ST12.pdf | https://saslexicon.org/PHUSE_US/2023/PRE_ST12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PRE_ST12.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ST12.pdf",
+    "bytes": 1171582,
+    "sha256": "2b6a67dbed8582bafaacd962769380ab723a4d5cbc207409bc2a55a0b71eb7f1"
   },
   {
     "title": "SPECification DOCument (SPECDOC): Automating Text for Data Description, Statistical Methods, and Analysis Results for Medical Communications",
@@ -2076,8 +2094,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PRE_SD01.pdf"
     ],
     "filename": "PRE-SD01-b89c2762cc.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_SD01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_SD01.pdf | https://saslexicon.org/PHUSE_US/2023/PRE_SD01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PRE_SD01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_SD01.pdf",
+    "bytes": 2383785,
+    "sha256": "2a8d934831bafa51c634c5d865b3248b8afa1d888cbd8539c21fbb41fa0250c1"
   },
   {
     "title": "Standardisation of Visit Number",
