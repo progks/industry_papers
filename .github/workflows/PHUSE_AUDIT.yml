@@ -1,0 +1,421 @@
+# Save as .github/workflows/PHUSE_AUDIT.yml
+# Read-only EU/APAC audit. No PDF downloads, changes, commits, or pushes.
+name: PHUSE EU APAC - Audit Completeness
+
+on:
+  workflow_dispatch:
+    inputs:
+      region:
+        description: 'Conference collection to audit'
+        type: choice
+        required: true
+        default: BOTH
+        options:
+          - BOTH
+          - EU
+          - APAC
+      year:
+        description: 'all = every indexed year; or choose one year'
+        type: string
+        required: true
+        default: 'all'
+
+permissions:
+  contents: read
+
+concurrency:
+  # Audit after active download jobs, against a fresh checkout.
+  group: phuse-us-sync
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - name: Check out the default branch
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Install audit dependencies
+        run: python -m pip install 'requests>=2.32,<3' 'beautifulsoup4>=4.12,<5' 'pypdf>=5.9,<8'
+
+      - name: Audit current website index against repository PDFs
+        env:
+          PYTHONUNBUFFERED: '1'
+          REGION: ${{ inputs.region || 'BOTH' }}
+          SELECTED_YEAR: ${{ inputs.year || 'all' }}
+          REPORT_DIR: ${{ runner.temp }}/phuse-audit-report
+        shell: bash
+        run: |
+          python - <<'PYTHON'
+          import hashlib
+          import io
+          import json
+          import logging
+          import os
+          from pathlib import Path
+          import re
+          import subprocess
+          import time
+          from collections import Counter
+          from datetime import datetime, timezone
+          from urllib.parse import urljoin, urlsplit, urldefrag, unquote
+          from urllib.robotparser import RobotFileParser
+
+          import requests
+          from bs4 import BeautifulSoup
+          from pypdf import PdfReader
+
+          AGENT = 'IndustryPapersArchiver'
+          MAX_BYTES = 95 * 1024 * 1024
+
+          class Fetcher:
+              def __init__(self, delay=0.8):
+                  self.session = requests.Session()
+                  repo = os.getenv('GITHUB_REPOSITORY', 'progks/industry_papers')
+                  self.session.headers['User-Agent'] = f'{AGENT}/1.0 (+https://github.com/{repo})'
+                  self.delay, self.robots, self.last = delay, {}, {}
+
+              def policy(self, url):
+                  parts = urlsplit(url)
+                  if parts.scheme != 'https':
+                      raise RuntimeError(f'Only HTTPS is allowed: {url}')
+                  origin = f'https://{parts.netloc}'
+                  if origin not in self.robots:
+                      robots_url = origin + '/robots.txt'
+                      with self.session.get(robots_url, timeout=(15, 45)) as response:
+                          print(f'ROBOTS {robots_url} -> HTTP {response.status_code}', flush=True)
+                          parser = RobotFileParser(robots_url)
+                          # RFC 9309 2.3.1.3: robots 4xx is unavailable, not a site-wide ban.
+                          # 429 is retried as a temporary error. Actual PDF 401/403 still fails.
+                          if 400 <= response.status_code < 500 and response.status_code != 429:
+                              parser.parse([])
+                          else:
+                              response.raise_for_status()
+                              if 'text/html' in response.headers.get('Content-Type', '').lower():
+                                  raise RuntimeError(f'Unexpected HTML robots file: {robots_url}')
+                              parser.parse(response.text.splitlines())
+                      self.robots[origin] = parser
+                      self.last[origin] = time.monotonic()
+                  parser = self.robots[origin]
+                  if not parser.can_fetch(AGENT, url):
+                      raise RuntimeError(f'robots.txt disallows: {url}')
+                  interval = max(self.delay, parser.crawl_delay(AGENT) or 0)
+                  rate = parser.request_rate(AGENT)
+                  if rate and rate.requests:
+                      interval = max(interval, rate.seconds / rate.requests)
+                  time.sleep(max(0, interval - (time.monotonic() - self.last.get(origin, 0))))
+                  self.last[origin] = time.monotonic()
+
+              def get(self, url, stream=False):
+                  for _ in range(6):
+                      self.policy(url)
+                      response = self.session.get(url, stream=stream, allow_redirects=False, timeout=(15, 90))
+                      if response.status_code in (301, 302, 303, 307, 308):
+                          location = response.headers.get('Location')
+                          response.close()
+                          if not location:
+                              raise RuntimeError('Redirect has no Location header')
+                          url = urljoin(url, location)
+                          continue
+                      try:
+                          response.raise_for_status()
+                      except Exception:
+                          response.close()
+                          raise
+                      return response
+                  raise RuntimeError('Too many redirects')
+
+              @staticmethod
+              def retry(exc, attempt):
+                  response = getattr(exc, 'response', None)
+                  status = getattr(response, 'status_code', None)
+                  transient = isinstance(exc, requests.RequestException) and (
+                      status is None or status in (408, 429) or status >= 500)
+                  if attempt == 2 or not transient:
+                      return False
+                  value = getattr(response, 'headers', {}).get('Retry-After', '')
+                  time.sleep(max(5 * 2 ** attempt, int(value) if value.isdigit() else 0))
+                  return True
+
+              def text(self, url):
+                  for attempt in range(3):
+                      try:
+                          with self.get(url) as response:
+                              return response.text
+                      except Exception as exc:
+                          if not self.retry(exc, attempt):
+                              raise
+
+
+          def discover_years(html, base, region):
+              years = {}
+              for row in BeautifulSoup(html, 'html.parser').select('tr'):
+                  cells = row.find_all('td', recursive=False)
+                  if len(cells) < 2:
+                      continue
+                  link = cells[0].find('a', href=True)
+                  if not link:
+                      continue
+                  year = link.get_text(' ', strip=True)
+                  url = urljoin(base, link['href'])
+                  if (re.fullmatch(r'20\d{2}', year)
+                          and urlsplit(url).netloc == urlsplit(base).netloc
+                          and re.search(r'/PHUSE_' + region + '/' + year + r'/[^/]+\.html$', urlsplit(url).path)):
+                      text = cells[1].get_text(strip=True).replace(',', '')
+                      years[year] = dict(url=url, advertised=int(text) if text.isdigit() else None)
+              if not years:
+                  raise RuntimeError(f'No {region} year rows found; index may have changed')
+              return dict(sorted(years.items(), reverse=True))
+
+
+          def discover_papers(html, base):
+              expected, count = {}, 0
+              for row in BeautifulSoup(html, 'html.parser').select('tr'):
+                  cells = row.find_all('td', recursive=False)
+                  if len(cells) < 6 or not cells[0].get_text(strip=True).isdigit():
+                      continue
+                  count += 1
+                  urls = []
+                  for link in cells[5].select('a[href]'):
+                      if link.get_text(' ', strip=True).lower() == 'source':
+                          urls.append(urljoin(base, link['href']))
+                  title_link = cells[1].find('a', href=True)
+                  if title_link:
+                      urls.append(urljoin(base, title_link['href']))
+                  urls = list(dict.fromkeys(urldefrag(url)[0] for url in urls
+                                           if urlsplit(url).path.lower().endswith('.pdf')))
+                  title = cells[1].get_text(' ', strip=True)
+                  if not urls:
+                      raise RuntimeError(f'Entry has no main PDF candidate: {title}')
+                  stem = Path(unquote(urlsplit(urls[0]).path)).stem
+                  stem = re.sub(r'[^A-Za-z0-9.-]+', '-', stem).strip('.-')[:90] or 'paper'
+                  name = f'{stem}-{hashlib.sha256(urls[0].encode()).hexdigest()[:10]}.pdf'
+                  pages = cells[6].get_text(strip=True) if len(cells) > 6 else ''
+                  entry = expected.setdefault(name, dict(filename=name, titles=[], source_urls=urls, page_counts=[]))
+                  entry['titles'].append(title)
+                  if pages.isdigit():
+                      entry['page_counts'].append(int(pages))
+              if not count:
+                  raise RuntimeError('No numbered paper rows found; page may have changed')
+              return count, expected
+
+
+          def inspect_pdf(path):
+              errors, warnings = [], []
+              info = dict(bytes=path.stat().st_size)
+              if info['bytes'] < 10:
+                  return info, ['File is too small to be a PDF'], warnings
+              if info['bytes'] > MAX_BYTES:
+                  return info, ['File exceeds downloader safety limit; inspect separately'], warnings
+              with path.open('rb') as handle:
+                  head = handle.read(1024)
+                  handle.seek(max(0, info['bytes'] - 4096))
+                  tail = handle.read()
+              if b'%PDF-' not in head or b'%%EOF' not in tail:
+                  return info, ['Missing PDF header or EOF marker; possible HTML/LFS pointer/truncation'], warnings
+              with path.open('rb') as handle:
+                  info['sha256'] = hashlib.file_digest(handle, 'sha256').hexdigest()
+              messages = io.StringIO()
+              logger = logging.getLogger('pypdf')
+              capture = logging.StreamHandler(messages)
+              capture.setLevel(logging.WARNING)
+              logger.addHandler(capture)
+              try:
+                  with path.open('rb') as handle:
+                      reader = PdfReader(handle, strict=False)
+                      if reader.is_encrypted and not reader.decrypt(''):
+                          warnings.append('Encrypted PDF needs a password; parser check not completed')
+                      else:
+                          info['pages'] = len(reader.pages)
+                          if not info['pages']:
+                              errors.append('PDF contains zero pages')
+                          # Check page trees and page content streams; not a complete PDF conformance test.
+                          for page in reader.pages:
+                              contents = page.get_contents()
+                              if contents is not None:
+                                  contents.get_data()
+              except Exception as exc:
+                  errors.append(f'PDF parser: {type(exc).__name__}: {exc}')
+              finally:
+                  logger.removeHandler(capture)
+                  text = messages.getvalue().strip()
+                  if text:
+                      warnings.append('PDF parser warning: ' + text[:2000])
+              return info, errors, warnings
+
+
+          def audit_year(region, year, folder, expected, rows, advertised):
+              result = dict(region=region, year=year, advertised=advertised, site_rows=rows,
+                            expected_pdfs=len(expected), passed=0, missing=0, invalid=0, review=0,
+                            errors=[], warnings=[], files=[])
+              if advertised is None:
+                  result['errors'].append('Index advertised count could not be parsed')
+              elif advertised != rows:
+                  result['errors'].append(f'Index advertises {advertised}, parsed {rows} numbered rows')
+              catalog = {}
+              try:
+                  records = json.loads((folder / 'manifest.json').read_text(encoding='utf-8'))
+                  if not isinstance(records, list):
+                      raise ValueError('manifest must be a list')
+                  for record in records:
+                      if not isinstance(record, dict) or not isinstance(record.get('filename'), str):
+                          raise ValueError('Malformed manifest entry')
+                      name = record['filename']
+                      if Path(name).name != name or '\\' in name:
+                          raise ValueError('Unsafe manifest filename')
+                      if name in catalog:
+                          result['errors'].append(f'Duplicate manifest filename: {name}')
+                      catalog[name] = record
+              except Exception as exc:
+                  result['errors'].append(f'Manifest unavailable/invalid: {type(exc).__name__}: {exc}')
+              actual = {p.name for p in folder.iterdir() if p.is_file() and p.suffix.lower() == '.pdf'} if folder.is_dir() else set()
+              extras = sorted(actual - set(expected))
+              stale = sorted(set(catalog) - set(expected))
+              if extras:
+                  result['warnings'].append(f'{len(extras)} extra PDFs not mapped to current index')
+              if stale:
+                  result['warnings'].append(f'{len(stale)} manifest entries absent from current index')
+              result['extra_pdfs'], result['extra_manifest'] = extras, stale
+              if folder.is_dir():
+                  leftovers = sorted(p.name for p in folder.iterdir() if p.suffix.lower() in ('.part', '.tmp'))
+                  if leftovers:
+                      result['warnings'].append(f'Unfinished temporary files: {leftovers}')
+              for name, entry in expected.items():
+                  item = dict(filename=name, titles=entry['titles'], errors=[], warnings=[])
+                  path, record = folder / name, catalog.get(name)
+                  if record is None:
+                      item['errors'].append('Missing manifest entry')
+                  elif record.get('status') != 'ok':
+                      item['errors'].append(f'Manifest status is {record.get("status", "unset")}: {record.get("error", "not processed")}')
+                  if not path.is_file():
+                      item['errors'].append('Missing PDF file')
+                      result['missing'] += 1
+                  elif path.is_symlink():
+                      item['errors'].append('PDF is a symbolic link, not an independently checked repository file')
+                      result['invalid'] += 1
+                  else:
+                      try:
+                          info, errors, warnings = inspect_pdf(path)
+                          item.update(info)
+                          item['errors'].extend(errors)
+                          item['warnings'].extend(warnings)
+                          if record is not None:
+                              if not isinstance(record.get('bytes'), int) or record['bytes'] != info['bytes']:
+                                  item['errors'].append('Manifest bytes missing or inconsistent')
+                              checksum = record.get('sha256', '')
+                              if not isinstance(checksum, str) or not re.fullmatch(r'[a-fA-F0-9]{64}', checksum):
+                                  item['errors'].append('Manifest SHA-256 missing/invalid')
+                              elif info.get('sha256') != checksum.lower():
+                                  item['errors'].append('SHA-256 does not match manifest')
+                              if record.get('downloaded_from') not in entry['source_urls']:
+                                  item['warnings'].append('Recorded download source is absent from current source candidates')
+                          if entry['page_counts'] and 'pages' in info and info['pages'] not in entry['page_counts']:
+                              item['warnings'].append(f'Page count {info["pages"]} differs from index {entry["page_counts"]}')
+                      except Exception as exc:
+                          item['errors'].append(f'Cannot inspect file: {type(exc).__name__}: {exc}')
+                      if item['errors']:
+                          result['invalid'] += 1
+                  if item['errors']:
+                      item['status'] = 'FAIL'
+                  elif item['warnings']:
+                      item['status'] = 'REVIEW'
+                      result['review'] += 1
+                  else:
+                      item['status'] = 'PASS'
+                      result['passed'] += 1
+                  result['files'].append(item)
+                  if item['status'] != 'PASS':
+                      print(f'{region}/{year}/{name}: {item["status"]}: {item["errors"]} {item["warnings"]}', flush=True)
+              if result['errors'] or any(item['status'] == 'FAIL' for item in result['files']):
+                  result['status'] = 'FAIL'
+              elif result['warnings'] or result['review']:
+                  result['status'] = 'REVIEW'
+              else:
+                  result['status'] = 'PASS'
+              return result
+
+
+          def render_summary(report):
+              lines = ['# PHUSE EU / APAC completeness audit', '',
+                       f'Overall: **{report["status"]}**',
+                       f'Checked checkout: `{report.get("commit", "unknown")}`', '',
+                       '| Region | Year | Site rows | Expected PDFs | Passed | Missing | Invalid | Review | Result |',
+                       '|---|---|---:|---:|---:|---:|---:|---:|---|']
+              for year in report['years']:
+                  fields = [year['region'], year['year']] + [str(year.get(k, '-')) for k in
+                            ('site_rows', 'expected_pdfs', 'passed', 'missing', 'invalid', 'review')] + [year['status']]
+                  lines.append('| ' + ' | '.join(fields) + ' |')
+              lines += ['', 'PASS = current main-document index is covered, manifests agree, and local PDF checks passed.',
+                        'FAIL = missing/invalid/unprocessed items, or an unverifiable index/manifest.',
+                        'REVIEW = parser warnings, page-count differences, encryption, or extra/stale files; not proof of corruption.',
+                        '', 'Main source PDFs only: separate presentation/poster attachments are outside this audit scope.',
+                        'Checks local repository bytes against local manifests; does NOT prove equality with current remote PDF bytes.',
+                        'PDF parsing is best-effort, not a complete PDF specification or malware audit.',
+                        'Use report.json for per-file errors and warnings. No PDFs/manifests are changed or re-downloaded.']
+              return '\n'.join(lines) + '\n'
+
+
+          def main(region='BOTH', year='all', report_dir=None):
+              region = region.upper().strip()
+              if region not in ('BOTH', 'EU', 'APAC') or (year != 'all' and not re.fullmatch(r'20\d{2}', year)):
+                  raise ValueError('region must be BOTH/EU/APAC, year must be all or a four-digit year')
+              output = Path(report_dir or os.getenv('REPORT_DIR', 'phuse-audit-report'))
+              output.mkdir(parents=True, exist_ok=True)
+              fetcher = Fetcher()
+              report = dict(timestamp=datetime.now(timezone.utc).isoformat(), scope='Current index main source PDFs', years=[])
+              proc = subprocess.run(['git', 'rev-parse', 'HEAD'], text=True, capture_output=True)
+              report['commit'] = proc.stdout.strip() if proc.returncode == 0 else 'unknown'
+              for name in (['EU', 'APAC'] if region == 'BOTH' else [region]):
+                  index = f'https://saslexicon.org/PHUSE_{name}/PHUSE_{name}.html'
+                  try:
+                      years = discover_years(fetcher.text(index), index, name)
+                      if year != 'all':
+                          if year not in years:
+                              raise ValueError(f'{year} not listed for {name}; cannot certify requested scope')
+                          years = {year: years[year]}
+                  except Exception as exc:
+                      report['years'].append(dict(region=name, year=year, status='UNVERIFIED', errors=[str(exc)]))
+                      continue
+                  for date, metadata in years.items():
+                      try:
+                          rows, expected = discover_papers(fetcher.text(metadata['url']), metadata['url'])
+                          result = audit_year(name, date, Path(f'PHUSE_{name}') / date,
+                                              expected, rows, metadata['advertised'])
+                      except Exception as exc:
+                          result = dict(region=name, year=date, status='UNVERIFIED', errors=[f'{type(exc).__name__}: {exc}'])
+                      report['years'].append(result)
+                      print(f'{name}/{date}: {result["status"]}', flush=True)
+              statuses = {item['status'] for item in report['years']}
+              report['status'] = ('FAIL' if statuses & {'FAIL', 'UNVERIFIED'} or not statuses
+                                  else 'REVIEW' if 'REVIEW' in statuses else 'PASS')
+              (output / 'report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+              summary = render_summary(report)
+              (output / 'summary.md').write_text(summary, encoding='utf-8')
+              print(summary, flush=True)
+              if os.getenv('GITHUB_STEP_SUMMARY'):
+                  with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as handle:
+                      handle.write(summary)
+              return 0 if report['status'] == 'PASS' else 1
+
+
+          if __name__ == '__main__':
+              raise SystemExit(main(os.getenv('REGION', 'BOTH'), os.getenv('SELECTED_YEAR', 'all').strip()))
+          PYTHON
+
+      - name: Upload detailed report even if audit fails
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: phuse-audit-report-${{ github.run_id }}
+          path: ${{ runner.temp }}/phuse-audit-report/
+          if-no-files-found: warn
+          retention-days: 14
