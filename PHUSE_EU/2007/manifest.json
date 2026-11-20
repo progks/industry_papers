@@ -1208,7 +1208,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2007/Connect/EU/Lisbon/PAP_IS02.pdf",
       "https://saslexicon.org/PHUSE_EU/2007/PAP_IS02.pdf"
     ],
-    "filename": "PAP-IS02-444e7be7c1.pdf"
+    "filename": "PAP-IS02-444e7be7c1.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2007/Connect/EU/Lisbon/PAP_IS02.pdf",
+    "status": "ok",
+    "bytes": 153679,
+    "sha256": "163365b22dc6833e0aebe4adfab3389ba1d011e7a7f6a7727c4ef0321b0dda88"
   },
   {
     "title": "Web techniques for SAS ODS output and more",
@@ -1219,7 +1223,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2007/Connect/EU/Lisbon/PAP_CC03.pdf",
       "https://saslexicon.org/PHUSE_EU/2007/PAP_CC03.pdf"
     ],
-    "filename": "PAP-CC03-9eba34aefb.pdf"
+    "filename": "PAP-CC03-9eba34aefb.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2007/Connect/EU/Lisbon/PAP_CC03.pdf",
+    "status": "ok",
+    "bytes": 143341,
+    "sha256": "c844fd8c5f5c9d13f54796666a2090895ab8b4bf395c81e12bc09c6fed7dd1eb"
   },
   {
     "title": "Web-enabling the Pharmaceutical sector",
@@ -1230,7 +1238,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2007/Connect/EU/Lisbon/PAP_AD05.pdf",
       "https://saslexicon.org/PHUSE_EU/2007/PAP_AD05.pdf"
     ],
-    "filename": "PAP-AD05-20a515d1d7.pdf"
+    "filename": "PAP-AD05-20a515d1d7.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2007/Connect/EU/Lisbon/PAP_AD05.pdf",
+    "status": "ok",
+    "bytes": 1059145,
+    "sha256": "0869f4300e7d44b32f2a42fdb3d1b1c2972fcd82ccb15df047a2cdec0a585090"
   },
   {
     "title": "WEB-TRIAGE: Application for patient registration in ph I studies",
@@ -1241,6 +1253,10 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2007/Connect/EU/Lisbon/PAP_MT02.pdf",
       "https://saslexicon.org/PHUSE_EU/2007/PAP_MT02.pdf"
     ],
-    "filename": "PAP-MT02-30b4284972.pdf"
+    "filename": "PAP-MT02-30b4284972.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2007/Connect/EU/Lisbon/PAP_MT02.pdf",
+    "status": "ok",
+    "bytes": 645490,
+    "sha256": "7890f315b3273b15e2c800a896c6cca2e8721f73beccd82693661f661421db74"
   }
 ]
