@@ -1808,7 +1808,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2015/Connect/EU/Vienna/PAP_PP26.pdf",
       "https://saslexicon.org/PHUSE_EU/2015/PAP_PP26.pdf"
     ],
-    "filename": "PAP-PP26-acbf5dac84.pdf"
+    "filename": "PAP-PP26-acbf5dac84.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2015/Connect/EU/Vienna/PAP_PP26.pdf",
+    "status": "ok",
+    "bytes": 203507,
+    "sha256": "96daf34da86440c7be1d5a62a2a2186613f96b5ba4e05e90050f389e660f3b88"
   },
   {
     "title": "Work Harder or Work Smarter?",
@@ -1819,7 +1823,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2015/Connect/EU/Vienna/PAP_PD10.pdf",
       "https://saslexicon.org/PHUSE_EU/2015/PAP_PD10.pdf"
     ],
-    "filename": "PAP-PD10-43fa86b6a5.pdf"
+    "filename": "PAP-PD10-43fa86b6a5.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2015/Connect/EU/Vienna/PAP_PD10.pdf",
+    "status": "ok",
+    "bytes": 106939,
+    "sha256": "30fd6e6fa7be520158dea265c3a84b46617f17a634092dd2cefb86d72eae54f8"
   },
   {
     "title": "Working as a Data Scientist with Real-world Clinical Data",
@@ -1830,7 +1838,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2015/Connect/EU/Vienna/PAP_PD05.pdf",
       "https://saslexicon.org/PHUSE_EU/2015/PAP_PD05.pdf"
     ],
-    "filename": "PAP-PD05-4ef7202a15.pdf"
+    "filename": "PAP-PD05-4ef7202a15.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2015/Connect/EU/Vienna/PAP_PD05.pdf",
+    "status": "ok",
+    "bytes": 113791,
+    "sha256": "9c86e80f1bdd1966eaec9340ed7c47ddb658f4e6928c4ca5bb9659e64984e6cc"
   },
   {
     "title": "WPP, Worst Programming Practice - Real-life Pittfalls in Everyday Clinical Programming: Why and How",
@@ -1841,6 +1853,10 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2015/Connect/EU/Vienna/PAP_IS01.pdf",
       "https://saslexicon.org/PHUSE_EU/2015/PAP_IS01.pdf"
     ],
-    "filename": "PAP-IS01-552ad596f2.pdf"
+    "filename": "PAP-IS01-552ad596f2.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2015/Connect/EU/Vienna/PAP_IS01.pdf",
+    "status": "ok",
+    "bytes": 422217,
+    "sha256": "4fbef8cf2424cad37fb169dad85e17c566db74995ffd713cbc19643a51d36672"
   }
 ]
