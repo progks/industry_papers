@@ -20,7 +20,7 @@ https://saslexicon.org/index.html
 [PHUSE_APAC](https://saslexicon.org/PHUSE_APAC/PHUSE_APAC.html)
 
 
-
-
+[CDISC_Interchange1](https://www.cdisc.org/members-only/interchange-presentations)
+[CDISC_Interchange2](https://www.cdisc.org/events/interchange-presentations)
 
 Last update Nov2026.
