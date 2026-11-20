@@ -2352,7 +2352,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_PP04.pdf",
       "https://saslexicon.org/PHUSE_US/2024/PAP_PP04.pdf"
     ],
-    "filename": "PAP-PP04-1e2fa1600d.pdf"
+    "filename": "PAP-PP04-1e2fa1600d.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_PP04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_PP04.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_PP04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_PP04.pdf"
   },
   {
     "title": "USUBJID Challenges: Representing Multiple Participations for Analysis and Reporting",
@@ -2363,7 +2365,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_SI03.pdf",
       "https://saslexicon.org/PHUSE_US/2024/PAP_SI03.pdf"
     ],
-    "filename": "PAP-SI03-eccba3b977.pdf"
+    "filename": "PAP-SI03-eccba3b977.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_SI03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_SI03.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_SI03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_SI03.pdf"
   },
   {
     "title": "Utilising Machine Learning Algorithms to Detect the Outlier or Inconsistencies in the Analysis Results in Datasets and Summary Reports",
@@ -2374,7 +2378,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_PP19.pdf",
       "https://saslexicon.org/PHUSE_US/2024/PAP_PP19.pdf"
     ],
-    "filename": "PAP-PP19-8103151b4f.pdf"
+    "filename": "PAP-PP19-8103151b4f.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_PP19.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_PP19.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_PP19.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_PP19.pdf"
   },
   {
     "title": "Validation Unveiled: Striking the Balance for Data Integrity and Compliance in R, Python, and SAS",
@@ -2385,7 +2391,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_OS08.pdf",
       "https://saslexicon.org/PHUSE_US/2024/PAP_OS08.pdf"
     ],
-    "filename": "PAP-OS08-5c1261e149.pdf"
+    "filename": "PAP-OS08-5c1261e149.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_OS08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_OS08.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_OS08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_OS08.pdf"
   },
   {
     "title": "What Role Does ChatGPT Have in your Clinical Programming?",
@@ -2396,7 +2404,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_ET05.pdf",
       "https://saslexicon.org/PHUSE_US/2024/PAP_ET05.pdf"
     ],
-    "filename": "PAP-ET05-83ee71b2f7.pdf"
+    "filename": "PAP-ET05-83ee71b2f7.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_ET05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_ET05.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_ET05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_ET05.pdf"
   },
   {
     "title": "Whodunnit? Automation Tools Accelerate Statistical Analysis in an SCE with Full Compliance",
@@ -2407,7 +2417,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PRE_SD04.pdf",
       "https://saslexicon.org/PHUSE_US/2024/PRE_SD04.pdf"
     ],
-    "filename": "PRE-SD04-c955f3ad5a.pdf"
+    "filename": "PRE-SD04-c955f3ad5a.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PRE_SD04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PRE_SD04.pdf | https://saslexicon.org/PHUSE_US/2024/PRE_SD04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PRE_SD04.pdf"
   },
   {
     "title": "{admiral} - From Open Source Through to Company Implementation",
@@ -2418,6 +2430,8 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_OS05.pdf",
       "https://saslexicon.org/PHUSE_US/2024/PAP_OS05.pdf"
     ],
-    "filename": "PAP-OS05-7cfc6508d4.pdf"
+    "filename": "PAP-OS05-7cfc6508d4.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_OS05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_OS05.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_OS05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_OS05.pdf"
   }
 ]
