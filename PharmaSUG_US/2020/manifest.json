@@ -1059,8 +1059,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_SP11.pdf"
     ],
     "filename": "PAP-SP11-3f732d1a59.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SP11.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SP11.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_SP11.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_SP11.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SP11.pdf",
+    "bytes": 74135,
+    "sha256": "65cce885db5d8c0735e2010827b4020b9fa88068fd75f7f51b3656b7a2635513"
   },
   {
     "title": "Dual Roles: I'm not just a programmer!",
@@ -1072,8 +1074,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_SP01.pdf"
     ],
     "filename": "PAP-SP01-f9d7cb1bc2.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SP01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SP01.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_SP01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_SP01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SP01.pdf",
+    "bytes": 139057,
+    "sha256": "c1661bf2d0823ef02567ff844b00f9b9e7d53865dbab7a7def7a183b4ec65adb"
   },
   {
     "title": "Early Detection and Prevention of Compliance Issues",
@@ -1085,8 +1089,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_DH09.pdf"
     ],
     "filename": "PAP-DH09-787dffd615.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DH09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DH09.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_DH09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_DH09.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DH09.pdf",
+    "bytes": 131551,
+    "sha256": "c1a3f4e60cf039ee5186b34248af8f7ac0111808e3f8d4ef141b123d8c24f5da"
   },
   {
     "title": "Educating for the Future: Data Engineering Techniques",
@@ -1098,8 +1104,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_PP02.pdf"
     ],
     "filename": "PAP-PP02-74c587863d.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP02.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_PP02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_PP02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP02.pdf",
+    "bytes": 15185597,
+    "sha256": "edc4697c92076af3f3f3a10eafdf6117498e2559e1893230a79562ac8eacc2ec"
   },
   {
     "title": "Efficacy ADaMs in Oncology - Step by Step (Dataset by Dataset)",
@@ -1111,8 +1119,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_SI07.pdf"
     ],
     "filename": "PAP-SI07-37fb7e89da.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SI07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SI07.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_SI07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_SI07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SI07.pdf",
+    "bytes": 440642,
+    "sha256": "cd4715d2777d2bce7033c298d0476e85b1540872bf8bb0c873f9a30dbd55d617"
   },
   {
     "title": "Employee Branding: Cherished Through Connect",
@@ -1124,8 +1134,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_PP08.pdf"
     ],
     "filename": "PAP-PP08-7392536816.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP08.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_PP08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_PP08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP08.pdf",
+    "bytes": 110624,
+    "sha256": "b655da8cf10010c6a483c20bce49e6d60fca9e1fa5f50f1e5c8df824104d3e6d"
   },
   {
     "title": "End-to-End Interactive TLF Using R Shiny",
@@ -1137,8 +1149,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_DV05.pdf"
     ],
     "filename": "PAP-DV05-6038746e7e.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DV05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DV05.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_DV05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_DV05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DV05.pdf",
+    "bytes": 378950,
+    "sha256": "e8aeaaa2017d644449540c83036c42c60711a634c32055baba036ad1cd5d77fc"
   },
   {
     "title": "eSource Arising: Clinical Data Automation Possibilities Beyond Data Capture",
@@ -1150,8 +1164,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_DH03.pdf"
     ],
     "filename": "PAP-DH03-6fe5581abe.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DH03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DH03.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_DH03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_DH03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DH03.pdf",
+    "bytes": 415745,
+    "sha256": "34cbd20c0cea4b2d6bb4523cde725ab015a56f18467c4c1d8f8eb65e1a09dcff"
   },
   {
     "title": "Evolution of Clinical Data Disclosure and Transparency",
@@ -1163,8 +1179,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_DH11.pdf"
     ],
     "filename": "PAP-DH11-5943896b57.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DH11.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DH11.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_DH11.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_DH11.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DH11.pdf",
+    "bytes": 353005,
+    "sha256": "f46730c2e540d8ee0b68a7e75b474d80333f3c34626cf85d45ab560cc5e0d442"
   },
   {
     "title": "Evolution of Data: From extraction to visualization",
@@ -1176,8 +1194,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_CM07.pdf"
     ],
     "filename": "PAP-CM07-dad5bc668c.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CM07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CM07.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_CM07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_CM07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CM07.pdf",
+    "bytes": 757357,
+    "sha256": "5a997e009d4c37dd6c8bc832531f16310e3e98dd23386794a328d756aabc219f"
   },
   {
     "title": "FDA and PMDA Study Data Submission Distinctions",
