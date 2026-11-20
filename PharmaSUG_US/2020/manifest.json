@@ -1209,8 +1209,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_PP16.pdf"
     ],
     "filename": "PAP-PP16-6c1f48641e.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP16.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP16.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_PP16.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_PP16.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP16.pdf",
+    "bytes": 454118,
+    "sha256": "345b97bc152c09d3f5c2231e7dfe9ceb793175b8e46245a3e64b2833a354c7a8"
   },
   {
     "title": "FDA Study Data Guidance Update",
@@ -1222,8 +1224,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_SA04.pdf"
     ],
     "filename": "PAP-SA04-0b0cbaef6b.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SA04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SA04.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_SA04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_SA04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SA04.pdf",
+    "bytes": 179145,
+    "sha256": "fa6c67392737e627bc6fd60dd5923e3e60d9d0fb1812f023e063e1a44f24f186"
   },
   {
     "title": "FDA View: FDA Study Data",
@@ -1235,8 +1239,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_SI03.pdf"
     ],
     "filename": "PAP-SI03-4d4e68155f.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SI03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SI03.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_SI03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_SI03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SI03.pdf",
+    "bytes": 1206401,
+    "sha256": "c36bfd81daf3962264ecc945dc0049b9328a135c7bf3c3a064ed7ef68b250014"
   },
   {
     "title": "Feature of SDTM Mapping and Conversion Using NLP",
@@ -1248,8 +1254,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_ML08.pdf"
     ],
     "filename": "PAP-ML08-0a069eba51.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_ML08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_ML08.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_ML08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_ML08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_ML08.pdf",
+    "bytes": 75386,
+    "sha256": "56d20fbea20f53541ae1b58ef99609a7a5e86ff13015598afffbf0ddb53ea92c"
   },
   {
     "title": "Feedback to Feed Back",
@@ -1261,8 +1269,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_SP08.pdf"
     ],
     "filename": "PAP-SP08-7a43d79bd5.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SP08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SP08.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_SP08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_SP08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SP08.pdf",
+    "bytes": 407338,
+    "sha256": "3dd37f2d64abe3c1a3cfbc86df0f27a320ce3c55558924a70f1caeb2fedbbf48"
   },
   {
     "title": "Fill Patterns to the Oncology Plots Using SAS",
@@ -1274,8 +1284,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_CT02.pdf"
     ],
     "filename": "PAP-CT02-a3da03ec85.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CT02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CT02.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_CT02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_CT02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CT02.pdf",
+    "bytes": 224463,
+    "sha256": "a67e5d0e3e16a376faf9db4f5664a231011b0c2ad20b1a324082daab19dcedf0"
   },
   {
     "title": "Generating TFLs in R - Challenges and Successes Compared to SAS",
@@ -1287,8 +1299,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_CT05.pdf"
     ],
     "filename": "PAP-CT05-ae0765408d.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CT05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CT05.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_CT05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_CT05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CT05.pdf",
+    "bytes": 191274,
+    "sha256": "73d51e554db4957674f1436e2a8bdcfa9c2dbf0a0890659c477cf35e96858c1d"
   },
   {
     "title": "Get in Your Lane! Building Swimmer Plots Using SAS 9.4",
@@ -1300,8 +1314,10 @@
       "https://saslexicon.org/PHUSE_US/2020/POS_PP04.pdf"
     ],
     "filename": "POS-PP04-58b3462d28.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/POS_PP04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/POS_PP04.pdf | https://saslexicon.org/PHUSE_US/2020/POS_PP04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/POS_PP04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/POS_PP04.pdf",
+    "bytes": 158028,
+    "sha256": "a013439a3529e602fe5cb8c7e7d88c6c6cc0b32249e25d97f5e1d2a094235578"
   },
   {
     "title": "Get to the Bottom of Lab Toxicity Grading: Challenges and Implementation of CTCAE Version 5",
@@ -1313,8 +1329,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_DH16.pdf"
     ],
     "filename": "PAP-DH16-d796490663.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DH16.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DH16.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_DH16.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_DH16.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DH16.pdf",
+    "bytes": 241829,
+    "sha256": "a6ceeb698682db811dad182d070c3f70083213dd3cf0b58e9c31a5cde8846e55"
   },
   {
     "title": "Getting e-Closer to Multi-Regional Clinical Trials",
@@ -1326,8 +1344,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_SA13.pdf"
     ],
     "filename": "PAP-SA13-1d154d7dc3.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SA13.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SA13.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_SA13.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_SA13.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SA13.pdf",
+    "bytes": 417076,
+    "sha256": "e2a2de24393e7907183327c741c566b4a4633c6eec3067388efc9a072a104096"
   },
   {
     "title": "Getting It Right: Refinement of SEND Validation Rules",
