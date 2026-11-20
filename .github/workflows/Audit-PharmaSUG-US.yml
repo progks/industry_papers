@@ -40,7 +40,7 @@ jobs:
           from html.parser import HTMLParser
           from pathlib import Path
           from urllib.error import HTTPError, URLError
-          from urllib.parse import urljoin, urlsplit
+          from urllib.parse import unquote, urljoin, urlsplit
           from urllib.request import Request, urlopen
           from urllib.robotparser import RobotFileParser
           
@@ -213,10 +213,28 @@ jobs:
               return path.resolve()
           
           
+          def inspect_pdf(path, folder):
+              if path.is_symlink() or not path.resolve().is_relative_to(folder.resolve()):
+                  raise ValueError('Unsafe path outside year folder')
+              if not path.is_file() or path.suffix.lower() != '.pdf':
+                  raise ValueError('Missing PDF file')
+              size = path.stat().st_size
+              with path.open('rb') as f:
+                  if b'%PDF-' not in f.read(1024):
+                      raise ValueError('Missing PDF header (possible error page or LFS pointer)')
+                  f.seek(max(0, size - 8192))
+                  if b'%%EOF' not in f.read():
+                      raise ValueError('Missing PDF EOF marker')
+              sha = hashlib.sha256()
+              with path.open('rb') as f:
+                  for block in iter(lambda: f.read(1024 * 1024), b''):
+                      sha.update(block)
+              return {'bytes': size, 'sha256': sha.hexdigest()}
+          
+          
           def audit_year(year, expected, declared):
               folder = Path('PharmaSUG_US') / year
-              issues = []
-              records = []
+              issues, records = [], []
               try:
                   data = json.loads((folder / 'catalog.json').read_text('utf-8'))
                   if data.get('year') != int(year):
@@ -225,41 +243,96 @@ jobs:
                   if not isinstance(records, list) or not all(isinstance(r, dict) and isinstance(r.get('id'), str) for r in records):
                       raise ValueError('Invalid catalog records')
               except Exception as exc:
-                  issues.append(f'Catalog unavailable/invalid: {exc}')
                   records = []
-              counts = Counter(r['id'] for r in records)
-              duplicates = [identity for identity, n in counts.items() if n > 1]
-              if duplicates:
-                  issues.append(f'Duplicate catalog identifiers: {len(duplicates)}')
+                  issues.append(f'Catalog unavailable/invalid: {exc}')
               by_id = {r['id']: r for r in records}
-              missing = expected - by_id.keys()
-              extra = by_id.keys() - expected
-              issues.extend('Missing catalog entry: ' + identity for identity in sorted(missing))
-              issues.extend('Catalog entry not in live source: ' + identity for identity in sorted(extra))
+              if len(by_id) != len(records):
+                  issues.append('Duplicate catalog identifiers')
               if len(expected) != declared:
-                  issues.append(f'Source discrepancy: main index says {declared}, annual page has {len(expected)} unique PDF rows')
-              good, invalid, not_done, paths = 0, 0, 0, set()
-              for identity in sorted(expected & by_id.keys()):
-                  r = by_id[identity]
-                  if r.get('status') != 'downloaded':
-                      not_done += 1
-                      issues.append(f"Not downloaded ({r.get('status', 'unknown')}): {identity}")
-                      continue
+                  issues.append(f'Source discrepancy: main index {declared}; annual page {len(expected)}')
+              for identity in sorted(by_id.keys() - expected):
+                  issues.append('Catalog entry not in current source: ' + identity)
+          
+              # Inspect ALL local PDF files, even when their catalog status is pending/failed.
+              local = sorted(p for p in folder.rglob('*') if p.is_file() and p.suffix.lower() == '.pdf') if folder.exists() else []
+              inspected, local_errors = {}, {}
+              names = {}
+              for path in local:
+                  names.setdefault(path.name, []).append(path)
                   try:
-                      path = check_file(r, folder)
-                      if path in paths:
-                          raise ValueError('Multiple papers use the same local PDF path')
-                      paths.add(path)
-                      good += 1
+                      inspected[path.resolve()] = inspect_pdf(path, folder)
                   except Exception as exc:
+                      local_errors[str(path)] = str(exc)
+              hashes = Counter(info['sha256'] for info in inspected.values())
+              duplicates = sum(n - 1 for n in hashes.values() if n > 1)
+              good = present_only = absent = invalid = stale = candidate_only = missing_entries = 0
+              used = set()
+              for identity in sorted(expected):
+                  r = by_id.get(identity, {})
+                  if not r:
+                      missing_entries += 1
+                  status = r.get('status', 'no-catalog-entry')
+                  relative = r.get('path')
+                  path = Path(relative) if isinstance(relative, str) else None
+                  if path is not None and (path.is_symlink() or not path.resolve().is_relative_to(folder.resolve())):
                       invalid += 1
-                      issues.append(f"Invalid PDF {r.get('path')}: {exc}")
-              all_local = {p.resolve() for p in folder.rglob('*') if p.is_file() and p.suffix.lower() == '.pdf'} if folder.exists() else set()
-              unverified = all_local - paths
-              # Surplus files are shown but do not mean an expected source paper is missing.
-              return {'year': year, 'expected': len(expected), 'good': good, 'missing': len(missing),
-                      'not-done': not_done, 'invalid': invalid, 'issues': issues,
-                      'unverified-local': len(unverified), 'pass': not issues}
+                      issues.append(f'Unsafe catalog path: {relative}')
+                      continue
+                  if path is not None and path.is_file():
+                      try:
+                          info = inspected.get(path.resolve())
+                          if info is None:
+                              raise ValueError(local_errors.get(str(path), 'Not a valid PDF'))
+                          if path.resolve() in used:
+                              raise ValueError('Multiple source papers share one local path')
+                          used.add(path.resolve())
+                          if status != 'downloaded':
+                              stale += 1
+                          # Existing hash mismatch remains a failure; never replace a saved baseline.
+                          if r.get('bytes') is not None and r['bytes'] != info['bytes']:
+                              raise ValueError('Byte count mismatch against saved catalog')
+                          if r.get('sha256') is not None and r['sha256'] != info['sha256']:
+                              raise ValueError('SHA-256 mismatch against saved catalog')
+                          if r.get('sha256') is not None and r.get('bytes') is not None:
+                              good += 1
+                              if status != 'downloaded':
+                                  issues.append(f'File passes saved hash but catalog status is {status}: {path}')
+                          else:
+                              present_only += 1
+                              issues.append(f'File present and passes lightweight PDF checks, but saved size/hash incomplete; status={status}: {path}')
+                      except Exception as exc:
+                          invalid += 1
+                          issues.append(f'Invalid expected file {path}: {exc}')
+                      continue
+          
+                  # Filename matches are diagnostic hints only, never proof of paper identity.
+                  urls = [identity] + (r.get('urls', []) if isinstance(r.get('urls'), list) else [])
+                  stems = set()
+                  for url in urls:
+                      if not isinstance(url, str):
+                          continue
+                      raw = unquote(Path(urlsplit(url).path).name)
+                      stems.add(raw)
+                      stems.add(re.sub(r'[^A-Za-z0-9.-]+', '-', Path(raw).stem).strip('.-') + '.pdf')
+                  stem = unquote(Path(urlsplit(identity).path).stem)
+                  stem = re.sub(r'[^A-Za-z0-9.-]+', '-', stem).strip('.-')[:110] or 'paper'
+                  stems.add(stem + '-' + hashlib.sha256(identity.encode()).hexdigest()[:12] + '.pdf')
+                  candidates = sorted({str(p) for name in stems for p in names.get(name, [])})
+                  if candidates:
+                      candidate_only += 1
+                      issues.append(f'No file at catalog path {relative}; filename candidates ONLY (not identity-verified): ' + '; '.join(candidates))
+                  else:
+                      absent += 1
+                      issues.append(f'No exact path/name match; status={status}; expected path={relative}; id={identity}')
+              for name, error in local_errors.items():
+                  issues.append(f'Local PDF failed lightweight check: {name}: {error}')
+              if missing_entries:
+                  issues.append(f'Missing source entries in catalog: {missing_entries}')
+              return {'year': year, 'expected': len(expected), 'local': len(local), 'good': good,
+                      'present-only': present_only, 'candidates': candidate_only, 'absent': absent,
+                      'invalid': invalid, 'stale': stale, 'duplicate-copies': duplicates,
+                      'local-valid': len(inspected), 'local-invalid': len(local_errors),
+                      'unmapped': len(set(inspected) - used), 'issues': issues, 'pass': not issues}
           
           
           def emit(text):
@@ -281,35 +354,40 @@ jobs:
               for year in selected:
                   page, declared = available[year]
                   try:
-                      expected = ids_from_html(client.get(page), page)
-                      result = audit_year(year, expected, declared)
+                      result = audit_year(year, ids_from_html(client.get(page), page), declared)
                   except Exception as exc:
-                      result = {'year': year, 'expected': declared, 'good': 0, 'missing': '?',
-                                'not-done': '?', 'invalid': '?', 'issues': ['Could not audit year: ' + str(exc)],
-                                'unverified-local': '?', 'pass': False}
+                      result = dict.fromkeys(['local', 'good', 'present-only', 'candidates', 'absent', 'invalid',
+                                              'stale', 'duplicate-copies', 'local-valid', 'local-invalid', 'unmapped'], '?')
+                      result.update(year=year, expected=declared, issues=['Could not audit year: ' + str(exc)], **{'pass': False})
                   rows.append(result)
-                  print(f"{year}: {'PASS' if result['pass'] else 'CHECK'}; verified={result['good']}/{result['expected']}", flush=True)
+                  print(f"{year}: local={result['local']}, catalog-hash-verified={result['good']}, present-without-baseline={result['present-only']}, filename-candidates={result['candidates']}", flush=True)
+                  # Full diagnostics in logs; summary below limits per-year detail length.
+                  for issue in result['issues']:
+                      print('DETAIL ' + year + ': ' + str(issue).replace('\n', ' '), flush=True)
               ok = all(r['pass'] for r in rows)
-              text = ['# PharmaSUG US completeness audit', '',
-                      f"Verdict: **{'PASS — selected years complete relative to live index' if ok else 'CHECK — incomplete, inconsistent, or not verifiable'}**", '',
-                      f"Scope: `{os.environ.get('YEARS', 'all')}`; checked-out commit: `{os.environ.get('GITHUB_SHA', 'local')}`.", '',
-                      '| Year | Source papers | Verified PDFs | Missing entries | Failed/pending/other | Invalid files | Result |',
-                      '| --- | ---: | ---: | ---: | ---: | ---: | --- |']
+              text = ['# PharmaSUG US completeness audit v2', '',
+                      f"Verdict: **{'PASS — selected source papers and catalog checks passed' if ok else 'CHECK — review file coverage and metadata separately'}**", '',
+                      f"Scope: `{os.environ.get('YEARS', 'all')}`; checkout: `{os.environ.get('GITHUB_SHA', 'local')}`.", '',
+                      '| Year | Source | Local PDFs | Hash verified | Present/no full baseline | Filename candidates only | No exact match | Invalid expected files | Stale status on present files |',
+                      '| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |']
               for r in rows:
-                  text.append(f"| {r['year']} | {r['expected']} | {r['good']} | {r['missing']} | {r['not-done']} | {r['invalid']} | {'PASS' if r['pass'] else 'CHECK'} |")
+                  text.append(f"| {r['year']} | {r['expected']} | {r['local']} | {r['good']} | {r['present-only']} | {r['candidates']} | {r['absent']} | {r['invalid']} | {r['stale']} |")
               for r in rows:
-                  if r['issues'] or r['unverified-local']:
-                      text.extend(['', f"## {r['year']} details"])
-                      text.extend('- ' + str(issue).replace('\n', ' ') for issue in r['issues'][:20])
-                      if len(r['issues']) > 20:
-                          text.append(f"- Plus {len(r['issues']) - 20} additional issues (see catalog).")
-                      if r['unverified-local']:
-                          text.append(f"- Local PDFs not verified against expected source records: {r['unverified-local']} (may include invalid or surplus files).")
-              text.extend(['', 'Checks: live year coverage, live paper IDs/counts, catalog status, file existence, byte count, SHA-256, PDF header and EOF.',
-                           'This reads website HTML, but does not download paper PDFs, repair files, or commit changes.',
-                           'SHA-256 verifies stored files against their saved catalog, not against an independently trusted publisher checksum.',
-                           'A PASS is relative to the live index at audit time, not a guarantee of every conference paper ever published or full PDF structural validity.',
-                           'Run after downloads finish. A download still in progress may commit newer files after the audited checkout.'])
+                  text.extend(['', f"## {r['year']} details", '',
+                               f"Local PDFs passing header/EOF checks: {r['local-valid']}; failing: {r['local-invalid']}; duplicate-content copies beyond first: {r['duplicate-copies']}; structurally valid files not linked by exact catalog paths: {r['unmapped']}."])
+                  text.extend('- ' + str(issue).replace('\n', ' ') for issue in r['issues'][:12])
+                  if len(r['issues']) > 12:
+                      text.append(f"- Plus {len(r['issues']) - 12} issues; see this step's complete log.")
+              text.extend(['', 'Interpretation:',
+                           '- Hash verified: file matches the saved catalog size/SHA-256, even if catalog status is stale.',
+                           '- Present/no full baseline: file exists at exact catalog path and passes lightweight PDF checks, but no full saved size/hash baseline; not silently promoted to verified.',
+                           '- Filename candidates only: possible existing files identified by exact expected filename; not proof of paper identity.',
+                           '- No exact match: no file at catalog path or exact candidate name. Arbitrary renamed files may still exist; do not equate this with confirmed absence.',
+                           '- Extra/duplicate-content files do not establish source-paper coverage. Do not delete them automatically.',
+                           '- Missing catalog files/entries, source discrepancies, stale metadata, unverifiable files, and invalid files keep the run CHECK.',
+                           '- Read only: no paper downloads, metadata rewrites, deletes, or commits. Repository checkout still fetches existing Git files.',
+                           '- A stored SHA-256 is not an independently trusted publisher checksum; header/EOF checks are not full PDF parsing.',
+                           '- Run after downloading finishes, on the intended current branch. This checks a checkout snapshot, not subsequent commits.'])
               emit('\n'.join(text))
               return 0 if ok else 1
           
