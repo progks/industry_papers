@@ -2709,8 +2709,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_DV07.pdf"
     ],
     "filename": "PAP-DV07-34cdc83964.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DV07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DV07.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_DV07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_DV07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DV07.pdf",
+    "bytes": 2845493,
+    "sha256": "6b42be7ddcbc6a484aaee2bb13b242a6c31bb5998a19ef7dbcd0b6f303a3481c"
   },
   {
     "title": "Visualizing the Complexities of Genomics Datasets",
@@ -2722,8 +2724,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_DV10.pdf"
     ],
     "filename": "PAP-DV10-81eb0242f7.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DV10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DV10.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_DV10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_DV10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DV10.pdf",
+    "bytes": 1150213,
+    "sha256": "91578348aa66a4bf98d7e1857c70c1452cec956cccf0e694eb67ad272ebaa31b"
   },
   {
     "title": "Visualizing Tumor Response Data Using ggplot2 R Package with Examples",
@@ -2735,8 +2739,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_DV12.pdf"
     ],
     "filename": "PAP-DV12-b43dce056f.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DV12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DV12.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_DV12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_DV12.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DV12.pdf",
+    "bytes": 1193874,
+    "sha256": "c33b7fc2eb0676af0f6e0dd8a78b485cbc65ad3b7c0172a41d52e162bf544adc"
   },
   {
     "title": "Volcano Plot: Demystifying Why and How",
@@ -2748,8 +2754,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_DV14.pdf"
     ],
     "filename": "PAP-DV14-d08c1ba9e5.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DV14.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DV14.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_DV14.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_DV14.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DV14.pdf",
+    "bytes": 600380,
+    "sha256": "821205531f110e76b88041d29097cea2a85fbcc027552fddae959db3ea8e5dcb"
   },
   {
     "title": "What Do Sponsors and CRO Programmers Think About Each Other and Their Primary Challenges?",
@@ -2761,8 +2769,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_SP10.pdf"
     ],
     "filename": "PAP-SP10-cc2f2501b2.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SP10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SP10.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_SP10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_SP10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SP10.pdf",
+    "bytes": 117289,
+    "sha256": "499a80b5a8f21ac19917ebe9b42745cbdb188d547c95a5558396ce85338bb3d3"
   },
   {
     "title": "What You Need to Know About Submitting Data to the FDA",
@@ -2774,7 +2784,9 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_DS02.pdf"
     ],
     "filename": "PAP-DS02-f34e73f2f4.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DS02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DS02.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_DS02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_DS02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DS02.pdf",
+    "bytes": 341321,
+    "sha256": "fc4d3365f080032d98bb1ccef50b409da1457de5ef0d8bb3a3ab09c110bced8e"
   }
 ]
