@@ -1438,7 +1438,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR07.pdf",
       "https://saslexicon.org/PHUSE_US/2019/PAP_AR07.pdf"
     ],
-    "filename": "PAP-AR07-951b0798bd.pdf"
+    "filename": "PAP-AR07-951b0798bd.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR07.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_AR07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_AR07.pdf"
   },
   {
     "title": "Proof of Concept (PoC) Development of Safety Visual Analytics (SVA) Using R Shiny and SAS",
@@ -1449,7 +1451,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_TT06.pdf",
       "https://saslexicon.org/PHUSE_US/2019/PAP_TT06.pdf"
     ],
-    "filename": "PAP-TT06-b6338dd839.pdf"
+    "filename": "PAP-TT06-b6338dd839.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_TT06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_TT06.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_TT06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_TT06.pdf"
   },
   {
     "title": "Quantifying Dynamic Risk with Predictive Analytics",
@@ -1460,7 +1464,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR10.pdf",
       "https://saslexicon.org/PHUSE_US/2019/PAP_AR10.pdf"
     ],
-    "filename": "PAP-AR10-d207fd9117.pdf"
+    "filename": "PAP-AR10-d207fd9117.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR10.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_AR10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_AR10.pdf"
   },
   {
     "title": "Quick Start Your Trials - A Shell Script for Preparing Your Trials with a Standard Set-up",
@@ -1471,7 +1477,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_CT04.pdf",
       "https://saslexicon.org/PHUSE_US/2019/PAP_CT04.pdf"
     ],
-    "filename": "PAP-CT04-cf08627350.pdf"
+    "filename": "PAP-CT04-cf08627350.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_CT04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_CT04.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_CT04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_CT04.pdf"
   },
   {
     "title": "R and Python Differences, Techniques and Challenges for SAS Programmers",
@@ -1482,7 +1490,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DV02.pdf",
       "https://saslexicon.org/PHUSE_US/2019/PAP_DV02.pdf"
     ],
-    "filename": "PAP-DV02-979097c816.pdf"
+    "filename": "PAP-DV02-979097c816.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DV02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DV02.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_DV02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_DV02.pdf"
   },
   {
     "title": "R Markdown for Reproducible Research",
@@ -1493,7 +1503,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP04.pdf",
       "https://saslexicon.org/PHUSE_US/2019/PAP_SP04.pdf"
     ],
-    "filename": "PAP-SP04-accf30d162.pdf"
+    "filename": "PAP-SP04-accf30d162.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP04.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SP04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SP04.pdf"
   },
   {
     "title": "R Markdown for Reproducible Research",
@@ -1504,7 +1516,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP05.pdf",
       "https://saslexicon.org/PHUSE_US/2019/PAP_SP05.pdf"
     ],
-    "filename": "PAP-SP05-1ee33ce990.pdf"
+    "filename": "PAP-SP05-1ee33ce990.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP05.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SP05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SP05.pdf"
   },
   {
     "title": "Remotely Manage Your Team's Time and Tasks Efficiently",
@@ -1515,7 +1529,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP03.pdf",
       "https://saslexicon.org/PHUSE_US/2019/PAP_SP03.pdf"
     ],
-    "filename": "PAP-SP03-07ada8097a.pdf"
+    "filename": "PAP-SP03-07ada8097a.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP03.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SP03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SP03.pdf"
   },
   {
     "title": "Removing Silos: Placing Data at the Center",
@@ -1526,7 +1542,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SI13.pdf",
       "https://saslexicon.org/PHUSE_US/2019/PAP_SI13.pdf"
     ],
-    "filename": "PAP-SI13-570f57c5ab.pdf"
+    "filename": "PAP-SI13-570f57c5ab.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SI13.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SI13.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SI13.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SI13.pdf"
   },
   {
     "title": "SAS is Still a Winner",
@@ -1537,7 +1555,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_CT02.pdf",
       "https://saslexicon.org/PHUSE_US/2019/PAP_CT02.pdf"
     ],
-    "filename": "PAP-CT02-7841206834.pdf"
+    "filename": "PAP-CT02-7841206834.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_CT02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_CT02.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_CT02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_CT02.pdf"
   },
   {
     "title": "SDSP (Study Data Standardization Plan) Case Studies and Considerations",
