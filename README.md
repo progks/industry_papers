@@ -23,4 +23,8 @@ https://saslexicon.org/index.html
 [CDISC_Interchange1](https://www.cdisc.org/members-only/interchange-presentations)               
 [CDISC_Interchange2](https://www.cdisc.org/events/interchange-presentations)
 
+
+[JPMA統計担当者](https://www.jpma.or.jp/information/evaluation/symposium/index.html)
+
+
 Last update Nov2026.
