@@ -1059,8 +1059,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_KN01.pdf"
     ],
     "filename": "PRE-KN01-ea0ed91648.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_KN01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_KN01.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_KN01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_KN01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_KN01.pdf",
+    "bytes": 19190981,
+    "sha256": "b8226958420e568be9a0db3d780858f9ec1a592c9b6a693a064aa4c0032a3ca4"
   },
   {
     "title": "LE Panel Discussion: Leadership and Innovation",
@@ -1072,8 +1074,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_Panel05.pdf"
     ],
     "filename": "PRE-Panel05-8609b68e23.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_Panel05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_Panel05.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_Panel05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_Panel05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_Panel05.pdf",
+    "bytes": 1140739,
+    "sha256": "079320c754711838760953f3068a3c92f523c36289cf9821b6b39b6b4a1efc92"
   },
   {
     "title": "Leadership Presentations: LE01: The Power of Three",
@@ -1085,8 +1089,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_LE01.pdf"
     ],
     "filename": "PRE-LE01-1a0cee56f7.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_LE01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_LE01.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_LE01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_LE01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_LE01.pdf",
+    "bytes": 5858999,
+    "sha256": "8aeaae3975fb1c972cbda4c7f4b3067c25b527ff3a7a762c1416d805abb5f4f4"
   },
   {
     "title": "Leadership Presentations: LE02: How to Build Knowledge Capacity for a High-performance Team",
@@ -1098,8 +1104,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_LE02.pdf"
     ],
     "filename": "PRE-LE02-741720d153.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_LE02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_LE02.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_LE02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_LE02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_LE02.pdf",
+    "bytes": 2063863,
+    "sha256": "a8618c41852cf3e67c974c541eab407e34a31d752e8e1b8ebd9a05669d688be1"
   },
   {
     "title": "Leadership Presentations: LE06: One Sprint at a Time - Agile Transformation in Clinical Research",
@@ -1111,8 +1119,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_LE06.pdf"
     ],
     "filename": "PRE-LE06-7046b9089a.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_LE06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_LE06.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_LE06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_LE06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_LE06.pdf",
+    "bytes": 1261396,
+    "sha256": "2ea015acb8f40895e912d0cd539f6ed8eccebe0aa39cce098f63a0f9c883c681"
   },
   {
     "title": "Leveraging Standard Analytics in Central Monitoring: The Good, The Bad, & The Ugly",
@@ -1124,8 +1134,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_CM01.pdf"
     ],
     "filename": "PRE-CM01-b2188b47df.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CM01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CM01.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_CM01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_CM01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CM01.pdf",
+    "bytes": 2709742,
+    "sha256": "9aedae37e38c299a04daecd60486534c36ec062e9d9b2cb6d8112a65557af057"
   },
   {
     "title": "Managing Multiple Versions of R in a Clinical Environment",
@@ -1137,8 +1149,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_AS01.pdf"
     ],
     "filename": "PRE-AS01-e9beb4601f.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_AS01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_AS01.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_AS01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_AS01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_AS01.pdf",
+    "bytes": 3535959,
+    "sha256": "c2cf90c30df2cafa0a25904c409483181e43296af34d4626a95d7fe9d61bc49f"
   },
   {
     "title": "Managing TFL Development in LSAF 5.3 Using SAS and R Code",
@@ -1150,8 +1164,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_DH04.pdf"
     ],
     "filename": "PRE-DH04-8cea00e6ec.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DH04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DH04.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_DH04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_DH04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DH04.pdf",
+    "bytes": 5169653,
+    "sha256": "d2eae1d4f27797e62b3389340829f51887424aa0ca51f447852bd604508c53ca"
   },
   {
     "title": "Mapping Missing QRS Responses in the SDTM",
@@ -1163,8 +1179,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_DH05.pdf"
     ],
     "filename": "PRE-DH05-5fa59cf900.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DH05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DH05.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_DH05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_DH05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DH05.pdf",
+    "bytes": 1042655,
+    "sha256": "d08e6122d11c4a8b475fe022a2f581a0926dd75ab74e29a04240a8f5026aa23d"
   },
   {
     "title": "Metadata-based Auto-programming by Python and SAS",
@@ -1176,8 +1194,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_DH09.pdf"
     ],
     "filename": "PRE-DH09-12a50a74d6.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DH09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DH09.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_DH09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_DH09.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DH09.pdf",
+    "bytes": 1794923,
+    "sha256": "59abf8a65522fc69b9ab14a0103286ee51e0b6dd9b29979804bde533b046ba49"
   },
   {
     "title": "Neurological Examination and Procedure Results in SDTM: Challenges and Solutions",
