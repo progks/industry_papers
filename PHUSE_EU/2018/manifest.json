@@ -2408,7 +2408,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/EU/Frankfurt/PAP_CD03.pdf",
       "https://saslexicon.org/PHUSE_EU/2018/PAP_CD03.pdf"
     ],
-    "filename": "PAP-CD03-a427e03bc6.pdf"
+    "filename": "PAP-CD03-a427e03bc6.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/EU/Frankfurt/PAP_CD03.pdf",
+    "status": "ok",
+    "bytes": 71944,
+    "sha256": "670543e50a260cb63a6f1b85ee141f147143f841b7d822ca2b50c81f4b337829"
   },
   {
     "title": "Your Date or Mine?",
@@ -2419,6 +2423,10 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/EU/Frankfurt/PAP_CT08.pdf",
       "https://saslexicon.org/PHUSE_EU/2018/PAP_CT08.pdf"
     ],
-    "filename": "PAP-CT08-ae5b915768.pdf"
+    "filename": "PAP-CT08-ae5b915768.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/EU/Frankfurt/PAP_CT08.pdf",
+    "status": "ok",
+    "bytes": 360930,
+    "sha256": "b416be73d33609f008f37b8c619a174afa3d79374245b5002509974eabdb86fe"
   }
 ]
