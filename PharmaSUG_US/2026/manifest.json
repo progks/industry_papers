@@ -3309,8 +3309,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_ET18.pdf"
     ],
     "filename": "PAP-ET18-92382d99fd.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET18.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET18.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_ET18.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_ET18.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET18.pdf",
+    "bytes": 874045,
+    "sha256": "cbb93f40a195e8727351df4ba34c6d9d09eabafaf21fa0e7254c85dc5bb62529"
   },
   {
     "title": "Revolutionising Clinical Data Transformation: Harnessing GenAI and Open Source for Automated SDTM Conversion",
@@ -3322,8 +3324,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_ML29.pdf"
     ],
     "filename": "PAP-ML29-50beeebe35.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML29.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML29.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_ML29.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_ML29.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML29.pdf",
+    "bytes": 813267,
+    "sha256": "41c2a5b809c5647600e069815d9f1791462448fa58b9ea2bdf2bb49d52019cb5"
   },
   {
     "title": "Risk-Driven AI Oversight in Clinical Research: A Tiered Framework Using ISO, ICH Q9 and FMEA",
@@ -3335,8 +3339,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_ML36.pdf"
     ],
     "filename": "PAP-ML36-30865ab211.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML36.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML36.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_ML36.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_ML36.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML36.pdf",
+    "bytes": 320938,
+    "sha256": "fcefcbbd65b1b79487e857684148b77d82d327db18f95314139105f4184b742f"
   },
   {
     "title": "Robust Causal Inference in Real-World Evidence Studies with Double Machine Learning",
@@ -3348,8 +3354,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_RE01.pdf"
     ],
     "filename": "PAP-RE01-909aae9172.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_RE01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_RE01.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_RE01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_RE01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_RE01.pdf",
+    "bytes": 298245,
+    "sha256": "2b4d3a0f25d99ff4f2ddcbc71d2232c47c313d00d360c41c68552fdca12b4996"
   },
   {
     "title": "Rule-Based Auto-SDTM Mapping Software in Python, Which Automatically Generates Executable SAS or R Programs",
@@ -3361,8 +3369,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_ET13.pdf"
     ],
     "filename": "PAP-ET13-5c65fff51e.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET13.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET13.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_ET13.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_ET13.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET13.pdf",
+    "bytes": 919314,
+    "sha256": "6393dfc34f836e4168344e6205ba19efa4f4db9dae514db14f5b6052ea2df9c6"
   },
   {
     "title": "Safeguarding CCI in the Age of AI",
@@ -3374,8 +3384,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PRE_DT18.pdf"
     ],
     "filename": "PRE-DT18-8cd9aa2a37.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_DT18.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_DT18.pdf | https://saslexicon.org/PHUSE_US/2026/PRE_DT18.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PRE_DT18.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_DT18.pdf",
+    "bytes": 1017133,
+    "sha256": "b289e69c46ede28984c2ec3802723a8429e80871d9f5e924fd656f3e4214c48b"
   },
   {
     "title": "Safety at a Glance: Enhancing Participant Monitoring in Oncology Trials with Data Visualisation",
@@ -3387,8 +3399,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_DV04.pdf"
     ],
     "filename": "PAP-DV04-a64c67dfa2.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DV04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DV04.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_DV04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_DV04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DV04.pdf",
+    "bytes": 3554115,
+    "sha256": "63a17a70f000bc44c59d58d881c79a62d31a99d318d0e35176f83f6fef9a547c"
   },
   {
     "title": "Scalable Anonymisation for Complex Clinical Trial Data: A Sponsor-Vendor Perspective",
@@ -3400,8 +3414,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PRE_DT20.pdf"
     ],
     "filename": "PRE-DT20-b5af7f97f7.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_DT20.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_DT20.pdf | https://saslexicon.org/PHUSE_US/2026/PRE_DT20.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PRE_DT20.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_DT20.pdf",
+    "bytes": 386575,
+    "sha256": "585e32640fc46a27e460262cfaec4a18247226dec31c7a4d069472e826b1b161"
   },
   {
     "title": "Scalable R Packages Qualification Using a CI/CD Approach",
@@ -3413,8 +3429,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_RM05.pdf"
     ],
     "filename": "PAP-RM05-7a89f3590b.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_RM05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_RM05.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_RM05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_RM05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_RM05.pdf",
+    "bytes": 391122,
+    "sha256": "9f750708d1440f5bd65e2cceab7941a3a8f279192040fcb622d902036406922d"
   },
   {
     "title": "Scaling Biometric Teams in Emerging Regions: Lessons from Armenia",
@@ -3426,8 +3444,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_PD07.pdf"
     ],
     "filename": "PAP-PD07-cc1e1a727b.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PD07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PD07.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_PD07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_PD07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PD07.pdf",
+    "bytes": 359723,
+    "sha256": "a14f510c458d780e139516e73fdd2f70320593e58035f99a4bd4f7d4a13f29bc"
   },
   {
     "title": "Scaling for the Future: Transitioning from In-House to Commercial Statistical Computing Environments",
