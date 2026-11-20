@@ -1809,8 +1809,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_PP14.pdf"
     ],
     "filename": "PAP-PP14-34569e069d.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PP14.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PP14.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_PP14.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_PP14.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PP14.pdf",
+    "bytes": 703637,
+    "sha256": "9825f102b27fa9d523deba8c92910fe32d891297079dbae70619d16343a91299"
   },
   {
     "title": "From Legacy to ISS/ISE: Real-World Lessons in Module 5 Submissions",
@@ -1822,8 +1824,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_SA10.pdf"
     ],
     "filename": "PAP-SA10-4e9da16629.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SA10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SA10.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_SA10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_SA10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SA10.pdf",
+    "bytes": 224522,
+    "sha256": "d5af42d587300cdec21b2122ffec8c64267a2d12b25a40d515e4f2950479b0be"
   },
   {
     "title": "From Oversight to Insight - Rethinking Risk-Based Quality Management",
@@ -1835,8 +1839,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_RM01.pdf"
     ],
     "filename": "PAP-RM01-bc10ce44e6.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_RM01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_RM01.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_RM01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_RM01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_RM01.pdf",
+    "bytes": 361897,
+    "sha256": "b69167bb26559078efd71b3b9b199b52afb5384071cf6d02d20d48871317c23c"
   },
   {
     "title": "From Policy to Practice: A Compliance Checklist for EMA Policy 0070",
@@ -1848,8 +1854,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_SA17.pdf"
     ],
     "filename": "PAP-SA17-46ec51b6d5.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SA17.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SA17.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_SA17.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_SA17.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SA17.pdf",
+    "bytes": 113535,
+    "sha256": "af9f6e2a9cfc1b0af4243656e65faa40f4c3635c64d3ba8a04a0aa18bced7603"
   },
   {
     "title": "From SAS to Cursor: Vibe-Coding into SAS, R & Python",
@@ -1861,8 +1869,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_ET12.pdf"
     ],
     "filename": "PAP-ET12-aa6c18f044.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET12.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_ET12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_ET12.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET12.pdf",
+    "bytes": 345950,
+    "sha256": "d181b483d7b3910d592f9ec0386e588e6fcda407e46c56d0698006b5be0ba43f"
   },
   {
     "title": "From SAS to R for TLGs: A Case Study on Implementing an 'R-First, SAS-QC' Workflow for Time-to-Event Analysis",
@@ -1874,8 +1884,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_OS14.pdf"
     ],
     "filename": "PAP-OS14-ed06160913.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS14.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS14.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_OS14.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_OS14.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS14.pdf",
+    "bytes": 317901,
+    "sha256": "9d70d1577cbb19f652e73f0a435e1d4f0bbc8610cd1443ae8d772519651bb5f2"
   },
   {
     "title": "From System Exports to Standards: Will Standardisation of External Vendor Data Redefine Clinical Data Management/Analysis?",
@@ -1887,8 +1899,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_DS19.pdf"
     ],
     "filename": "PAP-DS19-3131dd79ac.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DS19.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DS19.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_DS19.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_DS19.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DS19.pdf",
+    "bytes": 270443,
+    "sha256": "6c36da575d2ee22f41aa0623bca9d16447d528fc6cd727770a719ef6585f40f7"
   },
   {
     "title": "From Tables to Text: Revolutionizing CSR Development with Generative AI",
@@ -1900,8 +1914,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_ML30.pdf"
     ],
     "filename": "PAP-ML30-d6c2012f79.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML30.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML30.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_ML30.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_ML30.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML30.pdf",
+    "bytes": 495538,
+    "sha256": "0ab696983b829b6419c76e76328542ad302298bcca53ba8ce6b4c7a77d2597ec"
   },
   {
     "title": "Fuzzy Matching DOSE Date Intervals ON Analysis Dates Across SAS (DATA Step, PROC SQL, SAS Macro, and PROC FCMP)",
