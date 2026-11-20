@@ -2259,8 +2259,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_SA07.pdf"
     ],
     "filename": "PAP-SA07-c5f8ddd714.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SA07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SA07.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_SA07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_SA07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SA07.pdf",
+    "bytes": 482434,
+    "sha256": "dfd5fa8530141c094489f1c29bb2ab1cd8644171102ac95a386cd0b3359f8da9"
   },
   {
     "title": "Reproducible Open-source Environments for Advance Analytics",
@@ -2272,8 +2274,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_AS03.pdf"
     ],
     "filename": "PAP-AS03-32079677f7.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_AS03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_AS03.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_AS03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_AS03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_AS03.pdf",
+    "bytes": 138978,
+    "sha256": "fdf38a9544ee269bfe18c13d8f078d35da346bed956457aa82bc6dfbb8ebee3d"
   },
   {
     "title": "Rerouting Your Risk-based Monitoring Strategy: Overcoming Implementation Roadblocks with New Technologies and Approaches",
@@ -2285,8 +2289,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_CM01.pdf"
     ],
     "filename": "PAP-CM01-18b6333a59.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CM01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CM01.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_CM01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_CM01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CM01.pdf",
+    "bytes": 520690,
+    "sha256": "5a377422910ed5738bf1024f4116620a4008b1f164070ebe448bab5b9954b138"
   },
   {
     "title": "Sample Size Re-estimation in Action: Design Consideration, Charter Development and Implementation",
@@ -2298,8 +2304,10 @@
       "https://saslexicon.org/PHUSE_US/2020/POS_PP14.pdf"
     ],
     "filename": "POS-PP14-ff2e83bce7.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/POS_PP14.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/POS_PP14.pdf | https://saslexicon.org/PHUSE_US/2020/POS_PP14.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/POS_PP14.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/POS_PP14.pdf",
+    "bytes": 775360,
+    "sha256": "43d34eda775db4c1b93da0fed53047ebf92dcedeb7067d10d8c75ec305a12002"
   },
   {
     "title": "Smart, Digital Analysis & Reporting (A&R) Environments: They Are Upon Us",
@@ -2311,8 +2319,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_ML10.pdf"
     ],
     "filename": "PAP-ML10-de1f73932b.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_ML10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_ML10.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_ML10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_ML10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_ML10.pdf",
+    "bytes": 129933,
+    "sha256": "d4fac9cbb0d2d3dc73db9200fe42eaa3c649811396a657ae38c7a57acad37934"
   },
   {
     "title": "SmartLog - A UNIX based Utility",
@@ -2324,8 +2334,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_CT09.pdf"
     ],
     "filename": "PAP-CT09-b0bf65f063.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CT09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CT09.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_CT09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_CT09.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CT09.pdf",
+    "bytes": 254650,
+    "sha256": "d2530a613e438d5ec890e7eef1d16804917f14102b241fb73439249f25e45518"
   },
   {
     "title": "SPA - A catalyst for clinical protocol development",
@@ -2337,8 +2349,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_SD02.pdf"
     ],
     "filename": "PAP-SD02-6ba8a43ff4.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SD02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SD02.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_SD02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_SD02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SD02.pdf",
+    "bytes": 226897,
+    "sha256": "54786b78c14eafc1faa334a601b52609f7a85948f1952ef393d1e1c8eae988b2"
   },
   {
     "title": "Spotfire Patient Profile Graphs: An Abridged Effective Approach Using Scripting Languages",
@@ -2350,8 +2364,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_DV04.pdf"
     ],
     "filename": "PAP-DV04-ac411dcf90.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DV04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DV04.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_DV04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_DV04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DV04.pdf",
+    "bytes": 451441,
+    "sha256": "9a961d4e13abfdad983d9404862c8ee66c59dfe58f2235e06f236cf375ef41f2"
   },
   {
     "title": "Standardization = Automation: A Journey from Dataset Specification to SAS Code",
@@ -2363,8 +2379,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_SI05.pdf"
     ],
     "filename": "PAP-SI05-2a31ea3433.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SI05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SI05.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_SI05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_SI05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SI05.pdf",
+    "bytes": 846158,
+    "sha256": "02a7fb1e4fb3b2df341c59978cf8235df9e686da27e78716d04580af5b508ba8"
   },
   {
     "title": "Standards Compliance - An Automated Way to Measure the Interoperability of Clinical Studies",
@@ -2376,8 +2394,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_SI11.pdf"
     ],
     "filename": "PAP-SI11-cc280d85b1.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SI11.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SI11.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_SI11.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_SI11.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SI11.pdf",
+    "bytes": 908867,
+    "sha256": "580e463c18862746e2af9d5166cdcd25e30233273d8cfbe41f9007e829e27bec"
   },
   {
     "title": "Statistical Analysis in an Oncology Study for PCWG3 Patients",
