@@ -308,7 +308,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/APAC/Hyderabad/PAP_SM14.pdf",
       "https://saslexicon.org/PHUSE_APAC/2026/PAP_SM14.pdf"
     ],
-    "filename": "PAP-SM14-5355a3f2bb.pdf"
+    "filename": "PAP-SM14-5355a3f2bb.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/APAC/Hyderabad/PAP_SM14.pdf",
+    "status": "ok",
+    "bytes": 4106228,
+    "sha256": "ce90ccd7622356ec1d7c11f557fcbbfc118c9ff91bb0282c94cb1d0a9cabbc44"
   },
   {
     "title": "Automated Comparison of EDC Transfers: Identifying Data Changes Across Versions",
@@ -319,7 +323,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/APAC/Hyderabad/PAP_CT18.pdf",
       "https://saslexicon.org/PHUSE_APAC/2026/PAP_CT18.pdf"
     ],
-    "filename": "PAP-CT18-74b2d6a7da.pdf"
+    "filename": "PAP-CT18-74b2d6a7da.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/APAC/Hyderabad/PAP_CT18.pdf",
+    "status": "ok",
+    "bytes": 252334,
+    "sha256": "b1fe018f44de3395329d4f6aad4854da28f868eabc1518e68d37112925d862d7"
   },
   {
     "title": "Automating TFL Generation Using R and pharmaRTF: From Data to Submission-Ready TFLs",
@@ -330,7 +338,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/APAC/Hyderabad/PAP_SM04.pdf",
       "https://saslexicon.org/PHUSE_APAC/2026/PAP_SM04.pdf"
     ],
-    "filename": "PAP-SM04-d65be25e04.pdf"
+    "filename": "PAP-SM04-d65be25e04.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/APAC/Hyderabad/PAP_SM04.pdf",
+    "status": "ok",
+    "bytes": 274262,
+    "sha256": "4a0474b5a5978c51197e85ae9db933f0be78bf95ebe62304d87a4e0bedf45069"
   },
   {
     "title": "Automation and Macros in Clinical Submissions: Challenges, Limits and the Path Forward",
@@ -341,7 +353,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/APAC/Hyderabad/PAP_SM11.pdf",
       "https://saslexicon.org/PHUSE_APAC/2026/PAP_SM11.pdf"
     ],
-    "filename": "PAP-SM11-cefd41d03a.pdf"
+    "filename": "PAP-SM11-cefd41d03a.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/APAC/Hyderabad/PAP_SM11.pdf",
+    "status": "ok",
+    "bytes": 237169,
+    "sha256": "4860b5c7d506deabbe86d7918138ab89e1ab8a1537478306e78b7d2b31680792"
   },
   {
     "title": "Batch Execution of CDISC SDTM/ADaM Programs with R",
@@ -352,7 +368,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/APAC/Hyderabad/PAP_SM09.pdf",
       "https://saslexicon.org/PHUSE_APAC/2026/PAP_SM09.pdf"
     ],
-    "filename": "PAP-SM09-5a63dff055.pdf"
+    "filename": "PAP-SM09-5a63dff055.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/APAC/Hyderabad/PAP_SM09.pdf",
+    "status": "ok",
+    "bytes": 291752,
+    "sha256": "f1c275076e059664a5f9ee32e550b26e6905b64e72df2a442f2cdda3001e3de3"
   },
   {
     "title": "Beyond Basics: Essential R Code Tips and Tricks for Clinical Programmers",
@@ -363,7 +383,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/APAC/Hyderabad/PAP_CT04.pdf",
       "https://saslexicon.org/PHUSE_APAC/2026/PAP_CT04.pdf"
     ],
-    "filename": "PAP-CT04-1c5b1ddc3a.pdf"
+    "filename": "PAP-CT04-1c5b1ddc3a.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/APAC/Hyderabad/PAP_CT04.pdf",
+    "status": "ok",
+    "bytes": 545292,
+    "sha256": "9b5cece07122176121d16e19fee8860a143bd52ab72dbc8e6bc654faa00316d1"
   },
   {
     "title": "Beyond Code: Elevating NextGen Statistical Programmers through Cross-Functional Learnings",
@@ -374,7 +398,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/APAC/Hyderabad/PAP_PD17.pdf",
       "https://saslexicon.org/PHUSE_APAC/2026/PAP_PD17.pdf"
     ],
-    "filename": "PAP-PD17-2d1eb6bcb9.pdf"
+    "filename": "PAP-PD17-2d1eb6bcb9.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/APAC/Hyderabad/PAP_PD17.pdf",
+    "status": "ok",
+    "bytes": 939332,
+    "sha256": "a18aa552aba7f46acaf2c1336f386f4e3bd68000eec0ef6b4fd7f2be4decd620"
   },
   {
     "title": "Beyond Log-Rank: Advanced Survival Analysis for Non-Proportional Hazards in Oncology Trials",
@@ -385,7 +413,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/APAC/Hyderabad/PAP_PP24.pdf",
       "https://saslexicon.org/PHUSE_APAC/2026/PAP_PP24.pdf"
     ],
-    "filename": "PAP-PP24-71c8be2f3b.pdf"
+    "filename": "PAP-PP24-71c8be2f3b.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/APAC/Hyderabad/PAP_PP24.pdf",
+    "status": "ok",
+    "bytes": 378971,
+    "sha256": "b7b3d8a16edab2235a218a6d7809f332bbd0cd48edb062ddcbc3c40732aaa5f4"
   },
   {
     "title": "Beyond Sign-Off: Practical Tips for Meaningful Reviews by Leads",
@@ -396,7 +428,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/APAC/Hyderabad/PAP_CT05.pdf",
       "https://saslexicon.org/PHUSE_APAC/2026/PAP_CT05.pdf"
     ],
-    "filename": "PAP-CT05-f2bc8eea30.pdf"
+    "filename": "PAP-CT05-f2bc8eea30.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/APAC/Hyderabad/PAP_CT05.pdf",
+    "status": "ok",
+    "bytes": 314905,
+    "sha256": "60aa1af2fcedf5bd669aaa4f402b7568630e939eea2e5da7164810b68bb26cee"
   },
   {
     "title": "Beyond Toxicity : Accelerating Dose -Finding with Pharmacokinetic -Driven Bayesian Design PKBOIN-12",
@@ -407,7 +443,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/APAC/Hyderabad/PAP_AS20.pdf",
       "https://saslexicon.org/PHUSE_APAC/2026/PAP_AS20.pdf"
     ],
-    "filename": "PAP-AS20-da6275e48b.pdf"
+    "filename": "PAP-AS20-da6275e48b.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/APAC/Hyderabad/PAP_AS20.pdf",
+    "status": "ok",
+    "bytes": 1062554,
+    "sha256": "42c2ab4d5f4ba16022f6698c5cab40b484f13d505973ea609ab4f4b6334f20e5"
   },
   {
     "title": "BioBERT-Powered Event Classification - A Machine Learning Approach in Pyhton",
