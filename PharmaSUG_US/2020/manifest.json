@@ -528,7 +528,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SI08.pdf",
       "https://saslexicon.org/PHUSE_US/2020/PAP_SI08.pdf"
     ],
-    "filename": "PAP-SI08-dd067ef886.pdf"
+    "filename": "PAP-SI08-dd067ef886.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SI08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SI08.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_SI08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_SI08.pdf"
   },
   {
     "title": "CDISC 360: Using Biomedical Concept Metadata to Generate Case Report Forms and Dataset Definitions",
@@ -539,7 +541,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT06.pdf",
       "https://saslexicon.org/PHUSE_US/2020/PAP_TT06.pdf"
     ],
-    "filename": "PAP-TT06-5e29482fc6.pdf"
+    "filename": "PAP-TT06-5e29482fc6.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT06.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_TT06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_TT06.pdf"
   },
   {
     "title": "CDISC Implementation Primer",
@@ -550,7 +554,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DS08.pdf",
       "https://saslexicon.org/PHUSE_US/2020/PAP_DS08.pdf"
     ],
-    "filename": "PAP-DS08-985cfa6fce.pdf"
+    "filename": "PAP-DS08-985cfa6fce.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DS08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DS08.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_DS08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_DS08.pdf"
   },
   {
     "title": "CDISC Library Try-out: From Implementation to Evaluation of the API",
@@ -561,7 +567,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SD05.pdf",
       "https://saslexicon.org/PHUSE_US/2020/PAP_SD05.pdf"
     ],
-    "filename": "PAP-SD05-91f91d03f7.pdf"
+    "filename": "PAP-SD05-91f91d03f7.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SD05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SD05.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_SD05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_SD05.pdf"
   },
   {
     "title": "CDISC's ADTTE Domain: Time-to-Event Analysis From a Programmer's Point of View",
@@ -572,7 +580,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP03.pdf",
       "https://saslexicon.org/PHUSE_US/2020/PAP_PP03.pdf"
     ],
-    "filename": "PAP-PP03-95be385853.pdf"
+    "filename": "PAP-PP03-95be385853.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP03.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_PP03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_PP03.pdf"
   },
   {
     "title": "Challenges and Solutions While Mapping Laboratory Data",
@@ -583,7 +593,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/POS_PP13.pdf",
       "https://saslexicon.org/PHUSE_US/2020/POS_PP13.pdf"
     ],
-    "filename": "POS-PP13-172bb745ef.pdf"
+    "filename": "POS-PP13-172bb745ef.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/POS_PP13.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/POS_PP13.pdf | https://saslexicon.org/PHUSE_US/2020/POS_PP13.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/POS_PP13.pdf"
   },
   {
     "title": "Clarity Stack Clinical Technology - A Holistic View of Clinical Trial Operational Status and Patient Safety Data",
@@ -594,7 +606,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PRE_SD01.pdf",
       "https://saslexicon.org/PHUSE_US/2020/PRE_SD01.pdf"
     ],
-    "filename": "PRE-SD01-588b0cf437.pdf"
+    "filename": "PRE-SD01-588b0cf437.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PRE_SD01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PRE_SD01.pdf | https://saslexicon.org/PHUSE_US/2020/PRE_SD01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PRE_SD01.pdf"
   },
   {
     "title": "Code Generator to Check Truncated Values in Derived Datasets",
@@ -605,7 +619,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CT06.pdf",
       "https://saslexicon.org/PHUSE_US/2020/PAP_CT06.pdf"
     ],
-    "filename": "PAP-CT06-25d9e91feb.pdf"
+    "filename": "PAP-CT06-25d9e91feb.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CT06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CT06.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_CT06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_CT06.pdf"
   },
   {
     "title": "Common Data Quality Issues Seen During FDA's JumpStart Service",
@@ -616,7 +632,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DS07.pdf",
       "https://saslexicon.org/PHUSE_US/2020/PAP_DS07.pdf"
     ],
-    "filename": "PAP-DS07-8d611818bf.pdf"
+    "filename": "PAP-DS07-8d611818bf.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DS07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DS07.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_DS07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_DS07.pdf"
   },
   {
     "title": "Common Sense Tips for Weaving Governance into an MDR",
@@ -627,7 +645,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DS14.pdf",
       "https://saslexicon.org/PHUSE_US/2020/PAP_DS14.pdf"
     ],
-    "filename": "PAP-DS14-6e347ea9b7.pdf"
+    "filename": "PAP-DS14-6e347ea9b7.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DS14.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DS14.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_DS14.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_DS14.pdf"
   },
   {
     "title": "Complexities in Adhering to Data Standards for ISS NDA Submissions",
