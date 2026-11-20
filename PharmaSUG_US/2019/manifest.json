@@ -759,8 +759,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PRE_SD01.pdf"
     ],
     "filename": "PRE-SD01-49ed53d572.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PRE_SD01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PRE_SD01.pdf | https://saslexicon.org/PHUSE_US/2019/PRE_SD01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PRE_SD01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PRE_SD01.pdf",
+    "bytes": 3288860,
+    "sha256": "2cb0eddf9a239da5c936023d2953c3dd6d015f14cad01fa71d87b4040d8bd551"
   },
   {
     "title": "Dynamically Harvesting Study Dates to Construct and QC the Subject Visits (sv) SDTM Domain",
@@ -772,8 +774,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_DH05.pdf"
     ],
     "filename": "PAP-DH05-6bae03b5d2.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH05.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_DH05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_DH05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH05.pdf",
+    "bytes": 77367,
+    "sha256": "83d94368b689b30f8f0026c4244e2d8693976166e566a9a94ce69d19ddc0063c"
   },
   {
     "title": "Effective Presentations of CTCAE-graded Laboratory Data",
@@ -785,8 +789,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_DH08.pdf"
     ],
     "filename": "PAP-DH08-82594519d5.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH08.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_DH08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_DH08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH08.pdf",
+    "bytes": 129104,
+    "sha256": "7d70b2be4895c993e3f84acf2e4458c3c9e7e6bfb18afdde546f4b6f8868fead"
   },
   {
     "title": "Efficacy Endpoint Visualization of Investigational Products for Cancer Patients Using R Shiny",
@@ -798,8 +804,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_DV01.pdf"
     ],
     "filename": "PAP-DV01-f177b2f5d0.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DV01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DV01.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_DV01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_DV01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DV01.pdf",
+    "bytes": 1150808,
+    "sha256": "97e3ceb9c986f321b4a48ce9fe18855c4acec49abd55979506e095c6846a0da2"
   },
   {
     "title": "End-to-End SDTM Automation: A Metadata-centric Approach",
@@ -811,8 +819,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_SI01.pdf"
     ],
     "filename": "PAP-SI01-b7c6a4ccaa.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SI01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SI01.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SI01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SI01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SI01.pdf",
+    "bytes": 780592,
+    "sha256": "3c05a4bc5fd0560bb8a2436a5baffad9bf280e2035e848a48657ca0d7e075603"
   },
   {
     "title": "Ensuring Consistent and Supported Standards Across Data and Metadata in a Large Regulatory Filing is Tricky Business",
@@ -824,8 +834,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_SI06.pdf"
     ],
     "filename": "PAP-SI06-5b35edb23b.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SI06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SI06.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SI06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SI06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SI06.pdf",
+    "bytes": 254617,
+    "sha256": "b5fd9ba638a8482e47a2512664fab805d02f52d769855161577afe509bbeab71"
   },
   {
     "title": "Ensuring Programming Integrity with Python: Dynamic Code Plagiarism Detection",
@@ -837,8 +849,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_TT04.pdf"
     ],
     "filename": "PAP-TT04-5c4265f13e.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_TT04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_TT04.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_TT04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_TT04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_TT04.pdf",
+    "bytes": 563906,
+    "sha256": "16866ac25b1b1da68021f240ef0dac9131bae19b7f934941139400c0b9628f39"
   },
   {
     "title": "Evolving CDISC to the Next Decades: The CDISC Proof of Concept",
@@ -850,8 +864,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_DS06.pdf"
     ],
     "filename": "PAP-DS06-7e28b038d5.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DS06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DS06.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_DS06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_DS06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DS06.pdf",
+    "bytes": 87095,
+    "sha256": "72aae648d0aeff1bde95ed3b749c7a444b630b5bef0873cdf150a768553d4ae0"
   },
   {
     "title": "Expectations and Collaboration - Recipe for Successful CDISC Deliverables!",
@@ -863,8 +879,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_DH04.pdf"
     ],
     "filename": "PAP-DH04-9fb0ce7e07.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH04.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_DH04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_DH04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH04.pdf",
+    "bytes": 61995,
+    "sha256": "5efab54c20b32bdf426a4a477b35591a6ca53c72fbef3d7c5d1265a68ad97cea"
   },
   {
     "title": "FDA View: Update on Study Data Submission",
@@ -876,8 +894,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_SA15.pdf"
     ],
     "filename": "PAP-SA15-5601aeda3f.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA15.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA15.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SA15.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SA15.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA15.pdf",
+    "bytes": 476153,
+    "sha256": "1b9ba6a5e9ac08922effb25fc37fdb5563ac3f0a5c2c474116468e7904b31594"
   },
   {
     "title": "Fitting Programming Processes into Workflows on Systems - Is the Square Peg in a Round Hole?",
