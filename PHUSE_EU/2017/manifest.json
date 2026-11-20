@@ -2108,7 +2108,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2017/Connect/EU/Edinburgh/PAP_DV09.pdf",
       "https://saslexicon.org/PHUSE_EU/2017/PAP_DV09.pdf"
     ],
-    "filename": "PAP-DV09-e6f6739db3.pdf"
+    "filename": "PAP-DV09-e6f6739db3.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2017/Connect/EU/Edinburgh/PAP_DV09.pdf",
+    "status": "ok",
+    "bytes": 230943,
+    "sha256": "82a0d5748689a25586b1e0ae8117b95e5a3e607030579714684406a37c06228b"
   },
   {
     "title": "What Can JMP Clinical Do for You?",
@@ -2119,7 +2123,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2017/Connect/EU/Edinburgh/PRE_PP20.pdf",
       "https://saslexicon.org/PHUSE_EU/2017/PRE_PP20.pdf"
     ],
-    "filename": "PRE-PP20-f225150525.pdf"
+    "filename": "PRE-PP20-f225150525.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2017/Connect/EU/Edinburgh/PRE_PP20.pdf",
+    "status": "ok",
+    "bytes": 692726,
+    "sha256": "9371d15d4670e434fd6dbb5b5d7e84fcee24dad9ce3b769773ae9a69aa2bcff1"
   },
   {
     "title": "Worst CDISC Implementation Processes - How to Avoid Some Very Basic Mistakes in SDTM ADaM Define",
@@ -2130,6 +2138,10 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2017/Connect/EU/Edinburgh/PAP_IS04.pdf",
       "https://saslexicon.org/PHUSE_EU/2017/PAP_IS04.pdf"
     ],
-    "filename": "PAP-IS04-c94baa671e.pdf"
+    "filename": "PAP-IS04-c94baa671e.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2017/Connect/EU/Edinburgh/PAP_IS04.pdf",
+    "status": "ok",
+    "bytes": 356671,
+    "sha256": "3f6dd5fbdd40a736d27aa05da2a686ab64f4f5444e8cf8776d9e9f97c0299184"
   }
 ]
