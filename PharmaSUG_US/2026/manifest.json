@@ -1209,8 +1209,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_SD06.pdf"
     ],
     "filename": "PAP-SD06-d9dc304c77.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SD06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SD06.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_SD06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_SD06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SD06.pdf",
+    "bytes": 1351060,
+    "sha256": "5c094e8bd604d12f574ceaa50f0ceb26fb01e351daa6fe03a903d8b52f4356c8"
   },
   {
     "title": "Data Diaries Don't Lie: Stats That Spot ePRO Risks",
@@ -1222,8 +1224,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_AS19.pdf"
     ],
     "filename": "PAP-AS19-55b7f1d5e7.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS19.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS19.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_AS19.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_AS19.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS19.pdf",
+    "bytes": 1028330,
+    "sha256": "85a6924dd3948544f9dddfc058bce1b49f8431ff7df35bc02fb8ac1192c5a47a"
   },
   {
     "title": "Data Harmonisation for ISS and ISE: A Practical Checklist for Integration Success",
@@ -1235,8 +1239,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_SA14.pdf"
     ],
     "filename": "PAP-SA14-f96a7532fb.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SA14.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SA14.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_SA14.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_SA14.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SA14.pdf",
+    "bytes": 634059,
+    "sha256": "538efefd1258450c1cb7197a801198afdebb4816a9c0860b8fb1af009900625b"
   },
   {
     "title": "Data Storytelling: A Crucial Leadership Skill in Today's Clinical Research Landscape",
@@ -1248,8 +1254,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_PD20.pdf"
     ],
     "filename": "PAP-PD20-be1052c6a3.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PD20.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PD20.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_PD20.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_PD20.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PD20.pdf",
+    "bytes": 876319,
+    "sha256": "536209305ab5ff95d43edcfac378f041e10032bcb60fe8d4119d876af4fca311"
   },
   {
     "title": "Deceptive Twins: An Interactive Python Tool for Automated RTF Document Comparison in Clinical Submissions",
@@ -1261,8 +1269,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_OS08.pdf"
     ],
     "filename": "PAP-OS08-9a0663a73d.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS08.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_OS08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_OS08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS08.pdf",
+    "bytes": 638021,
+    "sha256": "56a143d8cd79eca0bdfa72108034285c836b0f1eaba9437d712800e8d5626af0"
   },
   {
     "title": "Defining Time Zero: Evaluating Index Line Selection Methods in External Control Arms (ECAs)",
@@ -1274,8 +1284,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_AS08.pdf"
     ],
     "filename": "PAP-AS08-28a9cc8998.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS08.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_AS08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_AS08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS08.pdf",
+    "bytes": 91378,
+    "sha256": "2e8fda0ed93000821970d941b917bcacd0ad091649b24d8fe7ce45564cbb99de"
   },
   {
     "title": "Democratising SDTM Transformations: AI-Assisted Function Development with Business-Driven Governance",
@@ -1287,8 +1299,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_ML35.pdf"
     ],
     "filename": "PAP-ML35-82a3a4a7e7.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML35.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML35.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_ML35.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_ML35.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML35.pdf",
+    "bytes": 435570,
+    "sha256": "cf006a49f04d9dcb0564aeaa381fce3454770cf9367375466f3ca4e26b54dd63"
   },
   {
     "title": "Demonstrations of AutoTable",
@@ -1300,8 +1314,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_SD09.pdf"
     ],
     "filename": "PAP-SD09-d1b41674fa.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SD09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SD09.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_SD09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_SD09.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SD09.pdf",
+    "bytes": 761180,
+    "sha256": "b1382ca938d31a83c9e0381e01f25b73542d7d939defb4293ecaa7080725e7b0"
   },
   {
     "title": "Demystifying TMLE: A Practical Approach for Clinical Data Scientists",
@@ -1313,8 +1329,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_AS03.pdf"
     ],
     "filename": "PAP-AS03-d2ff5f98c9.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS03.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_AS03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_AS03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS03.pdf",
+    "bytes": 248516,
+    "sha256": "beb72a2213a091897d1a125ef4ddfd66b2728fa0555cfab2a0c67a4ecc3df644"
   },
   {
     "title": "Deriving Phantom Records in BDS Datasets To Support the FDA's Standard Safety Figures for Missing Data Analysis",
@@ -1326,8 +1344,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_DS01.pdf"
     ],
     "filename": "PAP-DS01-b8ce626490.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DS01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DS01.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_DS01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_DS01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DS01.pdf",
+    "bytes": 341132,
+    "sha256": "6c82e4ed7777ba3b83cb5f95bc38f96e09324ad66b940abdc305b944eabeec66"
   },
   {
     "title": "Design of Everyday Shiny Apps",
