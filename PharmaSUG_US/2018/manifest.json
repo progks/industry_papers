@@ -1059,8 +1059,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_CT03.pdf"
     ],
     "filename": "PAP-CT03-4bdf57561f.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_CT03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_CT03.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_CT03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_CT03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_CT03.pdf",
+    "bytes": 536275,
+    "sha256": "722490af3415e26f6314450caf5c81cb7afc8863d88bc159603cdabe529e3b83"
   },
   {
     "title": "How To Derive Parameters At ADaM Level For Generating Yearly Interval Exposure Tables",
@@ -1072,8 +1074,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PRE_CT05.pdf"
     ],
     "filename": "PRE-CT05-fc95eb88b8.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PRE_CT05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PRE_CT05.pdf | https://saslexicon.org/PHUSE_US/2018/PRE_CT05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PRE_CT05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PRE_CT05.pdf",
+    "bytes": 5841718,
+    "sha256": "f43b37bbbc0e132bedd93018a6e45502233ad7759542c976901ec201319ea402"
   },
   {
     "title": "How to Prepare High Quality Metadata for Submission",
@@ -1085,8 +1089,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PRE_SI12.pdf"
     ],
     "filename": "PRE-SI12-3469b3f516.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PRE_SI12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PRE_SI12.pdf | https://saslexicon.org/PHUSE_US/2018/PRE_SI12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PRE_SI12.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PRE_SI12.pdf",
+    "bytes": 3788492,
+    "sha256": "e772c29558955dc4198d8eaf42fd5537ffd7497aa21be6b236d55d2666c4a78a"
   },
   {
     "title": "Identification of New Information in a Data Based on a Data Point Level",
@@ -1098,8 +1104,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_DV04.pdf"
     ],
     "filename": "PAP-DV04-45cd4165b4.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DV04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DV04.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_DV04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_DV04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DV04.pdf",
+    "bytes": 58592,
+    "sha256": "eb03be544701fd73c75420d0cbef054115cb9fdf1fa85ff320a9735ba50072be"
   },
   {
     "title": "Implementing an Metadata Repository Solution - A User Story",
@@ -1111,8 +1119,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_DS08.pdf"
     ],
     "filename": "PAP-DS08-3f32d00a48.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DS08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DS08.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_DS08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_DS08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DS08.pdf",
+    "bytes": 341423,
+    "sha256": "17464ba3bef0ea0bad88edc69d276b8e5abc76d56146e18bde65b35a748580b3"
   },
   {
     "title": "Improving Traceability for Complex Algorithms in ADaM Datasets",
@@ -1124,8 +1134,10 @@
       "https://saslexicon.org/PHUSE_US/2018/POS_PP08.pdf"
     ],
     "filename": "POS-PP08-b7895b82c3.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/POS_PP08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/POS_PP08.pdf | https://saslexicon.org/PHUSE_US/2018/POS_PP08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/POS_PP08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/POS_PP08.pdf",
+    "bytes": 27839,
+    "sha256": "ea10fb2fbbdbb391211a8a954d3bd61fa3a9ac12d696ab8dca83366afe33d556"
   },
   {
     "title": "Incorporating Pinnacle 21 with LSAF",
@@ -1137,8 +1149,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_TT15.pdf"
     ],
     "filename": "PAP-TT15-43f81973bd.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_TT15.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_TT15.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_TT15.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_TT15.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_TT15.pdf",
+    "bytes": 302566,
+    "sha256": "dbe080067c650ac4261adba9f0cf27aa31d19a781a5884f49967bf150343c9ec"
   },
   {
     "title": "Increase Quality and Reduce SDTM Development Time with a Test Study Data Simulator",
@@ -1150,8 +1164,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_SI06.pdf"
     ],
     "filename": "PAP-SI06-b0c8ff5a6f.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_SI06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_SI06.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_SI06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_SI06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_SI06.pdf",
+    "bytes": 232604,
+    "sha256": "8f65dc3a8bd8058f797093ce934087135b054b55bbce63ae54341cba16b75c3f"
   },
   {
     "title": "Incremental Changes: ADaMIG v1.2 Update",
@@ -1163,8 +1179,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_DS06.pdf"
     ],
     "filename": "PAP-DS06-cbc2b42552.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DS06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DS06.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_DS06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_DS06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DS06.pdf",
+    "bytes": 431608,
+    "sha256": "10b33c1275892e991ffc98912c0ecede85e33343998d798b94033bc618dd5586"
   },
   {
     "title": "Infrastructure Designed to Maximize Workflow",
@@ -1176,8 +1194,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_CT12.pdf"
     ],
     "filename": "PAP-CT12-0d3c191fa5.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_CT12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_CT12.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_CT12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_CT12.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_CT12.pdf",
+    "bytes": 220441,
+    "sha256": "3ca76f8a5db1e107e1bfc7fab2e56fd8a674c165f91a138947c8f7e85ee6834c"
   },
   {
     "title": "Insights to Meticulous Clean Patient Tracking via Analytics",
