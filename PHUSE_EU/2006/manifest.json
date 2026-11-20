@@ -1208,7 +1208,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2006/Connect/EU/Dublin/PAP_TS03.pdf",
       "https://saslexicon.org/PHUSE_EU/2006/PAP_TS03.pdf"
     ],
-    "filename": "PAP-TS03-65a111f021.pdf"
+    "filename": "PAP-TS03-65a111f021.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2006/Connect/EU/Dublin/PAP_TS03.pdf",
+    "status": "ok",
+    "bytes": 793468,
+    "sha256": "2b925d2242a311ef213420b6a003802382ce2020e9e501ccb031a102140c26ac"
   },
   {
     "title": "Why Safety Reporting IS like Rocket Science",
@@ -1219,6 +1223,10 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2006/Connect/EU/Dublin/PAP_AD13.pdf",
       "https://saslexicon.org/PHUSE_EU/2006/PAP_AD13.pdf"
     ],
-    "filename": "PAP-AD13-645d98d7aa.pdf"
+    "filename": "PAP-AD13-645d98d7aa.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2006/Connect/EU/Dublin/PAP_AD13.pdf",
+    "status": "ok",
+    "bytes": 138648,
+    "sha256": "8e8822fd57b564ab115cd5019e85e8705d6ef7eb02b3637f20191e4d426d3cbe"
   }
 ]
