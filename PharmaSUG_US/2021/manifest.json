@@ -459,8 +459,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PAP_AS09.pdf"
     ],
     "filename": "PAP-AS09-4edfe6cdaf.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_AS09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_AS09.pdf | https://saslexicon.org/PHUSE_US/2021/PAP_AS09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PAP_AS09.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_AS09.pdf",
+    "bytes": 314337,
+    "sha256": "d9247c0cc8295d318a37e6fdc79ae4f2bc15de65eb46e9bb0c237c5f62a04b6b"
   },
   {
     "title": "Containers You Can Count On: A Framework for Qualifying Community Container Images",
@@ -472,8 +474,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_TT05.pdf"
     ],
     "filename": "PRE-TT05-6f0e393ed5.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT05.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_TT05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_TT05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT05.pdf",
+    "bytes": 1711876,
+    "sha256": "6f3bbfcbdef8934dd208262f44a5faa474ca020a2b823bd6a585d0872d06a3a8"
   },
   {
     "title": "Controlled Terminology Best Practices",
@@ -485,8 +489,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_SI10.pdf"
     ],
     "filename": "PRE-SI10-88fc7f02dd.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SI10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SI10.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_SI10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_SI10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SI10.pdf",
+    "bytes": 12170242,
+    "sha256": "3fb92ba382320feef3c0596b8118a8a4f7722d14e3ef427f94e22c577ee96ef7"
   },
   {
     "title": "COVID-19 Outbreak Visualization Using a Clinical Data Science Platform",
@@ -498,8 +504,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_SD05.pdf"
     ],
     "filename": "PRE-SD05-d0ae3062c8.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SD05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SD05.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_SD05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_SD05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SD05.pdf",
+    "bytes": 2980049,
+    "sha256": "1d46bcfb920bb194331545f040a21768b0e13244e71e3bb52e06837f050b4607"
   },
   {
     "title": "COVID-19 Presentation: CO01: Harnessing the Power of Shiny to Visualize Missing Data due to the COVID-19 Pandemic",
@@ -511,8 +519,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_CO01.pdf"
     ],
     "filename": "PRE-CO01-600cbdb9f0.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CO01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CO01.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_CO01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_CO01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CO01.pdf",
+    "bytes": 1243948,
+    "sha256": "2055e4afcf25e8e7815a14452a1d56bd18bee50fab7b7fdd6a51b735305a366c"
   },
   {
     "title": "COVID-19 Presentation: CO02: Takeda's COVID-19 Response to Aid Collection to Submission",
@@ -524,8 +534,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_CO02.pdf"
     ],
     "filename": "PRE-CO02-839642d2eb.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CO02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CO02.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_CO02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_CO02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CO02.pdf",
+    "bytes": 3134828,
+    "sha256": "77c43dbb83490382e6355dabcf477f8ac6461e46aa96d6fbb92c5d8ea92afa2e"
   },
   {
     "title": "Creation of Adverse Event (AE) Table Using R Programming",
@@ -537,8 +549,10 @@
       "https://saslexicon.org/PHUSE_US/2021/POS_PP17.pdf"
     ],
     "filename": "POS-PP17-4f3542f674.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP17.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP17.pdf | https://saslexicon.org/PHUSE_US/2021/POS_PP17.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/POS_PP17.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP17.pdf",
+    "bytes": 347851,
+    "sha256": "7cb45bb78f7b43e19887bbf959d6c80d953c94a2c0a222be3756e43311816b2c"
   },
   {
     "title": "CSR Narratives Automation",
@@ -550,8 +564,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_TT15.pdf"
     ],
     "filename": "PRE-TT15-903e4b4cc8.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT15.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT15.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_TT15.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_TT15.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT15.pdf",
+    "bytes": 2918043,
+    "sha256": "026b721a0919ca0b325e42dd18ec65774a5545166dd282ed9d59bab9bb4435d9"
   },
   {
     "title": "Data Science Presentations: DSc01: How Automation Using Machine Learning Technology Can Overcome the Limitations of Double Programming",
@@ -563,8 +579,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_DSc01.pdf"
     ],
     "filename": "PRE-DSc01-d98dd300a8.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DSc01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DSc01.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_DSc01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_DSc01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DSc01.pdf",
+    "bytes": 7701435,
+    "sha256": "0af0554ef2141a471e899e79549294be01ce99f77d99e1453a9b7bedd78bf559"
   },
   {
     "title": "Data Science Presentations: DSc02: The Digital Era Outpaces Traditional QA",
@@ -576,8 +594,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_DSc02.pdf"
     ],
     "filename": "PRE-DSc02-9afc52e8d7.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DSc02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DSc02.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_DSc02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_DSc02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DSc02.pdf",
+    "bytes": 6636773,
+    "sha256": "56ee9b1627d600217546f867148ac86f7e03d3a65281122eb38b95d8732ee445"
   },
   {
     "title": "Data Visualizations for Publication, Decision-making and Submission",
