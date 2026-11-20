@@ -2259,8 +2259,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_AS10.pdf"
     ],
     "filename": "PRE-AS10-869caf5d27.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_AS10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_AS10.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_AS10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_AS10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_AS10.pdf",
+    "bytes": 793832,
+    "sha256": "8dd38e0af175d2f95820d05344b171100f6f95f072bfeb8a84d4766c5ddfcf20"
   },
   {
     "title": "Using the Computational Power of Julia to Drive Clinical Trial Simulations (CTS)",
@@ -2272,8 +2274,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_ET02.pdf"
     ],
     "filename": "PRE-ET02-80e8680f30.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ET02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ET02.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_ET02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_ET02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ET02.pdf",
+    "bytes": 662654,
+    "sha256": "2366130c289f25b9ca8622dffdcef304d471b58ab24b5713c291bdd902f69358"
   },
   {
     "title": "VALSPEC Utility to Validate CDISC Specifications",
@@ -2285,8 +2289,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_SI07.pdf"
     ],
     "filename": "PRE-SI07-0dd2dda7da.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SI07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SI07.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_SI07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_SI07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SI07.pdf",
+    "bytes": 998938,
+    "sha256": "653c64d8a602ce944acb70b1ff2bf2259fcda8e7b03926b889d029a46112af2c"
   },
   {
     "title": "Veeva CDB Workbench Accelerates Data Cleaning, Mapping and Reporting with Complete and Concurrent Clinical Data in the Cloud",
@@ -2298,8 +2304,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_SD07.pdf"
     ],
     "filename": "PRE-SD07-6229a1d00a.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SD07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SD07.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_SD07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_SD07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SD07.pdf",
+    "bytes": 1231946,
+    "sha256": "b824e7ac692769ab900e14bffb8d28ac9e022738527bb68de41fea90369a4acc"
   },
   {
     "title": "Visual Programming for ADaM Derivation",
@@ -2311,8 +2319,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_TT07.pdf"
     ],
     "filename": "PRE-TT07-edeee8eb02.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT07.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_TT07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_TT07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT07.pdf",
+    "bytes": 13691119,
+    "sha256": "87c3a4a360abed2f8cc10a6ba6b15ca1512bfec5c04a19b278bb83536d51a8c0"
   },
   {
     "title": "Visualization of Sparse PK Concentration Sampling Data, Step by Step (Improvement by Improvement)",
@@ -2324,8 +2334,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PAP_DV03.pdf"
     ],
     "filename": "PAP-DV03-8e5fc0b65a.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_DV03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_DV03.pdf | https://saslexicon.org/PHUSE_US/2021/PAP_DV03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PAP_DV03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_DV03.pdf",
+    "bytes": 1291116,
+    "sha256": "c12fddb13b905696fc3d9b904ff0c7c7cb6fbdecc2c2bdc6aebb27714d79d4c6"
   },
   {
     "title": "Visualizations to Support DSMB Monitoring",
@@ -2337,8 +2349,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_DV14.pdf"
     ],
     "filename": "PRE-DV14-9aab16deee.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DV14.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DV14.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_DV14.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_DV14.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DV14.pdf",
+    "bytes": 1956818,
+    "sha256": "6f5c287ec9b962e92915ba6ea058b6dc33b0a15a402c50bd43558385c9a8e2cc"
   },
   {
     "title": "Visualizing Efficacy Data from Phase II or III Randomized, Double Blind Placebo Controlled Trials",
@@ -2350,8 +2364,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_DV15.pdf"
     ],
     "filename": "PRE-DV15-a33b050cdf.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DV15.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DV15.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_DV15.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_DV15.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DV15.pdf",
+    "bytes": 1531588,
+    "sha256": "7907253ff30b3303190e592f8f1e93ff8035410f99f6badab3a4c92bb957507c"
   },
   {
     "title": "Visually-enhanced Patient Narrative",
@@ -2363,8 +2379,10 @@
       "https://saslexicon.org/PHUSE_US/2021/POS_PP01.pdf"
     ],
     "filename": "POS-PP01-c5673bc930.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP01.pdf | https://saslexicon.org/PHUSE_US/2021/POS_PP01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/POS_PP01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP01.pdf",
+    "bytes": 338111,
+    "sha256": "c7db05d199f2abba2c5663ff6bdc74f7a20410a0a3fb34b75bcb85f147a09cc1"
   },
   {
     "title": "Waffle Chart in SAS",
@@ -2376,8 +2394,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PAP_DV06.pdf"
     ],
     "filename": "PAP-DV06-07e4a022ee.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_DV06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_DV06.pdf | https://saslexicon.org/PHUSE_US/2021/PAP_DV06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PAP_DV06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_DV06.pdf",
+    "bytes": 250677,
+    "sha256": "07d84cf9e61776364e5d3091f21b2b5c8acf54202f498293a09be86ba60a4286"
   },
   {
     "title": "What About Having a \"Google\" for Your Study Data? R-Shiny-based Customized Data Viewer and Search Engine",
