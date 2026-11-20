@@ -3609,8 +3609,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_DV06.pdf"
     ],
     "filename": "PAP-DV06-cb151eb442.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DV06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DV06.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_DV06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_DV06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DV06.pdf",
+    "bytes": 702069,
+    "sha256": "f4ae5221a7fcdccf9d52df372f9f312f9dee69c90da5734790522eb214c02680"
   },
   {
     "title": "Strategic Approaches to Patient Centricity in Data Science",
@@ -3622,8 +3624,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PRE_DT04.pdf"
     ],
     "filename": "PRE-DT04-7d53c0948e.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_DT04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_DT04.pdf | https://saslexicon.org/PHUSE_US/2026/PRE_DT04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PRE_DT04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_DT04.pdf",
+    "bytes": 1457562,
+    "sha256": "3475651ce43b50d64beaaa8d864e56e35aaa2d8f83a753b266a6d298998fe13d"
   },
   {
     "title": "Streamlining Report Reusability in SAS Viya: A REST API Approach",
@@ -3635,8 +3639,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_SM07.pdf"
     ],
     "filename": "PAP-SM07-5b43b3c891.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SM07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SM07.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_SM07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_SM07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SM07.pdf",
+    "bytes": 511178,
+    "sha256": "74d6ca9d5124283df28c3dee8f88539690a158e1ac220b5802e9aece223c8ee7"
   },
   {
     "title": "Stronger Together: Tech Pathways to Workforce Resilience in Pharma",
@@ -3648,8 +3654,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_PD13.pdf"
     ],
     "filename": "PAP-PD13-9c418b94e7.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PD13.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PD13.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_PD13.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_PD13.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PD13.pdf",
+    "bytes": 825004,
+    "sha256": "745665d11cd1520ea4f4ffc5767259e58cdcd7853f04cb138d7e56d93548078a"
   },
   {
     "title": "Submitting eCRT SDTM Data for ISS",
@@ -3661,8 +3669,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_SA06.pdf"
     ],
     "filename": "PAP-SA06-20461b775d.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SA06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SA06.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_SA06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_SA06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SA06.pdf",
+    "bytes": 1475971,
+    "sha256": "ce9e2535b6d2abd895b222956e53a9126558143361a0b42546da81d63016ff01"
   },
   {
     "title": "Submitting RWD: Where We Are and Where We Are Going",
@@ -3674,8 +3684,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_RE05.pdf"
     ],
     "filename": "PAP-RE05-94b806360c.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_RE05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_RE05.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_RE05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_RE05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_RE05.pdf",
+    "bytes": 442664,
+    "sha256": "67e4ee84a76e7f6bbf5004584f31b0328254e1f70864b451d6926397f4617a80"
   },
   {
     "title": "Supporting Clinical Trial Recruitment Using Real-World Data",
@@ -3687,8 +3699,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_RE02.pdf"
     ],
     "filename": "PAP-RE02-802b582e6b.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_RE02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_RE02.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_RE02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_RE02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_RE02.pdf",
+    "bytes": 164793,
+    "sha256": "5198dfdea114b4d237e56a6725267aae60174b2a3ffc7b5467b82341b66dfd7d"
   },
   {
     "title": "Teaching Small Models To Think Big: Enterprise-Ready AI Through Knowledge Distillation",
@@ -3700,8 +3714,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_ML06.pdf"
     ],
     "filename": "PAP-ML06-c39f563623.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML06.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_ML06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_ML06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML06.pdf",
+    "bytes": 328816,
+    "sha256": "5752ffd2c2138270671ba89e0f4dfce06c6a2a3a1350d414f98f86427e2e6d13"
   },
   {
     "title": "The AI Reckoning: Why Statistical Programmers Must Evolve Now",
@@ -3713,8 +3729,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_ET06.pdf"
     ],
     "filename": "PAP-ET06-508a6838e1.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET06.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_ET06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_ET06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET06.pdf",
+    "bytes": 413197,
+    "sha256": "26ba6d667d2596eeb28750c525096d560056881771ecedc0a805dec3d23530f3"
   },
   {
     "title": "The Biopharmaceutical Industry Leadership's Guide to Post-Acquisition: Dos and Don'ts",
@@ -3726,8 +3744,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_PD23.pdf"
     ],
     "filename": "PAP-PD23-fb151cb94d.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PD23.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PD23.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_PD23.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_PD23.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PD23.pdf",
+    "bytes": 192798,
+    "sha256": "6e33623831e540707468474b5bb9394dc89d4b2ad7c7ef14e01a137c6559f677"
   },
   {
     "title": "The Clinical Data Lake: Empowering the Data Caterer Vision with Veeva, SAS and Open Source",
