@@ -609,8 +609,10 @@
       "https://saslexicon.org/PHUSE_US/2024/PAP_OS07.pdf"
     ],
     "filename": "PAP-OS07-628e7c4152.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_OS07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_OS07.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_OS07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_OS07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_OS07.pdf",
+    "bytes": 484411,
+    "sha256": "3377b308f695580f48500e6b805fddb6fd1d2ef359dbc732299db3f8160f99d4"
   },
   {
     "title": "Clinical Project Management - Where Art, Science, and Craft Meet",
@@ -622,8 +624,10 @@
       "https://saslexicon.org/PHUSE_US/2024/PAP_PD04.pdf"
     ],
     "filename": "PAP-PD04-41690a5625.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_PD04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_PD04.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_PD04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_PD04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_PD04.pdf",
+    "bytes": 795135,
+    "sha256": "6a174d971c7aea729b3bf6ca17fd815449f30fb748b011bb9404391127b70f7a"
   },
   {
     "title": "Codeless Queries: Harnessing AI to Translate Clinical Trial Questions into Custom Listings Through Intuitive UI Interactions",
@@ -635,8 +639,10 @@
       "https://saslexicon.org/PHUSE_US/2024/PAP_IC09.pdf"
     ],
     "filename": "PAP-IC09-516cf86a60.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_IC09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_IC09.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_IC09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_IC09.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_IC09.pdf",
+    "bytes": 267033,
+    "sha256": "9d47c8e8bd6506b8133cf2e49f762fd8c64d34f55476997832198548fc9074a8"
   },
   {
     "title": "Collaborative Development of a Clinical Trial Data Anomaly Detection Tool within an Industry Consortium",
@@ -648,8 +654,10 @@
       "https://saslexicon.org/PHUSE_US/2024/PAP_IC10.pdf"
     ],
     "filename": "PAP-IC10-543b9a4eae.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_IC10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_IC10.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_IC10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_IC10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_IC10.pdf",
+    "bytes": 372091,
+    "sha256": "36a99f2938ac06f521b0ce43db6e7894d6016bbccd603be5e31d351b7fad476f"
   },
   {
     "title": "Comparing Analysis Method Implementations in Software (CAMIS): An Open-Source Repository to Document Differences in Statistical Methodology Software",
@@ -661,8 +669,10 @@
       "https://saslexicon.org/PHUSE_US/2024/POS_PP26.pdf"
     ],
     "filename": "POS-PP26-3c5a539c94.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/POS_PP26.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/POS_PP26.pdf | https://saslexicon.org/PHUSE_US/2024/POS_PP26.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/POS_PP26.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/POS_PP26.pdf",
+    "bytes": 549777,
+    "sha256": "a37a65e36e6b80e8397e94756d60a9ed9163a0e9cfba4d99271458be28ab8a46"
   },
   {
     "title": "Comparing the Performance of Propensity Score Matching Algorithms from Multiple Programming Languages",
@@ -674,8 +684,10 @@
       "https://saslexicon.org/PHUSE_US/2024/PAP_RE04.pdf"
     ],
     "filename": "PAP-RE04-8575fcf464.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_RE04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_RE04.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_RE04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_RE04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_RE04.pdf",
+    "bytes": 688609,
+    "sha256": "c885656dc498255c96edc606152b264c0943edd987866a93834953aa529d9f4b"
   },
   {
     "title": "Comparison of Standard Log-Rank Test with Selected Alternatives",
@@ -687,8 +699,10 @@
       "https://saslexicon.org/PHUSE_US/2024/PAP_PP16.pdf"
     ],
     "filename": "PAP-PP16-58eaec01f0.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_PP16.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_PP16.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_PP16.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_PP16.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_PP16.pdf",
+    "bytes": 2328788,
+    "sha256": "95e11f4822efbd8f3a143d27850e3c7840c3ad53fe1fd5e49a272563ab67838b"
   },
   {
     "title": "Comprehensive Evaluation of Large Language Models (LLMs) Such as ChatGPT in Biostatistics and Statistical Programming",
@@ -700,8 +714,10 @@
       "https://saslexicon.org/PHUSE_US/2024/PAP_ET07.pdf"
     ],
     "filename": "PAP-ET07-dbbdb84dcb.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_ET07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_ET07.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_ET07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_ET07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_ET07.pdf",
+    "bytes": 802963,
+    "sha256": "a6fa53603e61ab895f9fe6aaa2ace876dc36b1d46599b7f5140aa4b6ac4b5fb3"
   },
   {
     "title": "Confirmation and Cancellation - Best Strategies for Data Collection and Handling within Solid Tumor Studies Using RECIST 1.1 and iRECIST Guidelines",
@@ -713,8 +729,10 @@
       "https://saslexicon.org/PHUSE_US/2024/PAP_TA03.pdf"
     ],
     "filename": "PAP-TA03-283efb51b1.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_TA03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_TA03.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_TA03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_TA03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_TA03.pdf",
+    "bytes": 854213,
+    "sha256": "eeabfa64412342ed437afa2a0ca929db9253c0ca91643b53cf4db290f05b3cf0"
   },
   {
     "title": "Constructing Multilingual Visualisation Toolsets for Clinical Study Reports and Submission",
@@ -726,8 +744,10 @@
       "https://saslexicon.org/PHUSE_US/2024/PAP_DV06.pdf"
     ],
     "filename": "PAP-DV06-f8e19db130.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_DV06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_DV06.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_DV06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_DV06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_DV06.pdf",
+    "bytes": 978826,
+    "sha256": "d0b25a9ee918565e1d7ead05bb5d18904c3dd863f3652ed489d03d2a83f932f0"
   },
   {
     "title": "Data Designer: Empowering data mapping, manipulation and analysis for advanced insights and decision making",
