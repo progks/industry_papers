@@ -1,0 +1,350 @@
+name: Verify PharmaSUG China archive
+
+on:
+  workflow_dispatch:
+    inputs:
+      deep-compare:
+        description: 'Re-read current source PDFs and compare SHA-256 (slower)'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pharmasug-cn-readonly-audit
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Check out archive snapshot
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Install audit dependencies
+        run: python -m pip install 'requests>=2.32.4,<3' 'beautifulsoup4>=4.13.4,<5' 'pypdf[crypto]>=7.1.1,<8'
+
+      - name: Verify source coverage and PDF integrity
+        id: audit
+        continue-on-error: true
+        env:
+          DEEP_COMPARE: ${{ inputs.deep-compare }}
+        shell: bash
+        run: |
+          python -u - <<'PYTHON'
+          #!/usr/bin/env python3
+          """Read-only audit: current source links, manifest, local PDFs and primary-title coverage."""
+          import hashlib
+          import json
+          import os
+          from pathlib import Path
+          import re
+          import sys
+          import time
+          from urllib.parse import urldefrag, urljoin, urlsplit
+          from urllib.robotparser import RobotFileParser
+          
+          import requests
+          from bs4 import BeautifulSoup
+          from pypdf import PdfReader
+          
+          INDEX = 'https://saslexicon.org/PharmaSUG_CN/PharmaSUG_CN.html'
+          ROOT = Path('PharmaSUG_CN')
+          OUT = Path('pharmasug-audit')
+          AGENT = 'IndustryPapersAudit'
+          EXTENSIONS = {'.pdf', '.ppt', '.pptx', '.zip', '.sas', '.doc', '.docx', '.xls', '.xlsx', '.txt', '.rtf'}
+          MAX_BYTES = 95 * 1024 * 1024
+          
+          
+          def canonical(base, href):
+              return urldefrag(urljoin(base, href))[0]
+          
+          
+          def scoped(url):
+              p = urlsplit(url)
+              return p.scheme == 'https' and p.netloc == 'saslexicon.org' and p.path.startswith('/PharmaSUG_CN/')
+          
+          
+          def extension(url):
+              return Path(urlsplit(url).path).suffix.lower()
+          
+          
+          def parse_index(html):
+              years = {}
+              for a in BeautifulSoup(html, 'html.parser').select('a[href]'):
+                  year = a.get_text(strip=True)
+                  url = canonical(INDEX, a['href'])
+                  if re.fullmatch(r'20\d{2}', year) and scoped(url) and extension(url) == '.html':
+                      years[url] = year
+              return sorted(years.items())
+          
+          
+          def parse_year(html, base, year):
+              """Count actual numbered paper rows separately from unique downloadable URLs."""
+              soup = BeautifulSoup(html, 'html.parser')
+              files = set()
+              for a in soup.select('a[href]'):
+                  url = canonical(base, a['href'])
+                  if scoped(url) and extension(url) in EXTENSIONS:
+                      files.add(url)
+              papers = []
+              for tr in soup.select('tr'):
+                  cells = tr.find_all(['td', 'th'], recursive=False)
+                  if len(cells) < 2 or not cells[0].get_text(strip=True).isdigit():
+                      continue
+                  title = cells[1].get_text(' ', strip=True)
+                  primary = cells[1].find('a', href=True)
+                  url = canonical(base, primary['href']) if primary else None
+                  papers.append({'year': year, 'number': cells[0].get_text(strip=True),
+                                 'title': title, 'primary-url': url,
+                                 'primary-format': extension(url) if url else None})
+              return files, papers
+          
+          
+          class Client:
+              def __init__(self):
+                  self.session = requests.Session()
+                  self.session.headers.update({'User-Agent': AGENT + '/1.0', 'Accept-Encoding': 'identity'})
+                  self.policy = None
+                  self.delay = 1.0
+                  self.last = 0.0
+          
+              def get(self, url, robots=False):
+                  if not robots and not scoped(url):
+                      raise ValueError('Off-scope URL requires manual review: ' + url)
+                  if self.policy is not None and not self.policy.can_fetch(AGENT, url):
+                      raise PermissionError('robots.txt disallows ' + url)
+                  for attempt in range(3):
+                      time.sleep(max(0, self.delay - (time.monotonic() - self.last)))
+                      self.last = time.monotonic()
+                      try:
+                          r = self.session.get(url, stream=True, allow_redirects=False, timeout=(15, 90))
+                      except requests.RequestException:
+                          if attempt == 2:
+                              raise
+                          time.sleep(2 ** (attempt + 1))
+                          continue
+                      if r.status_code in (429, 500, 502, 503, 504) and attempt < 2:
+                          retry = r.headers.get('Retry-After', '')
+                          r.close()
+                          if retry.isdigit() and int(retry) > 180:
+                              raise RuntimeError('Long server retry delay; retry audit later')
+                          time.sleep(max(int(retry) if retry.isdigit() else 0, 2 ** (attempt + 1)))
+                          continue
+                      if 300 <= r.status_code < 400:
+                          r.close()
+                          raise RuntimeError('Redirect requires manual review: ' + url)
+                      return r
+                  raise RuntimeError('Request retries exhausted')
+          
+              def robots(self):
+                  with self.get('https://saslexicon.org/robots.txt', robots=True) as r:
+                      if r.status_code in (404, 410):
+                          text = ''
+                      else:
+                          r.raise_for_status()
+                          text = r.text
+                  self.policy = RobotFileParser()
+                  self.policy.parse(text.splitlines())
+                  self.delay = max(1.0, float(self.policy.crawl_delay(AGENT) or 0))
+                  rate = self.policy.request_rate(AGENT)
+                  if rate and rate.requests:
+                      self.delay = max(self.delay, rate.seconds / rate.requests)
+          
+              def html(self, url):
+                  with self.get(url) as r:
+                      r.raise_for_status()
+                      return r.text
+          
+              def sourcehash(self, url):
+                  h = hashlib.sha256()
+                  size = 0
+                  with self.get(url) as r:
+                      r.raise_for_status()
+                      for block in r.iter_content(128 * 1024):
+                          size += len(block)
+                          if size > MAX_BYTES:
+                              raise ValueError('Source file exceeds audit size limit')
+                          h.update(block)
+                  return h.hexdigest()
+          
+          
+          def check_file(record):
+              path = Path(record['path'])
+              real = path.resolve()
+              if ROOT.resolve() not in real.parents or path.suffix.lower() != '.pdf':
+                  raise ValueError('Manifest PDF path is outside the expected directory')
+              if not path.is_file():
+                  raise ValueError('Local file missing')
+              size = path.stat().st_size
+              if not 8 <= size <= MAX_BYTES:
+                  raise ValueError('Empty or oversized PDF')
+              if size != record.get('bytes'):
+                  raise ValueError('Local size differs from manifest')
+              h = hashlib.sha256()
+              with path.open('rb') as f:
+                  for block in iter(lambda: f.read(1024 * 1024), b''):
+                      h.update(block)
+              sha = h.hexdigest()
+              if sha != record.get('sha256'):
+                  raise ValueError('Local SHA-256 differs from manifest')
+              with path.open('rb') as f:
+                  if not f.read(1024).lstrip().startswith(b'%PDF-'):
+                      raise ValueError('PDF header missing')
+                  f.seek(max(0, size - 4096))
+                  if b'%%EOF' not in f.read():
+                      raise ValueError('PDF EOF marker missing')
+                  f.seek(0)
+                  reader = PdfReader(f, strict=False)
+                  if reader.is_encrypted and not reader.decrypt(''):
+                      raise ValueError('Encrypted PDF cannot be validated without a password')
+                  pages = len(reader.pages)
+                  if pages == 0:
+                      raise ValueError('No PDF pages')
+                  for page in reader.pages:
+                      _ = page.mediabox
+                      content = page.get_contents()
+                      if content is not None:
+                          content.get_data()
+              return {'path': path.as_posix(), 'sha256': sha, 'bytes': size, 'pages': pages}
+          
+          
+          def audit(client, deep=False):
+              report = {'scope': 'Current direct PDF links in the PharmaSUG CN archive; primary-title coverage is reported separately',
+                        'deep-source-comparison': deep, 'years': [], 'pdf-errors': [], 'source-errors': [],
+                        'unverified-primary-titles': [], 'unarchived-nonpdf-links': [], 'duplicate-content': []}
+              manifest = json.loads((ROOT / 'manifest.json').read_text(encoding='utf-8'))
+              if not isinstance(manifest, list):
+                  raise ValueError('manifest.json must contain a list')
+              records = {}
+              for record in manifest:
+                  url = canonical(INDEX, record['url'])
+                  if url in records:
+                      report['pdf-errors'].append({'url': url, 'error': 'Duplicate manifest URL'})
+                  records[url] = record
+              verified = {}
+              for url, record in records.items():
+                  try:
+                      verified[url] = check_file(record)
+                  except Exception as e:
+                      report['pdf-errors'].append({'url': url, 'path': record.get('path'), 'error': str(e)})
+              expected = set()
+              files = set()
+              papers = []
+              try:
+                  client.robots()
+                  years = parse_index(client.html(INDEX))
+                  if not years:
+                      raise ValueError('No year links found; source discovery cannot be verified')
+                  for pageurl, year in years:
+                      try:
+                          resources, titles = parse_year(client.html(pageurl), pageurl, year)
+                          pdfs = {u for u in resources if extension(u) == '.pdf'}
+                          if not pdfs or not titles:
+                              raise ValueError('No PDF links or numbered title rows found; manual review required')
+                          files.update(resources)
+                          papers.extend(titles)
+                          expected.update(pdfs)
+                          report['years'].append({'year': year, 'title-rows': len(titles),
+                                                  'source-pdf-links': len(pdfs),
+                                                  'verified-pdfs': len(pdfs & verified.keys()),
+                                                  'unverified-primary-titles': sum(p['primary-url'] not in verified for p in titles)})
+                      except Exception as e:
+                          report['source-errors'].append({'url': pageurl, 'error': str(e)})
+              except Exception as e:
+                  report['source-errors'].append({'url': INDEX, 'error': str(e)})
+              report['missing-pdf-urls'] = sorted(expected - records.keys())
+              if deep:
+                  for url in sorted(expected & verified.keys()):
+                      try:
+                          if client.sourcehash(url) != verified[url]['sha256']:
+                              raise ValueError('Source and local hashes differ; source may have changed or local copy differs')
+                      except Exception as e:
+                          report['pdf-errors'].append({'url': url, 'error': str(e)})
+              report['unverified-primary-titles'] = [p for p in papers if p['primary-url'] not in verified]
+              report['unarchived-nonpdf-links'] = sorted(u for u in files if extension(u) != '.pdf' and u not in records)
+              report['historical-manifest-urls'] = sorted(records.keys() - expected)
+              knownpaths = {Path(r['path']).resolve() for r in records.values()}
+              report['untracked-local-pdfs'] = sorted(str(p) for p in ROOT.rglob('*.pdf') if p.resolve() not in knownpaths)
+              hashes = {}
+              for url, info in verified.items():
+                  hashes.setdefault(info['sha256'], []).append(url)
+              report['duplicate-content'] = [urls for urls in hashes.values() if len(urls) > 1]
+              report['manifest-entries'] = len(manifest)
+              report['verified-local-pdfs'] = len(verified)
+              report['source-unique-pdfs'] = len(expected)
+              report['source-title-rows'] = len(papers)
+              report['pdf-scope-pass'] = bool(expected) and not (report['source-errors'] or report['pdf-errors'] or report['missing-pdf-urls'])
+              report['all-primary-titles-verified'] = bool(papers) and report['pdf-scope-pass'] and not report['unverified-primary-titles']
+              report['limitations'] = ['A PDF parse is not a full visual/rendering validation.',
+                                       'Manifest hashes are not publisher signatures.',
+                                       'Title coverage requires URL-to-file mapping; manually added files without manifest mappings remain unverified.',
+                                       'Only the current linked archive is audited, not all papers ever published by the conference.']
+              if not deep:
+                  report['limitations'].append('Remote PDF content was not re-read; current source byte equality was not checked.')
+              return report
+          
+          
+          def markdown(report):
+              lines = ['# PharmaSUG CN independent audit', '',
+                       f"- PDF scope: **{'PASS' if report.get('pdf-scope-pass') else 'NOT VERIFIED / FAIL'}**",
+                       f"- Every primary title verified: **{'YES' if report.get('all-primary-titles-verified') else 'NO / REVIEW REQUIRED'}**",
+                       f"- Remote PDF hash comparison: **{'ON' if report.get('deep-source-comparison') else 'OFF'}**", '',
+                       '| Year | Title rows | PDF links | Verified PDFs | Primary titles not verified |',
+                       '|---|---:|---:|---:|---:|']
+              for r in report.get('years', []):
+                  lines.append(f"| {r['year']} | {r['title-rows']} | {r['source-pdf-links']} | {r['verified-pdfs']} | {r['unverified-primary-titles']} |")
+              for key in ['source-errors', 'pdf-errors', 'missing-pdf-urls', 'unverified-primary-titles',
+                          'unarchived-nonpdf-links', 'duplicate-content', 'limitations']:
+                  lines += ['', '## ' + key, '', '```json', json.dumps(report.get(key, []), ensure_ascii=False, indent=2), '```']
+              return '\n'.join(lines) + '\n'
+          
+          
+          def main():
+              deep = os.environ.get('DEEP_COMPARE', 'false').lower() == 'true'
+              try:
+                  report = audit(Client(), deep)
+              except Exception as e:
+                  report = {'pdf-scope-pass': False, 'all-primary-titles-verified': False,
+                            'deep-source-comparison': deep, 'pdf-errors': [{'error': str(e)}]}
+              OUT.mkdir(parents=True, exist_ok=True)
+              (OUT / 'report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+              text = markdown(report)
+              (OUT / 'report.md').write_text(text, encoding='utf-8')
+              print(text)
+              if os.environ.get('GITHUB_STEP_SUMMARY'):
+                  with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
+                      f.write(text[:750000])
+              return 0 if report.get('pdf-scope-pass') else 1
+          
+          
+          if __name__ == '__main__':
+              sys.exit(main())
+          PYTHON
+
+      - name: Save complete audit reports
+        if: ${{ !cancelled() && steps.audit.outcome != 'skipped' }}
+        uses: actions/upload-artifact@v7
+        with:
+          name: pharmasug-cn-audit
+          path: pharmasug-audit/
+          retention-days: 14
+          if-no-files-found: error
+
+      - name: Mark failed or inconclusive PDF verification
+        if: ${{ !cancelled() && steps.audit.outcome == 'failure' }}
+        run: |
+          echo 'PDF verification failed or could not be completed. See Summary and the audit artifact.'
+          echo 'Missing non-PDF presentations are reported separately; a green PDF audit does not mean every primary title is archived.'
+          exit 1
