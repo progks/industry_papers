@@ -398,7 +398,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CT11.pdf",
       "https://saslexicon.org/PHUSE_US/2020/PAP_CT11.pdf"
     ],
-    "filename": "PAP-CT11-86a3a5252c.pdf"
+    "filename": "PAP-CT11-86a3a5252c.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CT11.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CT11.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_CT11.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_CT11.pdf"
   },
   {
     "title": "Automation of Submission Packages Quality Checks",
@@ -409,7 +411,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP21.pdf",
       "https://saslexicon.org/PHUSE_US/2020/PAP_PP21.pdf"
     ],
-    "filename": "PAP-PP21-190af9a541.pdf"
+    "filename": "PAP-PP21-190af9a541.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP21.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP21.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_PP21.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_PP21.pdf"
   },
   {
     "title": "Be the Master for a Master Protocol Study",
@@ -420,7 +424,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP09.pdf",
       "https://saslexicon.org/PHUSE_US/2020/PAP_PP09.pdf"
     ],
-    "filename": "PAP-PP09-e5ec004333.pdf"
+    "filename": "PAP-PP09-e5ec004333.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP09.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_PP09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_PP09.pdf"
   },
   {
     "title": "Best Practice for Interactive Analysis for Decision-making: An update from PHUSE Data Visualization Project",
@@ -431,7 +437,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DV13.pdf",
       "https://saslexicon.org/PHUSE_US/2020/PAP_DV13.pdf"
     ],
-    "filename": "PAP-DV13-fcc29c9da3.pdf"
+    "filename": "PAP-DV13-fcc29c9da3.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DV13.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DV13.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_DV13.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_DV13.pdf"
   },
   {
     "title": "Best Practices for Annotated CRFs",
@@ -442,7 +450,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SI01.pdf",
       "https://saslexicon.org/PHUSE_US/2020/PAP_SI01.pdf"
     ],
-    "filename": "PAP-SI01-6d6fc4d466.pdf"
+    "filename": "PAP-SI01-6d6fc4d466.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SI01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SI01.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_SI01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_SI01.pdf"
   },
   {
     "title": "Best Practices for Building and Testing Interactive Web Applications in R with Shiny",
@@ -453,7 +463,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CT12.pdf",
       "https://saslexicon.org/PHUSE_US/2020/PAP_CT12.pdf"
     ],
-    "filename": "PAP-CT12-d510e7a008.pdf"
+    "filename": "PAP-CT12-d510e7a008.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CT12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CT12.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_CT12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_CT12.pdf"
   },
   {
     "title": "Big Data Analytics with JuliaDB",
@@ -464,7 +476,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SD12.pdf",
       "https://saslexicon.org/PHUSE_US/2020/PAP_SD12.pdf"
     ],
-    "filename": "PAP-SD12-418514a97c.pdf"
+    "filename": "PAP-SD12-418514a97c.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SD12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SD12.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_SD12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_SD12.pdf"
   },
   {
     "title": "Big Lab Data at the Fingertips of the Statistical Reviewers Using R Shiny",
@@ -475,7 +489,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_AS02.pdf",
       "https://saslexicon.org/PHUSE_US/2020/PAP_AS02.pdf"
     ],
-    "filename": "PAP-AS02-3d4beef523.pdf"
+    "filename": "PAP-AS02-3d4beef523.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_AS02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_AS02.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_AS02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_AS02.pdf"
   },
   {
     "title": "Building a Deeper Bench: Writing ADaM Specifications",
@@ -486,7 +502,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SP04.pdf",
       "https://saslexicon.org/PHUSE_US/2020/PAP_SP04.pdf"
     ],
-    "filename": "PAP-SP04-16476c9fb9.pdf"
+    "filename": "PAP-SP04-16476c9fb9.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SP04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SP04.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_SP04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_SP04.pdf"
   },
   {
     "title": "Building Your Central Monitoring Team: Players, Skills, Structure and Communication",
@@ -497,7 +515,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CM09.pdf",
       "https://saslexicon.org/PHUSE_US/2020/PAP_CM09.pdf"
     ],
-    "filename": "PAP-CM09-e5e8011a8a.pdf"
+    "filename": "PAP-CM09-e5e8011a8a.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CM09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CM09.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_CM09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_CM09.pdf"
   },
   {
     "title": "Case Study: Integrated SDTM to Integrated ADaM to TLFs",
