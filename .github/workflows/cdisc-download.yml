@@ -1,0 +1,754 @@
+name: Download CDISC Interchange papers
+
+on:
+  workflow_dispatch:
+    inputs:
+      force-refresh:
+        description: 'Re-download already verified files (normally leave unchecked)'
+        type: boolean
+        required: false
+        default: false
+      fail-on-incomplete:
+        description: 'Mark the job failed if any of the 397 URLs remain unresolved; successful files are still published'
+        type: boolean
+        required: false
+        default: true
+
+permissions:
+  contents: write
+
+# Use this same group in any OTHER workflow that writes to this repository.
+concurrency:
+  group: industry-papers-repository-write
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  # gzip+base64 of the fixed 397-entry catalogue from 2026-11-20.
+  # Embedded here so this ONE YML needs no external JSON, Python file, or sandbox URL.
+  # The downloader checks its SHA-256 and saves readable catalogue.json in the output folder.
+  CDISC_CATALOGUE_B64: >-
+    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
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - name: Check out default branch
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Install document validators
+        run: python -m pip install 'requests>=2.32.4,<3' 'pypdf[crypto]>=6.4,<8'
+
+      - name: Download the 397-file CDISC catalogue
+        id: download
+        continue-on-error: true
+        env:
+          CDISC_COOKIE: ${{ secrets.CDISC_COOKIE }}
+          FORCE_REFRESH: ${{ inputs.force-refresh }}
+        shell: bash
+        run: |
+          python -u - <<'PYTHON'
+          #!/usr/bin/env python3
+          """Download an embedded, fixed 397-URL CDISC catalogue. No website-completeness claim."""
+          import base64
+          import gzip
+          import hashlib
+          import json
+          import os
+          from pathlib import Path
+          import re
+          import shutil
+          import sys
+          import time
+          from datetime import datetime, timezone
+          from email.utils import parsedate_to_datetime
+          from urllib.parse import urljoin, urlsplit
+          from urllib.robotparser import RobotFileParser
+          import zipfile
+          
+          import requests
+          from pypdf import PdfReader
+          
+          ROOT = Path('CDISCInterchange')
+          AGENT = 'IndustryPapersCDISCSync'
+          MAX_BYTES = 95 * 1024 * 1024
+          HOSTS = {'www.cdisc.org', 'cdisc.org'}
+          CATALOGUE_SHA256 = 'f3805af1e73ccc2777e70a3b04453c9201a87af9b02a1ca479ba3f44bcb38bc3'
+          
+          
+          class FetchError(Exception):
+              def __init__(self, code, message):
+                  self.code = code
+                  super().__init__(message)
+          
+          
+          def trusted(url):
+              p = urlsplit(url)
+              return (p.scheme == 'https' and p.hostname in HOSTS and p.port in (None, 443)
+                      and p.username is None and p.password is None)
+          
+          
+          def load_catalogue():
+              data = gzip.decompress(base64.b64decode(os.environ['CDISC_CATALOGUE_B64']))
+              if hashlib.sha256(data).hexdigest() != CATALOGUE_SHA256:
+                  raise ValueError('Embedded catalogue checksum mismatch; restore the complete YML')
+              entries = json.loads(data)
+              if len(entries) != 397 or len({e['url'] for e in entries}) != 397:
+                  raise ValueError('Embedded catalogue is not the expected 397 unique URLs')
+              for e in entries:
+                  if (not trusted(e['url']) or Path(urlsplit(e['url']).path).suffix.lower() not in ('.pdf', '.ppt', '.pptx')
+                          or not re.fullmatch(r'20\d{2}', str(e['year']))):
+                      raise ValueError('Unexpected catalogue entry')
+              return entries
+          
+          
+          def slug(value, limit=55):
+              value = re.sub(r'[^a-zA-Z0-9]+', '-', str(value)).strip('-').lower()
+              return (value[:limit].rstrip('-') or 'document')
+          
+          
+          def destination(e):
+              eventkey = slug(e['event']) + '-' + hashlib.sha256(e['source'].encode()).hexdigest()[:8]
+              suffix = Path(urlsplit(e['url']).path).suffix.lower()
+              stem = Path(e['filename']).stem
+              # Preserve some original Unicode, while avoiding Windows-invalid names and long paths.
+              stem = re.sub(r'[<>:"/\\|?*\x00-\x1f\s_]+', '-', stem).strip('.-')
+              stem = stem.encode('utf-8')[:100].decode('utf-8', errors='ignore').rstrip('.-') or 'document'
+              name = stem + '-' + hashlib.sha256(e['url'].encode()).hexdigest()[:12] + suffix
+              path = ROOT / str(e['year']) / slug(e['category']) / slug(e['region'], 20) / eventkey / name
+              if not path.resolve().is_relative_to(ROOT.resolve()):
+                  raise ValueError('Destination escapes CDISCInterchange')
+              return path
+          
+          
+          def sha256(path):
+              h = hashlib.sha256()
+              with path.open('rb') as f:
+                  for block in iter(lambda: f.read(1024 * 1024), b''):
+                      h.update(block)
+              return h.hexdigest()
+          
+          
+          def validate(path, suffix):
+              size = path.stat().st_size
+              if not 8 <= size <= MAX_BYTES:
+                  raise FetchError('INVALID_SIZE', 'Empty file or file exceeds 95 MiB limit')
+              detail = {'bytes': size}
+              if suffix == '.pdf':
+                  with path.open('rb') as f:
+                      if not f.read(1024).lstrip().startswith(b'%PDF-'):
+                          raise FetchError('NOT_PDF', 'Response lacks a PDF header; may be a login/error page')
+                      f.seek(max(0, size - 8192))
+                      if b'%%EOF' not in f.read():
+                          raise FetchError('TRUNCATED_PDF', 'PDF EOF marker missing')
+                      f.seek(0)
+                      reader = PdfReader(f, strict=False)
+                      if reader.is_encrypted and not reader.decrypt(''):
+                          raise FetchError('ENCRYPTED_REVIEW', 'PDF requires a password; not validated')
+                      pages = len(reader.pages)
+                      if pages == 0:
+                          raise FetchError('EMPTY_PDF', 'PDF has no pages')
+                      for page in reader.pages:
+                          _ = page.mediabox
+                          stream = page.get_contents()
+                          if stream is not None:
+                              stream.get_data()
+                      detail['pages'] = pages
+              elif suffix == '.pptx':
+                  try:
+                      with zipfile.ZipFile(path) as z:
+                          names = set(z.namelist())
+                          if not {'[Content_Types].xml', 'ppt/presentation.xml'} <= names:
+                              raise FetchError('NOT_PPTX', 'Missing PowerPoint package parts')
+                          if sum(i.file_size for i in z.infolist()) > 512 * 1024 * 1024:
+                              raise FetchError('PPTX_TOO_LARGE', 'Uncompressed PowerPoint package exceeds safety limit')
+                          bad = z.testzip()
+                          if bad:
+                              raise FetchError('PPTX_CRC', 'PowerPoint package failed CRC check')
+                          slides = sum(bool(re.fullmatch(r'ppt/slides/slide\d+\.xml', n)) for n in names)
+                          if not slides:
+                              raise FetchError('EMPTY_PPTX', 'No PowerPoint slide parts found')
+                          detail['slides'] = slides
+                  except zipfile.BadZipFile as exc:
+                      raise FetchError('NOT_PPTX', 'Invalid PowerPoint ZIP package') from exc
+              elif suffix == '.ppt':
+                  with path.open('rb') as f:
+                      if f.read(8) != bytes.fromhex('d0cf11e0a1b11ae1'):
+                          raise FetchError('NOT_PPT', 'Legacy PowerPoint OLE signature missing')
+                  detail['validation-note'] = 'Legacy PPT signature check only, not full slide parsing'
+              else:
+                  raise FetchError('FORMAT', 'Unsupported file format')
+              detail['sha256'] = sha256(path)
+              return detail
+          
+          
+          def retry_after(value):
+              if not value:
+                  return 0
+              if value.isdigit():
+                  return int(value)
+              try:
+                  return max(0, (parsedate_to_datetime(value) - datetime.now(timezone.utc)).total_seconds())
+              except (TypeError, ValueError):
+                  return 0
+          
+          
+          class Client:
+              def __init__(self, deadline):
+                  self.session = requests.Session()
+                  self.session.headers.update({'User-Agent': AGENT + '/1.0', 'Accept-Encoding': 'identity'})
+                  self.cookie = os.environ.get('CDISC_COOKIE', '').strip()
+                  self.deadline = deadline
+                  self.policies = {}
+                  self.policy_errors = {}
+                  self.delay = 1.2
+                  self.last = 0.0
+          
+              def wait(self, seconds):
+                  if time.monotonic() + seconds >= self.deadline:
+                      raise FetchError('TIME_BUDGET', 'Download time budget reached; rerun to resume')
+                  time.sleep(max(0, seconds))
+          
+              def policy(self, url):
+                  p = urlsplit(url)
+                  origin = p.scheme + '://' + p.netloc
+                  if origin in self.policy_errors:
+                      raise FetchError('ROBOTS_UNAVAILABLE', self.policy_errors[origin])
+                  if origin not in self.policies:
+                      try:
+                          with self.get(origin + '/robots.txt', robots=True) as response:
+                              if response.status_code in (404, 410):
+                                  text = ''
+                              elif response.status_code in (401, 403):
+                                  raise FetchError('ROBOTS_UNAVAILABLE', 'robots.txt access denied; no automated file fetch attempted')
+                              else:
+                                  if response.status_code != 200:
+                                      raise FetchError('ROBOTS_UNAVAILABLE', 'robots.txt unavailable; retry later')
+                                  text = response.text
+                          rp = RobotFileParser()
+                          rp.parse(text.splitlines())
+                          self.policies[origin] = rp
+                          self.delay = max(self.delay, float(rp.crawl_delay(AGENT) or 0))
+                          rate = rp.request_rate(AGENT)
+                          if rate and rate.requests:
+                              self.delay = max(self.delay, rate.seconds / rate.requests)
+                      except Exception as exc:
+                          self.policy_errors[origin] = 'robots.txt could not be read; no policy bypass'
+                          raise FetchError('ROBOTS_UNAVAILABLE', self.policy_errors[origin]) from exc
+                  if not self.policies[origin].can_fetch(AGENT, url):
+                      raise FetchError('ROBOTS_DISALLOWED', 'robots.txt disallows this URL')
+          
+              def get(self, url, referer=None, robots=False):
+                  for _ in range(6):
+                      if not trusted(url):
+                          raise FetchError('EXTERNAL_REDIRECT', 'Off-site request/redirect refused; no cookie forwarded')
+                      if re.search(r'/(?:user/login|login|sso)(?:/|$)', urlsplit(url).path, re.I):
+                          raise FetchError('LOGIN_REQUIRED', 'File redirects to login; authorized access required')
+                      if not robots:
+                          self.policy(url)
+                      response = None
+                      for attempt in range(4):
+                          self.wait(max(0, self.delay - (time.monotonic() - self.last)))
+                          self.last = time.monotonic()
+                          headers = {'Referer': referer} if referer else {}
+                          if self.cookie:
+                              headers['Cookie'] = self.cookie  # trusted hosts only; never persisted/logged.
+                          try:
+                              response = self.session.get(url, headers=headers, stream=True,
+                                                          allow_redirects=False, timeout=(15, 90))
+                          except requests.RequestException as exc:
+                              if attempt == 3:
+                                  raise FetchError('NETWORK', 'Connection failed or timed out after retries') from exc
+                              self.wait(2 ** (attempt + 1))
+                              continue
+                          if response.status_code in (429, 500, 502, 503, 504) and attempt < 3:
+                              delay = max(retry_after(response.headers.get('Retry-After')), 2 ** (attempt + 1))
+                              response.close()
+                              self.wait(delay)
+                              continue
+                          break
+                      if response is None:
+                          raise FetchError('NETWORK', 'No HTTP response')
+                      if response.status_code in (301, 302, 303, 307, 308):
+                          location = response.headers.get('Location')
+                          response.close()
+                          if not location:
+                              raise FetchError('REDIRECT', 'Redirect response has no Location')
+                          url = urljoin(url, location)
+                          continue
+                      return response
+                  raise FetchError('REDIRECT', 'Too many redirects')
+          
+              def download(self, e, path):
+                  path.parent.mkdir(parents=True, exist_ok=True)
+                  temporary = path.with_suffix(path.suffix + '.part')
+                  for attempt in range(3):
+                      try:
+                          if shutil.disk_usage(path.parent).free < 256 * 1024 * 1024:
+                              raise FetchError('DISK_SPACE', 'Less than 256 MiB free disk space')
+                          with self.get(e['url'], e['source']) as r:
+                              if r.status_code in (401, 403):
+                                  raise FetchError('ACCESS_RESTRICTED', f'HTTP {r.status_code}; not bypassed')
+                              if r.status_code == 404:
+                                  raise FetchError('NOT_FOUND', 'HTTP 404')
+                              if r.status_code != 200:
+                                  raise FetchError('HTTP_ERROR', f'HTTP {r.status_code}')
+                              if 'text/html' in r.headers.get('Content-Type', '').lower():
+                                  raise FetchError('HTML_RESPONSE', 'HTML returned instead of a document; possible login/error page')
+                              length = r.headers.get('Content-Length', '')
+                              if length.isdigit() and int(length) > MAX_BYTES:
+                                  raise FetchError('TOO_LARGE', 'File exceeds configured 95 MiB limit')
+                              size = 0
+                              with temporary.open('wb') as f:
+                                  for block in r.iter_content(128 * 1024):
+                                      if time.monotonic() >= self.deadline:
+                                          raise FetchError('TIME_BUDGET', 'Download time budget reached; rerun to resume')
+                                      size += len(block)
+                                      if size > MAX_BYTES:
+                                          raise FetchError('TOO_LARGE', 'File exceeds configured 95 MiB limit')
+                                      f.write(block)
+                              if (length.isdigit() and r.headers.get('Content-Encoding', 'identity').lower() == 'identity'
+                                      and size != int(length)):
+                                  raise FetchError('TRANSFER_LENGTH', 'Content-Length mismatch; possible truncated transfer')
+                          result = validate(temporary, path.suffix.lower())
+                          temporary.replace(path)
+                          return result
+                      except Exception as exc:
+                          temporary.unlink(missing_ok=True)
+                          retryable = (not isinstance(exc, FetchError) or exc.code in
+                                       {'NETWORK', 'TRANSFER_LENGTH', 'TRUNCATED_PDF', 'NOT_PDF', 'PPTX_CRC', 'NOT_PPTX'})
+                          if attempt == 2 or not retryable:
+                              raise
+                          self.wait(2 ** (attempt + 1))
+          
+          
+          def writejson(path, value):
+              temporary = path.with_suffix('.tmp')
+              temporary.write_text(json.dumps(value, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+              temporary.replace(path)
+          
+          
+          def main(entries=None, client=None):
+              ROOT.mkdir(parents=True, exist_ok=True)
+              entries = load_catalogue() if entries is None else entries
+              manifest_path = ROOT / 'manifest.json'
+              previous = json.loads(manifest_path.read_text(encoding='utf-8')) if manifest_path.exists() else []
+              records = {r['url']: r for r in previous}
+              client = client or Client(time.monotonic() + 70 * 60)
+              failures, downloaded, verified = [], 0, 0
+              force = os.environ.get('FORCE_REFRESH', 'false').lower() == 'true'
+              writejson(ROOT / 'catalogue.json', {'snapshot-date': '2026-11-20', 'entries': entries,
+                                                 'scope': '397 previously inventoried URLs, NOT the whole CDISC website'})
+              for i, e in enumerate(entries, 1):
+                  try:
+                      path = destination(e)
+                      old = records.get(e['url'], {})
+                      info = None
+                      if path.exists() and not force:
+                          try:
+                              info = validate(path, path.suffix.lower())
+                              if old.get('sha256') and info['sha256'] != old['sha256']:
+                                  raise ValueError('Existing file hash differs from saved manifest')
+                              verified += 1
+                          except Exception:
+                              info = None
+                      if info is None:
+                          info = client.download(e, path)
+                          downloaded += 1
+                      records[e['url']] = {**e, 'path': path.as_posix(), **info, 'status': 'ok'}
+                      print(f'OK {i}/{len(entries)} {path.name}', flush=True)
+                  except Exception as exc:
+                      code = exc.code if isinstance(exc, FetchError) else type(exc).__name__
+                      error = str(exc)
+                      cookie = os.environ.get('CDISC_COOKIE', '')
+                      if cookie:
+                          error = error.replace(cookie, '[redacted]')
+                      failures.append({'url': e['url'], 'filename': e['filename'], 'code': code, 'error': error})
+                      if e['url'] in records:
+                          records[e['url']] = {**records[e['url']], 'status': 'unresolved-this-run', 'last-failure-code': code}
+                      print(f'UNRESOLVED {i}/{len(entries)} {code}: {e["filename"]}', flush=True)
+              ordered = sorted(records.values(), key=lambda r: r['url'])
+              writejson(manifest_path, ordered)
+              writejson(ROOT / 'failures.json', failures)
+              current_urls = {e['url'] for e in entries}
+              summary = {'catalogue-urls': len(entries), 'downloaded-this-run': downloaded,
+                         'verified-existing': verified, 'unresolved-this-run': len(failures),
+                         'current-catalogue-complete': not failures,
+                         'whole-cdisc-site-complete': False,
+                         'historical-manifest-entries': len(records),
+                         'manifest-entries-in-current-catalogue': sum(r['url'] in current_urls for r in ordered)}
+              writejson(ROOT / 'run-summary.json', summary)
+              text = ('## CDISCInterchange download\n\n'
+                      f'- Catalogue: **{len(entries)} URLs** (fixed snapshot, not the whole website)\n'
+                      f'- Downloaded this run: **{downloaded}**\n'
+                      f'- Verified existing files: **{verified}**\n'
+                      f'- Unresolved: **{len(failures)}**\n'
+                      f'- This catalogue: **{"COMPLETE" if not failures else "INCOMPLETE"}**\n'
+                      '- Repository push is a separate step; see Repository submission below.\n')
+              if failures:
+                  text += '\n### Unresolved files (first 40; full list in failures.json)\n\n```json\n'
+                  text += json.dumps(failures[:40], ensure_ascii=False, indent=2) + '\n```\n'
+              print(text)
+              if os.environ.get('GITHUB_STEP_SUMMARY'):
+                  with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
+                      f.write(text)
+              return 1 if failures else 0
+          
+          
+          if __name__ == '__main__':
+              sys.exit(main())
+          PYTHON
+
+      - name: Back up files before repository submission
+        id: backup
+        if: ${{ !cancelled() && steps.download.outcome != 'skipped' }}
+        continue-on-error: true
+        timeout-minutes: 20
+        uses: actions/upload-artifact@v7
+        with:
+          name: cdisc-interchange-files
+          path: |
+            CDISCInterchange/
+            !CDISCInterchange/**/*.part
+            !CDISCInterchange/**/*.tmp
+          retention-days: 7
+          compression-level: 0
+          if-no-files-found: warn
+
+      - name: Commit and push CDISCInterchange in bounded batches
+        id: publish
+        if: ${{ !cancelled() && steps.download.outcome != 'skipped' }}
+        env:
+          TARGET_BRANCH: ${{ github.event.repository.default_branch }}
+        shell: bash
+        run: |
+          python -u - <<'PYTHON'
+          #!/usr/bin/env python3
+          """Publish only CDISCInterchange, using bounded commits and non-forced, rebased pushes."""
+          import os
+          import json
+          from pathlib import Path
+          import random
+          import subprocess
+          import sys
+          import time
+          
+          ROOT = Path('CDISCInterchange')
+          BATCH_BYTES = 150 * 1024 * 1024
+          BATCH_FILES = 50
+          
+          
+          def git(*args, capture=False, check=True):
+              return subprocess.run(['git', *args], check=check, text=True, capture_output=capture)
+          
+          
+          def note(text):
+              print(text)
+              if os.environ.get('GITHUB_STEP_SUMMARY'):
+                  with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
+                      f.write('\n' + text + '\n')
+          
+          
+          def main():
+              if not ROOT.is_dir():
+                  note('### Repository submission\nNo CDISCInterchange output directory was produced.')
+                  return 1
+              branch = os.environ['TARGET_BRANCH']
+              if git('check-ref-format', '--branch', branch, capture=True, check=False).returncode:
+                  raise ValueError('Invalid default branch')
+              for pattern in ('*.part', '*.tmp'):
+                  for p in ROOT.rglob(pattern):
+                      if p.is_file():
+                          p.unlink()
+              git('config', 'user.name', 'github-actions[bot]')
+              git('config', 'user.email', '41898282+github-actions[bot]@users.noreply.github.com')
+              changed = git('diff', '--name-only', '-z', 'HEAD', '--', str(ROOT), capture=True).stdout
+              untracked = git('ls-files', '--others', '--exclude-standard', '-z', '--', str(ROOT), capture=True).stdout
+              manifest = ROOT / 'manifest.json'
+              records = json.loads(manifest.read_text(encoding='utf-8')) if manifest.exists() else []
+              generated = {str(ROOT / name) for name in ('catalogue.json', 'manifest.json', 'failures.json', 'run-summary.json')}
+              for record in records:
+                  path = Path(record['path'])
+                  if not path.resolve().is_relative_to(ROOT.resolve()):
+                      raise ValueError('Manifest publish path is outside CDISCInterchange')
+                  if path.suffix.lower() in {'.pdf', '.ppt', '.pptx'}:
+                      generated.add(path.as_posix())
+              tracked = set(git('ls-files', '-z', '--', str(ROOT), capture=True).stdout.split('\0'))
+              modified = set(p for p in (changed + untracked).split('\0') if p)
+              # Include generated documents even if a repository-level *.pdf rule ignores them.
+              paths = sorted((modified | {p for p in generated - tracked if Path(p).is_file()}) & generated)
+              paths.sort(key=lambda p: (Path(p).suffix.lower() in {'.json', '.md'}, p))
+              batches, batch, size = [], [], 0
+              for p in paths:
+                  n = Path(p).stat().st_size if Path(p).exists() else 0
+                  if batch and (len(batch) >= BATCH_FILES or size + n > BATCH_BYTES):
+                      batches.append(batch)
+                      batch, size = [], 0
+                  batch.append(p)
+                  size += n
+              if batch:
+                  batches.append(batch)
+              if not batches:
+                  note('### Repository submission\nNo output changes to commit. Existing repository files were retained.')
+                  return 0
+              # Commit all batches first, keeping a clean worktree for every rebase.
+              for i, files in enumerate(batches, 1):
+                  git('add', '-f', '--', *files)
+                  git('commit', '-m', f'Sync CDISCInterchange files ({i}/{len(batches)})')
+              pushed = 0
+              while True:
+                  for attempt in range(1, 9):
+                      git('fetch', 'origin', branch)
+                      if git('rebase', f'origin/{branch}', check=False).returncode:
+                          git('rebase', '--abort', check=False)
+                          note('### Repository submission FAILED\nActual rebase conflict. No force push was attempted. Use the artifact backup.')
+                          return 1
+                      commits = git('rev-list', '--reverse', f'origin/{branch}..HEAD', capture=True).stdout.splitlines()
+                      if not commits:
+                          head = git('rev-parse', 'HEAD', capture=True).stdout.strip()
+                          note(f'### Repository submission SUCCESS\nPublished to `{branch}`. Final commit: `{head}`. Bounded commits pushed: {pushed}.')
+                          return 0
+                      # Push just the next bounded commit; following pushes reuse objects already uploaded.
+                      result = git('push', 'origin', f'{commits[0]}:refs/heads/{branch}', check=False)
+                      if result.returncode == 0:
+                          pushed += 1
+                          break
+                      if attempt == 8:
+                          note('### Repository submission FAILED\nEight non-forced push attempts failed. Inspect the actual git error above; downloads may still be available in the artifact.')
+                          return 1
+                      delay = 10 * attempt + random.randrange(10)
+                      print(f'Push rejected; waiting {delay}s, then fetch/rebase again.', flush=True)
+                      time.sleep(delay)
+          
+          
+          if __name__ == '__main__':
+              sys.exit(main())
+          PYTHON
+
+      - name: Explain artifact backup failure
+        if: ${{ !cancelled() && steps.backup.outcome == 'failure' }}
+        run: |
+          echo '### Artifact backup warning' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Artifact upload failed. Inspect its log and repository submission separately; successful git pushes do not require the artifact.' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Explain repository submission failure
+        if: ${{ !cancelled() && steps.publish.outcome == 'failure' }}
+        run: |
+          echo '### Repository submission FAILED' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Files may exist only on the runner or partially in the repository. If backup succeeded, download cdisc-interchange-files from this run. Inspect the publish step for the actual git error.' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Fail only after preserving completed files when strict mode is enabled
+        if: ${{ !cancelled() && inputs.fail-on-incomplete && steps.download.outcome == 'failure' }}
+        run: |
+          echo 'The catalogue is INCOMPLETE. This status is separate from repository submission.'
+          echo 'Successful downloads were preserved if publishing or artifact backup succeeded.'
+          echo 'Inspect CDISCInterchange/failures.json and the Summary. HTTP 403/login restrictions are not bypassed.'
+          exit 1
+
+      - name: Highlight non-strict partial completion
+        if: ${{ !cancelled() && !inputs.fail-on-incomplete && steps.download.outcome == 'failure' }}
+        run: |
+          echo '### INCOMPLETE: non-strict mode was selected' >> "$GITHUB_STEP_SUMMARY"
+          echo 'The job may be green, but some files remain unresolved. See CDISCInterchange/failures.json; this is NOT a complete download.' >> "$GITHUB_STEP_SUMMARY"
