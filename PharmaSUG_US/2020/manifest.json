@@ -2109,8 +2109,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_SP02.pdf"
     ],
     "filename": "PAP-SP02-23cedf7f57.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SP02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SP02.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_SP02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_SP02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SP02.pdf",
+    "bytes": 597323,
+    "sha256": "6c1750e1f334f949b3bc95c881d86cd2575d6ddf4eaff677509baff796dbae58"
   },
   {
     "title": "Quarterly Safety Reporting: Timely Analysis of Clinical Safety Data Using Qlik Sense Software",
@@ -2122,8 +2124,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_SD11.pdf"
     ],
     "filename": "PAP-SD11-000a9a19fb.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SD11.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SD11.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_SD11.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_SD11.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SD11.pdf",
+    "bytes": 641453,
+    "sha256": "bcc52eb9a2b038420faae9094cf9478ded428761a98d0fc041c0107994568fd2"
   },
   {
     "title": "R & Python for Clinical Workflows",
@@ -2135,8 +2139,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_TT14.pdf"
     ],
     "filename": "PAP-TT14-5bb306d55c.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT14.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT14.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_TT14.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_TT14.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT14.pdf",
+    "bytes": 552989,
+    "sha256": "5eaafc20419ae35510f5878398c33bd18ebd6c4164442bcd9bf76f1daf77f497"
   },
   {
     "title": "R for Deep Learning with Tensorflow with Applications in Cancer Immunotherapy",
@@ -2148,8 +2154,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_ML12.pdf"
     ],
     "filename": "PAP-ML12-f100f57f0c.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_ML12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_ML12.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_ML12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_ML12.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_ML12.pdf",
+    "bytes": 726512,
+    "sha256": "5653330af4a3e744c5736dc9d1a97b6a8ddefa4029ad438f7dcbba3b6f45a482"
   },
   {
     "title": "R Package Oriented Software Development Life Cycle in Regulated Clinical Trial Environments",
@@ -2161,8 +2169,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_TT12.pdf"
     ],
     "filename": "PAP-TT12-d4221ccab2.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT12.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_TT12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_TT12.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT12.pdf",
+    "bytes": 1364594,
+    "sha256": "f1885067a2f1e1f47c7fd16d1f45b37b590004450d594d8710189614f6b29d25"
   },
   {
     "title": "R Shiny Applications Within Ophthalmology",
@@ -2174,8 +2184,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_AS01.pdf"
     ],
     "filename": "PAP-AS01-c58a306f65.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_AS01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_AS01.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_AS01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_AS01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_AS01.pdf",
+    "bytes": 1602394,
+    "sha256": "bbdfc312b597b1484a8d4e16e249f43e5bef4b7f7a04395293c91be29ac848b0"
   },
   {
     "title": "R syntax for SAS programmers",
@@ -2187,8 +2199,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_TT11.pdf"
     ],
     "filename": "PAP-TT11-06f3ca763c.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT11.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT11.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_TT11.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_TT11.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT11.pdf",
+    "bytes": 290046,
+    "sha256": "54a970b26ec9dddcbdf668501eb60ef1333889ce2db336829767c893ddd872f4"
   },
   {
     "title": "Real-time Oncology Review - Applicant Experience",
@@ -2200,8 +2214,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_SA01.pdf"
     ],
     "filename": "PAP-SA01-05ecb15c58.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SA01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SA01.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_SA01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_SA01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SA01.pdf",
+    "bytes": 631127,
+    "sha256": "44fef0ba1db5ab9dc84a907bd4cd1bb4bd165a35699a87cc0a86b553289049df"
   },
   {
     "title": "Recommendations for GDPR Compliancy by the PHUSE Data Transparency Working Group GDPR Project",
@@ -2213,8 +2229,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_PP07.pdf"
     ],
     "filename": "PAP-PP07-40d8105066.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP07.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_PP07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_PP07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP07.pdf",
+    "bytes": 135683,
+    "sha256": "e765b8f7cebfdc547173857b88b81a795271682aedebeaececb40835ab9a8432"
   },
   {
     "title": "Regulatory Report Automation with R",
@@ -2226,8 +2244,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_SD09.pdf"
     ],
     "filename": "PAP-SD09-5e6bb7cd7d.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SD09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SD09.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_SD09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_SD09.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SD09.pdf",
+    "bytes": 756194,
+    "sha256": "8e4799560067c2b4801c81b773a8e85c0eadff553416f4fcdaf0b5005ea5fcfe"
   },
   {
     "title": "Regulatory Scrutiny on Data Integrity: Are You Safe?",
