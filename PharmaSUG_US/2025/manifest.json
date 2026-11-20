@@ -1359,8 +1359,10 @@
       "https://saslexicon.org/PHUSE_US/2025/PAP_PD12.pdf"
     ],
     "filename": "PAP-PD12-c05078758a.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_PD12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_PD12.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_PD12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_PD12.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_PD12.pdf",
+    "bytes": 2769615,
+    "sha256": "11e720c7928c7e4cdf28b464b663f6e6e55b913d1157bdbbe10df9fcf047960c"
   },
   {
     "title": "Harnessing Analysis Results Datasets (ARDs) for Clinical Reporting in R: Our First ARD-Based Filing Experience",
@@ -1372,8 +1374,10 @@
       "https://saslexicon.org/PHUSE_US/2025/PAP_OS16.pdf"
     ],
     "filename": "PAP-OS16-8e98d75dec.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_OS16.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_OS16.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_OS16.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_OS16.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_OS16.pdf",
+    "bytes": 632449,
+    "sha256": "cba940473a2cf215d5a919f41cd75a02023d252e8d73cd2bcf0d4b3f72ef8946"
   },
   {
     "title": "Harnessing the Power of R Shiny in a GxP-Compliant and Validated Manner for Clinical Trial Use",
@@ -1385,8 +1389,10 @@
       "https://saslexicon.org/PHUSE_US/2025/PAP_OS10.pdf"
     ],
     "filename": "PAP-OS10-d8696a085b.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_OS10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_OS10.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_OS10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_OS10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_OS10.pdf",
+    "bytes": 602653,
+    "sha256": "d54360027a2b7141c3f636d61cf71ac1edd329a2653b15cd1906d0fe2c8410a5"
   },
   {
     "title": "Health Authority Interactions and Communication During the Submission Process",
@@ -1398,8 +1404,10 @@
       "https://saslexicon.org/PHUSE_US/2025/PAP_SA04.pdf"
     ],
     "filename": "PAP-SA04-a5970f1392.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_SA04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_SA04.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_SA04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_SA04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_SA04.pdf",
+    "bytes": 91385,
+    "sha256": "da1d8fbf3132b986bff28c25da88bef8995a52123fb0a1a492b410a090e74004"
   },
   {
     "title": "Health Equity Explorer: Technical Deep Dive into an R Shiny Application for Revealing Structural Inequity and Systemic Racism in Healthcare",
@@ -1411,8 +1419,10 @@
       "https://saslexicon.org/PHUSE_US/2025/PAP_ET13.pdf"
     ],
     "filename": "PAP-ET13-c6becbd7b8.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_ET13.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_ET13.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_ET13.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_ET13.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_ET13.pdf",
+    "bytes": 721802,
+    "sha256": "2dd34291990d8422298a9244771ec6a5637454f1e1e2f8f4ec1dfcd6f5380cd7"
   },
   {
     "title": "How Unique is it for the Subject Identifier in a Study To Have Multiple Screenings and Enrolments?",
@@ -1424,8 +1434,10 @@
       "https://saslexicon.org/PHUSE_US/2025/PAP_DS19.pdf"
     ],
     "filename": "PAP-DS19-51c3ae5491.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DS19.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DS19.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_DS19.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_DS19.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DS19.pdf",
+    "bytes": 781224,
+    "sha256": "923fcb8adc01f7c8764e66ebe0e8a9b213abbd372e52f087b228da8b0dacbcb6"
   },
   {
     "title": "Implementation of a risk-governed, reproducible, and collaborative R workflow for Real World Evidence Projects",
@@ -1437,8 +1449,10 @@
       "https://saslexicon.org/PHUSE_US/2025/PAP_PP27.pdf"
     ],
     "filename": "PAP-PP27-39b00c2061.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_PP27.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_PP27.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_PP27.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_PP27.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_PP27.pdf",
+    "bytes": 419133,
+    "sha256": "0c5cf2d327df29df04d14d2a731be27b75262110ac654040fe608407784365e5"
   },
   {
     "title": "Improvement on Sankey Diagram SAS Macro and Implementation",
@@ -1450,8 +1464,10 @@
       "https://saslexicon.org/PHUSE_US/2025/PAP_SM02.pdf"
     ],
     "filename": "PAP-SM02-565056ab18.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_SM02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_SM02.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_SM02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_SM02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_SM02.pdf",
+    "bytes": 780176,
+    "sha256": "996def4c5202c7605cd146b096d242cab762242b7ad4b3717d4d935ce55698f2"
   },
   {
     "title": "Innovative Cloud Solution for Advanced Image Analysis",
@@ -1463,8 +1479,10 @@
       "https://saslexicon.org/PHUSE_US/2025/PAP_DH02.pdf"
     ],
     "filename": "PAP-DH02-15a283f259.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DH02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DH02.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_DH02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_DH02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DH02.pdf",
+    "bytes": 388560,
+    "sha256": "1348f5fa61ac9120b953d2edfa3f452d2e2873ccb85b713c4fd63d3ee840d8e8"
   },
   {
     "title": "Innovative Data Cleaning to Prevent Unblinding Errors in Double-Blind Trials",
@@ -1476,8 +1494,10 @@
       "https://saslexicon.org/PHUSE_US/2025/PAP_AR05.pdf"
     ],
     "filename": "PAP-AR05-410520b983.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_AR05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_AR05.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_AR05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_AR05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_AR05.pdf",
+    "bytes": 52498,
+    "sha256": "5ab2d7355648a47e3f04594713596d05705ad6fb83534b6f89f5d8973bf221fc"
   },
   {
     "title": "Innovative Storage of SDTM Mappings as JSON: Boosting Efficiency and Data Consistency",
