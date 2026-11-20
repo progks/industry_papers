@@ -1509,8 +1509,10 @@
       "https://saslexicon.org/PHUSE_US/2022/PRE_SS03.pdf"
     ],
     "filename": "PRE-SS03-721657ad20.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_SS03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_SS03.pdf | https://saslexicon.org/PHUSE_US/2022/PRE_SS03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2022/PRE_SS03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_SS03.pdf",
+    "bytes": 2984344,
+    "sha256": "2463437bbf3c05b728a886aa241089a4a3a68a96496bbaa8eff837c6f186513c"
   },
   {
     "title": "Title: AI Application for Authoring Clinical Study Reports",
@@ -1522,8 +1524,10 @@
       "https://saslexicon.org/PHUSE_US/2022/PRE_SD01.pdf"
     ],
     "filename": "PRE-SD01-dbe1603fc8.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_SD01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_SD01.pdf | https://saslexicon.org/PHUSE_US/2022/PRE_SD01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2022/PRE_SD01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_SD01.pdf",
+    "bytes": 330579,
+    "sha256": "96709fee517096651a3945e4b76195904de78695b442e98998c115e652d7992f"
   },
   {
     "title": "Transformation from Prescriptive Clinical Data Analyses to Dynamic Data-driven Analytics through the Adoption of Modularized Cloud Components",
@@ -1535,8 +1539,10 @@
       "https://saslexicon.org/PHUSE_US/2022/PRE_ET03.pdf"
     ],
     "filename": "PRE-ET03-0aa69d16ac.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_ET03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_ET03.pdf | https://saslexicon.org/PHUSE_US/2022/PRE_ET03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2022/PRE_ET03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_ET03.pdf",
+    "bytes": 9976492,
+    "sha256": "e208e200c391aa671e403619b32c1c17781188635155dddf47f1bf2d23e87ad6"
   },
   {
     "title": "Trial Design Datasets in Oncology Clinical Trials",
@@ -1548,8 +1554,10 @@
       "https://saslexicon.org/PHUSE_US/2022/PRE_SI04.pdf"
     ],
     "filename": "PRE-SI04-e034faaaec.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_SI04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_SI04.pdf | https://saslexicon.org/PHUSE_US/2022/PRE_SI04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2022/PRE_SI04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_SI04.pdf",
+    "bytes": 639631,
+    "sha256": "ddf84615c72e3f74ca7c32555c445a07e150ba147de7e174ca9513805ff480d6"
   },
   {
     "title": "Trial Summary SDTM Domain Made Easy for Regulatory Submissions",
@@ -1561,8 +1569,10 @@
       "https://saslexicon.org/PHUSE_US/2022/PRE_SI06.pdf"
     ],
     "filename": "PRE-SI06-d8c0c7202d.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_SI06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_SI06.pdf | https://saslexicon.org/PHUSE_US/2022/PRE_SI06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2022/PRE_SI06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_SI06.pdf",
+    "bytes": 2078853,
+    "sha256": "16fc0498b48ef0b1d07955a4c56ac209024f9925e459d58015ae4b89867e1008"
   },
   {
     "title": "Using AI-based Technology to Accelerate Clinical Trial Data Sharing and Reuse",
@@ -1574,8 +1584,10 @@
       "https://saslexicon.org/PHUSE_US/2022/PRE_DH08.pdf"
     ],
     "filename": "PRE-DH08-0e194a3dbf.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_DH08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_DH08.pdf | https://saslexicon.org/PHUSE_US/2022/PRE_DH08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2022/PRE_DH08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_DH08.pdf",
+    "bytes": 1794280,
+    "sha256": "0ddc9c47c7f8e1ab125468c75be10f29be70d627324fdbb8127406e98390eaa3"
   },
   {
     "title": "Using Cutting-edge Open-source Tools to Drill into Clinical Safety Data: A Look into Recent Developments in Tplyr and safetyGraphics",
@@ -1587,8 +1599,10 @@
       "https://saslexicon.org/PHUSE_US/2022/PRE_DV13.pdf"
     ],
     "filename": "PRE-DV13-3cf762e9e2.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_DV13.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_DV13.pdf | https://saslexicon.org/PHUSE_US/2022/PRE_DV13.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2022/PRE_DV13.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_DV13.pdf",
+    "bytes": 1438431,
+    "sha256": "6debc8839400393b36f2e8013a7691fc517afd503cd542755dbf3c9999cad106"
   },
   {
     "title": "Using odmlib to Create ODM and Define-XML Tools in Python",
@@ -1600,8 +1614,10 @@
       "https://saslexicon.org/PHUSE_US/2022/PAP_OS01.pdf"
     ],
     "filename": "PAP-OS01-00a40a6519.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PAP_OS01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PAP_OS01.pdf | https://saslexicon.org/PHUSE_US/2022/PAP_OS01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2022/PAP_OS01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PAP_OS01.pdf",
+    "bytes": 164604,
+    "sha256": "8c9821fb22ad02bf3c375f731393ff6f743692b5b72f829b891767f2df653cb7"
   },
   {
     "title": "Using the Geometric Properties of Datasets to Analyze the Accuracy of COVID-19 Forecasting Models",
@@ -1613,8 +1629,10 @@
       "https://saslexicon.org/PHUSE_US/2022/PRE_VX01.pdf"
     ],
     "filename": "PRE-VX01-2998829110.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_VX01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_VX01.pdf | https://saslexicon.org/PHUSE_US/2022/PRE_VX01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2022/PRE_VX01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_VX01.pdf",
+    "bytes": 991027,
+    "sha256": "c73342faeac0ee7422ecfcc82311537b213e418bddc85b64c9f60f5d82ade016"
   },
   {
     "title": "Using the Nest-map-unnest Workflow in R for Sub-group Analysis in Clinical Trial Reporting",
@@ -1626,8 +1644,10 @@
       "https://saslexicon.org/PHUSE_US/2022/PRE_AS06.pdf"
     ],
     "filename": "PRE-AS06-ad08e8be0f.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_AS06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_AS06.pdf | https://saslexicon.org/PHUSE_US/2022/PRE_AS06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2022/PRE_AS06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_AS06.pdf",
+    "bytes": 2136718,
+    "sha256": "93c5046842fbcfc90f62cc1bb12beac09117699174343f82c78789369801d565"
   },
   {
     "title": "Vaccine Trials: The Basics You Need to Know",
