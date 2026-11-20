@@ -1959,8 +1959,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_SA17.pdf"
     ],
     "filename": "PAP-SA17-20e819f070.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA17.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA17.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SA17.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SA17.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA17.pdf",
+    "bytes": 409212,
+    "sha256": "83784ac753b7748a35244c5357eb8acec839401edbfb654d7e08d743e12073da"
   },
   {
     "title": "Striking a Balance: Adoption of Analysis Results Metadata (ARM) in Early Development Studies",
@@ -1972,8 +1974,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_DS11.pdf"
     ],
     "filename": "PAP-DS11-dad044bef6.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DS11.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DS11.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_DS11.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_DS11.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DS11.pdf",
+    "bytes": 145604,
+    "sha256": "12cf7bc2508baa9c9b2b738da36f6fafffb24c78fcd7a4d45e2ebedbbfbc1e12"
   },
   {
     "title": "Submission of Software Programs to Regulatory Agencies",
@@ -1985,8 +1989,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_SA04.pdf"
     ],
     "filename": "PAP-SA04-891f03b2eb.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA04.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SA04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SA04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA04.pdf",
+    "bytes": 208336,
+    "sha256": "61ffd9721d9b61b2e2a5a95fd8c06487929a72f534f1a2de3aad3cf92f86c1b6"
   },
   {
     "title": "Take Advantage of CDISC Standards and Plan Your Study Specifications File",
@@ -1998,8 +2004,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_PP19.pdf"
     ],
     "filename": "PAP-PP19-cc22e8c897.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_PP19.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_PP19.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_PP19.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_PP19.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_PP19.pdf",
+    "bytes": 328166,
+    "sha256": "72679c32f67c22ad0d4e07d48793ca1af49e18c2b0bab24819f90f9a4aabd858"
   },
   {
     "title": "Tame Your SHARE with a Python and SAS",
@@ -2011,8 +2019,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_PP13.pdf"
     ],
     "filename": "PAP-PP13-cf3f5ee7bd.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_PP13.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_PP13.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_PP13.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_PP13.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_PP13.pdf",
+    "bytes": 404157,
+    "sha256": "706520a21785df5cf969adfa2db4efa9fe9c3a37a10504e3efaffb41b4c52db4"
   },
   {
     "title": "The ARBM Ecosystem - Optimizing Process and Platform",
@@ -2024,8 +2034,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_AR02.pdf"
     ],
     "filename": "PAP-AR02-7615196d5c.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR02.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_AR02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_AR02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR02.pdf",
+    "bytes": 535399,
+    "sha256": "c404c79de176418a5645e6d0b07b98f4cb22a51745c2cd689482b954674209e2"
   },
   {
     "title": "The Benefits, Challenges and Myths of SEND",
@@ -2037,8 +2049,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_SA07.pdf"
     ],
     "filename": "PAP-SA07-d804d2614a.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA07.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SA07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SA07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA07.pdf",
+    "bytes": 314686,
+    "sha256": "f8203923c747d02292bbe487de781204bae398674cf1e2cfbd99ad71fa1f695c"
   },
   {
     "title": "The Clinical Data Specialist Role Within Regulatory Review",
@@ -2050,8 +2064,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_SA13.pdf"
     ],
     "filename": "PAP-SA13-f18e5ad58a.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA13.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA13.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SA13.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SA13.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA13.pdf",
+    "bytes": 74781,
+    "sha256": "61ea103a2f926b8d441888e744541118794c8ee46db4cb133ae2a283d3bb1c6d"
   },
   {
     "title": "The EMA, Health Canada and the FDA: Three Agencies Tackle Data Sharing, Synergies and Differences",
@@ -2063,8 +2079,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_SA01.pdf"
     ],
     "filename": "PAP-SA01-dbda616714.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA01.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SA01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SA01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA01.pdf",
+    "bytes": 785660,
+    "sha256": "26778117d21d12c4c89ee4c73e8d57a1d2fb4fb308d4944841c1c69766ed097d"
   },
   {
     "title": "The Future of the Digitalized Data Flow",
@@ -2076,8 +2094,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_TT07.pdf"
     ],
     "filename": "PAP-TT07-c48569898d.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_TT07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_TT07.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_TT07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_TT07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_TT07.pdf",
+    "bytes": 268419,
+    "sha256": "ee944410123123711f2c29e3f992b0aea5fc2852cf1be1e011e2d916319f1c9d"
   },
   {
     "title": "The Implementation of Spotfire in Clinical Trials to Review Safety and Patient Reported Outcomes Data",
