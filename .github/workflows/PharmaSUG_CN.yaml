@@ -78,6 +78,24 @@ jobs:
               return sorted(found.items())
           
           
+          def indexcounts(html, base):
+              """Read declared counts only from the entry page Year/Papers table."""
+              counts = {}
+              for row in BeautifulSoup(html, 'html.parser').select('tr'):
+                  cells = row.find_all(['td', 'th'], recursive=False)
+                  if len(cells) < 2:
+                      continue
+                  year = cells[0].find('a', href=True)
+                  count = cells[1].get_text(' ', strip=True)
+                  if (year is None or not re.fullmatch(r'20\d{2}', year.get_text(strip=True))
+                          or not re.fullmatch(r'\d+', count)):
+                      continue
+                  url = urldefrag(urljoin(base, year['href']))[0]
+                  if scoped(url):
+                      counts[url] = int(count)
+              return counts
+          
+          
           def localpath(year, url):
               stem = Path(unquote(urlsplit(url).path.rsplit('/', 1)[-1])).stem
               stem = re.sub(r'[^A-Za-z0-9.\-]+', '-', stem).strip('.-')[:120] or 'paper'
@@ -204,11 +222,14 @@ jobs:
               previous = json.loads(manifest.read_text(encoding='utf-8')) if manifest.exists() else []
               records = {row['url']: row for row in previous}
               failures = []
+              warnings = []
               downloaded = skipped = discovered = 0
               client = Client()
               try:
                   client.initrobots()
-                  years = links(client.html(INDEX), INDEX, 'year')
+                  indexhtml = client.html(INDEX)
+                  years = links(indexhtml, INDEX, 'year')
+                  expectedcounts = indexcounts(indexhtml, INDEX)
                   if not years:
                       raise ValueError('No year links found; source HTML may have changed')
                   for yearurl, year in years:
@@ -217,11 +238,12 @@ jobs:
                           papers = links(html, yearurl, 'pdf')
                           if not papers:
                               raise ValueError('No directly linked PDFs found')
-                          expected = re.search(r'\b(\d+)\s+papers\b',
-                                               BeautifulSoup(html, 'html.parser').get_text(' ', strip=True), re.I)
-                          if expected and int(expected[1]) != len(papers):
-                              failures.append({'url': yearurl, 'error':
-                                               f'Index says {expected[1]} papers; found {len(papers)} unique PDF links'})
+                          expected = expectedcounts.get(yearurl)
+                          if expected is not None and expected != len(papers):
+                              warnings.append({'year': year, 'url': yearurl,
+                                               'index-papers': expected,
+                                               'unique-pdf-links': len(papers),
+                                               'warning': 'Source index count differs from directly linked PDFs; source completeness is not confirmed'})
                           print(f'{year}: {len(papers)} PDF links', flush=True)
                       except Exception as e:
                           failures.append({'url': yearurl, 'error': str(e)})
@@ -251,10 +273,14 @@ jobs:
               # Retain earlier successful records if a year page is temporarily unavailable.
               writejson(manifest, sorted(records.values(), key=lambda r: (r['year'], r['url'])))
               writejson(ROOT / 'failures.json', failures)
+              writejson(ROOT / 'warnings.json', warnings)
               summary = (f'## PharmaSUG CN sync\n\n'
                          f'- Discovered this run: {discovered}\n- Downloaded: {downloaded}\n'
                          f'- Verified existing: {skipped}\n- Failures: {len(failures)}\n'
+                         f'- Source count warnings: {len(warnings)}\n'
                          f'- Manifest entries (including earlier runs): {len(records)}\n')
+              if warnings:
+                  summary += '\n### Source count warnings\n\n```json\n' + json.dumps(warnings, ensure_ascii=False, indent=2) + '\n```\n'
               print(summary)
               if os.environ.get('GITHUB_STEP_SUMMARY'):
                   with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
@@ -363,6 +389,6 @@ jobs:
       - name: Report incomplete download
         if: ${{ !cancelled() && steps.download.outcome == 'failure' }}
         run: |
-          echo 'Download incomplete. See PharmaSUG_CN/failures.json and the logs.'
+          echo 'Actual fetch or file validation errors occurred. See PharmaSUG_CN/failures.json.'
           echo 'Completed files were retained if the commit step succeeded. Rerun to retry.'
           exit 1
