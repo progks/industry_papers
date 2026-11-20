@@ -658,7 +658,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PRE_SD01.pdf",
       "https://saslexicon.org/PHUSE_US/2019/PRE_SD01.pdf"
     ],
-    "filename": "PRE-SD01-49ed53d572.pdf"
+    "filename": "PRE-SD01-49ed53d572.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PRE_SD01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PRE_SD01.pdf | https://saslexicon.org/PHUSE_US/2019/PRE_SD01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PRE_SD01.pdf"
   },
   {
     "title": "Dynamically Harvesting Study Dates to Construct and QC the Subject Visits (sv) SDTM Domain",
@@ -669,7 +671,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH05.pdf",
       "https://saslexicon.org/PHUSE_US/2019/PAP_DH05.pdf"
     ],
-    "filename": "PAP-DH05-6bae03b5d2.pdf"
+    "filename": "PAP-DH05-6bae03b5d2.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH05.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_DH05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_DH05.pdf"
   },
   {
     "title": "Effective Presentations of CTCAE-graded Laboratory Data",
@@ -680,7 +684,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH08.pdf",
       "https://saslexicon.org/PHUSE_US/2019/PAP_DH08.pdf"
     ],
-    "filename": "PAP-DH08-82594519d5.pdf"
+    "filename": "PAP-DH08-82594519d5.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH08.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_DH08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_DH08.pdf"
   },
   {
     "title": "Efficacy Endpoint Visualization of Investigational Products for Cancer Patients Using R Shiny",
@@ -691,7 +697,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DV01.pdf",
       "https://saslexicon.org/PHUSE_US/2019/PAP_DV01.pdf"
     ],
-    "filename": "PAP-DV01-f177b2f5d0.pdf"
+    "filename": "PAP-DV01-f177b2f5d0.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DV01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DV01.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_DV01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_DV01.pdf"
   },
   {
     "title": "End-to-End SDTM Automation: A Metadata-centric Approach",
@@ -702,7 +710,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SI01.pdf",
       "https://saslexicon.org/PHUSE_US/2019/PAP_SI01.pdf"
     ],
-    "filename": "PAP-SI01-b7c6a4ccaa.pdf"
+    "filename": "PAP-SI01-b7c6a4ccaa.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SI01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SI01.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SI01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SI01.pdf"
   },
   {
     "title": "Ensuring Consistent and Supported Standards Across Data and Metadata in a Large Regulatory Filing is Tricky Business",
@@ -713,7 +723,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SI06.pdf",
       "https://saslexicon.org/PHUSE_US/2019/PAP_SI06.pdf"
     ],
-    "filename": "PAP-SI06-5b35edb23b.pdf"
+    "filename": "PAP-SI06-5b35edb23b.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SI06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SI06.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SI06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SI06.pdf"
   },
   {
     "title": "Ensuring Programming Integrity with Python: Dynamic Code Plagiarism Detection",
@@ -724,7 +736,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_TT04.pdf",
       "https://saslexicon.org/PHUSE_US/2019/PAP_TT04.pdf"
     ],
-    "filename": "PAP-TT04-5c4265f13e.pdf"
+    "filename": "PAP-TT04-5c4265f13e.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_TT04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_TT04.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_TT04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_TT04.pdf"
   },
   {
     "title": "Evolving CDISC to the Next Decades: The CDISC Proof of Concept",
@@ -735,7 +749,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DS06.pdf",
       "https://saslexicon.org/PHUSE_US/2019/PAP_DS06.pdf"
     ],
-    "filename": "PAP-DS06-7e28b038d5.pdf"
+    "filename": "PAP-DS06-7e28b038d5.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DS06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DS06.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_DS06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_DS06.pdf"
   },
   {
     "title": "Expectations and Collaboration - Recipe for Successful CDISC Deliverables!",
@@ -746,7 +762,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH04.pdf",
       "https://saslexicon.org/PHUSE_US/2019/PAP_DH04.pdf"
     ],
-    "filename": "PAP-DH04-9fb0ce7e07.pdf"
+    "filename": "PAP-DH04-9fb0ce7e07.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH04.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_DH04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_DH04.pdf"
   },
   {
     "title": "FDA View: Update on Study Data Submission",
@@ -757,7 +775,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA15.pdf",
       "https://saslexicon.org/PHUSE_US/2019/PAP_SA15.pdf"
     ],
-    "filename": "PAP-SA15-5601aeda3f.pdf"
+    "filename": "PAP-SA15-5601aeda3f.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA15.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA15.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SA15.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SA15.pdf"
   },
   {
     "title": "Fitting Programming Processes into Workflows on Systems - Is the Square Peg in a Round Hole?",
