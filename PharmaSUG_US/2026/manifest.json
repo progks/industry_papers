@@ -1959,8 +1959,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_SM03.pdf"
     ],
     "filename": "PAP-SM03-4196f122e8.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SM03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SM03.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_SM03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_SM03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SM03.pdf",
+    "bytes": 482226,
+    "sha256": "c234273d5ae1a39b81d7e5d9d2b59adf112e2ec826cfd2875c68affdec2b350d"
   },
   {
     "title": "Handle with Care: Study-Specific Assessment of R Package Risk",
@@ -1972,8 +1974,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_OS12.pdf"
     ],
     "filename": "PAP-OS12-d88ccddd5c.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS12.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_OS12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_OS12.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS12.pdf",
+    "bytes": 663379,
+    "sha256": "dd7eb5ea010a005724f0811c481db891e8ce50f3b745f539911a06d6e71c4770"
   },
   {
     "title": "Harmonising gsm and the pharmaverse: Orchestrating SDTM, ADaM, TFLs and ARS in a Unified R Workflow",
@@ -1985,8 +1989,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_OS17.pdf"
     ],
     "filename": "PAP-OS17-a2c108a41b.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS17.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS17.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_OS17.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_OS17.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS17.pdf",
+    "bytes": 158430,
+    "sha256": "cec7b0073e788227debfd510fffd49f914613bb2d77d4c50ce345920e2913867"
   },
   {
     "title": "Harnessing AI to Streamline ClinicalTrials.gov PRS Submissions",
@@ -1998,8 +2004,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_SA15.pdf"
     ],
     "filename": "PAP-SA15-17e4654bb1.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SA15.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SA15.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_SA15.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_SA15.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SA15.pdf",
+    "bytes": 117934,
+    "sha256": "43f2ee9cd073198627fbc88ace764df99184d59f3c960d0bef2105570f4ffb3c"
   },
   {
     "title": "Harnessing AI: Enhancing Test Data Quality and Efficiency in Clinical Trial Set-Up",
@@ -2011,8 +2019,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_PP10.pdf"
     ],
     "filename": "PAP-PP10-40ffc45a55.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PP10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PP10.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_PP10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_PP10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PP10.pdf",
+    "bytes": 405563,
+    "sha256": "6f5875f610b49eda6340cf0f8c5d190d5a9533c3929faf2d2838cceafdf8ade8"
   },
   {
     "title": "Harnessing LLM-Augmented Automation for ADaM Dataset Generation",
@@ -2024,8 +2034,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_ML23.pdf"
     ],
     "filename": "PAP-ML23-046d13989c.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML23.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML23.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_ML23.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_ML23.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML23.pdf",
+    "bytes": 462456,
+    "sha256": "426efc820e3237699701e0d0bde33070be5f92981ec5dae12ec2296cfd853ac8"
   },
   {
     "title": "Honey, I Shrunk the Workload",
@@ -2037,8 +2049,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PRE_DT16.pdf"
     ],
     "filename": "PRE-DT16-3db9e7e0cd.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_DT16.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_DT16.pdf | https://saslexicon.org/PHUSE_US/2026/PRE_DT16.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PRE_DT16.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_DT16.pdf",
+    "bytes": 3386905,
+    "sha256": "4c84d67649534b178c13c4368c35ad463f17efcc0dd566b32bcc4aa8dda54ae7"
   },
   {
     "title": "How R We Now? Tracking Industry Progress in Adopting R and Open-Source for Clinical Reporting",
@@ -2050,8 +2064,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_OS01.pdf"
     ],
     "filename": "PAP-OS01-ae664a4a7e.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS01.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_OS01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_OS01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS01.pdf",
+    "bytes": 316173,
+    "sha256": "e576377a07a75974e8554382e9aa8af3443e77b982eff99b5c32f8cf0c854d3a"
   },
   {
     "title": "Hybrid SAS-R-Python Pipelines: Coordinating Multi-Language Workflows",
@@ -2063,8 +2079,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_OS20.pdf"
     ],
     "filename": "PAP-OS20-b8316ee8db.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS20.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS20.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_OS20.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_OS20.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS20.pdf",
+    "bytes": 376861,
+    "sha256": "81421faccc2a7bb735f7877a72d95336017f243ab6658b5e2c93fab8ad3cbd9a"
   },
   {
     "title": "IMAGING DATA ANONYMIZATION (IN CLINICAL RESEARCH)",
@@ -2076,8 +2094,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PRE_DT21.pdf"
     ],
     "filename": "PRE-DT21-e96eb0dd04.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_DT21.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_DT21.pdf | https://saslexicon.org/PHUSE_US/2026/PRE_DT21.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PRE_DT21.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_DT21.pdf",
+    "bytes": 1611410,
+    "sha256": "7206baecfd5a23f63382b2a5785d9d304960ff0849836ab9a3c7a8ac22f174ba"
   },
   {
     "title": "Implementing AI in Authoring Plain Language Summaries: Insights from a Live Project Experience",
