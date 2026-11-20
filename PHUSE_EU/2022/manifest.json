@@ -2408,7 +2408,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/EU/Belfast/POS_PP04.pdf",
       "https://saslexicon.org/PHUSE_EU/2022/POS_PP04.pdf"
     ],
-    "filename": "POS-PP04-9ab0b937ed.pdf"
+    "filename": "POS-PP04-9ab0b937ed.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/EU/Belfast/POS_PP04.pdf",
+    "status": "ok",
+    "bytes": 1327881,
+    "sha256": "4e3484ed976ebf7a849f7995d1564442eaab52ae294ee5f652e87c60057ccdaa"
   },
   {
     "title": "Visualisation for Success: Driving KPIs and Organisational Process Improvements via Portfolio-level Analytics",
@@ -2419,7 +2423,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/EU/Belfast/POS_PP09.pdf",
       "https://saslexicon.org/PHUSE_EU/2022/POS_PP09.pdf"
     ],
-    "filename": "POS-PP09-23c7fe7a6e.pdf"
+    "filename": "POS-PP09-23c7fe7a6e.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/EU/Belfast/POS_PP09.pdf",
+    "status": "ok",
+    "bytes": 13397280,
+    "sha256": "54c0b636f9f0481111dc43c2cf1c6fa182592f497639fb4b45e90768b4d703d8"
   },
   {
     "title": "Visualise Me! Down the Rabbit Hole with Standardised Dashboards for Safety and Study Follow-up",
@@ -2430,7 +2438,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/EU/Belfast/PRE_DV06.pdf",
       "https://saslexicon.org/PHUSE_EU/2022/PRE_DV06.pdf"
     ],
-    "filename": "PRE-DV06-8b1290b0ed.pdf"
+    "filename": "PRE-DV06-8b1290b0ed.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/EU/Belfast/PRE_DV06.pdf",
+    "status": "ok",
+    "bytes": 5833003,
+    "sha256": "1704ab31a26a6b7a4ed7d13f3b4238c6fad81a02b4a919477ecd1c81c6838609"
   },
   {
     "title": "Welcome to the Pharmaverse",
@@ -2441,7 +2453,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/EU/Belfast/PRE_TT07.pdf",
       "https://saslexicon.org/PHUSE_EU/2022/PRE_TT07.pdf"
     ],
-    "filename": "PRE-TT07-c2aa0b6570.pdf"
+    "filename": "PRE-TT07-c2aa0b6570.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/EU/Belfast/PRE_TT07.pdf",
+    "status": "ok",
+    "bytes": 4307822,
+    "sha256": "8063cd56945b41b104444700631250a6fe5aee02bbc129074956911853473587"
   },
   {
     "title": "What History Teaches Us in Designing a Modern Statistical Computing Environment",
@@ -2452,7 +2468,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/EU/Belfast/PRE_TH11.pdf",
       "https://saslexicon.org/PHUSE_EU/2022/PRE_TH11.pdf"
     ],
-    "filename": "PRE-TH11-76c75218c3.pdf"
+    "filename": "PRE-TH11-76c75218c3.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/EU/Belfast/PRE_TH11.pdf",
+    "status": "ok",
+    "bytes": 1474299,
+    "sha256": "27f28a99b0f5c96c1c1586bdb23eb481eee2da0af1697d9db5e9e6e3b20c627f"
   },
   {
     "title": "What's the Difference?! CRO vs Pharma",
@@ -2463,7 +2483,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/EU/Belfast/POS_PP08.pdf",
       "https://saslexicon.org/PHUSE_EU/2022/POS_PP08.pdf"
     ],
-    "filename": "POS-PP08-b6a96791ce.pdf"
+    "filename": "POS-PP08-b6a96791ce.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/EU/Belfast/POS_PP08.pdf",
+    "status": "ok",
+    "bytes": 463378,
+    "sha256": "6f5c591aa3051de0a8f26aa28f6e46ccdc898b7def0732cb702725e228e9c8ea"
   },
   {
     "title": "Who is Subject X?",
@@ -2474,6 +2498,10 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/EU/Belfast/PRE_SI06.pdf",
       "https://saslexicon.org/PHUSE_EU/2022/PRE_SI06.pdf"
     ],
-    "filename": "PRE-SI06-6e33b6e97b.pdf"
+    "filename": "PRE-SI06-6e33b6e97b.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/EU/Belfast/PRE_SI06.pdf",
+    "status": "ok",
+    "bytes": 2812217,
+    "sha256": "b4def657a026482cc9adf1fda05abd9ce7b27e6c989bc59f3cd17c7e893371cb"
   }
 ]
