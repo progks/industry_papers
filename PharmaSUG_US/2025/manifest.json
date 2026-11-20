@@ -609,8 +609,10 @@
       "https://saslexicon.org/PHUSE_US/2025/PAP_PP18.pdf"
     ],
     "filename": "PAP-PP18-de0a10bad7.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_PP18.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_PP18.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_PP18.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_PP18.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_PP18.pdf",
+    "bytes": 200168,
+    "sha256": "4002c7a14323aa38e56804931d7f06824fe3c46357c7aa32f798068904b9412f"
   },
   {
     "title": "Clinical Trial Reporting Automation Based on Knowledge Graph",
@@ -622,8 +624,10 @@
       "https://saslexicon.org/PHUSE_US/2025/PAP_PP23.pdf"
     ],
     "filename": "PAP-PP23-8b010c306c.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_PP23.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_PP23.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_PP23.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_PP23.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_PP23.pdf",
+    "bytes": 180498,
+    "sha256": "1f977db38a1e09cbf1b4d210a0937330d5a83a624310a0051a53fa87677518cd"
   },
   {
     "title": "clinify: Bridging the Gap in Regulatory-Compliant TFL Generation with R",
@@ -635,8 +639,10 @@
       "https://saslexicon.org/PHUSE_US/2025/PAP_OS21.pdf"
     ],
     "filename": "PAP-OS21-9a8b5b052b.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_OS21.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_OS21.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_OS21.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_OS21.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_OS21.pdf",
+    "bytes": 514397,
+    "sha256": "638a9ca21459582084f53f8bfcf43c564778cff51fb76bfd98cc4a02a267a753"
   },
   {
     "title": "Collaborating on Standards: An Approach to Harmonizing Vaccine Regulatory Submissions",
@@ -648,8 +654,10 @@
       "https://saslexicon.org/PHUSE_US/2025/PAP_DS07.pdf"
     ],
     "filename": "PAP-DS07-5dd3a7089f.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DS07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DS07.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_DS07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_DS07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DS07.pdf",
+    "bytes": 736280,
+    "sha256": "8be99442aa79d45a1cd606ed2fe943a0df9ac855a4f0101582c529c742b07c5e"
   },
   {
     "title": "Comparing Confidence Intervals for a Difference in Adjusted Predicted Probabilities",
@@ -661,8 +669,10 @@
       "https://saslexicon.org/PHUSE_US/2025/PAP_AS16.pdf"
     ],
     "filename": "PAP-AS16-d7bee80467.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_AS16.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_AS16.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_AS16.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_AS16.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_AS16.pdf",
+    "bytes": 547320,
+    "sha256": "66c98954fb1e2a2b61fe3b45e7b85e35c763ffc69ceb22fc8eb1c117c0c3bf5f"
   },
   {
     "title": "Considerations for the Submission of RWD using CDISC with Insights from HL7 FHIR and OMOP",
@@ -674,8 +684,10 @@
       "https://saslexicon.org/PHUSE_US/2025/PAP_RE02.pdf"
     ],
     "filename": "PAP-RE02-8e489e74c3.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_RE02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_RE02.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_RE02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_RE02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_RE02.pdf",
+    "bytes": 294883,
+    "sha256": "81a3778249d957a14520880aed6e51558b35c855fd9020d868bb9641bc81d02b"
   },
   {
     "title": "Data extraction and Graphical visualization for quick decision making",
@@ -687,8 +699,10 @@
       "https://saslexicon.org/PHUSE_US/2025/PAP_SD08.pdf"
     ],
     "filename": "PAP-SD08-2db38c53bc.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_SD08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_SD08.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_SD08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_SD08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_SD08.pdf",
+    "bytes": 470640,
+    "sha256": "0a1094d5136c5c82e260ce1b5da3814e0b66ac34c4c5f980153fa0ccf52e044f"
   },
   {
     "title": "Data Quality in Pooled Studies: Overcoming Challenges and Ensuring Accuracy",
@@ -700,8 +714,10 @@
       "https://saslexicon.org/PHUSE_US/2025/PAP_DS14.pdf"
     ],
     "filename": "PAP-DS14-33d5a6d537.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DS14.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DS14.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_DS14.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_DS14.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DS14.pdf",
+    "bytes": 386263,
+    "sha256": "52a3469c9f27aee2376396d360c63124d7d5a116ee112dcb5a6fa96588888a68"
   },
   {
     "title": "Data Transformation: Achieving Compliance with Irregular Data",
@@ -713,8 +729,10 @@
       "https://saslexicon.org/PHUSE_US/2025/PAP_DH10.pdf"
     ],
     "filename": "PAP-DH10-e0e0624efe.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DH10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DH10.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_DH10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_DH10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DH10.pdf",
+    "bytes": 145453,
+    "sha256": "428c174517b1074d1a0332aa1297f4de99f41ca5d0895e33f19728c75d3235f6"
   },
   {
     "title": "Demystifying the Handling and Mapping of External Data to CDISC Standards in Clinical Trials",
@@ -726,8 +744,10 @@
       "https://saslexicon.org/PHUSE_US/2025/PAP_DH05.pdf"
     ],
     "filename": "PAP-DH05-691e100629.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DH05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DH05.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_DH05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_DH05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DH05.pdf",
+    "bytes": 285611,
+    "sha256": "a9724aa720cc216a445bd26cf56b82c7c4706b988125dcbdcd9c1d97673f6392"
   },
   {
     "title": "Differential Privacy (DP) Approach for Sharing Survival Analysis Data",
