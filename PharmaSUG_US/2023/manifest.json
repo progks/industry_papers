@@ -2088,7 +2088,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ET08.pdf",
       "https://saslexicon.org/PHUSE_US/2023/PRE_ET08.pdf"
     ],
-    "filename": "PRE-ET08-52342c82a6.pdf"
+    "filename": "PRE-ET08-52342c82a6.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ET08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ET08.pdf | https://saslexicon.org/PHUSE_US/2023/PRE_ET08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PRE_ET08.pdf"
   },
   {
     "title": "Up-to-Date with Dates - Imputation Rules in R Compared to SAS",
@@ -2099,7 +2101,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SS05.pdf",
       "https://saslexicon.org/PHUSE_US/2023/PAP_SS05.pdf"
     ],
-    "filename": "PAP-SS05-d770ea91e7.pdf"
+    "filename": "PAP-SS05-d770ea91e7.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SS05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SS05.pdf | https://saslexicon.org/PHUSE_US/2023/PAP_SS05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PAP_SS05.pdf"
   },
   {
     "title": "Use of R Shiny to Simplify Tracking Data Issues Resolution Progress",
@@ -2110,7 +2114,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ST18.pdf",
       "https://saslexicon.org/PHUSE_US/2023/PRE_ST18.pdf"
     ],
-    "filename": "PRE-ST18-d62d112276.pdf"
+    "filename": "PRE-ST18-d62d112276.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ST18.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ST18.pdf | https://saslexicon.org/PHUSE_US/2023/PRE_ST18.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PRE_ST18.pdf"
   },
   {
     "title": "Use Python to make Clinical Trial Result Posting automatically",
@@ -2121,7 +2127,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_ST07.pdf",
       "https://saslexicon.org/PHUSE_US/2023/PAP_ST07.pdf"
     ],
-    "filename": "PAP-ST07-25fb6040ae.pdf"
+    "filename": "PAP-ST07-25fb6040ae.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_ST07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_ST07.pdf | https://saslexicon.org/PHUSE_US/2023/PAP_ST07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PAP_ST07.pdf"
   },
   {
     "title": "Use R to Track and Highlight the Changes Between 2 Versions of Data to Have More Efficient Data Review",
@@ -2132,7 +2140,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_OS07.pdf",
       "https://saslexicon.org/PHUSE_US/2023/PAP_OS07.pdf"
     ],
-    "filename": "PAP-OS07-46d71793ce.pdf"
+    "filename": "PAP-OS07-46d71793ce.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_OS07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_OS07.pdf | https://saslexicon.org/PHUSE_US/2023/PAP_OS07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PAP_OS07.pdf"
   },
   {
     "title": "Use R to Track and Visualise Biological Sample Status",
@@ -2143,7 +2153,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP07.pdf",
       "https://saslexicon.org/PHUSE_US/2023/POS_PP07.pdf"
     ],
-    "filename": "POS-PP07-1cf5e3c9eb.pdf"
+    "filename": "POS-PP07-1cf5e3c9eb.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP07.pdf | https://saslexicon.org/PHUSE_US/2023/POS_PP07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/POS_PP07.pdf"
   },
   {
     "title": "Using One Specification to Create BIMO clinsite.xpt and its Define-XML",
@@ -2154,7 +2166,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP04.pdf",
       "https://saslexicon.org/PHUSE_US/2023/POS_PP04.pdf"
     ],
-    "filename": "POS-PP04-565d6ebe43.pdf"
+    "filename": "POS-PP04-565d6ebe43.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP04.pdf | https://saslexicon.org/PHUSE_US/2023/POS_PP04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/POS_PP04.pdf"
   },
   {
     "title": "Using R for Automatically Managing Clinical Trial Data Issues",
@@ -2165,7 +2179,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_DH10.pdf",
       "https://saslexicon.org/PHUSE_US/2023/PRE_DH10.pdf"
     ],
-    "filename": "PRE-DH10-a6c970e140.pdf"
+    "filename": "PRE-DH10-a6c970e140.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_DH10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_DH10.pdf | https://saslexicon.org/PHUSE_US/2023/PRE_DH10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PRE_DH10.pdf"
   },
   {
     "title": "Using Real-world Data and Synthetic Data to Predict Study Outcomes, Submission Performance and Market Effectiveness",
@@ -2176,7 +2192,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ET11.pdf",
       "https://saslexicon.org/PHUSE_US/2023/PRE_ET11.pdf"
     ],
-    "filename": "PRE-ET11-f6ea64545e.pdf"
+    "filename": "PRE-ET11-f6ea64545e.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ET11.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ET11.pdf | https://saslexicon.org/PHUSE_US/2023/PRE_ET11.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PRE_ET11.pdf"
   },
   {
     "title": "Using renv and RStudio Package Manager for Clinical Reproducibility",
@@ -2187,7 +2205,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_OS16.pdf",
       "https://saslexicon.org/PHUSE_US/2023/PRE_OS16.pdf"
     ],
-    "filename": "PRE-OS16-4c394e436a.pdf"
+    "filename": "PRE-OS16-4c394e436a.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_OS16.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_OS16.pdf | https://saslexicon.org/PHUSE_US/2023/PRE_OS16.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PRE_OS16.pdf"
   },
   {
     "title": "Validation of Figures Using an Image Recognition Approach",
