@@ -1958,7 +1958,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/POS_PP07.pdf",
       "https://saslexicon.org/PHUSE_US/2018/POS_PP07.pdf"
     ],
-    "filename": "POS-PP07-7af24a4982.pdf"
+    "filename": "POS-PP07-7af24a4982.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/POS_PP07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/POS_PP07.pdf | https://saslexicon.org/PHUSE_US/2018/POS_PP07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/POS_PP07.pdf"
   },
   {
     "title": "Utilizing Visualizations Developed in R Shiny for Exploratory Safety Analysis",
@@ -1969,7 +1971,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/POS_PP06.pdf",
       "https://saslexicon.org/PHUSE_US/2018/POS_PP06.pdf"
     ],
-    "filename": "POS-PP06-5a859218d3.pdf"
+    "filename": "POS-PP06-5a859218d3.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/POS_PP06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/POS_PP06.pdf | https://saslexicon.org/PHUSE_US/2018/POS_PP06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/POS_PP06.pdf"
   },
   {
     "title": "Want Submission-Ready Datasets Package from the Get-Go?",
@@ -1980,7 +1984,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_SI17.pdf",
       "https://saslexicon.org/PHUSE_US/2018/PAP_SI17.pdf"
     ],
-    "filename": "PAP-SI17-bb86f89492.pdf"
+    "filename": "PAP-SI17-bb86f89492.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_SI17.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_SI17.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_SI17.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_SI17.pdf"
   },
   {
     "title": "Web Codebooks - Interactive Data Summaries for Clinical Trial Data",
@@ -1991,7 +1997,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DV12.pdf",
       "https://saslexicon.org/PHUSE_US/2018/PAP_DV12.pdf"
     ],
-    "filename": "PAP-DV12-afb38208c4.pdf"
+    "filename": "PAP-DV12-afb38208c4.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DV12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DV12.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_DV12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_DV12.pdf"
   },
   {
     "title": "Why Data and Document Anonymization Must Carpool?",
@@ -2002,7 +2010,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/POS_PP24.pdf",
       "https://saslexicon.org/PHUSE_US/2018/POS_PP24.pdf"
     ],
-    "filename": "POS-PP24-a7914b3013.pdf"
+    "filename": "POS-PP24-a7914b3013.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/POS_PP24.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/POS_PP24.pdf | https://saslexicon.org/PHUSE_US/2018/POS_PP24.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/POS_PP24.pdf"
   },
   {
     "title": "Why SAS Programmers Should Learn Python Too",
@@ -2013,6 +2023,8 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_TT02.pdf",
       "https://saslexicon.org/PHUSE_US/2018/PAP_TT02.pdf"
     ],
-    "filename": "PAP-TT02-2ec98274a6.pdf"
+    "filename": "PAP-TT02-2ec98274a6.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_TT02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_TT02.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_TT02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_TT02.pdf"
   }
 ]
