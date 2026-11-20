@@ -1,11 +1,11 @@
-# industry_papers
+## Industry_papers
+
+See a rough summary on below site or respective official site.
 
 https://saslexicon.org/index.html
 
 
-
 [PharmaSUG_US](https://saslexicon.org/PharmaSUG/PharmaSUG.html)
-
 
 [PharmaSUG_CN](https://saslexicon.org/PharmaSUG_CN/PharmaSUG_CN.html)
 
