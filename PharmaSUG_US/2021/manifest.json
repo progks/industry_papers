@@ -759,8 +759,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_DS10.pdf"
     ],
     "filename": "PRE-DS10-4df13e55ce.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DS10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DS10.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_DS10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_DS10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DS10.pdf",
+    "bytes": 2342047,
+    "sha256": "3f87223a79c10d47b187aa99022aa282b16300ebf6565af7d95cb02952f220e0"
   },
   {
     "title": "FDA Conformance Analysis and Upcoming Implementation of Technical Rejection Criteria for Study Data",
@@ -772,8 +774,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_RS01.pdf"
     ],
     "filename": "PRE-RS01-5eec20abfe.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_RS01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_RS01.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_RS01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_RS01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_RS01.pdf",
+    "bytes": 6689608,
+    "sha256": "1dcbc96ec462ac062ed4ccbaf6961dcfa6e6ee46ace9f809f824d16bc47b2922"
   },
   {
     "title": "File Split: Handling LB, QS and VS Listing Files",
@@ -785,8 +789,10 @@
       "https://saslexicon.org/PHUSE_US/2021/POS_PP06.pdf"
     ],
     "filename": "POS-PP06-35bafe5d10.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP06.pdf | https://saslexicon.org/PHUSE_US/2021/POS_PP06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/POS_PP06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP06.pdf",
+    "bytes": 232181,
+    "sha256": "17a1fb17e20fbabe1de067d5f8966f0ad4ff73437760dcdaf811f1209d38cffd"
   },
   {
     "title": "From Digital Data to Decision Intelligence: Infrastructure and Algorithms Powering Automation in RBM and Data Review",
@@ -798,8 +804,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_CM04.pdf"
     ],
     "filename": "PRE-CM04-38a8099cf7.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CM04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CM04.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_CM04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_CM04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CM04.pdf",
+    "bytes": 9519065,
+    "sha256": "7043dc37acfb494e8c6bfe8fb595fdf8895208529ce114c22b6bdedeccb70b54"
   },
   {
     "title": "Generating .xpt files with SAS, R and Python",
@@ -811,8 +819,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_CT03.pdf"
     ],
     "filename": "PRE-CT03-eff212e437.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CT03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CT03.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_CT03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_CT03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CT03.pdf",
+    "bytes": 1299137,
+    "sha256": "ebf6b28c29763aede9fc15c6d0ea71d60df2b5f58dccc3567d7b2c00088ee448"
   },
   {
     "title": "Get Ready in One Click: Clean SDTM Datasets by Using Library Backend Rules",
@@ -824,8 +834,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_DH11.pdf"
     ],
     "filename": "PRE-DH11-0ce92b500d.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DH11.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DH11.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_DH11.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_DH11.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DH11.pdf",
+    "bytes": 7027866,
+    "sha256": "c7076e93d36ca7653c69d53e4f068e540139663c7e25da44fdbd763747082b42"
   },
   {
     "title": "Good Cooperation Between SAS and R for Regulatory Submission",
@@ -837,8 +849,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_SP02.pdf"
     ],
     "filename": "PRE-SP02-e7451e5686.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SP02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SP02.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_SP02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_SP02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SP02.pdf",
+    "bytes": 1588178,
+    "sha256": "4af3870c144edcffc84495f7183e694fcba68cf876009f384eb0d6530175a875"
   },
   {
     "title": "Graphs Made Easy Using SAS Graph Template Language",
@@ -850,8 +864,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PAP_DV02.pdf"
     ],
     "filename": "PAP-DV02-d29e247b55.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_DV02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_DV02.pdf | https://saslexicon.org/PHUSE_US/2021/PAP_DV02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PAP_DV02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_DV02.pdf",
+    "bytes": 1393245,
+    "sha256": "ad6dc9621cf13071ee72cefecc6a8c7c0be6b21492072e7019a7dfca94fcb11e"
   },
   {
     "title": "Harness Analytical Strengths: SAS, R, Python Web Services",
@@ -863,8 +879,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_TT11.pdf"
     ],
     "filename": "PRE-TT11-b8e788e61c.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT11.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT11.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_TT11.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_TT11.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT11.pdf",
+    "bytes": 2506611,
+    "sha256": "db5c6b8ff85ba1dcb59e6706afdf66061dc19ec45b1f17bc6f6d3341168d34fb"
   },
   {
     "title": "How Enterprise Architecture Can Benefit the Clinical Trial Process",
@@ -876,8 +894,10 @@
       "https://saslexicon.org/PHUSE_US/2021/POS_PP13.pdf"
     ],
     "filename": "POS-PP13-c3acfb7ba0.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP13.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP13.pdf | https://saslexicon.org/PHUSE_US/2021/POS_PP13.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/POS_PP13.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP13.pdf",
+    "bytes": 799652,
+    "sha256": "adf3fd19172bf3b5727890f47b138a89bd7f794dc64370d97878758e00f9ce88"
   },
   {
     "title": "How the R Programming Language Handles the CDISC Library API",
