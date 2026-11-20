@@ -309,8 +309,10 @@
       "https://saslexicon.org/PHUSE_US/2022/PRE_ET02.pdf"
     ],
     "filename": "PRE-ET02-93ec3ca04d.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_ET02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_ET02.pdf | https://saslexicon.org/PHUSE_US/2022/PRE_ET02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2022/PRE_ET02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_ET02.pdf",
+    "bytes": 4867179,
+    "sha256": "29e88e03eb1f664c6863b7dcb857580e5022b71599aa119303ffa81f68d42a03"
   },
   {
     "title": "Clinical Data Standardization and Integration Using Data Warehouse and Data Mart Processes",
@@ -322,8 +324,10 @@
       "https://saslexicon.org/PHUSE_US/2022/PRE_SI05.pdf"
     ],
     "filename": "PRE-SI05-2c175c4c6d.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_SI05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_SI05.pdf | https://saslexicon.org/PHUSE_US/2022/PRE_SI05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2022/PRE_SI05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_SI05.pdf",
+    "bytes": 6418351,
+    "sha256": "5f4b56b7c7ecad913a0771c3e5f48fe574d6f79f4e097a727a881196f26c8167"
   },
   {
     "title": "Clinical Statistical Reporting in a Multilingual World",
@@ -335,8 +339,10 @@
       "https://saslexicon.org/PHUSE_US/2022/PRE_OS11.pdf"
     ],
     "filename": "PRE-OS11-c73ffe0b27.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_OS11.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_OS11.pdf | https://saslexicon.org/PHUSE_US/2022/PRE_OS11.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2022/PRE_OS11.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_OS11.pdf",
+    "bytes": 1801588,
+    "sha256": "3ae5b471ffe2e8fb6d189a683d0eabd7f61d3228c6d2d2e2c60a9dd4502fbf02"
   },
   {
     "title": "Closing the Gap: Creating an End to End R Package Toolkit for the Clinical Reporting Pipeline",
@@ -348,8 +354,10 @@
       "https://saslexicon.org/PHUSE_US/2022/PRE_OS10.pdf"
     ],
     "filename": "PRE-OS10-e39c9163f9.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_OS10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_OS10.pdf | https://saslexicon.org/PHUSE_US/2022/PRE_OS10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2022/PRE_OS10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_OS10.pdf",
+    "bytes": 460259,
+    "sha256": "ad15c216bb29ae264585c80728e030bedd914d5383eded689ee5dff45dcc2e54"
   },
   {
     "title": "Collection, Standardization, and Reporting of Adverse Events with Toxicity Changes Using CDISC Standards in Oncology Clinical Trials",
@@ -361,8 +369,10 @@
       "https://saslexicon.org/PHUSE_US/2022/PAP_DS03.pdf"
     ],
     "filename": "PAP-DS03-df7124fada.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PAP_DS03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PAP_DS03.pdf | https://saslexicon.org/PHUSE_US/2022/PAP_DS03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2022/PAP_DS03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PAP_DS03.pdf",
+    "bytes": 590450,
+    "sha256": "8280161c68b0465b955cde07443f16788abf42b8f5b3e99fa8e773a2404afc7e"
   },
   {
     "title": "Combining Multiple R Outputs into One HTML File with Bookmarks",
@@ -374,8 +384,10 @@
       "https://saslexicon.org/PHUSE_US/2022/PAP_SS02.pdf"
     ],
     "filename": "PAP-SS02-bbc8e0ce90.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PAP_SS02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PAP_SS02.pdf | https://saslexicon.org/PHUSE_US/2022/PAP_SS02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2022/PAP_SS02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PAP_SS02.pdf",
+    "bytes": 261275,
+    "sha256": "ed111129ae8b837d752e8a5de7dec7ea83df4b50982ee61da4fba672c63a55be"
   },
   {
     "title": "Data Classification Automation",
@@ -387,8 +399,10 @@
       "https://saslexicon.org/PHUSE_US/2022/PRE_DS10.pdf"
     ],
     "filename": "PRE-DS10-4f56035e38.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_DS10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_DS10.pdf | https://saslexicon.org/PHUSE_US/2022/PRE_DS10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2022/PRE_DS10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_DS10.pdf",
+    "bytes": 32542448,
+    "sha256": "b66bd2758bf57c20720f5b781ff4dd491ce50598d59650d622790914bfa3a09e"
   },
   {
     "title": "Data Standardization at Scale with the elluminate Clinical Data Cloud",
@@ -400,8 +414,10 @@
       "https://saslexicon.org/PHUSE_US/2022/PRE_SD10.pdf"
     ],
     "filename": "PRE-SD10-2d833119ba.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_SD10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_SD10.pdf | https://saslexicon.org/PHUSE_US/2022/PRE_SD10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2022/PRE_SD10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_SD10.pdf",
+    "bytes": 4724446,
+    "sha256": "aac7a3fda6cd1dd1ad58756435e55b1d51d8315c408f37ff43a2f7b669c7f3d0"
   },
   {
     "title": "Define and Explore Patient Cohorts",
@@ -413,8 +429,10 @@
       "https://saslexicon.org/PHUSE_US/2022/PRE_DV04.pdf"
     ],
     "filename": "PRE-DV04-f4f4a4b2a2.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_DV04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_DV04.pdf | https://saslexicon.org/PHUSE_US/2022/PRE_DV04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2022/PRE_DV04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_DV04.pdf",
+    "bytes": 1940063,
+    "sha256": "3d001b096fd26b5e7066d6cfa8ec0fd5f5a7a85a1003958bd922e62d8f8c8db2"
   },
   {
     "title": "Design ADSL and ADBASE in Cell Therapy",
@@ -426,8 +444,10 @@
       "https://saslexicon.org/PHUSE_US/2022/PRE_SI03.pdf"
     ],
     "filename": "PRE-SI03-f76a334f20.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_SI03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_SI03.pdf | https://saslexicon.org/PHUSE_US/2022/PRE_SI03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2022/PRE_SI03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_SI03.pdf",
+    "bytes": 5596972,
+    "sha256": "5e750af22354032c3d958dc64dda7bda06287329e1c71127d36f0e830d903b43"
   },
   {
     "title": "Digital Biomarkers in Clinical Submissions",
