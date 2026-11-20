@@ -1659,8 +1659,10 @@
       "https://saslexicon.org/PHUSE_US/2023/POS_PP30.pdf"
     ],
     "filename": "POS-PP30-4dc871d904.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP30.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP30.pdf | https://saslexicon.org/PHUSE_US/2023/POS_PP30.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/POS_PP30.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP30.pdf",
+    "bytes": 701671,
+    "sha256": "0712724d5194c12b745b021d7c53419e965c10400e57f10f2c1fda77570ce4e6"
   },
   {
     "title": "Performing Propensity-score-integrated Comparative Analysis in External Control Arm Studies Using R",
@@ -1672,8 +1674,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PRE_AS04.pdf"
     ],
     "filename": "PRE-AS04-7e34449455.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_AS04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_AS04.pdf | https://saslexicon.org/PHUSE_US/2023/PRE_AS04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PRE_AS04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_AS04.pdf",
+    "bytes": 616740,
+    "sha256": "cf1713a8542d86b855ed84ac72f05347363e08953e697ab24fb92094558449de"
   },
   {
     "title": "PHUSE Education: Therapeutic Areas and Clinical Documents",
@@ -1685,8 +1689,10 @@
       "https://saslexicon.org/PHUSE_US/2023/POS_PP27.pdf"
     ],
     "filename": "POS-PP27-bb385097ec.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP27.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP27.pdf | https://saslexicon.org/PHUSE_US/2023/POS_PP27.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/POS_PP27.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP27.pdf",
+    "bytes": 6971885,
+    "sha256": "a92d8081da102eae3c77c5d8b432e0b7b3238c8cd91ab55ae6df619fbce03eb6"
   },
   {
     "title": "PHUSE Safety Analytics Working Group - Overview and Summary of Ongoing Projects",
@@ -1698,8 +1704,10 @@
       "https://saslexicon.org/PHUSE_US/2023/POS_PP08.pdf"
     ],
     "filename": "POS-PP08-4c6e26ec44.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP08.pdf | https://saslexicon.org/PHUSE_US/2023/POS_PP08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/POS_PP08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP08.pdf",
+    "bytes": 725164,
+    "sha256": "3c507f4c3e5fa1c3ab2d818fd66a81217591ff62a132c66f2d96c88f8ccbb3c0"
   },
   {
     "title": "Pimp Your (R Shiny) App!",
@@ -1711,8 +1719,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PAP_SS07.pdf"
     ],
     "filename": "PAP-SS07-e07070c89b.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SS07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SS07.pdf | https://saslexicon.org/PHUSE_US/2023/PAP_SS07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PAP_SS07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SS07.pdf",
+    "bytes": 76134,
+    "sha256": "e582f34b33899c4816b5a35b1bde231b2081cd741c3a55fce12c71b5fe72669f"
   },
   {
     "title": "Post-mortem Logs in R",
@@ -1724,8 +1734,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PAP_SS04.pdf"
     ],
     "filename": "PAP-SS04-b3b26b2eb8.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SS04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SS04.pdf | https://saslexicon.org/PHUSE_US/2023/PAP_SS04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PAP_SS04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SS04.pdf",
+    "bytes": 378433,
+    "sha256": "527fa49e3205b414bd75c778dc0980abbce31087751c75d61da039f4f4d949e3"
   },
   {
     "title": "Practical Application of Multiple Screenings/Enrollments",
@@ -1737,8 +1749,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PAP_SI04.pdf"
     ],
     "filename": "PAP-SI04-3407944fb9.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SI04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SI04.pdf | https://saslexicon.org/PHUSE_US/2023/PAP_SI04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PAP_SI04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SI04.pdf",
+    "bytes": 1105781,
+    "sha256": "e68bbbf627e79e115a3225e70c31864094f1c6151508a387519a199a84681441"
   },
   {
     "title": "Pre-launching CDISC Analysis Results Standards",
@@ -1750,8 +1764,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PRE_DS09.pdf"
     ],
     "filename": "PRE-DS09-68f835fcbb.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_DS09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_DS09.pdf | https://saslexicon.org/PHUSE_US/2023/PRE_DS09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PRE_DS09.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_DS09.pdf",
+    "bytes": 1859608,
+    "sha256": "7cbf22c866fbf96614ddbba2fdf0092401de9ab64b65d4ea0fd0d4342e715557"
   },
   {
     "title": "Prescription Errors - Physicians Challenge!!",
@@ -1763,8 +1779,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PRE_RE01.pdf"
     ],
     "filename": "PRE-RE01-2cb1244cd6.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_RE01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_RE01.pdf | https://saslexicon.org/PHUSE_US/2023/PRE_RE01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PRE_RE01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_RE01.pdf",
+    "bytes": 3237542,
+    "sha256": "651ad8e130863add6a88e6610824e729c0e26ff4de2bdbed5ec9a5045d415926"
   },
   {
     "title": "proc transpose data= Professional out= Leader;",
@@ -1776,8 +1794,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PAP_PD13.pdf"
     ],
     "filename": "PAP-PD13-08d81c0129.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_PD13.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_PD13.pdf | https://saslexicon.org/PHUSE_US/2023/PAP_PD13.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PAP_PD13.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_PD13.pdf",
+    "bytes": 79926,
+    "sha256": "c1c183a7b2a44aa65d0d15e38877cf598f5c417e7b86216524b2abeb4b184428"
   },
   {
     "title": "PYTHON GUI executable tool to generate TOC using RTF files in various formats (RTF, DOCX, PDF with bookmark)",
