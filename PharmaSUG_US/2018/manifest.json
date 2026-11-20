@@ -609,8 +609,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_DS01.pdf"
     ],
     "filename": "PAP-DS01-e2944a8f69.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DS01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DS01.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_DS01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_DS01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DS01.pdf",
+    "bytes": 156189,
+    "sha256": "154ce86cfb1f7ca98c68ba0b8264f0eb0d95256b9c94c5484be79e9704d3d7ef"
   },
   {
     "title": "Confusing Data Validation Rules Explained",
@@ -622,8 +624,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_RG03.pdf"
     ],
     "filename": "PAP-RG03-e5ac2715ca.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_RG03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_RG03.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_RG03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_RG03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_RG03.pdf",
+    "bytes": 101929,
+    "sha256": "37c498f0521d0d7302c9c8925a9a3518fb72a380139ae7fbe9d7140a26a755e9"
   },
   {
     "title": "Controlling the Drawing Space in ODS Graphics by Example",
@@ -635,8 +639,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_CT07.pdf"
     ],
     "filename": "PAP-CT07-087c178bf8.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_CT07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_CT07.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_CT07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_CT07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_CT07.pdf",
+    "bytes": 477785,
+    "sha256": "dfeac7ba9a8af452aefd5554cad3d3de333f6e022a2e24a64b016d0063e16d83"
   },
   {
     "title": "Convert the Clinical SAS datasets from RTF files",
@@ -648,8 +654,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PRE_CT08.pdf"
     ],
     "filename": "PRE-CT08-71206637ac.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PRE_CT08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PRE_CT08.pdf | https://saslexicon.org/PHUSE_US/2018/PRE_CT08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PRE_CT08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PRE_CT08.pdf",
+    "bytes": 4901055,
+    "sha256": "e94b01a8039dc0f65b5389b2d6c9ab996e47f130be61d61df197f84e18e1c5e6"
   },
   {
     "title": "CRF Design for Data Standards",
@@ -661,8 +669,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_DS12.pdf"
     ],
     "filename": "PAP-DS12-4076acf9dd.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DS12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DS12.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_DS12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_DS12.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DS12.pdf",
+    "bytes": 151430,
+    "sha256": "cab0902ba10557a394b62158c70aea4a3699a0dfda3ea6ec3172b19164270ab2"
   },
   {
     "title": "Cross-study Analysis of SDTM Data Using R",
@@ -674,8 +684,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_DH03.pdf"
     ],
     "filename": "PAP-DH03-d95904043c.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DH03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DH03.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_DH03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_DH03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DH03.pdf",
+    "bytes": 551554,
+    "sha256": "0fd2ef1942862a1987f869ab9dfdb944a636fed9d28544cebd04e7367ef4c937"
   },
   {
     "title": "Cue the Word - QC - All You Need to Know!",
@@ -687,8 +699,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_SP08.pdf"
     ],
     "filename": "PAP-SP08-6596dd6581.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_SP08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_SP08.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_SP08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_SP08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_SP08.pdf",
+    "bytes": 318377,
+    "sha256": "b56dcaba70d35dbab77aad9a253ddbed33816c76697d94b78219bcd94b5ac755"
   },
   {
     "title": "Data Science Applications and Scenarios",
@@ -700,8 +714,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_AB14.pdf"
     ],
     "filename": "PAP-AB14-9edced2597.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_AB14.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_AB14.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_AB14.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_AB14.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_AB14.pdf",
+    "bytes": 438539,
+    "sha256": "ba3728f4142b5f68a611d2d73153dcd9bc2c16bb3c1c0ffcca1ff3e58dec73f9"
   },
   {
     "title": "Data Visualization for Data Monitoring Committees for Clinical Trials",
@@ -713,8 +729,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PRE_DV14.pdf"
     ],
     "filename": "PRE-DV14-ac2ad0ced4.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PRE_DV14.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PRE_DV14.pdf | https://saslexicon.org/PHUSE_US/2018/PRE_DV14.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PRE_DV14.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PRE_DV14.pdf",
+    "bytes": 2128330,
+    "sha256": "2b573dc0825979ffcc9c0062d5367e1c02afd05db1cfc3c4fc0707e1a728c8a9"
   },
   {
     "title": "Define-XML Value-level Metadata Coding and Naming Guidance",
@@ -726,8 +744,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_CT17.pdf"
     ],
     "filename": "PAP-CT17-07e8a6b6a6.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_CT17.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_CT17.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_CT17.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_CT17.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_CT17.pdf",
+    "bytes": 174431,
+    "sha256": "e23c2cba902712b69fccb50daed5069f8293bdf2c64ffb8bab038da9a1f53be5"
   },
   {
     "title": "Define.pdf - Just F.O.P. it",
