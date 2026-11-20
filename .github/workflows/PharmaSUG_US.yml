@@ -1,0 +1,480 @@
+name: PharmaSUG_US
+
+on:
+  workflow_dispatch:
+    inputs:
+      years:
+        description: 'Years: all, 2026, 2024-2026, or 2024,2026'
+        required: true
+        type: string
+        default: '2026'
+      max-files:
+        description: 'Maximum missing papers to attempt PER YEAR; 0 = all'
+        required: true
+        type: string
+        default: '2'
+      rights-confirmed:
+        description: 'I have verified permission to download and store these papers in this repository'
+        required: true
+        type: boolean
+
+env:
+  PHARMASUG_SCRIPT: |
+    #!/usr/bin/env python3
+    """Incremental PharmaSUG downloader; Python 3.11+, standard library only."""
+    import argparse
+    import hashlib
+    import json
+    import os
+    import re
+    import sys
+    import time
+    from html.parser import HTMLParser
+    from pathlib import Path
+    from urllib.error import HTTPError, URLError
+    from urllib.parse import unquote, urljoin, urlsplit
+    from urllib.request import Request, urlopen
+    from urllib.robotparser import RobotFileParser
+    
+    INDEX = 'https://saslexicon.org/PharmaSUG/PharmaSUG.html'
+    AGENT = 'IndustryPapersBot/1.0'
+    MIB = 1024 * 1024
+    
+    
+    class TableParser(HTMLParser):
+        """Collect links and table rows without executing page JavaScript."""
+        def __init__(self, html):
+            super().__init__(convert_charrefs=True)
+            self.links, self.rows = [], []
+            self.row = self.cell = self.anchor = None
+            self.feed(html)
+    
+        def handle_starttag(self, tag, attrs):
+            attrs = dict(attrs)
+            if tag == 'tr':
+                self.row = []
+            elif tag in ('td', 'th') and self.row is not None:
+                self.cell = {'text': '', 'links': []}
+            elif tag == 'a':
+                self.anchor = {'href': attrs.get('href', ''), 'text': ''}
+            elif tag == 'br' and self.cell is not None:
+                self.cell['text'] += ' '
+    
+        def handle_data(self, text):
+            if self.cell is not None:
+                self.cell['text'] += text
+            if self.anchor is not None:
+                self.anchor['text'] += text
+    
+        def handle_endtag(self, tag):
+            if tag == 'a' and self.anchor is not None:
+                self.anchor['text'] = ' '.join(self.anchor['text'].split())
+                self.links.append(self.anchor)
+                if self.cell is not None:
+                    self.cell['links'].append(self.anchor)
+                self.anchor = None
+            elif tag in ('td', 'th') and self.cell is not None:
+                self.cell['text'] = ' '.join(self.cell['text'].split())
+                self.row.append(self.cell)
+                self.cell = None
+            elif tag == 'tr' and self.row is not None:
+                self.rows.append(self.row)
+                self.row = None
+    
+    
+    def pdf_url(url):
+        parts = urlsplit(url)
+        return parts.scheme in ('http', 'https') and parts.path.lower().endswith('.pdf')
+    
+    
+    def parse_years(html, base=INDEX):
+        found = {}
+        for link in TableParser(html).links:
+            url = urljoin(base, link['href'])
+            parts = urlsplit(url)
+            match = re.fullmatch(r'/PharmaSUG/(\d{4})/PharmaSUG_\1\.html', parts.path)
+            if match and parts.netloc == urlsplit(base).netloc:
+                found[match[1]] = url
+        if not found:
+            raise ValueError('No annual indexes found; website layout may have changed')
+        return found
+    
+    
+    def select_years(spec, available):
+        if spec.strip().lower() == 'all':
+            return sorted(available, reverse=True)
+        wanted = set()
+        for chunk in spec.split(','):
+            chunk = chunk.strip()
+            if re.fullmatch(r'\d{4}', chunk):
+                wanted.add(chunk)
+            elif re.fullmatch(r'\d{4}-\d{4}', chunk):
+                lo, hi = map(int, chunk.split('-'))
+                if lo > hi or hi - lo > 200:
+                    raise ValueError('Invalid year range')
+                wanted.update(str(x) for x in range(lo, hi + 1))
+            else:
+                raise ValueError('Use all, 2026, 2024-2026, or 2024,2026')
+        missing = wanted - available.keys()
+        if missing:
+            raise ValueError('Years not in the source index: ' + ', '.join(sorted(missing)))
+        return sorted(wanted, reverse=True)
+    
+    
+    def parse_papers(html, page, year):
+        papers, seen = [], set()
+        for cells in TableParser(html).rows:
+            title_index = None
+            for i, cell in enumerate(cells):
+                if any(pdf_url(urljoin(page, a['href'])) for a in cell['links']):
+                    title_index = i
+                    break
+            if title_index is None:
+                continue
+            links = []
+            for i, cell in enumerate(cells):
+                for a in cell['links']:
+                    url = urljoin(page, a['href'])
+                    if pdf_url(url) and url not in [x[0] for x in links]:
+                        links.append((url, a['text'], i))
+            primary = next(x for x in links if x[2] == title_index)
+            identity = primary[0]
+            if identity in seen:
+                continue
+            seen.add(identity)
+            # Prefer explicit original sources over the mirror. Never guess URLs.
+            candidates = [x[0] for x in links if x[0] != identity] + [identity]
+            stem = unquote(Path(urlsplit(identity).path).stem)
+            stem = re.sub(r'[^A-Za-z0-9.-]+', '-', stem).strip('.-')[:110] or 'paper'
+            suffix = hashlib.sha256(identity.encode()).hexdigest()[:12]
+            filename = f'{stem}-{suffix}.pdf'
+            papers.append({
+                'id': identity,
+                'year': int(year),
+                'title': primary[1] or cells[title_index]['text'],
+                'authors': cells[title_index + 1]['text'] if title_index + 1 < len(cells) else '',
+                'index': page,
+                'urls': candidates,
+                'path': f'PharmaSUG_US/{year}/{filename}',
+            })
+        if not papers:
+            raise ValueError(f'No PDF rows found for {year}; refusing an empty manifest')
+        return papers
+    
+    
+    class Client:
+        def __init__(self, delay=1.0):
+            self.delay = delay
+            self.last = 0.0
+            self.robots = {}
+            self.intervals = {}
+    
+        def raw(self, url, interval=None):
+            parts = urlsplit(url)
+            if parts.scheme not in ('https', 'http') or parts.username or parts.password:
+                raise ValueError('Unsupported URL')
+            for attempt in range(3):
+                time.sleep(max(0, (self.delay if interval is None else interval) - (time.monotonic() - self.last)))
+                self.last = time.monotonic()
+                try:
+                    return urlopen(Request(url, headers={
+                        'User-Agent': AGENT,
+                        'Accept-Encoding': 'identity',
+                    }), timeout=45)
+                except HTTPError as exc:
+                    retry = exc.code in (408, 429, 500, 502, 503, 504)
+                    retry_after = exc.headers.get('Retry-After', '')
+                    exc.close()
+                    if not retry or attempt == 2:
+                        raise
+                    # Do not violate a long Retry-After: stop rather than retry early.
+                    if retry_after.isdigit() and int(retry_after) > 120:
+                        raise RuntimeError('Server requested a long pause; rerun later') from exc
+                    time.sleep(max(2 ** (attempt + 1), int(retry_after) if retry_after.isdigit() else 0))
+                except (URLError, TimeoutError, OSError):
+                    if attempt == 2:
+                        raise
+                    time.sleep(2 ** (attempt + 1))
+            raise RuntimeError('Request attempts exhausted')
+    
+        def allowed(self, url):
+            p = urlsplit(url)
+            origin = f'{p.scheme}://{p.netloc}'
+            if origin not in self.robots:
+                robot = RobotFileParser()
+                try:
+                    with self.raw(origin + '/robots.txt') as response:
+                        text = response.read(1024 * 1024).decode('utf-8', 'replace')
+                    if '<html' in text.lower() or '<!doctype' in text.lower():
+                        raise RuntimeError('robots.txt returned HTML; review source policy')
+                    robot.parse(text.splitlines())
+                except HTTPError as exc:
+                    if exc.code not in (404, 410):
+                        raise RuntimeError(f'Cannot verify robots.txt: HTTP {exc.code}') from exc
+                    robot.parse([])
+                self.robots[origin] = robot
+                self.intervals[origin] = max(self.delay, robot.crawl_delay(AGENT) or 0)
+            if not self.robots[origin].can_fetch(AGENT, url):
+                raise RuntimeError('Blocked by robots.txt: ' + url)
+            return self.intervals[origin]
+    
+        def open(self, url):
+            response = self.raw(url, self.allowed(url))
+            try:
+                # urllib has already followed the redirect; check final policy before reading body.
+                if response.geturl() != url:
+                    self.allowed(response.geturl())
+            except Exception:
+                response.close()
+                raise
+            return response
+    
+        def text(self, url):
+            with self.open(url) as response:
+                data = response.read(10 * MIB + 1)
+                if len(data) > 10 * MIB:
+                    raise ValueError('HTML response exceeds 10 MiB')
+                return data.decode(response.headers.get_content_charset() or 'utf-8', 'replace')
+    
+    
+    def file_info(path):
+        if not path.is_file() or path.stat().st_size < 16:
+            raise ValueError('Missing or empty PDF')
+        with path.open('rb') as f:
+            if b'%PDF-' not in f.read(1024):
+                raise ValueError('Response is not a PDF')
+            f.seek(max(0, path.stat().st_size - 8192))
+            if b'%%EOF' not in f.read():
+                raise ValueError('PDF EOF marker missing; possible truncation')
+        sha = hashlib.sha256()
+        with path.open('rb') as f:
+            for block in iter(lambda: f.read(MIB), b''):
+                sha.update(block)
+        return {'bytes': path.stat().st_size, 'sha256': sha.hexdigest()}
+    
+    
+    def download(client, url, path, max_bytes):
+        path.parent.mkdir(parents=True, exist_ok=True)
+        temporary = path.with_suffix('.part')
+        try:
+            with client.open(url) as response, temporary.open('wb') as output:
+                length = response.headers.get('Content-Length')
+                expected = int(length) if length and length.isdigit() else None
+                if expected is not None and expected > max_bytes:
+                    raise ValueError('PDF exceeds the configured size/batch limit')
+                size = 0
+                for block in iter(lambda: response.read(256 * 1024), b''):
+                    size += len(block)
+                    if size > max_bytes:
+                        raise ValueError('PDF exceeds the configured size/batch limit')
+                    output.write(block)
+                if expected is not None and size != expected:
+                    raise ValueError('Content-Length mismatch')
+                resolved = response.geturl()
+            info = file_info(temporary)
+            temporary.replace(path)
+            return {**info, 'downloaded-from': resolved}
+        finally:
+            temporary.unlink(missing_ok=True)
+    
+    
+    def save_json(path, data):
+        path.parent.mkdir(parents=True, exist_ok=True)
+        temp = path.with_suffix('.part')
+        temp.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        temp.replace(path)
+    
+    
+    def sync(args, client):
+        if not re.fullmatch(r'\d{4}', args.year):
+            raise ValueError('Invalid year')
+        # The annual URL pattern is verified against the current main index by the plan job.
+        page = urljoin(INDEX, f'{args.year}/PharmaSUG_{args.year}.html')
+        papers = parse_papers(client.text(page), page, args.year)
+        output = Path(args.root)
+        manifest = output / 'PharmaSUG_US' / args.year / 'catalog.json'
+        old_data = json.loads(manifest.read_text('utf-8')) if manifest.exists() else {}
+        old = {p['id']: p for p in old_data.get('papers', [])}
+        attempted, transferred = 0, 0
+        deadline = time.monotonic() + args.seconds
+        all_records = []
+        for p in papers:
+            previous = old.get(p['id'], {})
+            record = {**p, 'status': 'pending'}
+            path = output / p['path']
+            try:
+                info = file_info(path)
+                if previous.get('sha256') and info['sha256'] != previous['sha256']:
+                    raise ValueError('Stored hash mismatch')
+                record.update(info)
+                record['status'] = 'downloaded'
+                if previous.get('downloaded-from'):
+                    record['downloaded-from'] = previous['downloaded-from']
+            except ValueError:
+                if ((args.max_files and attempted >= args.max_files)
+                        or time.monotonic() >= deadline
+                        or transferred >= args.batch_mib * MIB):
+                    record['reason'] = 'Batch limit reached; rerun to continue'
+                else:
+                    attempted += 1
+                    errors = []
+                    for url in p['urls']:
+                        try:
+                            result = download(client, url, path,
+                                              min(args.max_mib * MIB, args.batch_mib * MIB - transferred))
+                            record.update(result)
+                            record['status'] = 'downloaded'
+                            transferred += result['bytes']
+                            print(f"OK {p['path']}", flush=True)
+                            break
+                        except Exception as exc:
+                            errors.append({'url': url, 'error': str(exc)[:500]})
+                            print(f'Unavailable: {url}: {exc}', flush=True)
+                    if record['status'] != 'downloaded':
+                        record['status'] = 'failed'
+                        record['errors'] = errors
+            all_records.append(record)
+            # Checkpoint after each paper, not only on successful completion.
+            save_json(manifest, {'year': int(args.year), 'source': page, 'papers': all_records})
+        counts = {s: sum(p['status'] == s for p in all_records) for s in ('downloaded', 'failed', 'pending')}
+        summary = '\n'.join([
+            f'## PharmaSUG {args.year}', '',
+            '| Found | Downloaded on disk | Failed | Pending |',
+            '| ---: | ---: | ---: | ---: |',
+            f"| {len(papers)} | {counts['downloaded']} | {counts['failed']} | {counts['pending']} |", '',
+            f'New successful PDF bytes this run: {transferred:,}.',
+            'Pending files require another run. Failed links are recorded in the yearly JSON catalog.',
+            'PDF header, EOF marker, length when supplied, and SHA-256 are checked; this is not full PDF parsing.',
+        ]) + '\n'
+        report = output / 'PharmaSUG_US' / args.year / 'report.md'
+        report.parent.mkdir(parents=True, exist_ok=True)
+        report.write_text(summary, encoding='utf-8')
+        if os.getenv('GITHUB_STEP_SUMMARY'):
+            with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
+                f.write(summary)
+        print(summary)
+        # Intentional smoke-test limits are allowed; unrestricted incomplete runs are not green.
+        return 1 if counts['failed'] or (counts['pending'] and not args.max_files) else 0
+    
+    
+    def main():
+        parser = argparse.ArgumentParser(description=__doc__)
+        sub = parser.add_subparsers(dest='command', required=True)
+        plan = sub.add_parser('plan')
+        plan.add_argument('--years', default='all')
+        run = sub.add_parser('sync')
+        run.add_argument('--year', required=True)
+        run.add_argument('--root', default='.')
+        run.add_argument('--max-files', type=int, default=0)
+        run.add_argument('--max-mib', type=int, default=49)
+        run.add_argument('--batch-mib', type=int, default=250)
+        run.add_argument('--seconds', type=int, default=1800)
+        args = parser.parse_args()
+        client = Client()
+        if args.command == 'plan':
+            years = select_years(args.years, parse_years(client.text(INDEX)))
+            matrix = json.dumps({'year': years}, separators=(',', ':'))
+            print(matrix)
+            if os.getenv('GITHUB_OUTPUT'):
+                with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as f:
+                    f.write('matrix=' + matrix + '\n')
+            return 0
+        if not 0 <= args.max_files <= 10000 or not 1 <= args.max_mib <= 49 or args.batch_mib <= 0 or args.seconds <= 0:
+            parser.error('Invalid limits: max-files 0..10000, max-mib 1..49; other limits must be positive')
+        return sync(args, client)
+    
+    
+    if __name__ == '__main__':
+        try:
+            sys.exit(main())
+        except Exception as exc:
+            print(f'ERROR: {exc}', file=sys.stderr)
+            sys.exit(1)
+
+permissions:
+  contents: read
+
+# Serialize runs AND annual jobs to avoid competing pushes and excess server load.
+concurrency:
+  group: pharmasug-download
+  cancel-in-progress: false
+
+jobs:
+  plan:
+    if: ${{ inputs.rights-confirmed }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - name: Validate inputs and discover annual indexes
+        id: plan
+        env:
+          YEARS: ${{ inputs.years }}
+          MAX_FILES: ${{ inputs.max-files }}
+        run: |
+          python -c 'import os; v=os.environ["MAX_FILES"]; assert v.isascii() and v.isdigit() and 0 <= int(v) <= 10000, "max-files must be 0..10000"'
+          python -B -c 'import os; exec(compile(os.environ["PHARMASUG_SCRIPT"], "pharmasug.py", "exec"))' plan --years "$YEARS"
+
+  download:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 1
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - name: Download missing papers
+        id: fetch
+        continue-on-error: true
+        env:
+          YEAR: ${{ matrix.year }}
+          MAX_FILES: ${{ inputs.max-files }}
+        run: |
+          python -B -c 'import os; exec(compile(os.environ["PHARMASUG_SCRIPT"], "pharmasug.py", "exec"))' sync --year "$YEAR" --max-files "$MAX_FILES"
+      - name: Commit PDFs and download catalog (including partial results)
+        if: ${{ always() && !cancelled() && steps.fetch.outcome != 'skipped' }}
+        env:
+          BRANCH: ${{ github.event.repository.default_branch }}
+          YEAR: ${{ matrix.year }}
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for path in "PharmaSUG_US/$YEAR"; do
+            if [ -e "$path" ]; then git add -- "$path"; fi
+          done
+          if git diff --cached --quiet; then
+            echo 'No changed files to commit.'
+            exit 0
+          fi
+          git commit -m "Sync PharmaSUG $YEAR papers"
+          for attempt in 1 2 3; do
+            git fetch origin "$BRANCH"
+            git rebase "origin/$BRANCH"
+            if git push origin "HEAD:$BRANCH"; then exit 0; fi
+            sleep $((attempt * 5))
+          done
+          echo 'Push failed; inspect branch protection / write permissions.' >&2
+          exit 1
+      - name: Mark incomplete unrestricted runs or failed downloads
+        if: ${{ steps.fetch.outcome == 'failure' }}
+        run: |
+          echo 'Some downloads failed or hit a safety limit. Check logs/catalog and rerun; successful files were committed if the push succeeded.' >&2
+          exit 1
