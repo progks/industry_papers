@@ -2259,8 +2259,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PAP_OS08.pdf"
     ],
     "filename": "PAP-OS08-c4d07bbdf2.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_OS08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_OS08.pdf | https://saslexicon.org/PHUSE_US/2023/PAP_OS08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PAP_OS08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_OS08.pdf",
+    "bytes": 4295223,
+    "sha256": "4adbd4ec252700b45cb9723023be30735705536cd4286191413b16c2c243ea7c"
   },
   {
     "title": "The Functional Service Provider Model: A Comprehensive and Collaborative Solution",
@@ -2272,8 +2274,10 @@
       "https://saslexicon.org/PHUSE_US/2023/POS_PP11.pdf"
     ],
     "filename": "POS-PP11-4d772ae5b4.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP11.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP11.pdf | https://saslexicon.org/PHUSE_US/2023/POS_PP11.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/POS_PP11.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP11.pdf",
+    "bytes": 1284420,
+    "sha256": "bd9e934998b42694792a8e511fac8642f168dca5bce322aeefd2458650890d6d"
   },
   {
     "title": "The PHUSE Real World Evidence Project",
@@ -2285,8 +2289,10 @@
       "https://saslexicon.org/PHUSE_US/2023/POS_PP26.pdf"
     ],
     "filename": "POS-PP26-cf74715111.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP26.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP26.pdf | https://saslexicon.org/PHUSE_US/2023/POS_PP26.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/POS_PP26.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/POS_PP26.pdf",
+    "bytes": 141219,
+    "sha256": "964211f46558b9e24a2567f605e3eddbc17208f2f8ed37c33467eb74a1ded762"
   },
   {
     "title": "The Role of AI in Handling Clinical Data and Documents (Structured and Unstructured)",
@@ -2298,8 +2304,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PAP_ET01.pdf"
     ],
     "filename": "PAP-ET01-8f60b716d5.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_ET01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_ET01.pdf | https://saslexicon.org/PHUSE_US/2023/PAP_ET01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PAP_ET01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_ET01.pdf",
+    "bytes": 441961,
+    "sha256": "df4b8efb801a5efa472d9f102fcfa0294681be5589990648252777a67fec54e2"
   },
   {
     "title": "The Role of AI in the Biometrics and Medical Writing functions",
@@ -2311,8 +2319,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PRE_ET09.pdf"
     ],
     "filename": "PRE-ET09-7e1b13674e.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ET09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ET09.pdf | https://saslexicon.org/PHUSE_US/2023/PRE_ET09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PRE_ET09.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ET09.pdf",
+    "bytes": 1540016,
+    "sha256": "75e323b109bb8fe22ab50e5c3291e5b93c921445257b495e9696accd16a7f4a8"
   },
   {
     "title": "The Role of Open Source for Data Science, Engineering and Programming Teams in the Pharma Industry",
@@ -2324,8 +2334,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PRE_DH09.pdf"
     ],
     "filename": "PRE-DH09-3260d241b8.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_DH09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_DH09.pdf | https://saslexicon.org/PHUSE_US/2023/PRE_DH09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PRE_DH09.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_DH09.pdf",
+    "bytes": 419961,
+    "sha256": "3c0cb705dadbfee67a7153d58d9023fb7379988f55bb37c68f390c82656060e7"
   },
   {
     "title": "The Rule of Three: Applications in Leadership, Communication, and Strategy",
@@ -2337,8 +2349,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PRE_PD04.pdf"
     ],
     "filename": "PRE-PD04-e69a297a78.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_PD04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_PD04.pdf | https://saslexicon.org/PHUSE_US/2023/PRE_PD04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PRE_PD04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_PD04.pdf",
+    "bytes": 1006299,
+    "sha256": "6684587b9f63c5e1ef39f4a775d7481985010e7e246975cbc78ad2d96156d010"
   },
   {
     "title": "The Thick and Thin of Adopting Risk-Based Approach to Data Management",
@@ -2350,8 +2364,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PRE_RM05.pdf"
     ],
     "filename": "PRE-RM05-6aabb01b95.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_RM05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_RM05.pdf | https://saslexicon.org/PHUSE_US/2023/PRE_RM05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PRE_RM05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_RM05.pdf",
+    "bytes": 1292528,
+    "sha256": "de35b08a9046de7169c8f2d2d5c6c0d2ccd7485ca3d3429b2b98d4e6fca69779"
   },
   {
     "title": "The Ultimate Update to ADaM Specification Template that Simplifies ADaM Programming and Creation of Define XML",
@@ -2363,8 +2379,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PRE_SI02.pdf"
     ],
     "filename": "PRE-SI02-f1c443af05.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_SI02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_SI02.pdf | https://saslexicon.org/PHUSE_US/2023/PRE_SI02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PRE_SI02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_SI02.pdf",
+    "bytes": 997633,
+    "sha256": "e9d2432cd6819b09bbba06b00006bbd1d849c38b3db6676067e2b68956c556b2"
   },
   {
     "title": "Tidytlg: An R Package for Clinical Reporting Using Tidyverse",
@@ -2376,8 +2394,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PAP_OS02.pdf"
     ],
     "filename": "PAP-OS02-a03be78668.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_OS02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_OS02.pdf | https://saslexicon.org/PHUSE_US/2023/PAP_OS02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PAP_OS02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_OS02.pdf",
+    "bytes": 516661,
+    "sha256": "e252cbe80c258febf76134f0e5485bfc08208e7b92b141a12709c951170479e5"
   },
   {
     "title": "Trials Are Out - Pools Are In",
