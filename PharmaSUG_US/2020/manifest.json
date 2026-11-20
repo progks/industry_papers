@@ -2559,8 +2559,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_DS10.pdf"
     ],
     "filename": "PAP-DS10-1760e20d47.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DS10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DS10.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_DS10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_DS10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DS10.pdf",
+    "bytes": 707459,
+    "sha256": "db21b273dd06329391808d4e6bacdf5b685b923213671325907a447bd31e3fc8"
   },
   {
     "title": "Update on the PHUSE Standard Analyses & Code Sharing Working Group",
@@ -2572,8 +2574,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_PP18.pdf"
     ],
     "filename": "PAP-PP18-d6d6fdd08c.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP18.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP18.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_PP18.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_PP18.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP18.pdf",
+    "bytes": 1237508,
+    "sha256": "2aa296e0bc0648f383037e9828ec4f1ac128adc32959086ec6d441a880fb8ce7"
   },
   {
     "title": "Using Graph Technology for Metadata-driven Clinical Development",
@@ -2585,8 +2589,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_TT01.pdf"
     ],
     "filename": "PAP-TT01-8485c5d4db.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT01.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_TT01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_TT01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT01.pdf",
+    "bytes": 839814,
+    "sha256": "5ba92db8c4834f4077064154a7b5fb006dcb4355461f24b6e13ca08d033f8db7"
   },
   {
     "title": "Using Machine Learning for Automated Monitoring of Social Media for Pharmacovigilance",
@@ -2598,8 +2604,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_AS08.pdf"
     ],
     "filename": "PAP-AS08-c121ba47cd.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_AS08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_AS08.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_AS08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_AS08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_AS08.pdf",
+    "bytes": 337097,
+    "sha256": "0d199f98f372d29e324590c070e076e77e2698f31bbd177bbc75d002d19884cd"
   },
   {
     "title": "Using RWD in the Form of EHR Data to Predict Adverse Events and Outcomes",
@@ -2611,8 +2619,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_AS10.pdf"
     ],
     "filename": "PAP-AS10-12f047d9bd.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_AS10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_AS10.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_AS10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_AS10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_AS10.pdf",
+    "bytes": 521592,
+    "sha256": "c3569d1bc10156fab0eafa97b70c396bf14e45cf3f7373650f674f234e4a2445"
   },
   {
     "title": "Using Sankey Diagrams to Analyze Drug Pipelines",
@@ -2624,8 +2634,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PRE_DV03.pdf"
     ],
     "filename": "PRE-DV03-97ac87bd89.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PRE_DV03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PRE_DV03.pdf | https://saslexicon.org/PHUSE_US/2020/PRE_DV03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PRE_DV03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PRE_DV03.pdf",
+    "bytes": 2267466,
+    "sha256": "8676c6040a17447f33aa94a6417e4547952115bccbf0d3047d73af4662f52367"
   },
   {
     "title": "Using Standardization and Automation to Streamline Generation of SDTM/ADaM Codelists",
@@ -2637,8 +2649,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_DS12.pdf"
     ],
     "filename": "PAP-DS12-3247e08610.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DS12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DS12.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_DS12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_DS12.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DS12.pdf",
+    "bytes": 976181,
+    "sha256": "a8c1bfd9f53d71a3c350cb6592a4eb814b61b544dfbac26632413a82eb95283a"
   },
   {
     "title": "Validation Consistency and Conformance Checking of SEND Datasets",
@@ -2650,8 +2664,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_DH12.pdf"
     ],
     "filename": "PAP-DH12-7cef6f6184.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DH12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DH12.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_DH12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_DH12.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DH12.pdf",
+    "bytes": 488495,
+    "sha256": "b89bc922ab2d576426599fdc8904125518d5b9761efe2e1bbc7bb9e2c6b3218f"
   },
   {
     "title": "Virtual Assistant for Conversational Experience with Clinical Data",
@@ -2663,8 +2679,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_ML03.pdf"
     ],
     "filename": "PAP-ML03-9fce1de3d2.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_ML03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_ML03.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_ML03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_ML03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_ML03.pdf",
+    "bytes": 288019,
+    "sha256": "5c104c21f6cc3c34158e7a81e46523a6a8ad3a7310fbde34c76514a66cd6dff7"
   },
   {
     "title": "Visualizing clinical operational metrics to enable decision-making and accountability",
@@ -2676,8 +2694,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_DV01.pdf"
     ],
     "filename": "PAP-DV01-27539e6af8.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DV01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DV01.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_DV01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_DV01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DV01.pdf",
+    "bytes": 946248,
+    "sha256": "389270580ce32ede355b40251e808f01fd06184a58efc897452c093ecc23966d"
   },
   {
     "title": "Visualizing Clinical Trial Design and Results in 20 Graphical Displays - Achieving 20-20 in 2020",
