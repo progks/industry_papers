@@ -1659,8 +1659,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_DH14.pdf"
     ],
     "filename": "PAP-DH14-549679478f.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DH14.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DH14.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_DH14.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_DH14.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DH14.pdf",
+    "bytes": 367073,
+    "sha256": "2327cfd34fedacbfedca4fa5d0593beaceb591fdcc50cb849b70bc50751be42a"
   },
   {
     "title": "Lab Master List File Makes Easy",
@@ -1672,8 +1674,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_SI09.pdf"
     ],
     "filename": "PAP-SI09-ff5f0be061.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SI09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SI09.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_SI09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_SI09.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SI09.pdf",
+    "bytes": 768291,
+    "sha256": "a521ff03bba97f3832c8005016f87a6b8b6e4b3084ab9724a3b20daed7350719"
   },
   {
     "title": "Let Us Trace Back to the Beginning from the End",
@@ -1685,8 +1689,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_DS01.pdf"
     ],
     "filename": "PAP-DS01-4be258ce60.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DS01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DS01.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_DS01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_DS01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_DS01.pdf",
+    "bytes": 729968,
+    "sha256": "81d689225f52544a9312d12dddbda9a0450eda3199d547c6065b4974edebc6b2"
   },
   {
     "title": "Let your SDTM or ADaM SAS code update itself whenever the Specs change",
@@ -1698,8 +1704,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_CT04.pdf"
     ],
     "filename": "PAP-CT04-b4e81358c5.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CT04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CT04.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_CT04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_CT04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CT04.pdf",
+    "bytes": 312244,
+    "sha256": "8814c6924cad2574d4ab902e9d8b594957aebe7da2b0cf59a6e3db02da4eb7ce"
   },
   {
     "title": "Leveraging Metadata for SDTM QC Automation",
@@ -1711,8 +1719,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_CT03.pdf"
     ],
     "filename": "PAP-CT03-5277093bde.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CT03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CT03.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_CT03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_CT03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CT03.pdf",
+    "bytes": 569516,
+    "sha256": "4df16ae3c1819bfecc152b7101f86c3f59f7b8d9d87ce5d5c132fda59e8a2601"
   },
   {
     "title": "Leveraging Python to Generate Define-XML v2.0",
@@ -1724,8 +1734,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_TT17.pdf"
     ],
     "filename": "PAP-TT17-93b6a29dd3.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT17.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT17.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_TT17.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_TT17.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT17.pdf",
+    "bytes": 258295,
+    "sha256": "8f8b3bd0352df2e9b98f61645e1ac361aa325adb9029184f72549cbb43a7bb34"
   },
   {
     "title": "Life Science's Process and Artifact Generation Automation",
@@ -1737,8 +1749,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_SD14.pdf"
     ],
     "filename": "PAP-SD14-6d1b326a4f.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SD14.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SD14.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_SD14.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_SD14.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_SD14.pdf",
+    "bytes": 154261,
+    "sha256": "331b4698d504a603149749236e5bd190f2ec119b416bbc69413b420fae72618d"
   },
   {
     "title": "LOCF Programming with 6-step Index Mapping",
@@ -1750,8 +1764,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_CT10.pdf"
     ],
     "filename": "PAP-CT10-ded0fff52b.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CT10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CT10.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_CT10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_CT10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_CT10.pdf",
+    "bytes": 426663,
+    "sha256": "f3b79c7d4d77640c00712fd1ef9b17ff3edc1cca9a63773ab62eb2a7a3c7343e"
   },
   {
     "title": "Machine Learning for CDISC Specification Recommendations",
@@ -1763,8 +1779,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_ML09.pdf"
     ],
     "filename": "PAP-ML09-2df6924db3.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_ML09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_ML09.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_ML09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_ML09.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_ML09.pdf",
+    "bytes": 182363,
+    "sha256": "77cb9273d1ad5323859db24c49b9e77265cf37822ee6649d66d91f51f38b5654"
   },
   {
     "title": "Machine Learning-AI is the Future - What Now?",
@@ -1776,8 +1794,10 @@
       "https://saslexicon.org/PHUSE_US/2020/PAP_PP20.pdf"
     ],
     "filename": "PAP-PP20-e5cc274157.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP20.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP20.pdf | https://saslexicon.org/PHUSE_US/2020/PAP_PP20.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2020/PAP_PP20.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_PP20.pdf",
+    "bytes": 637146,
+    "sha256": "fe73d3317d5b6346fcd8eafadedfc35e7611a199d9bb40335d7d7a74576075b1"
   },
   {
     "title": "MACRO TRIO IN SAS - DATASET COMPARISON AND REPORTING",
