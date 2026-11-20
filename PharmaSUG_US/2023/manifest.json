@@ -2709,8 +2709,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PRE_OS11.pdf"
     ],
     "filename": "PRE-OS11-20dd3b32a2.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_OS11.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_OS11.pdf | https://saslexicon.org/PHUSE_US/2023/PRE_OS11.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PRE_OS11.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_OS11.pdf",
+    "bytes": 277363,
+    "sha256": "f7336ce2a7811a5546c1e88eb9a9390affe67c4c0bb1f2559f4a2dd464e3fbc9"
   },
   {
     "title": "Working Together: The Evolving Relationship of Biostatistics & Regulatory for Support of Study Data Standardization Plans and BIMO Reviewer's Guides",
@@ -2722,7 +2724,9 @@
       "https://saslexicon.org/PHUSE_US/2023/PAP_SA03.pdf"
     ],
     "filename": "PAP-SA03-a34e786110.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SA03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SA03.pdf | https://saslexicon.org/PHUSE_US/2023/PAP_SA03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PAP_SA03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SA03.pdf",
+    "bytes": 163376,
+    "sha256": "d250eeb69598a824b6184f6f680182de63455612f3168e46f9170dba560d1509"
   }
 ]
