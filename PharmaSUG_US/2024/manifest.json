@@ -759,8 +759,10 @@
       "https://saslexicon.org/PHUSE_US/2024/PAP_AS08.pdf"
     ],
     "filename": "PAP-AS08-b047df9728.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_AS08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_AS08.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_AS08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_AS08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_AS08.pdf",
+    "bytes": 688809,
+    "sha256": "d46b05ddbaf203cfc171a69df5c568b6e07c870552985b74e2e13b696def03de"
   },
   {
     "title": "Data Handling through CDISC Standards in Master Protocols: A Focus on Rescreened and Re-Enrolled Subjects",
@@ -772,8 +774,10 @@
       "https://saslexicon.org/PHUSE_US/2024/PAP_DH04.pdf"
     ],
     "filename": "PAP-DH04-0cc9f1bd5a.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_DH04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_DH04.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_DH04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_DH04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_DH04.pdf",
+    "bytes": 1506492,
+    "sha256": "27f67a15234fecc38e09950bd861d0e477837f14ce64eaab222619afb140ca06"
   },
   {
     "title": "Data Handling with SAS Access Engine to Handle all your Data Engineering Needs",
@@ -785,8 +789,10 @@
       "https://saslexicon.org/PHUSE_US/2024/PRE_DH12.pdf"
     ],
     "filename": "PRE-DH12-d13740f24d.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PRE_DH12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PRE_DH12.pdf | https://saslexicon.org/PHUSE_US/2024/PRE_DH12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PRE_DH12.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PRE_DH12.pdf",
+    "bytes": 2130440,
+    "sha256": "25a22baeed3be68e51b70685d9f6e73e3635159a517d87b3b969f060600cd274"
   },
   {
     "title": "Data Pipeline - Improving Cycle Time and Shifting Data Closer to Analytics",
@@ -798,8 +804,10 @@
       "https://saslexicon.org/PHUSE_US/2024/PAP_DH13.pdf"
     ],
     "filename": "PAP-DH13-bef0c76fb6.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_DH13.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_DH13.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_DH13.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_DH13.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_DH13.pdf",
+    "bytes": 645597,
+    "sha256": "a1df4d6216644f30a6b055a77798884aade7bce69bec54336849b7e6cb5ee792"
   },
   {
     "title": "Data Quality Evaluation of EHR FHIR API Real-World Data for FDA and Pharmaceutical Industry Use for Analysis and AI Implementation",
@@ -811,8 +819,10 @@
       "https://saslexicon.org/PHUSE_US/2024/PAP_IC12.pdf"
     ],
     "filename": "PAP-IC12-dcee7ea25e.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_IC12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_IC12.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_IC12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_IC12.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_IC12.pdf",
+    "bytes": 884376,
+    "sha256": "efe104c4788967b0a3a0aa5db93c9c0fff3fec1771f9ba16ba1116350b9908d2"
   },
   {
     "title": "Demystifying Submissions to NMPA China",
@@ -824,8 +834,10 @@
       "https://saslexicon.org/PHUSE_US/2024/PRE_SA03.pdf"
     ],
     "filename": "PRE-SA03-0b47655fa9.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PRE_SA03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PRE_SA03.pdf | https://saslexicon.org/PHUSE_US/2024/PRE_SA03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PRE_SA03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PRE_SA03.pdf",
+    "bytes": 2340735,
+    "sha256": "ac3de373c677b5d169b3dad20be0cc2917442ba55ab414b88aba8f44d201ae20"
   },
   {
     "title": "Developing Leadership, Fostering Collaboration and Building Perspective Through External Communities",
@@ -837,8 +849,10 @@
       "https://saslexicon.org/PHUSE_US/2024/PAP_PD02.pdf"
     ],
     "filename": "PAP-PD02-f8dc63325a.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_PD02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_PD02.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_PD02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_PD02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_PD02.pdf",
+    "bytes": 126838,
+    "sha256": "8ebff25f46997dfac0397a51095badbce66a0e741e37588d640139d849307342"
   },
   {
     "title": "Digital Protocol Vision ... How Digital Information Can Transform and Automate Our Processes",
@@ -850,8 +864,10 @@
       "https://saslexicon.org/PHUSE_US/2024/PRE_DS03.pdf"
     ],
     "filename": "PRE-DS03-0fdd27d746.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PRE_DS03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PRE_DS03.pdf | https://saslexicon.org/PHUSE_US/2024/PRE_DS03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PRE_DS03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PRE_DS03.pdf",
+    "bytes": 12225745,
+    "sha256": "8fe0f51c5d57151df6037ee953d05de3e7ddfaf1d540ff974cc73609dcace03b"
   },
   {
     "title": "Digitisation of Specifications - Brave New World for Analysis Definitions",
@@ -863,8 +879,10 @@
       "https://saslexicon.org/PHUSE_US/2024/PAP_SI05.pdf"
     ],
     "filename": "PAP-SI05-85b10eff78.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_SI05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_SI05.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_SI05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_SI05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_SI05.pdf",
+    "bytes": 98454,
+    "sha256": "97f4190133b4da88030b1346ea57d52d1a372c07cba632e847e1d8b6e922729a"
   },
   {
     "title": "Does One Size Fit All?",
@@ -876,8 +894,10 @@
       "https://saslexicon.org/PHUSE_US/2024/PAP_PP11.pdf"
     ],
     "filename": "PAP-PP11-9dd08d695b.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_PP11.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_PP11.pdf | https://saslexicon.org/PHUSE_US/2024/PAP_PP11.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2024/PAP_PP11.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/US/Bethesda/PAP_PP11.pdf",
+    "bytes": 877063,
+    "sha256": "a7289d3e29d707bba781d3f3e5b3b6bc5313b59e7513b300e46b33b5c399d2ee"
   },
   {
     "title": "Dynamic CDISC Analysis Results Data with the R Package {cards}",
