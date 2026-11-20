@@ -3159,8 +3159,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_DH05.pdf"
     ],
     "filename": "PAP-DH05-700cd16dcf.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DH05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DH05.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_DH05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_DH05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DH05.pdf",
+    "bytes": 86057,
+    "sha256": "7112620ab4cb17467b5bbf20ff49410fb1590a0a42e15b9add01eb77107a575a"
   },
   {
     "title": "Real-World Evidence Pavilion: Interactive Workshop: Bridging Estimands & Target Trial Emulation",
@@ -3172,8 +3174,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PRE_RWEPAV01.pdf"
     ],
     "filename": "PRE-RWEPAV01-275c958c34.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_RWEPAV01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_RWEPAV01.pdf | https://saslexicon.org/PHUSE_US/2026/PRE_RWEPAV01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PRE_RWEPAV01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_RWEPAV01.pdf",
+    "bytes": 970863,
+    "sha256": "e64f2b2d2c99983c38c8891e893b59e2be42380fc93254b017cc71013ab4476a"
   },
   {
     "title": "Real-World Evidence Pavilion: Interactive Workshop: Bridging Estimands & Target Trial Emulation",
@@ -3185,8 +3189,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PRE_RWEPAV02.pdf"
     ],
     "filename": "PRE-RWEPAV02-f591981155.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_RWEPAV02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_RWEPAV02.pdf | https://saslexicon.org/PHUSE_US/2026/PRE_RWEPAV02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PRE_RWEPAV02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_RWEPAV02.pdf",
+    "bytes": 203003,
+    "sha256": "c0f3ad7b5f58202ea0544b9e701da6e0d2027d7e70ca080a09b315330f15895b"
   },
   {
     "title": "Real-World Evidence Pavilion: Interactive Workshop: Bridging Estimands & Target Trial Emulation",
@@ -3198,8 +3204,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PRE_RWEPAV03.pdf"
     ],
     "filename": "PRE-RWEPAV03-599fbdb002.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_RWEPAV03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_RWEPAV03.pdf | https://saslexicon.org/PHUSE_US/2026/PRE_RWEPAV03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PRE_RWEPAV03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_RWEPAV03.pdf",
+    "bytes": 558813,
+    "sha256": "22b12369f0eec0d22835531056d106a5707a9a42f12c7b98354b643ab7dc175e"
   },
   {
     "title": "Redefining Quality: Transforming Internal Reviews into Team Development Tools",
@@ -3211,8 +3219,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_PD15.pdf"
     ],
     "filename": "PAP-PD15-1544ad3a01.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PD15.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PD15.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_PD15.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_PD15.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PD15.pdf",
+    "bytes": 318614,
+    "sha256": "3f4cdff96700e58ae3d88d64f2e7690484b0eff1b9e059b55ceed315bf5e9787"
   },
   {
     "title": "Reduce, Reuse, R Shiny: A Framework for Building Generalised and Extensible R Shiny Applications",
@@ -3224,8 +3234,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_DV01.pdf"
     ],
     "filename": "PAP-DV01-7ef82528ec.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DV01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DV01.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_DV01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_DV01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DV01.pdf",
+    "bytes": 232548,
+    "sha256": "146c89ce98bf2f13908f797c82f1002d0a587b21a716b4449ac0da1137b376fb"
   },
   {
     "title": "Regul-ASIAN Uncovered Navigating Reporting Requirements in Asian Markets",
@@ -3237,8 +3249,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PRE_DT08.pdf"
     ],
     "filename": "PRE-DT08-84bd9f9290.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_DT08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_DT08.pdf | https://saslexicon.org/PHUSE_US/2026/PRE_DT08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PRE_DT08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_DT08.pdf",
+    "bytes": 3805823,
+    "sha256": "c3efa27a3c987bb99a0e693b3db3f9ed463cff340f2087851f3f29ef3fa7565d"
   },
   {
     "title": "Reimagining SDTM Mapping with Agentic AI and Automation",
@@ -3250,8 +3264,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_DH06.pdf"
     ],
     "filename": "PAP-DH06-f86728e9a1.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DH06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DH06.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_DH06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_DH06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DH06.pdf",
+    "bytes": 158148,
+    "sha256": "8142f08936fe090fcba8d5f82c43f951918e1a62cd2546529f8b7dde2c958900"
   },
   {
     "title": "Reproducible RWE at Scale: From Fragmented Data to Regulatory-Ready Insights",
@@ -3263,8 +3279,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_SD08.pdf"
     ],
     "filename": "PAP-SD08-d6422213f0.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SD08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SD08.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_SD08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_SD08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SD08.pdf",
+    "bytes": 129342,
+    "sha256": "adb0b7de47e2195de17723930c272c861d8c4ab1b4bccea62c3fb7d898475767"
   },
   {
     "title": "Reproducible Validation Framework for R & Python in GxP",
@@ -3276,8 +3294,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_OS19.pdf"
     ],
     "filename": "PAP-OS19-cb6e911992.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS19.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS19.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_OS19.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_OS19.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS19.pdf",
+    "bytes": 379184,
+    "sha256": "d3cd352ca68634b9742e672c1e80fab8074a4bf1a9c1d8481469d9f95ab8d043"
   },
   {
     "title": "Rethinking Data Quality - From Fragmented Checks to Connected Insights",
