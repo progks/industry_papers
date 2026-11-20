@@ -1,0 +1,1208 @@
+[
+  {
+    "title": "\"Bertha.sas\" - User Friendly Ways to get Traceability",
+    "authors": "Elena Glathe",
+    "abstract": "",
+    "keywords": "raw data , macro variable , standard deviation , csr , dataset , randomization , data cleaning",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_RG05.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_RG05.pdf"
+    ],
+    "filename": "PAP-RG05-d32d41d0cf.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_RG05.pdf",
+    "status": "ok",
+    "bytes": 3686322,
+    "sha256": "698ebdec98b37dcbc03f910e3e6791acf98006c3678b52338193d1d60caff96a"
+  },
+  {
+    "title": "A Long Way Down from an Output-Window to the Bottom of PDF - Some Shortcuts",
+    "authors": "Karl-Ernst Siegler",
+    "abstract": "This presentation describes the introduction of tables, listings and figures generated as pdf-files with the SAS output delivery system ( ODS ) in a CRO (contract research organization) environment. CRS Clinical Research Services GmbH is a full service CRO located in Germany. Approx. 50 trials per year are processed in the department \"Clinical Data Management\" - most of them Phase I studies. This requires strong standardization of planning and programming processes. The previous CRS standard for tables, listings and figures was to use the content of a SAS output window with subsequent modifications by word-processing macros. With growing demands on documentation, traceability and with the electronic common technical document (eCTD) requirements, it was inevitable to abandon this process. In 2010 it was decided to deliver pdf-files instead of word documents",
+    "keywords": "output delivery system , proc report , sas output , proc template , proc step , clinical trial , proc gplot , sas programming , proc print , ods pdf",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_TS07.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_TS07.pdf"
+    ],
+    "filename": "PAP-TS07-44007b61ed.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_TS07.pdf",
+    "status": "ok",
+    "bytes": 261666,
+    "sha256": "2cd606eb4692db6dbb2e2175c9eb10efe4b9467d40c11e06e475984c8f48b36c"
+  },
+  {
+    "title": "A Macro to Replace PROC PEPORT!?",
+    "authors": "Katja Glass",
+    "abstract": "",
+    "keywords": "proc report , proc step , data cleaning , sas output",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_TS03.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_TS03.pdf"
+    ],
+    "filename": "PAP-TS03-d3b802171a.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_TS03.pdf",
+    "status": "ok",
+    "bytes": 151339,
+    "sha256": "26ed0ada9a37e391378032d2b58b600d2bdde63245528d6d16efd35b3bfa1c2f"
+  },
+  {
+    "title": "A Peak at PK - An Introduction to Pharmacokinetics",
+    "authors": "Hannah Twittchet , Paul Grimsey",
+    "abstract": "The aim of this paper is to give a high level introduction into pharmacokinetic (PK) data and analysis for programmers new to PK, or who require a refresher. Key theoretical concepts will be covered, such as: ADME (Absorption, Distribution, Metabolism and Elimination), derived PK p arameters (including AUC (Area Under the Curve), Cmax (Maximum Concentration observed), Tmax (Time of Maximum concentration observed) and tÂ½ (half-life)) and Steady state. The data flow from CRF to TFLs (tables, figures and listings) will also be covered. We shall also briefly discuss the use of PK in the drug development process including types of Clinical studies (e.g. SAD/MAD, Bioavailability, Mass Balance, Food Effect, Drug Drug Interaction (DDI) studies) and how this relates to the PK of the drug",
+    "keywords": "pk parameter , sample , phase i , data science , clinical trial , cmax",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_IS05.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_IS05.pdf"
+    ],
+    "filename": "PAP-IS05-afe1bb5b5b.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_IS05.pdf",
+    "status": "ok",
+    "bytes": 449141,
+    "sha256": "9ae5c757b7de1efa042b08b60cba5f2bb3c7d3b750b3fd6fbed80bdc1d41a533"
+  },
+  {
+    "title": "A Simple Interface for Meta-Data",
+    "authors": "Magnus Mengelbier",
+    "abstract": "Presentation",
+    "keywords": "baseline characteristics , proc step , proc contents , standard deviation , dataset , excel , clinical programming",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PRE_TS02.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PRE_TS02.pdf"
+    ],
+    "filename": "PRE-TS02-4c2f3f9a30.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PRE_TS02.pdf",
+    "status": "ok",
+    "bytes": 529582,
+    "sha256": "24108783d739fd02d905eca2b4a1890599f459244fd9d73540d0e0ea93458eb0"
+  },
+  {
+    "title": "A Supplement to the SAS Survival Guide - Nonparametric Regression",
+    "authors": "Karl-Ernst Siegler",
+    "abstract": "Along with the well-known Cox-model in the area of survival analysis there is an interesting alternative: The Additive Hazards Regression model, which is sometimes referred to as Aalen's Linear Regression model (or simply Aalen- model). In contrast to the semi-parametric Cox-model, the Aalen-model is nonparametric. The concept permits an assessment of time dependency in covariate effects with regression functions and corresponding graphics. Those graphics are denoted as Aalen-plots. Beyond, the model allows the inclusion of time-varying covariates. The basic principles of this model will be presented throughout this paper, including estimates, confidence intervals and test statistics. Based on the statistical theory of counting processes and martingales the calculations turn out to be reasonable simple. Programming was done with SAS software, incorporating SAS/GRAPH and SAS/IML . The model is applied to data from EVITA-HF (Evidence Based Treatment - Heart Failure) survey",
+    "keywords": "regression analysis , confidence interval , hazard function , clinical trial , survival analysis , probability functions , data science , proc step , censoring , log-rank test , rank test , right censoring , time-dependent covariate , proc phreg",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_SP01.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_SP01.pdf"
+    ],
+    "filename": "PAP-SP01-0b3823c411.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_SP01.pdf",
+    "status": "ok",
+    "bytes": 363990,
+    "sha256": "50428bbbf73bff3d4ea3eda6d6d85b5bf72dce23489ce77d1f49aba09fbdcb8c"
+  },
+  {
+    "title": "A Tool to Catalogue Statistical Outputs Developed for Submission by Linking Two in-house systems",
+    "authors": "Katja Diezel",
+    "abstract": "During the submission to health aut horities an important quantity of tables, listings, figures and reports were produced. As the project grew the team felt the need for a user -friendly repository for such outputs. Joining information from two in -house systems using SAS, a simple tool was cr eated to allow for the referencing of these outputs and any relevant information, thus increasing the speed, productivity and quality of outputs produced by the programming group",
+    "keywords": "excel , data science",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP11.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_PP11.pdf"
+    ],
+    "filename": "PAP-PP11-bc4e2afae0.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP11.pdf",
+    "status": "ok",
+    "bytes": 250454,
+    "sha256": "27c9e8f7c7e8561a94658c994255a3aff63191471a6ce93514db99c92b9a79f8"
+  },
+  {
+    "title": "ADaM in a Pool! A Concept on how to Create Integrated ADaM Datasets",
+    "authors": "Alexandru Cuza",
+    "abstract": "Poster",
+    "keywords": "adam dataset",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/POS_PP06.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/POS_PP06.pdf"
+    ],
+    "filename": "POS-PP06-db8bbae336.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/POS_PP06.pdf",
+    "status": "ok",
+    "bytes": 5039696,
+    "sha256": "4f63f1892b9ed33996333239b426b59edb9c7381f58114922c0e238fea17c64f"
+  },
+  {
+    "title": "ADaM Or SDTM? A Comparision of Pooling Strategies for Integrated Analyses in the Age of CDISC",
+    "authors": "Joerg Guettner , Alexandru Cuza",
+    "abstract": "With the two CDISC Standards, Study Data Tabulation Mo del (SDTM) and Analysis Data Model (ADaM), there are basically two different pooling strategies of single study data possible for an integrated analysis. The first one is to pool the SDTM data sets and to derive the analysis data sets from the pooled SDTMs. The second one is to pool the single study analysis data sets and make all needed deri vations for the integrated analysis during the pooling process. This paper compares the two approaches on the bas is of actual experiences with submissions in two companies following the two different strategies. As most companies are in a transition phase at the moment from legacy, i.e. non-CDISC standards, to CDISC standards, th ese submissions contain also single studies based on legacy standards",
+    "keywords": "adam dataset , controlled terminology , data governance , phase i , data cleaning , data science , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_CD01.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_CD01.pdf"
+    ],
+    "filename": "PAP-CD01-5c7dd76199.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_CD01.pdf",
+    "status": "ok",
+    "bytes": 600010,
+    "sha256": "cb01a13d48751e0775a2726a5d069b53d2a2af699f2dc34a23e339d61b1db9a1"
+  },
+  {
+    "title": "An Introduction to SDTM, 298 Pages in 20 Minutes?",
+    "authors": "Jennie McGuirk",
+    "abstract": "The Study Data Tabulation Model (SDTM) and its Implementation Guide are very detailed documents, holding vast amounts of information and prDFWLFDOH[DPSOHV7KHVHFDQVHHPDGDXQWLQJVHWRIGRFXPHQWÂ¶VWRQHZFRPHUVWRWKH LQGXVWU\\SDUWLFXODUO\\LIWUDLQLQJFRQVLVWVRIWKHÂµUHDGLWDQGJHWVWDUWHGÂ¶DSSURDFK7KLVSDSHUZLOODWWHPSWWRLQWURGXFH the Study Data Tabulation Model, by summarizing the guidelines, providing some real life examples, and also some tips on how to confirm the compliance and validity of your mappings by using tools such as OpenCDISC",
+    "keywords": "sdtmig , raw data , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_IS04.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_IS04.pdf"
+    ],
+    "filename": "PAP-IS04-4d248f9179.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_IS04.pdf",
+    "status": "ok",
+    "bytes": 1020468,
+    "sha256": "01e4920f26d5e066c2fd9f515f71de16f0ed8ea89080adc8328c453fd474dee7"
+  },
+  {
+    "title": "Approaches to Creating ADaM Subject-Level Analysis Datasets (ADSL) for Integrated Analyses",
+    "authors": "Thomas Clinch , Nate Friemark",
+    "abstract": "When it comes to integration the SDTM Model and IG do not give very much guidance. There is much discussion about the need for ISS/ISE level SDTM datasets and how to create those versus not needing integrated SDTM. The SDS and ADaM team have a subteam that are working to address this topic, but the work is still in early development. From an ADaM perspective there is generally a requirement for integrated analysis datasets. There are many ADaM variables that have to be modified or added to allow for integrated analyses. Whether these datasets can or should be created on a project level and just stacked together for ISS/ISE analysis or if there is a need for the creation of integrated datasets depends on the nature of the variable updates and requirements. ADSL can present a unique set of challenges",
+    "keywords": "adam dataset , raw data , subgroup analysis , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_CD08.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_CD08.pdf"
+    ],
+    "filename": "PAP-CD08-4d24d9f127.pdf"
+  },
+  {
+    "title": "Are We Really So Busy?",
+    "authors": "James Gallagher",
+    "abstract": "The idea behind this paper is driven out of an experience during the first hour, one day in the office. The first five acquaintances were asked 'How are you?' Each and every one responded with the word 'busy'. Given the large number of potential responses this felt more than a coin cidence. This paper explores a number of queries based on the initial realization described above. Are people really busy or has it become a habit to say it? Along with this, is there a tipping point or psychological phenomen on whereby, when said by enough people, it becomes highly 'contagious' and we all become inadvertently pre-programmed to say it? Does this then create a culture of busyness? Does it actually matter? If so, can we try a nd change this habit or culture by not giving what appears to be in many circumstances a default response?",
+    "keywords": "macro loop , correlation",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PD07.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_PD07.pdf"
+    ],
+    "filename": "PAP-PD07-dab39970d9.pdf"
+  },
+  {
+    "title": "Be Wise, Plagiarise",
+    "authors": "Karma Tarap",
+    "abstract": "",
+    "keywords": "proc groovy , proc step",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_CC04.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_CC04.pdf"
+    ],
+    "filename": "PAP-CC04-89e5394a5c.pdf"
+  },
+  {
+    "title": "Bootstrap Analysis Double-Independent Programming: Issues and Solutions",
+    "authors": "Nils Penard",
+    "abstract": "",
+    "keywords": "bootstrap , confidence interval , independent qc , sample , proc calis , data cleaning , lookup , decimal , proc step , quality control , regression analysis",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_HE07.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_HE07.pdf"
+    ],
+    "filename": "PAP-HE07-40984a27c5.pdf"
+  },
+  {
+    "title": "Bootstrap simulations to estimate Overall Survival based on the distribution of a historical control",
+    "authors": "Antonio Nieto , Javier GÃ³mez",
+    "abstract": "Following the calculation of the median overall survival (OS) in a clinical trial, it is often desirable to put the estimates into perspective by comparing them with the results of other studies reported in the current bibliography. The main limitation of this comparison is the different distribution of prognostic baseline characteristics between studies. A SAS program to obtain a bootstrap estimation for the median OS, balancing it by the historical distribution, is described herein",
+    "keywords": "bootstrap , proc freq , sample , overall survival , baseline characteristics , clinical trial , phase ii , proc step",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_SP03.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_SP03.pdf"
+    ],
+    "filename": "PAP-SP03-b9c49ea0f2.pdf"
+  },
+  {
+    "title": "CDISC Advisory Board Validation Project - Best Practices for CDISC Validation Rules",
+    "authors": "Lauren L. Shinaberry",
+    "abstract": "",
+    "keywords": "data cleaning , data validation rules , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_CD09.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_CD09.pdf"
+    ],
+    "filename": "PAP-CD09-aecf433c12.pdf"
+  },
+  {
+    "title": "Centralised Risk-Based Source Data Verification",
+    "authors": "Shafi Chowdhury",
+    "abstract": "",
+    "keywords": "data cleaning",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP05.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_PP05.pdf"
+    ],
+    "filename": "PAP-PP05-d031498f5a.pdf"
+  },
+  {
+    "title": "Centralised Risk-Based Source Data Verification",
+    "authors": "Shafi Chowdhury , Mokhfur Alam Chowdhury",
+    "abstract": "SDV is a very expensive process due to the time required to go through all the data at the various investigator sites. However, if we can target the patients and specify items the CRAs should look at when they visit a site, then the CRAs can spend more time looking at the important data but still spend less time overall. Although this may not be too useful for small studies, for large and mega trials this can and has already saved millions. This approach is also being encouraged by FDA and EMA as a possible method for improving the quality of trials and trial data. The key aspect here is defining the risk associated with a site, and how to change this over time. The paper will show why this is a very good approach to both reduce cost and improve the data quality at the same time",
+    "keywords": "clinical trial , data cleaning",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_RG04.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_RG04.pdf"
+    ],
+    "filename": "PAP-RG04-5f6939aafc.pdf"
+  },
+  {
+    "title": "Changing SAS Discipline into the Life Science Sector",
+    "authors": "Chris Gibby",
+    "abstract": "Working as a SAS programmer is a very interesting and rewarding career. There are many different paths a SAS programmer can take - most commonly in retail, finance and pharmaceutical. Typically in the competitive graduate market choice is not always possible when applying for your first job. What happens if, after gaining experience in one area of SAS, that you f eel you would be better suited and more interested in another sector? In this paper I will discuss my experience of changing SAS disciplines into the life science sector, the obstacles I dealt with and the path I took to realising my ambition. I will also GLVFXVVHPSOR\\HUVÂ¶FRQFHUQVZKHQKLULQJVRPHERG\\IURPDQRWKHUPDUNHW sector. Having now spent some time as a statistical programmer I will also use this experience to retrospectively discuss the important requirements of working in the life science sector",
+    "keywords": "life sciences , clinical trial , sas programmer , statistical programmer",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_IS02.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_IS02.pdf"
+    ],
+    "filename": "PAP-IS02-31bd77ba6c.pdf"
+  },
+  {
+    "title": "Clinical Reference Library: Metadata and Standards Management in a Single Tool",
+    "authors": "Jonathan Peachey , Colin Sprink",
+    "abstract": "Presentation",
+    "keywords": "metadata management , data transformation , clinical data , clinical research , clinical trial , data integration , view",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PRE_SD05.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PRE_SD05.pdf"
+    ],
+    "filename": "PRE-SD05-a1decceeb9.pdf"
+  },
+  {
+    "title": "Considerations for CSR Output Production from ADaM Datasets",
+    "authors": "Andrew Noller",
+    "abstract": "",
+    "keywords": "adam dataset , data science , sdtm domain , bds , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_CD05.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_CD05.pdf"
+    ],
+    "filename": "PAP-CD05-c9a21a4154.pdf"
+  },
+  {
+    "title": "Controlling Controlled Terminology",
+    "authors": "Ryan Burns",
+    "abstract": "S t a n d a r d s , m e t a d a t a , a n d controlled terminology are all important and necessary parts of drug development, especially when it comes to submissions to regulatory agencies. Having a suite of tools and procedures to enter, store, and use metadata is critical for data standards teams to operate efficiently and reliably. When creating a metadata system, one must consider both clinical and database concepts. Difficulties arise when creating a database that integrates controlled terminology with other metadata, because controlled terminology has unique requirements. This paper will discuss solutions for the challenges of managing controlled terminology as a part of data standardization and will do so within the context of an enterprise metadata system",
+    "keywords": "controlled terminology , clinical trial , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP24.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_PP24.pdf"
+    ],
+    "filename": "PAP-PP24-148847d7e1.pdf"
+  },
+  {
+    "title": "Controlling Controlled Terminology",
+    "authors": "Ryan Burns",
+    "abstract": "Presentation",
+    "keywords": "cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PRE_DH04.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PRE_DH04.pdf"
+    ],
+    "filename": "PRE-DH04-01504b985a.pdf"
+  },
+  {
+    "title": "Controlling OpenCDISC Using R",
+    "authors": "Martin Gregory",
+    "abstract": "",
+    "keywords": "excel , data cleaning",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_TS05.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_TS05.pdf"
+    ],
+    "filename": "PAP-TS05-6a69f317ad.pdf"
+  },
+  {
+    "title": "Cost Effective Standards Implementation: A New Paradigm for the Drug Development Life Cycle",
+    "authors": "Jeffrey M. Abolafia , Frank C. DiIorio",
+    "abstract": "Recent FDA guidances have made CDISC models the de facto standard for submissions. These standards are the foundation for systems that can improve workflow throughout the project life cycle. They create uniformity of metadata and data structures, which, in turn, provides an opportunity to write generalized, reusable code. When implemented properly, standards have tremendous potential for significant cost savings throughout the project life cycle. However, when implemented poorly, producing CDISC deliverables can actually increase the time and cost of drug development",
+    "keywords": "adam dataset , sdtm domain , clinical data , data governance , clinical research , clinical trial , data integration , data science , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_RG03.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_RG03.pdf"
+    ],
+    "filename": "PAP-RG03-4fe3ca0a39.pdf"
+  },
+  {
+    "title": "Create Innovation Now!",
+    "authors": "Colin Brown",
+    "abstract": "",
+    "keywords": "statistical programmer , view",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PD01.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_PD01.pdf"
+    ],
+    "filename": "PAP-PD01-160bc26c0e.pdf"
+  },
+  {
+    "title": "CS01:GTL (Graphics Template Language) in SAS 9.2",
+    "authors": "Philip R. Holland",
+    "abstract": "",
+    "keywords": "macro variable , macro put , libname statement , proc sql , %if-%then-%else",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_CS01.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_CS01.pdf"
+    ],
+    "filename": "PAP-CS01-5b864cfc22.pdf"
+  },
+  {
+    "title": "Deep Dive into ODM Validation",
+    "authors": "Ronald Steinhau",
+    "abstract": "",
+    "keywords": "data cleaning , data integrity , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_TS06.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_TS06.pdf"
+    ],
+    "filename": "PAP-TS06-37d4310860.pdf"
+  },
+  {
+    "title": "Define.xml for ADaM: From Results to SDTM",
+    "authors": "Dimitri Kutsenko",
+    "abstract": "Presentation",
+    "keywords": "proc contents , controlled terminology , metadata management , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PRE_SD03.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PRE_SD03.pdf"
+    ],
+    "filename": "PRE-SD03-fa4198b34d.pdf"
+  },
+  {
+    "title": "Designing Co-Medication Matrices Using a Burt Table Principal",
+    "authors": "Berber Snoejer",
+    "abstract": "Monitoring how and to whom drugs are prescribed in daily practice is considered imperative to learn whether and how pharmacotherapy and cost-effectiveness in daily life situations can be optimized. One of the issues involved is the use of particular drugs in the line of therapy and in what combinations those drugs are prescribed. One of our methods to get a quick overview of co-medication use is based on a Burt table principle. With this table, a quick and overall insight is given in how many patients use which drug combination. A further enhancement is to change actual numbers into percentages. The effect is that the Burt symmetry disappears but that it is more general applicable. In my presentation and paper I will show the necessary steps to create such a table. I will also show how to subsequently apply a heat map such that the more frequent combinations of drugs are immediately clear",
+    "keywords": "proc step , proc corresp , create table , concomitant medications",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_HE04.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_HE04.pdf"
+    ],
+    "filename": "PAP-HE04-c77bacbda9.pdf"
+  },
+  {
+    "title": "Dynamically Generating Macro Innovations using SAS Keyboard Abbreviations",
+    "authors": "Tom Van Campen , Benny Haemhouts",
+    "abstract": "",
+    "keywords": "macro definition , macro call , life sciences",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_CC03.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_CC03.pdf"
+    ],
+    "filename": "PAP-CC03-8cee8e5063.pdf"
+  },
+  {
+    "title": "East6: Software for Designing, Simulating and Monitoring Group Sequential Trials",
+    "authors": "Hrishikesh Kulkarni , Sheetal Solanki",
+    "abstract": "Cytel's East6 is powerful interactive software designed to plan, simulate and monitor clinical trials, with an emphasis on group sequential and adaptive trials. It comes with an easy-to-use, intuitive GUI with the ability to compute Sample Size / Power for trials with continuous, binary and time-to-event endpoints. One can incorporate rules for early termination using flexible efficacy and futility boundaries and compare multiple designs graphically and through tables. Simulations can be used to explore various operating characteristics of a trial wherein specific steps can be customized by supplying user defined R functions. Interim Monitoring enables the user to monitor an ongoing trial and compute inference about the effect size. It can interface with external systems like SAS for analyzing the accrued data. This article will demonstrate these features with the help of a case study starting with a Fixed Sample Design and then extending it to a Group Sequential Design.",
+    "keywords": "sample , sample size , clinical trial , group sequential design , confidence interval , hazard function , interim analysis , time-to-event endpoint , effect size , primary endpoint",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_SD01.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_SD01.pdf"
+    ],
+    "filename": "PAP-SD01-e202cd69fc.pdf"
+  },
+  {
+    "title": "Enhancing Research Through Clinical Data Standardisation",
+    "authors": "Pankaj Bhardwaj",
+    "abstract": "",
+    "keywords": "clinical trial , adam dataset , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP25.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_PP25.pdf"
+    ],
+    "filename": "PAP-PP25-03554d9dba.pdf"
+  },
+  {
+    "title": "Estimating Terminal Half Life by Non-Compartmental Methods with Some Data Below the Limit of Quantification",
+    "authors": "Jochen MÃ¼ller-Cohrs",
+    "abstract": "In pharmacokinetic studies it occurs more or less frequen tly that some measurements are reported to be below the limit of quantification. T h e s e d a t a a r e u s u a l l y d i s c a r d e d i n e s t i m a t i n g the terminal half-life by non-compartmental methods. We modify this approach to allow for incorporating data below the quantification limit into the analysis. This is achieved by using maximum likelihood methods for censored data. The two approaches yield identical estimates in case of no censoring. The performance of the standard approach and the maxi mum likelihood approach is compared in some one- and two-compartment models by simulation",
+    "keywords": "regression analysis , likelihood function , t1/2 , maximum likelihood estimation , r-squared , proc reg , adjusted r-squared , compartmental analysis , geomean , cv , censoring , predictor variable",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_SP08.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_SP08.pdf"
+    ],
+    "filename": "PAP-SP08-9f15dc081b.pdf"
+  },
+  {
+    "title": "Generation and Maintenance of the Data Specification Document",
+    "authors": "Melodie Bobineau , Dimitri Peteratchenko",
+    "abstract": "",
+    "keywords": "",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_CC01.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_CC01.pdf"
+    ],
+    "filename": "PAP-CC01-214b557418.pdf"
+  },
+  {
+    "title": "Grouped Jittered Boxplots in SAS 9.2 and SAS 9.3",
+    "authors": "Volker Harm , Catalina Mejia Herrera",
+    "abstract": "In gene expression analysis often box plots are required with the individual jittered data overlaid. Two solutions are presented with SAS Statistical Graphics. In SAS 9.2 the box plots have to be constructed with vector statements, in SAS 9.3 a more natural solution is possible using a categorical and a linear x-axis",
+    "keywords": "box plot , proc step , proc sgplot , scatter plot , proc sgpanel , graph template language , macro definition",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_CS03.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_CS03.pdf"
+    ],
+    "filename": "PAP-CS03-6ac06019b6.pdf"
+  },
+  {
+    "title": "How Specifications Get Lost in Translation",
+    "authors": "Ralf Minkenberg",
+    "abstract": "The first ideas for ad hoc analyses are born very often without any Programmers or Statisticians involved. Some examples are shown how specifications fi rst are generated and then are developed with different functions involved. It is discussed if the final specifications the programmer get (generally from a Statistician) are still the same as wanted from the author, or are changed on their way to be progr amming-ready like Chinese whispers. A solution could be to involve the programmer in the specification process as early as possible. But is there a common understanding between specification requestors (key opinion leaders, drug safety, marketing, health e conomics, ...) and programmers at all ? Example processes are described to show different ways specifications can be specified and clarified, and how programmers can handle them",
+    "keywords": "adverse events , final analysis",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PD05.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_PD05.pdf"
+    ],
+    "filename": "PAP-PD05-0d2e06041a.pdf"
+  },
+  {
+    "title": "Improving Data Management with Systems Integration and Next Generation Data Flow",
+    "authors": "Richard Davies",
+    "abstract": "EDC systems and other automation systems have become ubiquitous, creating an inherent need to connect multiple systems in order to maximize investments in technology. Managing the data flow between these systems may be daunting to both new and experienced study designers; and determining the correct questions to ask when designing a highly integrated study is not intu itive. This presentation will identify key decisions necessary when planning a study that will integrate IVRS data, EDC data and ePRO data and compare benefits / risks of designing data flow between systems. Additionally, the technological innovations make it possible to move electronic data to the cloud, bringing new possibilities, efficiencies and scalability. With the new possibilities come new challenges, namely: how do we keep the data safe, secure, and protect the privacy of patients in this brave new world. The speaker will discuss considerations and next steps to prepare data for the cloud",
+    "keywords": "edc , clinical trial , web service , randomization , access control",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_DH05.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_DH05.pdf"
+    ],
+    "filename": "PAP-DH05-31d8ec82ac.pdf"
+  },
+  {
+    "title": "Integrating Clinical Images into the Data Review Process",
+    "authors": "Kellie Riley",
+    "abstract": "Reviewing images, either to assess the primary efficacy parameters or to evaluate potential prognostic biomarkers, is part of the work at the frontier of science. Using TIBCO Spotfire as an interface, we are able to link the numeric clinical data stored in our RAVE database to the Clinical Images themselves, by linking directly into the Clinical Image repository MIRA. We are also able to perform accurate reconciliation of numeric data, clinical images and eCRF assessment information. This interface enables clinical and imaging scientists to review all data in an integrated approach irrespective of data origin (EDC, Lab, Images) and allows for a medical review that combines the right data in an end-user friendly way using a single tool. TIBCO Spotfire is the tool of choice to look at the data and launch calls to view images, essentially allowing the selection of a Subject or group of Subjects, highlighting the analyte(s) of interest and generating a list of available images based on selections, which are then shown in separate window allowing for optimum and accurate data review.",
+    "keywords": "clinical data , data review , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP07.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_PP07.pdf"
+    ],
+    "filename": "PAP-PP07-ac93cdc46d.pdf"
+  },
+  {
+    "title": "Interpreting ADaM Standards with OpenCDISC",
+    "authors": "Trupti Bal , Madhura Paranjape",
+    "abstract": "Creating CDISC ADaM standard analysis datasets is a challenge. How do we make sure of the compliance for ADaM datasets before submitting it to client or regulatory agencies? Usually a lot of time is spent in performing QC of analysis datasets. Is there an efficient way to handle QC? OpenCDISC is an open source community which provides tools to check compliance o f CDISC standards such as SDTM, ADaM and define.xml. The recent addition is ADaM compliance rules. The rules included in OpenCDISC are very helpful in understanding ADaM standards. This paper will focus on ADaM validation using OpenCDISC. Understanding O penCDISC messages is not straight forward at times. The overview of error/warning messages will be included in the paper. Examples from real life studies will be used to explain possible resolutions for the validation messages",
+    "keywords": "data cleaning , missing value , adam dataset , sdtm domain , medical history , imputation , adverse events , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_CD04.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_CD04.pdf"
+    ],
+    "filename": "PAP-CD04-3918d757ae.pdf"
+  },
+  {
+    "title": "iTeam: Having a Voice of Opinion",
+    "authors": "Mijanur Rahman",
+    "abstract": "As a new starter coming straight from postgraduate study, it is difficult to comprehend and have a voice in such a vast industry. It can be difficult for any newcomers to express themselves and develop a fresh perspective on the processes that define the pharmaceutical model. Roche Products Ltd. conducts regular informal i -Team meetings which focus on innovation. These meetings ar e held with colleagues from all echelons of the department covering a large spectrum of experience. This paper focuses on how a new starter can be effective in these meetings and how it allows them to gain a voice in the pharmaceutical industry, as it is d ifficult and daunting at times to provide your own opinion. The paper also provides an insight about the i -Team and presents real examples of projects/tasks that I have been involved in directly stemming from the i -Team initiative",
+    "keywords": "pharmaceutical industry , clinical programming",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_IS07.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_IS07.pdf"
+    ],
+    "filename": "PAP-IS07-9cef50485a.pdf"
+  },
+  {
+    "title": "JMP Clinical 4.0",
+    "authors": "ValÃ©rie Nedbal",
+    "abstract": "Presentation",
+    "keywords": "adverse events , order by , study day , proc freq , bubble plot , data mining , clinical trial",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PRE_CS04.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PRE_CS04.pdf"
+    ],
+    "filename": "PRE-CS04-f8a2d90f2a.pdf"
+  },
+  {
+    "title": "Legacy Data Conversion: A Journey of Discovery",
+    "authors": "Panteleo Nacci , Novartis Vaccines",
+    "abstract": "This paper is about the experience gathered while heading a group of programmers in the effort to convert data for more than 150 studies from a legacy, proprietary format to an industry-standard one. This entailed several layers of complexity, from the challenge to recover all the original basic documentation (study protocol and all its amendments, CRFs, clinical study reports), to the heterogeneity of the data structures, to the need to quickly onboard and make effective external contractors with experience in the new standard but none on the company one(s)",
+    "keywords": "data cleaning , phase i , adverse events , clinical trial , sas programmer",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_DH08.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_DH08.pdf"
+    ],
+    "filename": "PAP-DH08-14f7d8d90d.pdf"
+  },
+  {
+    "title": "Let SAS Handle your CDISC Compliance Check: Automating OpenCDISC Validator in SAS",
+    "authors": "Edwin van Stein",
+    "abstract": "",
+    "keywords": "",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_TS04.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_TS04.pdf"
+    ],
+    "filename": "PAP-TS04-5f1f73bc95.pdf"
+  },
+  {
+    "title": "Macro to Replace Missing Values",
+    "authors": "Mokhfur Alam Chowdhury , Kamrunnisa Runu",
+    "abstract": "",
+    "keywords": "missing value , macro call",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP19.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_PP19.pdf"
+    ],
+    "filename": "PAP-PP19-fbbfaf4f6f.pdf"
+  },
+  {
+    "title": "MACUMBA - A Modern SAS GUI - Debugging Made Easy",
+    "authors": "Michael Weiss",
+    "abstract": "MACUMBA is an application for SAS programming develo ped in house at Bayer. It combines the interactive development features of SAS for Windows, the possibility of a client - server environment and unique \"State of the Art\" features that are missing in other SAS development environments. This paper covers some of the unique features that are related to SAS code debugging. The paper will begin by comparing the systems special code execution modes with the way this would be done in interactive SAS. The paper will continue by presenting an overview of the graphical implementation of the single step debugger for SAS macros and DATA Steps. Finally the paper will highlight the main issues faced during the development of MACUMBA",
+    "keywords": "macro call , macro variable , macro definition , sas log , proc step , proc sql , macro put",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_AD01.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_AD01.pdf"
+    ],
+    "filename": "PAP-AD01-f00a1523f3.pdf"
+  },
+  {
+    "title": "Making Macros More Generic",
+    "authors": "Alain Smits",
+    "abstract": "Presentation",
+    "keywords": "automatic variable , clinical programming , variable list",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PRE_CC06.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PRE_CC06.pdf"
+    ],
+    "filename": "PRE-CC06-1b8ee13f3a.pdf"
+  },
+  {
+    "title": "Mapping the Company's Legacy Data Model to SDTM",
+    "authors": "Anja Feuerbacher , Bruce Rogers",
+    "abstract": "In the pharmaceutical industry standards like CDISC SDTM have become increasingly important in the past years. With evolving standards companies have to adapt their data models to meet requirements of authorities. For projects where some studies use SDTM and some do not, project teams need to convert the legacy data. This paper shows two cases wherHWKHFRPSDQ\\Â¶VOHJDF\\GDWDPRGHOZDVPDSSHGWR6'70DQGKRZD standardized tool was used to solve the task. Typical problems and possible solutions will be displayed. The different approaches for validation will be described as well as the effort for mapp ing",
+    "keywords": "data standard , proc sql , adam dataset , controlled terminology , data cleaning , unique key , adverse events , sdtm domain , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_CD02.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_CD02.pdf"
+    ],
+    "filename": "PAP-CD02-48cfddca13.pdf"
+  },
+  {
+    "title": "Master Data Management and Possible Applications for Clinical Trial Data",
+    "authors": "Bill J. Gibson",
+    "abstract": "What is Master Data Management (MDM)? General purpose tools exist to categorize the variables in tabular and relational data. Are these tools suitable for data collected during clinical trials? Can MDM concepts, processes, and tools be used to better organize and aggregate data collected during clinical trials? The answer is yes, but with some caveats. This presentation will define MDM, what it means to clinical programming, and how and when to apply (or not!) MDM tools on both legacy and current trial data. Master Data Management È A Definition Master data management is a way to intelligently consolidate and manage data and deliver a more unified view of the enterprise across applications and platforms. MDM integrates ÆÅÄÆÆµÄÅ©ÄÄÆÍÆÅÄÄÅ¶ÆÅÆÇ from existing data sources, consolidating these sources into a master reference file, which then can feed information back to the sources, creating accurate and consistent data across the enterprise",
+    "keywords": "clinical trial , adverse events",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_SD06.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_SD06.pdf"
+    ],
+    "filename": "PAP-SD06-c8e2cbaf56.pdf"
+  },
+  {
+    "title": "Measure the Benefit of Standards Ltd - Provide Evidence to the Gut Feeling",
+    "authors": "Gary Fleming",
+    "abstract": "It is a widely-held belief that standardization enhances efficiency and allows for savings in time and resources. However, there is currently not a great deal of evidence available to support this belief. In Clinical Data and Information Sciences (CDIS) within Roche pRED (Pharma Research and Early Development), we are using a set of standard form templates to collect safety -related data (AE, Lab, Demography, Concomitant meds, etc.). These standard form templates have been used in a large number of studies, but not all. There are various reasons for not using these standards. The results of an experiment which was set up to provide evidence of the b enefits of using standards will be presented. Different testers were approached to build a database which would be set up using the same protocol/schedule of assessments, but would involve different levels of standardization (100% standards used in setup, 50% standards used in setup, and no standards used at all)",
+    "keywords": "data cleaning , sample",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_DH02.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_DH02.pdf"
+    ],
+    "filename": "PAP-DH02-338b4e7ac7.pdf"
+  },
+  {
+    "title": "Medical Data Review and Exploratory Data Analysis using Data Visualization",
+    "authors": "Vinod Kerai",
+    "abstract": "",
+    "keywords": "data visualization , adverse events , exploratory data analysis , correlation , clinical trial , data science",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP10.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_PP10.pdf"
+    ],
+    "filename": "PAP-PP10-6072aa1bb5.pdf"
+  },
+  {
+    "title": "Metaprogramming in SAS",
+    "authors": "Arvind Chaudhari",
+    "abstract": "In the Clinical Trial reporting field we need to write SAS programs for many activities such as Data Extraction, Data Creation, Report Generation and so on. In many situations, both SAS program file and the output of the program are required for submission. In SAS we can do Metaprogramming using SAS macro. If a SAS macro is already present for these kinds of task then we can generate submission ready SAS code file by using some options with the macro. This paper illustrates how SAS macro options MPRINT and MFILE can be used to generate SAS code file. In addition to these options, this paper explains various techniques required for generation of efficient SAS code. We will show an illustration of SAS graph cod e generator utility developed using SAS and EXCEL . This paper is intended for experienced SAS programmers who have a basic understanding of the SAS macro language",
+    "keywords": "macro definition , excel , macro call , mprint , macro facility , sample",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP15.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_PP15.pdf"
+    ],
+    "filename": "PAP-PP15-012ea425b8.pdf"
+  },
+  {
+    "title": "Misinterpretation of Statistics - An Introduction",
+    "authors": "John Salter",
+    "abstract": "",
+    "keywords": "clinical significance , change from baseline",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_SP02.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_SP02.pdf"
+    ],
+    "filename": "PAP-SP02-0731e85bcd.pdf"
+  },
+  {
+    "title": "Multicollinearity Diagnostics in Statistical Modeling and Remedies to Deal with it Using SAS",
+    "authors": "Harshada Joshi , Swapna Deshpande",
+    "abstract": "Regression modeling is one of the most widely used statistical technique s in clinical trials. Many a times, when we fit a multiple regression model, results may seem paradoxical. For instance, the model may fit the data well, even though none of the predictors has a statistically significant impact on explaining the outcome variable. How is this possible? This happens when multicollinearity exi sts between two or more predictor variables. If the problem of multicollinearity is not addressed properly, it can have a significant impact on the quality and stability of the fitted regression model. The aim of the proposed paper is to explain the issue of multicollinea rity, effects of multicollinearity, various techniques to detect multicollinearity and the remedial measures one should take to deal with it. The paper will focus on explaining it theoretically as well as using SAS procedures such as PROC REG and",
+    "keywords": "regression analysis , proc princomp , correlation , predictor variable , multicollinearity , proc reg , proc step , ridge regression , estimate , mse , condition index , label statement , covariance , statistical software , multiple regression , proc corr",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_SP07.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_SP07.pdf"
+    ],
+    "filename": "PAP-SP07-ff80d7590c.pdf"
+  },
+  {
+    "title": "New Approaches to Validation for SaaS-based Clinical Computing Solutions in the Cloud",
+    "authors": "Tony Hewer",
+    "abstract": "",
+    "keywords": "data cleaning , clinical trial",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_RG01.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_RG01.pdf"
+    ],
+    "filename": "PAP-RG01-ca35d4d08d.pdf"
+  },
+  {
+    "title": "New Era for Data Management - Redfine Collaboration",
+    "authors": "Michaela Jahn",
+    "abstract": "Database setup, discrepancy management, and handling of electronically loaded data are classical data management tasks. Historically, data managers work with tools and systems to capture data, clean them and then hand over the data to the next receiving hand in the workflow. As such, data managers within study management teams are frequently regarded as service providers. The limitation to pure process-oriented tasks does not utilize the full capability spectrum of data managers. The modern data manager can be a partner to the scientific representatives, enabling them to review the totality of data collected more effectively. With an efficient integrated data review process in place, decisions during study conduct (e.g. dose escalation decisions) can be taken faster and with more confidence. We share how we position the work of data managers within study management teams and how proficient tools help with the daily data management work",
+    "keywords": "data governance , data review , service provider , edc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PD04.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_PD04.pdf"
+    ],
+    "filename": "PAP-PD04-0bdac2454a.pdf"
+  },
+  {
+    "title": "Novel Programming Methods for Working with Large Claims Databases",
+    "authors": "Richard R. Allen",
+    "abstract": "This presentation will look at some novel and efficient ways to code against large claims databases. These methods will use the DOW loop and the hash object, separately and together, to determine such measures as comorbidities or other queries about subjects in claims data",
+    "keywords": "hash table , conditional do loop , proc sql , insurance claims , proc step , sample",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_HE06.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_HE06.pdf"
+    ],
+    "filename": "PAP-HE06-2b4fcb99d2.pdf"
+  },
+  {
+    "title": "Off Shored, 5 Years On",
+    "authors": "Bhupendra Mistry",
+    "abstract": "",
+    "keywords": "clinical programming , data cleaning",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP17.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_PP17.pdf"
+    ],
+    "filename": "PAP-PP17-74115d7856.pdf"
+  },
+  {
+    "title": "One Approach to a Metadata and Data Standards Repository",
+    "authors": "Bill J. Gibson",
+    "abstract": "While the concept of a place to hold all data about data is sound, what does such a repository look like? In this poster, a list of prioritized requirements necessary to create a metadata and data standards repository for clinical trial data will be presented. This list has been gathered from multiple sponsor and contract research organizations across the industry. Tradeoffs and justifications for this list will be explained. A reference implementation, based on those requirements, will be shown. The poster will conclude by listing lessons learned after creating and using this reference repository. An Approach There have been papers presented at industry conferences, including earlier PhUSE Annual Conferences, that explain metadata and the uses of metadata in describing the many parts and processes of a clinical trial",
+    "keywords": "data standard , clinical trial , controlled terminology , data validation rules , data science , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP21.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_PP21.pdf"
+    ],
+    "filename": "PAP-PP21-a1a7964f13.pdf"
+  },
+  {
+    "title": "Optimizing Data Validation",
+    "authors": "Andrew Newbigging",
+    "abstract": "",
+    "keywords": "data validation rules , data cleaning , clinical trial , clinical data , edc , adverse events",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_DH03.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_DH03.pdf"
+    ],
+    "filename": "PAP-DH03-ee3f285930.pdf"
+  },
+  {
+    "title": "Parsing ISO 8601 Standard Partial Dates using Perl Regular Expressions",
+    "authors": "Mark Crangle",
+    "abstract": "",
+    "keywords": "imputation , adverse events , prxparse , prxposn , character functions , if-then-else , prxmatch , sas function , macro variable , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_CS02.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_CS02.pdf"
+    ],
+    "filename": "PAP-CS02-d6d2bee6de.pdf"
+  },
+  {
+    "title": "Pooling Clinical Data: Key Points and Pitfalls",
+    "authors": "Florence Buchheitt",
+    "abstract": "Pooling of clinical data is used by all Pharmaceutical companies. Submission to Health Authorities of a new compound is one of the mai n reasons to pool data but there are multiple of others needs for pooling data such as ongoing safety review and publications. The concept of pooling data is neither new nor defined by a pre -determined set of rules or methodologies. Inevitably pooling requirements are project/compound specific and are driven by the objective of the pooled data. There is no obvious right or wrong way to pool data but the intention of this paper is to provide guidance on the creation of pooled datasets with general informatio n, typical pitfalls and key points in order to obtain a robust pool. It will cover topics such as planning, data standards, programming strategies, validation and documentation",
+    "keywords": "data cleaning , raw data , adverse events , adam dataset , interim analysis , concomitant medications",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_DH01.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_DH01.pdf"
+    ],
+    "filename": "PAP-DH01-504f1f5df7.pdf"
+  },
+  {
+    "title": "Process Simplification - The Simple Way!",
+    "authors": "Neeraj Malhotra",
+    "abstract": "",
+    "keywords": "clinical programming , clinical trial",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PD06.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_PD06.pdf"
+    ],
+    "filename": "PAP-PD06-8e173af85f.pdf"
+  },
+  {
+    "title": "Programming By Rules",
+    "authors": "Magnus Mengelbier",
+    "abstract": "Rules are one of the cornerstones for analysing clinical trials, either defined through regulatory guidance, analysis plans or specifications. As standards for both the capture, analysis and reporting of data prevail in a business process; the flexibility is further constrained or more precisely defined. We can use this to our advantage by creating an evolving book of rules that can be implemented to verify that the capture data follows standards and study expectations as well as deriving the more standard variables for analysis and reports. We consider how a rule book can influence standard programming and the two SAS macros that are the cornerstone for rule based programming",
+    "keywords": "data cleaning , data science",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP03.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_PP03.pdf"
+    ],
+    "filename": "PAP-PP03-45efe1c4fb.pdf"
+  },
+  {
+    "title": "Programming Challenges of Sampling Controls to Cases from the Dynamic Risk Sets in Nested Case Control Studies",
+    "authors": "Victor Kiri",
+    "abstract": "Pharmacoepidemiological studies based on the cohort design are simpler to analyse and their results easier to interpret. However, these may not reflect real-life drug use which is a major strength of such studies. The nested case-control design is often used instead to avoid the computational burden associated with time-dependent explanatory variables. Unlike the classical case-control design which is generally easy to programme, that of the nested case-control can pose a number of challenges. Subjects can be chosen as controls more than once and a subject who is chosen as a control can later become a case. Indeed controls are chosen from among those in the cohort who are at risk of the event at that time (i.e. we sample from the risk set defined by the case). We highlight the main programming challenges of the design as well as describe and demonstrate approaches for resolution and appropriate implementation",
+    "keywords": "sample , proc sql , predictor variable , sample size , logistic distribution , proc step , regression analysis , proc freq",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_HE02.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_HE02.pdf"
+    ],
+    "filename": "PAP-HE02-323da9c9d2.pdf"
+  },
+  {
+    "title": "Quartiles within SAS",
+    "authors": "Jorine Putter , Liz Faber",
+    "abstract": "Many times during the reporting of a study, programmers blindly report whichever statistics are generated by default by the specific SAS procedure, often without reading up on the SAS documentation and thus knowing the default behaviour of the procedure. Unbeknownst to the programmer, the reported statistics may not accurately reflect what the statistician is expecting to see. The purpose of this paper is to educate programmers on the different methods for calculating Q1 and Q3, and ensuring the statistician has clearly documented the appropriate method to use. The paper will explore the different methods used by specific SAS procedures, highlight any differences between the procedures, and also demonstrate how these methods can be set within specific SAS procedures. Comparisons with other software, such as EXCEL will also be included",
+    "keywords": "proc step , proc means , lookup , excel",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP16.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_PP16.pdf"
+    ],
+    "filename": "PAP-PP16-1fa15b1229.pdf"
+  },
+  {
+    "title": "Quartiles within SAS Procedures",
+    "authors": "Jorine Putter , Liz Faber",
+    "abstract": "Many times during the reporting of a study, programmers blindly report whichever statistics are generated by default by the specific SAS procedure, often without reading up on the SAS documentation and thus knowing the default behaviour of the procedure. Unbeknownst to the programmer, the reported statistics may not accurately reflect what the statistician is expecting to see. The purpose of this paper is to educate programmers on the different methods for calculating Q1 and Q3, and ensuring the statistician has clearly documented the appropriate method to use. The paper will explore the different methods used by specific SAS procedures, highlight any differences between the procedures, and also demonstrate how these methods can be set within specific SAS procedures. Comparisons with other software, such as EXCEL will also be included",
+    "keywords": "proc step , proc means , lookup , excel",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_SP06.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_SP06.pdf"
+    ],
+    "filename": "PAP-SP06-51de616e3b.pdf"
+  },
+  {
+    "title": "Real-World Application of the Protocol Representations Model",
+    "authors": "Joshua Pines , Michelle Marlborough",
+    "abstract": "",
+    "keywords": "clinical trial , clinical research",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_CD06.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_CD06.pdf"
+    ],
+    "filename": "PAP-CD06-7581224833.pdf"
+  },
+  {
+    "title": "Reprogramming a Many-to-Many Merge with Hash Objects",
+    "authors": "David J. Garbutt",
+    "abstract": "",
+    "keywords": "hash table , data step , proc step , macro variable , set statement , proc fcmp , proc sql , sysrc , sas programming , memory usage , conditional do loop",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_CS05.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_CS05.pdf"
+    ],
+    "filename": "PAP-CS05-2a066a7e57.pdf"
+  },
+  {
+    "title": "Reveal: Web-Based Software for the Unique Challenges of Enterprise Clinical Data Search",
+    "authors": "Jon Davidson",
+    "abstract": "",
+    "keywords": "clinical data , proc sql",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_SD02.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_SD02.pdf"
+    ],
+    "filename": "PAP-SD02-37ddaaf89a.pdf"
+  },
+  {
+    "title": "Risk-Benefit Analysis for Oncology Clinical Trials",
+    "authors": "Lovemore Gakava , Waseem Jugon",
+    "abstract": "The conventional analysis of safety and efficacy of clinical trials provide infor mation on risks and benefits in isolation. In the opinion of the authors, t his hampers a comprehensive assessment of benefit-risk and leads to underestimate or overestimate the treatment benefit for patients with varying risks. To some extent the regulatory authorities evaluate the risks and benefits of any new drug therapy during the new drug-approval process . However, quantitative benefit -risk (B-R) assessment is not typically performed, nor is it presented in a consistent and integrated framework when it is used [1]. Integrated analysis of benefit (efficacy) and risk (safety) of cancer drugs is challenging due to complexities in the disease biology and complexities associated with treatment(s) regimens. Nevertheless, we have demonstrated a simple and ef ficient way to accomplish a benefit-risk analysis by combining efficacy parameters with a score based on a risk index",
+    "keywords": "complete response , data science , regression analysis , proc phreg , efficacy summary , sas risk engine , risk classification , proc freq",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP14.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_PP14.pdf"
+    ],
+    "filename": "PAP-PP14-f8a61e108a.pdf"
+  },
+  {
+    "title": "SAS 9.3 Migration - A Project Experience",
+    "authors": "Jules Van der Zalm , Raymond Ebben",
+    "abstract": "",
+    "keywords": "data cleaning , clinical trial",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_AD06.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_AD06.pdf"
+    ],
+    "filename": "PAP-AD06-fc94e18838.pdf"
+  },
+  {
+    "title": "SAS Clinical Standards Toolkit 1.5 - How Do I Know My Metadata is Right?",
+    "authors": "Gene Lightfoot",
+    "abstract": "One of the key features in SAS Clinical Standards Toolkit 1.5 (Toolkit) is the ability to validate the metadata used by the Toolkit for each supported standard. Currently when installing Toolkit, an installation qualification/output qualification (I Q/OQ) document is provided to ensure the user the product was installed proper ly. But as users modify files associated with each standard, add references to study -level files, and define and add their own custom standards, how can they be confident that all the component metadata is in sync for optimal Toolkit performance? This paper focuses on the two primary types of Toolkit metadata, Global Library metadata defining each standard and study -level metadata representing each study of interest, while also covering changes to the Toolkit in the form of revised metadata, new metadata, the addition of internal validation checks, and the process of running these checks",
+    "keywords": "data cleaning , macro variable , sample , create view , reference data , proc step",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_TS01.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_TS01.pdf"
+    ],
+    "filename": "PAP-TS01-201fac93f4.pdf"
+  },
+  {
+    "title": "SAS Clinical Standards Toolkit: define.xml and Value Level Metadata",
+    "authors": "Gene Lightfoot",
+    "abstract": "When submitting clinical study data in electronic format to the FDA, not only information from trials has to be submitted, but also information to help understand the data. Part of this information is a data definition file, which is the metadata describing the format and content of the submitted data sets. When submitting data in the CDISC SDTM format it is required to submit the data definition file in the Case Report Tabulation Data Definition Specification (CRT -DDS, also known as define.xml) format as prepared by the CDISC define.xml team. The SAS Clinical Standards Toolkit (CST) is a framework that suppo rts the creation of define.xml files. Part of the metadata which is contained in the define.xml file can be extracted from the SAS datasets. Other metadata, like Value Level metadata needs to be managed by the user before it can be added to the define.xml. This paper describes an efficient process to incorporate Value Level metadata into the define.xml",
+    "keywords": "data cleaning , annotated crf , dataset , output delivery system , macro variable , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_CD03.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_CD03.pdf"
+    ],
+    "filename": "PAP-CD03-3cd0d73125.pdf"
+  },
+  {
+    "title": "SAS Drug Development 4.1 - Clinical Programming and Workflow",
+    "authors": "Mark Weadon , Mark Lambrecht",
+    "abstract": "",
+    "keywords": "clinical research , proc means , clinical programming , proc step",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_SD04.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_SD04.pdf"
+    ],
+    "filename": "PAP-SD04-7261805ba7.pdf"
+  },
+  {
+    "title": "SAS Macro Package to Automate Coding Graphics",
+    "authors": "Philippe Remusat",
+    "abstract": "ClinXport is a tool develop ed to streamline reporting, and has made i ts proofs through a wide range of stud ies, in producing in a simple way tables, listings and figures . One of the particularities of the tool was to reuse easily output layout to avoid a maximum of coding . In particular Clinxport has showed that it was very efficient and friendly to use for the production of listings and tables, but in another side was maybe limited for the creation of figures . The new possibilities brought by the SAS 9 .2 version, with the new procedures as SGPLOT or SGRENDER, allow now to automate in the same manner the reporting of the figures. It appears than possibilities are huge especially for making a quick and ready to use program layout or to build a very complex or atyp ical graph s to make it usable by the professional or the novice",
+    "keywords": "proc step , excel , proc template , macro definition",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP12.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_PP12.pdf"
+    ],
+    "filename": "PAP-PP12-89d968aa12.pdf"
+  },
+  {
+    "title": "SDD ++; Extending SDD Capabilities",
+    "authors": "Daniel Christen",
+    "abstract": "SAS Drug Development (SDD) is a content repository which provides the capability to store and analyze versioned data and documents. This paper describes how to extend SDD's capabilities to retrieve various kind of information from the content repository using various tools and technologies and how to present them in different formats like Executable Jar Files, Executable (exe) files, SAS Macros or even in graphical format using Microsoft EXCEL , which can be used in making key Business decisions. This paper assumes the reader has basic Java, SAS, and VBA programming knowledge",
+    "keywords": "macro definition , excel",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_AD04.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_AD04.pdf"
+    ],
+    "filename": "PAP-AD04-6f36e084d1.pdf"
+  },
+  {
+    "title": "SDTM and AdaM: Metadata Playing Together Nicely",
+    "authors": "Ken Stoltzfus",
+    "abstract": "As the use of the CDISC standards SDTM and ADaM becomes more and more embedded in sponsor organizations across the industry, the opportunities for implementing standards-based, metadata-driven processing grows and grows. Metadata from the CDISC SDTM and ADaM standards can serve as the consistent consumable for processes that are part of the clinical data lifecycle, with the goal bei ng more efficient mechanisms to produce regulatory compliant deliverables. From my standards experience on both sides of the pharmaceutical industry - pharmaceutical companies and contract research organizations - it is apparent that the industry is still in the early stages on the learning curve of using metadata to drive clinical data processes . But it is my objective here to share that experience and insight into describing how the use of SDTM and ADaM metadata can be productive",
+    "keywords": "clinical data , label statement , adam dataset , format statement , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_CD07.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_CD07.pdf"
+    ],
+    "filename": "PAP-CD07-a0aadb62fa.pdf"
+  },
+  {
+    "title": "Simplifying SAS Clinical Standards Toolkit - Where's the Easy Button?",
+    "authors": "Gene Lightfoot",
+    "abstract": "",
+    "keywords": "macro definition , controlled terminology , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP02.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_PP02.pdf"
+    ],
+    "filename": "PAP-PP02-3c1f59a8c6.pdf"
+  },
+  {
+    "title": "Skills for SAS Programmers in Epidemiology",
+    "authors": "Philip R. Holland",
+    "abstract": "",
+    "keywords": "",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_HE01.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_HE01.pdf"
+    ],
+    "filename": "PAP-HE01-4ac65b4afb.pdf"
+  },
+  {
+    "title": "Spotting DILI for FDA Submission",
+    "authors": "Nicola Tambascia , Sven Greiner",
+    "abstract": "According to the FDA (Food and Drug Administration), severe drug-induced liver injury (DILI) is the most frequent single cause for safety-related drug marketing withdrawals for the past 50 years. Even after approval for marketing, numerous drugs have been limited in use when hepatotoxicity (chemical-driven liver damage) was discovered. Identifying DILI is a challenging task for two reasons: 1. There are no findings that are specific to DILI and make a diagnosis certain. The liver injuries caused by DILI are similar to almost all other liver diseases like viral hepatitis or biliary tract disorders. It is therefore necessary to also seek alternative causes of the liver injury. 2. Even significantly hepatotoxic drugs rarely show a single case of severe DILI when studying several thousand subjects. The low incidence rate makes it hard for the reviewer to assess the potential of DILI for a new drug",
+    "keywords": "clinical database , clinical trial , in= , clinical research , laboratory data",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_RG06.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_RG06.pdf"
+    ],
+    "filename": "PAP-RG06-2e864be7de.pdf"
+  },
+  {
+    "title": "Stress, Tips and Tricks",
+    "authors": "Colin Brown",
+    "abstract": "",
+    "keywords": "statistical programmer",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP26.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_PP26.pdf"
+    ],
+    "filename": "PAP-PP26-8009dfdc69.pdf"
+  },
+  {
+    "title": "Study Protocol Flexibility vs Programming Standard Rigidity",
+    "authors": "Samia Kabi",
+    "abstract": "Early clinical development (ECD) trials represent the transition between the preclinical and the clinical full development. The main objective of our trials is to determine the best dose of a new compound. Because the data generated in these studies, are often the \"first in human (FIH)\" clinical data available, the clinical team is also interested in exploring efficacy/PK/PD results. Instead of planning several Phase I trials to investigate the drug, a single flexible study protocol is written to address multiple objectives and to extend and adapt the trial with multiple scenarios up front. The goal is to avoid protocol amendments and to set-up a CRF/Database able to handle these case scenarios. The preliminary results of FIH studies are used for internal decisions (move or not to full development) and/or for external communications",
+    "keywords": "best response , clinical data",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP23.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_PP23.pdf"
+    ],
+    "filename": "PAP-PP23-d96eac770f.pdf"
+  },
+  {
+    "title": "Supercharging the Proc Contents",
+    "authors": "Alain Smits",
+    "abstract": "Presentation",
+    "keywords": "proc tabulate , proc step , proc contents , clinical programming , ods html , excel",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PRE_CC05.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PRE_CC05.pdf"
+    ],
+    "filename": "PRE-CC05-5ff23df7fa.pdf"
+  },
+  {
+    "title": "Superior gRaphics in Statistical Reports",
+    "authors": "Sameer Bamnote",
+    "abstract": "This paper is aimed at users who know both SAS and R , and are interested in exploiting best of both the environments. Complex graphics are sometimes easier done in R than in SAS e.g. multiple graphs in a single plot frame, annotation, jittering etc. An R user has control over every aspect of the graph. R graphics are superior and visually appealing. Since we can call R through SAS, a good strategy is to create the graphs using R from SAS. Final statistical reports can be a seamless combination of R and SAS outputs generated through a sole SAS call. This is illustrated with some examples in the paper",
+    "keywords": "bar chart , sas log , clinical trial",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_CC02.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_CC02.pdf"
+    ],
+    "filename": "PAP-CC02-6ad35704f9.pdf"
+  },
+  {
+    "title": "Testing in the Cloud. Not Just for the Birds, but Monkeys Too",
+    "authors": "Geoff Low",
+    "abstract": "Cloud-computing is here and has been for some time. Outdated is the concept of your walking into a data FHQWUHSRLQWLQJDWDVHUYHUDQGVD\\LQJÂ³WKHUHÂ¶VP\\GDWD'7KHUHPD\\EHDIHHOLQJRIVXEPLVVLRQRIFRQWURO but this is more than compensated by the power it brings. The cloud makes your data available to you anywhere, using all the same security controOVWKDW\\RXÂ¶GH[SHFWIURP\\RXUÂ³ELJLURQ'GDWDFHQWUH Instances become what they should have always been, a utility that is there when you need it, which can EHSRZHUHGXSDQGGRZQDFFRUGLQJWR\\RXRU\\RXUFXVWRPHUÂ¶VGHPDQGV$QGZKHQ\\RXGRQÂ¶WQHHGLWÂ± LWÂ¶V gone. This talk will cover the utility of the cloud as a platform for testing applications and how Medidata is using it to develop a system for improved resilience across a platform",
+    "keywords": "clinical data , pharmaceutical industry",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_AD02.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_AD02.pdf"
+    ],
+    "filename": "PAP-AD02-9fe4dcca53.pdf"
+  },
+  {
+    "title": "The 3 Year Obsession: Length of Experiences the Sole Determinant of Competence?",
+    "authors": "Meghana Bhagwat , Manjusha Gode",
+    "abstract": "A technically strong team defines the identity of any functional service provide r in the clinical programming arena. However measuring this strength is a rather tall order and hence elusive. The number of years of experience has become the sole indicator of quality even if as a fallback. And in that, companies tend to sometimes settle on numbers like 3 or 5. In emerging markets like India, where clinical research is still in its nascent state, this poses a challenge since clinical trial programming is not yet a widely known field and hence availability of experienced resource is limited. The challenge is to provide the same quality provided by experienced programmers with available resources. This paper will discuss a few methods that have been effectively used to bridge the gap between expectations and availability to provide high quality deliverables with the available programming pool",
+    "keywords": "clinical trial , data cleaning , clinical programming , adverse events , imputation , clinical research , service provider , adam dataset , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PD03.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_PD03.pdf"
+    ],
+    "filename": "PAP-PD03-2609a54bc6.pdf"
+  },
+  {
+    "title": "The Italian Post-Marketing Registries",
+    "authors": "Entela Xoxi",
+    "abstract": "",
+    "keywords": "clinical data , adverse drug reaction",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_DH06.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_DH06.pdf"
+    ],
+    "filename": "PAP-DH06-719ffc8e6d.pdf"
+  },
+  {
+    "title": "The Logic and Logistics of Logistic Regression, Including New Features in SAS 9.2",
+    "authors": "Lawrence Rasouliyan",
+    "abstract": "Although logistic regression models ar e widely used in multivariable analyses with dichotomous outcomes, many of their features, which can be very helpful tools in better unde rstanding the data, are often und erutilized. In addition to the widely used and reported odds ratios and p-values, PROC L O G I S T I C g e n e r a t e s a p l e thora of statistics from which one can gain further insight, make stronger analytical inferences, and more easily identify errors in the model construction. Model options will be explored, and resulting out puts from real-world examples will be explained in detail. Topics covered include model fit statistics, maxi mum likelihood estimates, odds ratios, effect modification, Receiver- Operating Characteristic (ROC) analysis, and the Hosmer-Lemeshow Goodness of Fit Test",
+    "keywords": "odds ratio , logistic distribution , logistic regression , proc logistic , regression analysis , confidence interval , proc step , main effect , predictor variable , response variable , binary variable , maximum likelihood estimation , roc curve , goodness of fit , likelihood function , stepwise selection , nominal variable , class variable , interval variable , missing value , feature selection , proc freq",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_HE03.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_HE03.pdf"
+    ],
+    "filename": "PAP-HE03-57fc5616be.pdf"
+  },
+  {
+    "title": "The Logic of a Programmer - A Case Study",
+    "authors": "Julie Oates",
+    "abstract": "As a programmer we are requested to become involved with many programming activities on a daily basis centered a round dataset or display generation and quality control (QC). Having the opportunity to develop a process/system which can be used by others is rare. To build any system a lot of in depth thought is required before any programming begins. We take the requirements and build a robust system to address each potential scenario that may arise, including some which should not! I will use the case study requirements in my presentation to help me describe this in further detail",
+    "keywords": "macro quoting function , macro variable , independent qc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_IS01.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_IS01.pdf"
+    ],
+    "filename": "PAP-IS01-080c540193.pdf"
+  },
+  {
+    "title": "The Power of PROC SQL",
+    "authors": "Amanda Reilly",
+    "abstract": "PROC SQL can be a powerful tool for SAS programmers. This paper covers how using PROC SQL can improve the efficiency of a program. It also aims to make programmers more comfortable with using PROC SQL by detailing the syntax and giving a better understanding of the differences between the SQL procedure and the DATA STEP . The focus of this paper will be to detail the advantages of using PROC SQL and to help programmers identify when PROC SQL is a preferred choice in terms of performance and efficiency. This understanding will enable programmers to make an informed decision when choosing the best technique for processing data, without the discomfort of being unfamiliar with the PROC SQL option. This paper is targeted at an audience who are relatively new to programming within the pharmaceutical industry",
+    "keywords": "proc sql , proc step , sas base , full join , group by , data step , proc sort , pharmaceutical industry",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_IS03.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_IS03.pdf"
+    ],
+    "filename": "PAP-IS03-229b5ebb5b.pdf"
+  },
+  {
+    "title": "To EC or Not EC...that is the Question!",
+    "authors": "Hiren Naygandhi",
+    "abstract": "The pharmaceutical industry is continually evolving as it meets the on-going demands of external pressures such as rising development costs, patents, regulatory bodies and patients. Programmers can contribute by, accelerating the time to approval; ensuring patients receive treatment as quickly as possible. One area in particular where programmers can make a difference in accelerating the decision making, is by providing health authorities with executable code (EC) as part of the e-Submission in the US. At Roche we have developed a standard approach with tools to facilitate this process. This paper will describe what EC is; why we developed such a tool; how we developed it; lessons learnt from it and considerations for it",
+    "keywords": "dataset , secondary endpoint , proc step",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_RG02.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_RG02.pdf"
+    ],
+    "filename": "PAP-RG02-58ed25852a.pdf"
+  },
+  {
+    "title": "Training Statistical Programmers on SAP Review Skills",
+    "authors": "Sascha Ahrweiler",
+    "abstract": "A statistical analysis plan (SAP) describes the planned analysis for a clinical trial. SAPs must be carefully reviewed by statistical programmers working on the project for clarity and comprehension in order to construct analysis data sets and prepare planned Tables, Figures, and Listings. SAP review is a challenging task that requires both statistical expertise and abstract thinking skills, and is often times completed in the absence of available trial data. Statistical programmers must also develop critical evaluation and communications skills to prospectively identify issues and seek clarity with statistical colleagues on planned analyses on a trial or a development program. Statistical programmer education and training is highly variable and is derived from multiple disciplines, suggesting that comprehensive training on SAP review is an essential skill to ensure consistency and quality within the project",
+    "keywords": "statistical programmer , data science , clinical trial , clinical programming , proc means , anova , imputation , analysis set , proc freq , interim analysis",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_SP04.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_SP04.pdf"
+    ],
+    "filename": "PAP-SP04-a12de4e2d3.pdf"
+  },
+  {
+    "title": "Tricks for Testing Standard Macro Components in SAS Software",
+    "authors": "Lina Ulkjaer Jorgensen",
+    "abstract": "The technical process to update -- hot fixing - a standard component is cumbersome and time consuming. This poster gives suggestions on how to make the hot fixing process smoother. It shows that you can work faster by saving outputs and logs from test cases, transform them into datasets and use SAS Software PROC COMPARE to test. It also adds a suggestion to use SAS parameters on execution in automatic validation and shows a branch testing",
+    "keywords": "proc compare , proc step , data cleaning , excel",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP18.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_PP18.pdf"
+    ],
+    "filename": "PAP-PP18-682c34b5e9.pdf"
+  },
+  {
+    "title": "Two Tins and a Piece of String",
+    "authors": "Diana Stuart",
+    "abstract": "Presentation",
+    "keywords": "account",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PRE_PD02.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PRE_PD02.pdf"
+    ],
+    "filename": "PRE-PD02-e46106d913.pdf"
+  },
+  {
+    "title": "Understanding SAS...the SAS-sy Way!",
+    "authors": "Amar Nayak",
+    "abstract": "\"A picture is worth thousand words\". I could relate to this adage during my earlier years as I developed logical approaches to SAS programming to gain strong understanding of it. Creative imagination becomes a powerful way of learning a programming language. We create pictures, objects, shapes, flying or flowing from one place to another, chopping and changing objects to understand the challenging concepts. If a trainer explains the concepts stepwise via reference materials, our micro processing mind continuously thinks of various ways to understand and absorb the theory until it sticks to our memory forever with a 'EUREKA' effect. We have such ex periences while working or mulling over a complicated approach. Training materials have a traditional approach but it's rare that the same concepts are explained the non - traditional way. This paper attempts to provide an illustrative approach to people na ive to SAS and can understand the concepts in layman's language",
+    "keywords": "proc step , conditional do loop , raw data , format statement , proc format , proc sort , proc transpose , clinical trial",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP22.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_PP22.pdf"
+    ],
+    "filename": "PAP-PP22-61e78d4517.pdf"
+  },
+  {
+    "title": "Using a Free Synax - Coloured SAS Log Viewer to Bookmark Important Messages, Filter them and More!",
+    "authors": "Julien Vanswinsberghe , Francois Vandenhende",
+    "abstract": "Checking SAS logs is an important tas k to verify the validity of SAS programs. Not only to look for error and warning messages, but also to avoid note messages about divisions by zero, numeric/character conversions, undefined variables, etc. In a production environment, when multiple programs and macros are executed in the same SAS session, the log files quickly become voluminous , which increase the risk of missing an important message. It is now common to replace manual scanning of log files with automated scanning performed by macros . It would also be useful to have an efficient tool to quickly open a SAS log, localize important messages, and filtering/coloring them to increase quality control in the SAS reporting process. The ClinBAY SAS Log Viewer is a free tool for opening SAS log files and provides other functionalities, such as extracting a SAS program from a SAS log",
+    "keywords": "sas log , data step",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP09.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_PP09.pdf"
+    ],
+    "filename": "PAP-PP09-5a136a38e1.pdf"
+  },
+  {
+    "title": "Using Metadata to Integrate and Standardise Clinical Trial Data - the ICON Study Data Mapper",
+    "authors": "Paul Crean , Jennie McGuirk",
+    "abstract": "To deliver clinical data for reporting, analysis and regulatory submission in a more efficient way, ICON has developed a data lifecycle and supporting toolset (the \"Study Data Mapper\") that uses metadata to standardise and conform clinical trial data. This standards-driven approach has improved the quality of study data production and achieved a considerable reduction in custom programming through the re-use of standard data models and transformations. This paper will discuss the concepts behind the Study Data Mapper toolset and data lifecycle, the challenges that were encountered, and the lessons learned",
+    "keywords": "clinical data , data standard , macro catalog , clinical research , macro definition , raw data , proc sql",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_DH07.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_DH07.pdf"
+    ],
+    "filename": "PAP-DH07-01e5458539.pdf"
+  },
+  {
+    "title": "Using the Latest ODS Features in SAS 9.2",
+    "authors": "Chris Gibby , Kevin Scase",
+    "abstract": "In this paper we discuss the methods used in adapting a Flexible Reporting System (FRS) utilising new features in SAS 9.2 / ODS . OCS Consulting maintains the FRS for WIL Research Europe B.V. , a pre -clinical life science organisation. The FRS enables import of data from lab results and presents this in a PDF document. Originally the FRS used Adobe distiller to convert a postscript file into PDF, as the system was built using an earlier version of SAS, pre ODS . Due to two converging factors there was a requir ement to enhance the FRS enabling direct output to PDF. These factors were: 1) updates in SAS 9.2 ODS , 2) the need for reports to adhere to electronic common technical document (eCTD) guidelines. This paper will discuss the technical details in achieving t his, using a combination of PROC REPORT , PROC DOCUMENT and ODS to create one PDF file containing many reports / graphs, fully bookmarked and with hyperlinked TOC",
+    "keywords": "proc report , proc step , ods pdf , macro variable , permanent library , life sciences",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP20.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_PP20.pdf"
+    ],
+    "filename": "PAP-PP20-fd0e9cc924.pdf"
+  },
+  {
+    "title": "Using Workflows to Standardize Business Processes and Best Practices in Pharmaceutical Programming",
+    "authors": "Mark Lambrecht , Julie A. Maddox",
+    "abstract": "A best practice is a technique that has consistently shown results superior to those results achieved by following alternate techniques for the same objective. Business processes are a collection of activities designed to produce results for a particular objective. Workflow templates can be defined to combine these business process activities with the best practice techniques to be used as standards across an organization. The workflows can be used as instances of these workflow templates for the management of clinical data and programs. As clinical data is brought through the flow from data capture to analysis, it is frequently subjected to a workflow that enriches the data, un-blinds it or allows CRO's to add data elements to the complete set of trial data. These workflows make use of manual steps or involve complex processing steps that can use programmatic actions",
+    "keywords": "clinical research , clinical data , clinical trial , data governance , clinical data management , data cleaning , quality control",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_AD07.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_AD07.pdf"
+    ],
+    "filename": "PAP-AD07-90d03df255.pdf"
+  },
+  {
+    "title": "Validation CDISC Data with the SAS Clinical Standards Toolkit",
+    "authors": "Nicolai Hagg",
+    "abstract": "",
+    "keywords": "cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP01.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_PP01.pdf"
+    ],
+    "filename": "PAP-PP01-0fbdd72840.pdf"
+  },
+  {
+    "title": "Validation in Epidemiological Studies",
+    "authors": "Raimund Storb",
+    "abstract": "Presentation",
+    "keywords": "insurance claims , independent qc , sample , data cleaning , sample size , adam dataset , clinical trial",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PRE_HE05.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PRE_HE05.pdf"
+    ],
+    "filename": "PRE-HE05-2f79fb2848.pdf"
+  },
+  {
+    "title": "Validation to define.xml",
+    "authors": "Sam Tomioka , Steven Huang",
+    "abstract": "",
+    "keywords": "dataset , data cleaning , controlled terminology , annotated crf , proc contents , sample , libname engine , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP04.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_PP04.pdf"
+    ],
+    "filename": "PAP-PP04-22da648ab2.pdf"
+  },
+  {
+    "title": "Viva Usability!",
+    "authors": "Ian Fleming , Kristin Nienhuis",
+    "abstract": "",
+    "keywords": "",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_AD03.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_AD03.pdf"
+    ],
+    "filename": "PAP-AD03-06fc6a7afa.pdf"
+  },
+  {
+    "title": "What Makes Oncology Special?",
+    "authors": "Johanna Mursic",
+    "abstract": "Oncology clinical trials provide possibly the most exciting and rewarding work environment there can be among SAS programming jobs. If you are a programmer who likes to dig in deeper and have a full understanding of what the clinical data means, oncology would be a very special experience for you. The main characteristics of oncology clinical trials a re: fast work pace as for thousands of people with cancer every day counts, constant search for alternatives to placebo/passive control arm, special data types collected (e.g. biomarkers) as there are as many types of cancer as there are patients, specific efficacy analyses as the best way to show the investigational product works is to show how long the patients survive on treatment and how their tumors stop growing or even shrink",
+    "keywords": "clinical trial , efficacy summary",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_IS06.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_IS06.pdf"
+    ],
+    "filename": "PAP-IS06-3981d50655.pdf"
+  },
+  {
+    "title": "Which Programs use that Dataset?",
+    "authors": "Helen Nicholson",
+    "abstract": "",
+    "keywords": "macro variable , sas enterprise guide",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP08.pdf",
+      "https://saslexicon.org/PHUSE_EU/2012/PAP_PP08.pdf"
+    ],
+    "filename": "PAP-PP08-5e122c8206.pdf"
+  }
+]
