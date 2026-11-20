@@ -1,0 +1,2474 @@
+{
+  "year": 2013,
+  "source": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+  "papers": [
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF11.pdf",
+      "year": 2013,
+      "title": "\"How Do I...?\" There Is More Than One Way To Solve That Problem; Why Continuing To Learn Is So Important",
+      "authors": "Arthur L. Carpenter",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/TF/PharmaSUG-2013-TF11.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF11.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-TF11-08a37abdbf32.pdf",
+      "status": "downloaded",
+      "bytes": 710862,
+      "sha256": "a8e294aa95d29259ac0b9ec1c7e0942e1822e0d7f110f0d691e64ad267b4fce6",
+      "downloaded-from": "https://pharmasug.org/proceedings/2013/TF/PharmaSUG-2013-TF11.pdf"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-SP05.pdf",
+      "year": 2013,
+      "title": "'Case-Control' the analysis of Biomarker data using SAS Genetic Procedure",
+      "authors": "Jaya Baviskar",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/SP/PharmaSUG-2013-SP05.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-SP05.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-SP05-1d6360ac55d0.pdf",
+      "status": "downloaded",
+      "bytes": 246215,
+      "sha256": "fee2b5f0446c6a81a80f913e44992929ca7bf346b129bcce4fb013c39f41621f",
+      "downloaded-from": "https://pharmasug.org/proceedings/2013/SP/PharmaSUG-2013-SP05.pdf"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC22.pdf",
+      "year": 2013,
+      "title": "A Closer Look at PROC SQL's FEEDBACK Option",
+      "authors": "Kenneth W. Borowiak",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC22.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC22.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC22-0a5ed6455c83.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO03.pdf",
+      "year": 2013,
+      "title": "A Drug Safety Reporting System in SAS",
+      "authors": "Yang Wang, Shawn Hopkins, Norm Fox, Raghu Kumbharathi, Tom Hunter",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/PO/PharmaSUG-2013-PO03.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO03.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-PO03-1f1e0c377a19.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD10.pdf",
+      "year": 2013,
+      "title": "A Generic Concept to Handle SDTM (and other CDISC) Data Sets",
+      "authors": "Peter Schaefer",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/AD/PharmaSUG-2013-AD10.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD10.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-AD10-a2f3186bd4f8.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD01.pdf",
+      "year": 2013,
+      "title": "A GUI-Based Utility Macro for Creating a Version Controlled Project Directory Structure and Copying in Standard Tools and Template Files",
+      "authors": "Hisham Madi, Anna Maeser, Michael Zichy",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/AD/PharmaSUG-2013-AD01.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD01.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-AD01-739499f32914.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD15.pdf",
+      "year": 2013,
+      "title": "A Macro to Batch Submit a List of Programs with Real Time Feedback",
+      "authors": "Andrew E. Hansen",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/AD/PharmaSUG-2013-AD15.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD15.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-AD15-8195107509c2.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC35.pdf",
+      "year": 2013,
+      "title": "A One Line Method to Extract a Substring from a String using PRX",
+      "authors": "Joel Campbell",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC35.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC35.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC35-e31c42858fe1.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DG04.pdf",
+      "year": 2013,
+      "title": "A Picture is worth 3000 words!! 3D Visualization using SAS",
+      "authors": "Suhas R. Sanjee",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/DG/PharmaSUG-2013-DG04.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DG04.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-DG04-081e0b64ad77.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC31.pdf",
+      "year": 2013,
+      "title": "A Quick Patient Profile: Combining External Data with EDC-generated Subject CRF",
+      "authors": "Titania Dumas-Roberson, Yang Han",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC31.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC31.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC31-e367f066ed48.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD13.pdf",
+      "year": 2013,
+      "title": "A SAS Based MedDRA Coding System",
+      "authors": "Charley Z. Wu, Dona-Lyn Wales",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/AD/PharmaSUG-2013-AD13.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD13.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-AD13-e699059e4c5d.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO12.pdf",
+      "year": 2013,
+      "title": "A SAS Users Guide to Regular Expressions When the Data Resides in Oracle",
+      "authors": "Kunal Agnihotri, Kenneth W. Borowiak",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/PO/PharmaSUG-2013-PO12.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO12.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-PO12-3c7345123117.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD09.pdf",
+      "year": 2013,
+      "title": "A Simple Approach to the Automated Unit Testing of Clinical SAS Macros",
+      "authors": "Matthew Nizol",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/AD/PharmaSUG-2013-AD09.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD09.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-AD09-710413f6fead.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD18.pdf",
+      "year": 2013,
+      "title": "A Simple Interface for Meta-Data",
+      "authors": "Magnus Mengelbier",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/AD/PharmaSUG-2013-AD18.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD18.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-AD18-13c2d0bce0d2.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC38.pdf",
+      "year": 2013,
+      "title": "A Strategy to Ensure Non-Estimable Confidence Intervals Having Equal Lower and Upper Confidence Limits are Displayed Correctly",
+      "authors": "Claudia Jimenez-Castro",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC38.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC38.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC38-e6ea08090084.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF21.pdf",
+      "year": 2013,
+      "title": "Access to Relational Databases Using SAS",
+      "authors": "Frederick E. Pratter",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/TF/PharmaSUG-2013-TF21.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF21.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-TF21-82e5f319e4ba.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO05.pdf",
+      "year": 2013,
+      "title": "ADaM Datasets for Graphs",
+      "authors": "Kevin Lee, Chris Holland",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/PO/PharmaSUG-2013-PO05.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO05.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-PO05-0020929852f0.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC25.pdf",
+      "year": 2013,
+      "title": "Add a Little Magic to Your Joins",
+      "authors": "Kirk Paul Lafler",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC25.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC25.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC25-79f1e6394bd1.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-SP04.pdf",
+      "year": 2013,
+      "title": "Adjusted proportion difference and confidence interval in stratified randomized trials",
+      "authors": "Yeonhee Kim, Seunghyun Won",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/SP/PharmaSUG-2013-SP04.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-SP04.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-SP04-c2ec516788b5.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC16.pdf",
+      "year": 2013,
+      "title": "An alternate log axis using SAS PROC GPLOT",
+      "authors": "Lucius Reinbolt",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC16.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC16.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC16-239834597741.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-IB02.pdf",
+      "year": 2013,
+      "title": "Analysis of Concomitant Medication Data",
+      "authors": "Joseph J. Hantsch, Karl Miller",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/IB/PharmaSUG-2013-IB02.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-IB02.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-IB02-b4b8f0d6569b.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF22.pdf",
+      "year": 2013,
+      "title": "Anatomy of a Merge Gone Wrong",
+      "authors": "James Lew, Joshua M. Horstman",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/TF/PharmaSUG-2013-TF22.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF22.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-TF22-c007487d6378.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD16.pdf",
+      "year": 2013,
+      "title": "Application Interface for executing a batch of SAS Programs and Checking Logs",
+      "authors": "Sneha Sarmukadam",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/AD/PharmaSUG-2013-AD16.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD16.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-AD16-92e14dffc6dd.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC09.pdf",
+      "year": 2013,
+      "title": "Array, Hurray, Array; Consolidate or Expand Your Input Data Stream Using Arrays",
+      "authors": "William E. Benjamin Jr.",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC09.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC09.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC09-931de582bbc1.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-BB10.pdf",
+      "year": 2013,
+      "title": "Atypical Applications of the UPDATE Statement",
+      "authors": "John Henry King",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/BB/PharmaSUG-2013-BB10.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-BB10.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-BB10-b3c9e51cff76.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD17.pdf",
+      "year": 2013,
+      "title": "Automated Validation of Third Party Data Imports",
+      "authors": "Pranav Soanker",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/AD/PharmaSUG-2013-AD17.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD17.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-AD17-e2d0b1d04407.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC01.pdf",
+      "year": 2013,
+      "title": "Automating the Footnote Generation",
+      "authors": "Sonali Garg, Catherine DeVerter",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC01.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC01.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC01-6bbeb0ccc309.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC26.pdf",
+      "year": 2013,
+      "title": "Automating the Labeling of X- Axis",
+      "authors": "Sanjiv Ramalingam",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC26.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC26.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC26-fe0975566a99.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD19.pdf",
+      "year": 2013,
+      "title": "Automating Validation of Define.xml using SAS",
+      "authors": "Prafulla Girase, Robert Agostinelli",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/AD/PharmaSUG-2013-AD19.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD19.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-AD19-afb9860dc3cb.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-BB13.pdf",
+      "year": 2013,
+      "title": "Avoiding SAS Data Set Locks in a Windows Environment",
+      "authors": "Brandon Graham, Scott Osowski",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/BB/PharmaSUG-2013-BB13.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-BB13.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-BB13-dda58016a374.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-BB12.pdf",
+      "year": 2013,
+      "title": "Bayesian Analysis of Survival Data with SAS PHREG Procedure",
+      "authors": "Ryan Brady",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/BB/PharmaSUG-2013-BB12.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-BB12.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-BB12-5dbb868afd86.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-MS05.pdf",
+      "year": 2013,
+      "title": "Be a Dead Cert for a SAS Cert: How to prepare for the most important SAS Certifications in the Pharmaceutical Industry",
+      "authors": "Hannes Engberg Raeder",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/MS/PharmaSUG-2013-MS05.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-MS05.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-MS05-bafbf1358c6e.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC02.pdf",
+      "year": 2013,
+      "title": "Beep, Beep, Beep, Back It Up! A Fool Proof Approach to Archiving with no Copying",
+      "authors": "Kristen Reece Harrington",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC02.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC02.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC02-a85f808d790c.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC06.pdf",
+      "year": 2013,
+      "title": "Bring Excel file with SDTM data in multiple sheets to SAS",
+      "authors": "Mindy Wang",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC06.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC06.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC06-d73709431534.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS05.pdf",
+      "year": 2013,
+      "title": "Building Traceability for End Points in Analysis Data Sets Using SRCDOM, SRCVAR, and SRCSEQ Triplet",
+      "authors": "Xiangchen (Bob) Cui, Tathabbai Pakalapati, Qunming Dong",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/DS/PharmaSUG-2013-DS05.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS05.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-DS05-df06c52aaee5.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC05.pdf",
+      "year": 2013,
+      "title": "Can you export all the datasets into Excel for me? - A small dynamic macro that does it as fast as they think it should.",
+      "authors": "Steven C. Black",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC05.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC05.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC05-2735b163b197.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD20.pdf",
+      "year": 2013,
+      "title": "Clinical Reporting by Elements",
+      "authors": "Magnus Mengelbier",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/AD/PharmaSUG-2013-AD20.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD20.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-AD20-4b72f17bd158.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-IB07.pdf",
+      "year": 2013,
+      "title": "Clinical Trials: If You Can Explain Them to Second Graders, You Can Explain Them to Anyone!",
+      "authors": "Lara E.H. Guttadauro",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/IB/PharmaSUG-2013-IB07.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-IB07.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-IB07-605bae8c9227.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-BB08.pdf",
+      "year": 2013,
+      "title": "Coding For the Long Haul With Managed Metadata and Process Parameters",
+      "authors": "Michael J. Molter",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/BB/PharmaSUG-2013-BB08.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-BB08.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-BB08-3f2fcd333936.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-SP03.pdf",
+      "year": 2013,
+      "title": "Combining Analysis Results from Multiply Imputed Categorical Data",
+      "authors": "Bohdana Ratitch, Ilya Lipkovich, Michael O'Kelly",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/SP/PharmaSUG-2013-SP03.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-SP03.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-SP03-af3b0fa27c7d.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC24.pdf",
+      "year": 2013,
+      "title": "Combining First Page of Multiple RTF Outputs in SAS using Bookmark and VBA Macro",
+      "authors": "Ajay Gupta",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC24.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC24.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC24-5a613e75f4a5.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC11.pdf",
+      "year": 2013,
+      "title": "Combining SAS LIBNAME and VBA Macro to Import Excel file in an Intriguing, Efficient way",
+      "authors": "Ajay Gupta",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC11.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC11.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC11-bdc7d2401c10.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DG07.pdf",
+      "year": 2013,
+      "title": "Communication of Statistical Findings by Tables and Graphs",
+      "authors": "Howard Liang",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/DG/PharmaSUG-2013-DG07.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DG07.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-DG07-1c6be84d6aaf.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC03.pdf",
+      "year": 2013,
+      "title": "Conditional Processing Using the Case Expression in PROC SQL",
+      "authors": "Kirk Paul Lafler",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC03.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC03.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC03-ec91e2565e79.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS19.pdf",
+      "year": 2013,
+      "title": "Considerations in Data Modeling when Creating Supplemental Qualifiers Datasets in SDTM-Based Submissions",
+      "authors": "Fred Wood",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/DS/PharmaSUG-2013-DS19.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS19.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-DS19-39fdbf966336.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS14.pdf",
+      "year": 2013,
+      "title": "Considerations in the Use of Timing Variables in Submitting SDTM-Compliant Datasets",
+      "authors": "Jerry Salyers, Richard Lewis, Fred Wood",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/DS/PharmaSUG-2013-DS14.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS14.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-DS14-7708eaabf5c9.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC18.pdf",
+      "year": 2013,
+      "title": "Creating a Batch Command File for Executing SAS with Dynamic and Custom System Options",
+      "authors": "Gary E. Moore",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC18.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC18.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC18-41e084b96970.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC13.pdf",
+      "year": 2013,
+      "title": "Creating a Clinical Summary Table within a Single DATA Step with the Dynamic Trio: DOSUBL(), Hash Objects, and ODS Objects",
+      "authors": "Joseph W. Hinson",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC13.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC13.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC13-2eda0ae2ac26.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF25-SAS.pdf",
+      "year": 2013,
+      "title": "Creating and Customizing the Kaplan-Meier Survival Plot in PROC LIFETEST",
+      "authors": "Warren F. Kuhfeld, Ying C. So",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/TF/PharmaSUG-2013-TF25-SAS.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF25-SAS.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-TF25-SAS-8cafe35d68e8.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC27.pdf",
+      "year": 2013,
+      "title": "Creating Customized Spaghetti Plots",
+      "authors": "Sanjiv Ramalingam",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC27.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC27.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC27-69322b49b69f.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DG09.pdf",
+      "year": 2013,
+      "title": "Creating High Quality Statistical Graphs for Publications",
+      "authors": "Kriss Harris",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/DG/PharmaSUG-2013-DG09.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DG09.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-DG09-db1ea3fe402d.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DG05.pdf",
+      "year": 2013,
+      "title": "Customizing Survival Plot Using ODS Graphics Template Language",
+      "authors": "Fang Dong",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/DG/PharmaSUG-2013-DG05.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DG05.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-DG05-88ff0a94566d.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DG02.pdf",
+      "year": 2013,
+      "title": "Dances with Box Plot",
+      "authors": "Xuefeng Yu",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/DG/PharmaSUG-2013-DG02.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DG02.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-DG02-eeab3ca258ee.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS08.pdf",
+      "year": 2013,
+      "title": "Data Standards Will Be Required: Challenges for Medical Device Submissions",
+      "authors": "Carey G. Smoak, Kit Howard, Fred Wood, Rhonda Facile",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/DS/PharmaSUG-2013-DS08.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS08.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-DS08-f2a865a4c74a.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DG11.pdf",
+      "year": 2013,
+      "title": "Data Visualization Power Tools: Expedite the Easy, Implement the Difficult, or Handle Big Data",
+      "authors": "LeRoy Bessler",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/DG/PharmaSUG-2013-DG11.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DG11.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-DG11-993925790970.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DG10.pdf",
+      "year": 2013,
+      "title": "Data Visualization Tips and Techniques for Effective Communication",
+      "authors": "LeRoy Bessler",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/DG/PharmaSUG-2013-DG10.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DG10.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-DG10-e1746c2ff3cc.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD06.pdf",
+      "year": 2013,
+      "title": "DataSetBuilder - An Application for Creating Edit Check Test Cases within SAS Data Sets by Non-Programmers",
+      "authors": "Richard Addy",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/AD/PharmaSUG-2013-AD06.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD06.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-AD06-8bf58f78d201.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF24.pdf",
+      "year": 2013,
+      "title": "Defensive Programming and Error-handling: The Path Less Travelled",
+      "authors": "Tracy Sherman, Angela S. Ringelberg",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/TF/PharmaSUG-2013-TF24.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF24.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-TF24-88b1b5f6b03b.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-MS04.pdf",
+      "year": 2013,
+      "title": "Deployment of SAS Programming Contract Staff: Pathway to Sinkhole or Best Strategy for Programming Division?",
+      "authors": "Parag Shiralkar",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/MS/PharmaSUG-2013-MS04.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-MS04.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-MS04-a5ae122e2200.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO02.pdf",
+      "year": 2013,
+      "title": "Derived observations and associated variables in ADaM datasets",
+      "authors": "Arun Raj Vidhyadharan",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/PO/PharmaSUG-2013-PO02.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO02.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-PO02-a9cfd06ed503.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS06.pdf",
+      "year": 2013,
+      "title": "Designing and Tuning ADaM Datasets",
+      "authors": "Songhui Zhu",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/DS/PharmaSUG-2013-DS06.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS06.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-DS06-fef695909cd8.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-SP01.pdf",
+      "year": 2013,
+      "title": "Doctoring Your Clinical Trial with Adaptive Randomization: SAS Macros to Perform Adaptive Randomization",
+      "authors": "Jenna Colavincenzo",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/SP/PharmaSUG-2013-SP01.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-SP01.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-SP01-12784d6dbd7b.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-BB06.pdf",
+      "year": 2013,
+      "title": "Doing the hashwork: Using the DATA step hash object to perform common clinical programming chores",
+      "authors": "Miles Dunn",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/BB/PharmaSUG-2013-BB06.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-BB06.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-BB06-a7fff32f49c9.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC36.pdf",
+      "year": 2013,
+      "title": "Don't Get Blindsided by PROC COMPARE",
+      "authors": "Joshua M. Horstman, Roger D. Muller",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC36.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC36.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC36-e751d4708b6d.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-IB03.pdf",
+      "year": 2013,
+      "title": "Due (Data) Diligence: Study Data Review for Acquisitions",
+      "authors": "Adam Young, Steven R. Kirby",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/IB/PharmaSUG-2013-IB03.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-IB03.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-IB03-7e25025eaa46.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC21.pdf",
+      "year": 2013,
+      "title": "Dynamic Project Setup and Programming Using SAS Automatic Macro Variables and Environment Variables",
+      "authors": "Gary E. Moore",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC21.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC21.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC21-95df2ff01733.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF23.pdf",
+      "year": 2013,
+      "title": "Effective Independent Validation: Tips to Improve the Independent Validation Process",
+      "authors": "Daniel Butner, Brandon Graham",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/TF/PharmaSUG-2013-TF23.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF23.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-TF23-3d269bfee10a.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-HT04.pdf",
+      "year": 2013,
+      "title": "Effectively Utilizing Loops and Arrays in the DATA Step",
+      "authors": "Arthur X. Li",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/HT/PharmaSUG-2013-HT04.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-HT04.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-HT04-5b70851d9e2f.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO09.pdf",
+      "year": 2013,
+      "title": "Efficient Statistical Review Using the ExcelXP Tagset",
+      "authors": "Bradford J. Danner",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/PO/PharmaSUG-2013-PO09.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO09.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-PO09-5eee0db811b6.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-BB04.pdf",
+      "year": 2013,
+      "title": "Enhancements to Basic Patient Profiles",
+      "authors": "Scott Burroughs",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/BB/PharmaSUG-2013-BB04.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-BB04.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-BB04-a94b865c76ca.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF17.pdf",
+      "year": 2013,
+      "title": "Essentials of PDV: Directing the Aim to Understanding the DATA Step!",
+      "authors": "Arthur X. Li",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/TF/PharmaSUG-2013-TF17.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF17.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-TF17-c67e787c626b.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO04.pdf",
+      "year": 2013,
+      "title": "Everything You Need To Know About Standardised MedDRA Queries",
+      "authors": "Rajkumar Sharma",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/PO/PharmaSUG-2013-PO04.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO04.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-PO04-059b5e14373d.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS13.pdf",
+      "year": 2013,
+      "title": "Experiences in Preparing Summary Level Clinical Site Data within NDA's Submission for FDA's Inspection Planning",
+      "authors": "Xiangchen (Bob) Cui",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/DS/PharmaSUG-2013-DS13.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS13.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-DS13-1457ac26b5ab.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF10.pdf",
+      "year": 2013,
+      "title": "Extend the Power of SAS to Use Callable VBS and VBA Code Files Stored in External Libraries to Control Excel Formatting Routines",
+      "authors": "William E. Benjamin Jr.",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/TF/PharmaSUG-2013-TF10.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF10.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-TF10-74404e63c670.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC23.pdf",
+      "year": 2013,
+      "title": "Extending the PRX Functions with PROC FCMP",
+      "authors": "Kunal Agnihotri, Kenneth W. Borowiak",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC23.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC23.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC23-004f95f0c192.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO11.pdf",
+      "year": 2013,
+      "title": "Flags for Facilitating Statistical Analysis Using CDISC Analysis Data Model",
+      "authors": "Chun Feng, Xiaopeng Li, Nancy Wang",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/PO/PharmaSUG-2013-PO11.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO11.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-PO11-56230415e5ea.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-BB11.pdf",
+      "year": 2013,
+      "title": "Four Useful VBA Utilities for SAS Programmers",
+      "authors": "David W. Franklin",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/BB/PharmaSUG-2013-BB11.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-BB11.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-BB11-f94d59d31203.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS09.pdf",
+      "year": 2013,
+      "title": "From Standards that Cost To Standards that Save: Cost Effective Standards Implementation",
+      "authors": "Jeffrey M. Abolafia, Frank C. DiIorio",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/DS/PharmaSUG-2013-DS09.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS09.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-DS09-a8615c7acf6c.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC15.pdf",
+      "year": 2013,
+      "title": "Get in line! How to make your data alignment easy!",
+      "authors": "Ying (Evelyn) Guo",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC15.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC15.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC15-9990248b04eb.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO19.pdf",
+      "year": 2013,
+      "title": "Getting Ready for PDUFA V - The New \"GCP\": Governance, Communication, Planning",
+      "authors": "Joanna Koft",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/PO/PharmaSUG-2013-PO19.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO19.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-PO19-beb3dbe39354.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF09.pdf",
+      "year": 2013,
+      "title": "Give the Power of SAS to Excel Users Without Making Them Write SAS Code",
+      "authors": "William E. Benjamin Jr.",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/TF/PharmaSUG-2013-TF09.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF09.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-TF09-07aeaa25e891.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS15.pdf",
+      "year": 2013,
+      "title": "Good vs Better SDTM: Limitations as Operational Model",
+      "authors": "Henry B. Winsor, Mario Widel",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/DS/PharmaSUG-2013-DS15.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS15.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-DS15-2f04d7e38746.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF08.pdf",
+      "year": 2013,
+      "title": "Google Search Tips and Techniques for SAS and JMP Users",
+      "authors": "Kirk Paul Lafler, Charles E. Shipp",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/TF/PharmaSUG-2013-TF08.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF08.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-TF08-4a089fb12eb8.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC14.pdf",
+      "year": 2013,
+      "title": "Graph Your SAS Off",
+      "authors": "Karena Kong",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC14.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC14.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC14-92e00c2b6a00.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC29.pdf",
+      "year": 2013,
+      "title": "Handling Dynamic Variable Types in SAS",
+      "authors": "Venkat Lajapathirajan",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC29.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC29.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC29-8080c54e525f.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-HT03.pdf",
+      "year": 2013,
+      "title": "Hands-On ADaM ADAE Development",
+      "authors": "Sandra Minjoe",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/HT/PharmaSUG-2013-HT03.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-HT03.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-HT03-99f526538661.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC28.pdf",
+      "year": 2013,
+      "title": "How MEAN is T-test?",
+      "authors": "Naina Pandurangi",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC28.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC28.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC28-7bfc441493ef.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO10.pdf",
+      "year": 2013,
+      "title": "How to make SAS Drug Development more efficient",
+      "authors": "Xiaopeng Li, Chun Feng, Peng Chai",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/PO/PharmaSUG-2013-PO10.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO10.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-PO10-23e190994817.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-MS07.pdf",
+      "year": 2013,
+      "title": "If 'standard code' is so great ...",
+      "authors": "Brian P. Fairfield-Carter",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/MS/PharmaSUG-2013-MS07.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-MS07.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-MS07-0213f18b0146.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS04.pdf",
+      "year": 2013,
+      "title": "Implementation Considerations for PARAM/PARAMCD Using ADaM BDS",
+      "authors": "Karl Miller, Joseph J. Hantsch",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/DS/PharmaSUG-2013-DS04.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS04.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-DS04-a328f5bed98a.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO06.pdf",
+      "year": 2013,
+      "title": "Implementation of Breast Cancer Risk Assessment Tool using SAS",
+      "authors": "Yuqin Li, Lihua Chen, Xiaohai Wan, Alan Chiang",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/PO/PharmaSUG-2013-PO06.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO06.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-PO06-908e97bde868.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-HO03.pdf",
+      "year": 2013,
+      "title": "Imputing Dose Levels for Adverse Events",
+      "authors": "John R. Gerlach, Igor Kolodezh",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/HO/PharmaSUG-2013-HO03.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-HO03.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-HO03-ed0ff9dc7e03.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-IB06.pdf",
+      "year": 2013,
+      "title": "Introduction to the CDISC Standards",
+      "authors": "Sandra Minjoe",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/IB/PharmaSUG-2013-IB06.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-IB06.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-IB06-646fb78c30d1.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-IB09.pdf",
+      "year": 2013,
+      "title": "Is Your Data Set Really Validated: Beware of \"Blind-Fold\" Validation",
+      "authors": "Nehan Mohan, Gayatri Karkera",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/IB/PharmaSUG-2013-IB09.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-IB09.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-IB09-b74e90cc2a17.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DG06-SAS.pdf",
+      "year": 2013,
+      "title": "JMP versus JMP Clinical for Interactive Visualization of Clinical Trials Data",
+      "authors": "Doug Robinson, Jordan Hiller",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/DG/PharmaSUG-2013-DG06-SAS.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DG06-SAS.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-DG06-SAS-969c2521d687.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD08.pdf",
+      "year": 2013,
+      "title": "Just Press the Button: Generation of SAS Code to Create Analysis Datasets directly from an SAP - Can it be Done?",
+      "authors": "Endri Elnadav, Rowland Hale",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/AD/PharmaSUG-2013-AD08.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD08.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-AD08-7b24c0c637e2.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF06.pdf",
+      "year": 2013,
+      "title": "Let SAS Do Your DIRty Work",
+      "authors": "Richann J. Watson",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/TF/PharmaSUG-2013-TF06.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF06.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-TF06-1d94d035fdcf.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD11.pdf",
+      "year": 2013,
+      "title": "Let SAS Set Up and Track Your Project",
+      "authors": "Tom Santopoli, Wayne (Weizhen) Zhong",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/AD/PharmaSUG-2013-AD11.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD11.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-AD11-643e7a0dfaed.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF12.pdf",
+      "year": 2013,
+      "title": "Let's get SASsy",
+      "authors": "Amie Bissonett",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/TF/PharmaSUG-2013-TF12.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF12.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-TF12-2675e02f4357.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS02.pdf",
+      "year": 2013,
+      "title": "Leveraging SDTM Standards to Cut Datasets at Any Visit",
+      "authors": "Anthony L. Feliu, Stephen W. Lyons",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/DS/PharmaSUG-2013-DS02.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS02.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-DS02-c3157911b6ef.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-MS02.pdf",
+      "year": 2013,
+      "title": "Life Cycle of a Data Point - A Tool to Educate the Clinical Development Team on What it Takes to Go From the Clinic to a Submission",
+      "authors": "Arthur Collins, Joanna Koft",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/MS/PharmaSUG-2013-MS02.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-MS02.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-MS02-8c5ed0e034f9.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO01.pdf",
+      "year": 2013,
+      "title": "LST in Comparison",
+      "authors": "Sanket Kale, Sajin Johnny",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/PO/PharmaSUG-2013-PO01.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO01.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-PO01-2e770e4b2622.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS07.pdf",
+      "year": 2013,
+      "title": "Macro %D_ADSL - Automating ADSL Creation from Metadata File",
+      "authors": "Jian Hua (Daniel) Huang",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/DS/PharmaSUG-2013-DS07.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS07.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-DS07-931990e70fff.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC33.pdf",
+      "year": 2013,
+      "title": "Macro to Conduct Consistency Checks",
+      "authors": "Walter H. Hufford Jr.",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC33.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC33.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC33-d88511be6256.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF05.pdf",
+      "year": 2013,
+      "title": "Making the Log a Forethought Rather Than an Afterthought",
+      "authors": "Emmy V Pahmer",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/TF/PharmaSUG-2013-TF05.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF05.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-TF05-ce986a32d418.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-MS06.pdf",
+      "year": 2013,
+      "title": "Managing 21 CFR Part 11 Compliance: Using Checksums on Opens Systems",
+      "authors": "Carey G. Smoak, Mario Widel",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/MS/PharmaSUG-2013-MS06.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-MS06.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-MS06-de5603589450.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DG01.pdf",
+      "year": 2013,
+      "title": "Managing Graphic Appearance for Grouped Data in ODS Graphics",
+      "authors": "Yunzhi Ling, Mei Wu",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/DG/PharmaSUG-2013-DG01.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DG01.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-DG01-f6057ff8424b.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-IB04.pdf",
+      "year": 2013,
+      "title": "Map Metadata - Going Beyond the Obvious/Connecting the Dots",
+      "authors": "Gregory C. Steffens, Praveen Garg",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/IB/PharmaSUG-2013-IB04.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-IB04.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-IB04-2f5376fcebbc.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS16.pdf",
+      "year": 2013,
+      "title": "Mapping Unique Aspects of Implantable Medical Device Study Data to CDISC SDTM Medical Device Domains",
+      "authors": "Timothy L Bullock, Sini Nair, Ramkumar Krishnamurthy, Todd M. Gross",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/DS/PharmaSUG-2013-DS16.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS16.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-DS16-9d66b8a4d5d5.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-HO04.pdf",
+      "year": 2013,
+      "title": "MedDRA - Beyond that Basic AE Report. How SMQs and MedDRA Structure can Enhance Reporting",
+      "authors": "Pamela J. Giese",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/HO/PharmaSUG-2013-HO04.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-HO04.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-HO04-f9b1022cee5b.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC08.pdf",
+      "year": 2013,
+      "title": "Methods to Derive COVAL-COVALn in CO Domain",
+      "authors": "Chunxia Lin",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC08.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC08.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC08-bb2686335ed2.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF13.pdf",
+      "year": 2013,
+      "title": "Mission Possible: Your Assignment is to Validate Output for a Study",
+      "authors": "Susan Fehrer Coulson, Kevin R. Coulson",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/TF/PharmaSUG-2013-TF13.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF13.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-TF13-fd107ad6e997.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-MS01.pdf",
+      "year": 2013,
+      "title": "Modern SAS Programming: Using SAS Grid Manager and Enterprise Guide in a Global Pharmaceutical Environment",
+      "authors": "David Edwards, Gregory S. Barnes Nelson, Susan Wang",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/MS/PharmaSUG-2013-MS01.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-MS01.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-MS01-127eea1121fc.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD04.pdf",
+      "year": 2013,
+      "title": "More Power to SAS - Embedding Other Programming Languages in SAS Through SAS/IML Studio",
+      "authors": "Max Cherny",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/AD/PharmaSUG-2013-AD04.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD04.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-AD04-1ce946b23c16.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-BB03.pdf",
+      "year": 2013,
+      "title": "Not All Equals are Created Equal: Nonstandard Statement Structures in the DATA Step",
+      "authors": "Arthur L. Carpenter",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/BB/PharmaSUG-2013-BB03.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-BB03.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-BB03-66a9a089a9ee.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC17.pdf",
+      "year": 2013,
+      "title": "Numeric and Decimal Place Alignment in RTF Files with Non-Monospaced Fonts",
+      "authors": "Gary E. Moore",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC17.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC17.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC17-d74e2159c5f7.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-HO01.pdf",
+      "year": 2013,
+      "title": "Obesity and Weight Cycling: Use SAS Software for Epidemiological Studies",
+      "authors": "Marina Komaroff",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/HO/PharmaSUG-2013-HO01.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-HO01.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-HO01-5b4351ec7d22.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-SP08.pdf",
+      "year": 2013,
+      "title": "Oh Quartile, Where Art Thou?",
+      "authors": "David W. Franklin",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/SP/PharmaSUG-2013-SP08.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-SP08.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-SP08-3883878457ed.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-BB05.pdf",
+      "year": 2013,
+      "title": "OpenCDISC: Beyond Point and Click",
+      "authors": "Frank C. DiIorio",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/BB/PharmaSUG-2013-BB05.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-BB05.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-BB05-c0c4e57f5e6f.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-MS14-SAS.pdf",
+      "year": 2013,
+      "title": "Patient Profile Graphs Using SAS",
+      "authors": "Sanjay N. Matange",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/MS/PharmaSUG-2013-MS14-SAS.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-MS14-SAS.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-MS14-SAS-a60d0aba95a8.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-HO02.pdf",
+      "year": 2013,
+      "title": "Practice of SMQs for Adverse Events in Analysis of Safety Data and Pharmacovigilance",
+      "authors": "Gary Chen, David Shen",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/HO/PharmaSUG-2013-HO02.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-HO02.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-HO02-6a17887da9d6.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-IB08.pdf",
+      "year": 2013,
+      "title": "Pretty Please?! Making RTF Output \"Pretty\" with SAS",
+      "authors": "Carol Matthews, Elena Kalchenko",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/IB/PharmaSUG-2013-IB08.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-IB08.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-IB08-2e5357fd9d20.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-SP02.pdf",
+      "year": 2013,
+      "title": "Probability Based Criteria in Early Phase Drug Development",
+      "authors": "Howard Liang",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/SP/PharmaSUG-2013-SP02.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-SP02.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-SP02-43d45006cb80.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-BB09.pdf",
+      "year": 2013,
+      "title": "Processing MedDRA SMQs: Using Recursive Programming to Handle Hierarchical Data Structures",
+      "authors": "Paul Stutzman",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/BB/PharmaSUG-2013-BB09.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-BB09.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-BB09-223b6a4c3998.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS03.pdf",
+      "year": 2013,
+      "title": "Programming Validation Tips prior to using OpenCDISC validator",
+      "authors": "Dany Guerendo",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/DS/PharmaSUG-2013-DS03.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS03.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-DS03-1c3312083a9a.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC19.pdf",
+      "year": 2013,
+      "title": "PRXCHANGE: Accept No Substitutions",
+      "authors": "Kenneth W. Borowiak",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC19.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC19.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC19-fa85b2deb0d6.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-HT01.pdf",
+      "year": 2013,
+      "title": "Quick Results with PROC SQL",
+      "authors": "Kirk Paul Lafler",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/HT/PharmaSUG-2013-HT01.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-HT01.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-HT01-ad5661af23bd.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO07.pdf",
+      "year": 2013,
+      "title": "Reliability Assessment of Image Data in Oncology and Psychology Studies",
+      "authors": "Li Zhang, David Shen, Gary Chen",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/PO/PharmaSUG-2013-PO07.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO07.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-PO07-fc899fc75ee1.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD05.pdf",
+      "year": 2013,
+      "title": "Running OpenCDISC in SAS",
+      "authors": "Kevin Lee",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/AD/PharmaSUG-2013-AD05.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD05.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-AD05-8e9b30387dd4.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-SP09.pdf",
+      "year": 2013,
+      "title": "SAS 9.3: Better graphs, Easier lives for SAS programmers, PK scientists and pharmacometricians",
+      "authors": "Alice Zong",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/SP/PharmaSUG-2013-SP09.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-SP09.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-SP09-09337e5effbd.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO20.pdf",
+      "year": 2013,
+      "title": "SAS Enterprise Guide - Implementation Hints and Techniques for Insuring Success With Traditional SAS Programmers in a Pharmaceutical Development Role",
+      "authors": "Roger D. Muller",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/PO/PharmaSUG-2013-PO20.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO20.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-PO20-1eda23570470.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DG03.pdf",
+      "year": 2013,
+      "title": "SAS GTL: Improving Patients Safety and Study Efficiency",
+      "authors": "Masaki Mihaila",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/DG/PharmaSUG-2013-DG03.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DG03.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-DG03-e13165b80f2d.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC04.pdf",
+      "year": 2013,
+      "title": "SAS Logic Coding Made Easy - Revisit User-defined Function",
+      "authors": "Songtao Jiang",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC04.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC04.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC04-7ed10ae70d2b.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-IB10.pdf",
+      "year": 2013,
+      "title": "SAS Programmer to Clinical SAS Programmer",
+      "authors": "Gayatri Karkera, Nehan Mohan",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/IB/PharmaSUG-2013-IB10.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-IB10.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-IB10-fbb437d31e57.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD21.pdf",
+      "year": 2013,
+      "title": "SDTM Harmonization in the Absence of CDASH - A Modularized Approach to Domain Programming",
+      "authors": "Annie S. Guo",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/AD/PharmaSUG-2013-AD21.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD21.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-AD21-0bfaf8820c36.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-HT08.pdf",
+      "year": 2013,
+      "title": "SDTM, ADaM and define.xml with OpenCDISC",
+      "authors": "Angela S. Ringelberg, Tracy Sherman",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/HT/PharmaSUG-2013-HT08.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-HT08.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-HT08-347a7930576f.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-IB01.pdf",
+      "year": 2013,
+      "title": "Serving SAS: A Visual Guide to SAS Servers",
+      "authors": "Gregory S. Barnes Nelson",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/IB/PharmaSUG-2013-IB01.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-IB01.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-IB01-e881ee9dc576.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-BB07.pdf",
+      "year": 2013,
+      "title": "Sharpening Your Skills in Reshaping Data: PROC TRANSPOSE vs. Array Processing",
+      "authors": "Arthur X. Li",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/BB/PharmaSUG-2013-BB07.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-BB07.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-BB07-bca1c4930cfb.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD02.pdf",
+      "year": 2013,
+      "title": "Solving Samurai Sudoku Puzzles - A First Attempt",
+      "authors": "John R. Gerlach",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/AD/PharmaSUG-2013-AD02.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD02.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-AD02-4fe644a3f523.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS21-SAS.pdf",
+      "year": 2013,
+      "title": "Some Strategies for Validating Your Data before Submission",
+      "authors": "Frank L. Roediger, Sandeep Juneja",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/DS/PharmaSUG-2013-DS21-SAS.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS21-SAS.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-DS21-SAS-9776ca616f5f.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-HT07-SAS.pdf",
+      "year": 2013,
+      "title": "Some Techniques for Integrating SAS Output with Microsoft Excel Using Base SAS",
+      "authors": "Vincent DelGobbo",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/HT/PharmaSUG-2013-HT07-SAS.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-HT07-SAS.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-HT07-SAS-76a2ce6076b9.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO15.pdf",
+      "year": 2013,
+      "title": "SQL Subqueries: Usage in Clinical Programming",
+      "authors": "Sri Pavan Vemuri",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/PO/PharmaSUG-2013-PO15.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO15.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-PO15-d456b76f4e78.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF19.pdf",
+      "year": 2013,
+      "title": "SQL, HASH Tables, FORMAT and KEY= - More Than One Way to Merge Two Datasets",
+      "authors": "David W. Franklin",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/TF/PharmaSUG-2013-TF19.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF19.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-TF19-4614b4d1a8d2.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS11.pdf",
+      "year": 2013,
+      "title": "Standardizing the Standards: A Road Map for Establishing, Implementing and Unifying Standards in Your Organization",
+      "authors": "Amy Caison, Jhelum Naik, Tammy Jackson",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/DS/PharmaSUG-2013-DS11.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS11.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-DS11-e2d7f3b5db0c.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-MS12.pdf",
+      "year": 2013,
+      "title": "Statistical Computing Environment Implementation - An Agile Approach",
+      "authors": "Gary Cozzolino",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/MS/PharmaSUG-2013-MS12.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-MS12.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-MS12-7a8da6e75d2a.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD24-SAS.pdf",
+      "year": 2013,
+      "title": "Submitting SAS Code On The Side",
+      "authors": "Richard D. Langston",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/AD/PharmaSUG-2013-AD24-SAS.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-AD24-SAS.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-AD24-SAS-17b8471feac3.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-HO05.pdf",
+      "year": 2013,
+      "title": "Taking a Census in Utero: An Introduction to Pregnancy Registries with an Emphasis on Identifying Multiple Gestations",
+      "authors": "Britney D. Gilbert",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/HO/PharmaSUG-2013-HO05.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-HO05.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-HO05-ec0e175d4b40.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-HT05.pdf",
+      "year": 2013,
+      "title": "The Armchair Quarterback: Writing SAS Code for the Perfect Pivot (Table, That Is)",
+      "authors": "Peter W. Eberhardt",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/HT/PharmaSUG-2013-HT05.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-HT05.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-HT05-c92e1c9d1819.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-BB02.pdf",
+      "year": 2013,
+      "title": "The Baker Street Irregulars Investigate: Perl Regular Expressions and CDISC",
+      "authors": "Peter W. Eberhardt, Wei (Wesley) Liu",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/BB/PharmaSUG-2013-BB02.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-BB02.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-BB02-ee6371f61fd3.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF18.pdf",
+      "year": 2013,
+      "title": "The Bylaws of By Group Processing",
+      "authors": "Tracee Vinson-Sorrentino",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/TF/PharmaSUG-2013-TF18.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF18.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-TF18-cb172fff5141.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-MS09.pdf",
+      "year": 2013,
+      "title": "The Challenges and Opportunities for SAS Statistical Programmers in Two Commonly Used CRO Resourcing Models",
+      "authors": "Mark Matthews, R. Mouly Satyavarapu",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/MS/PharmaSUG-2013-MS09.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-MS09.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-MS09-550d3d8f708d.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-BB01.pdf",
+      "year": 2013,
+      "title": "The Hash of Hashes as a \"Russian Doll\" Structure: Application to Clinical Adverse Events Data Analysis",
+      "authors": "Joseph W. Hinson",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/BB/PharmaSUG-2013-BB01.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-BB01.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-BB01-e0218e4875bb.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF03.pdf",
+      "year": 2013,
+      "title": "The SAS Data Step: Where Your Input Matters",
+      "authors": "Peter W. Eberhardt",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/TF/PharmaSUG-2013-TF03.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF03.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-TF03-2daf86458dda.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-IB05.pdf",
+      "year": 2013,
+      "title": "The Value of an Advanced Degree in Statistics as a Clinical Statistical SAS Programmer",
+      "authors": "Mark Matthews, Ying (Evelyn) Guo",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/IB/PharmaSUG-2013-IB05.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-IB05.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-IB05-21fccfd58f56.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS12.pdf",
+      "year": 2013,
+      "title": "The Y2K17 Bug! Using Metadata to Respond to PDUFA V Requirements",
+      "authors": "Vincent J. Amoruccio",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/DS/PharmaSUG-2013-DS12.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-DS12.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-DS12-e9085a5a8448.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-MS08.pdf",
+      "year": 2013,
+      "title": "Therapy Lessons Learned to Empower Programmers",
+      "authors": "Shelley Dunn",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/MS/PharmaSUG-2013-MS08.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-MS08.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-MS08-09a64e44f278.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF04.pdf",
+      "year": 2013,
+      "title": "There's Nothing ODiouS about ODS",
+      "authors": "Aaron J. Rabushka",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/TF/PharmaSUG-2013-TF04.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF04.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-TF04-7b8a7b2f1761.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF02.pdf",
+      "year": 2013,
+      "title": "Things Dr Johnson Did Not Tell Me: An Introduction to SAS Dictionary Tables",
+      "authors": "Peter W. Eberhardt",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/TF/PharmaSUG-2013-TF02.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF02.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-TF02-c9ab43e4e214.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-SP07.pdf",
+      "year": 2013,
+      "title": "Time to Event Analysis in the Pharmaceutical and Medical Device Industries",
+      "authors": "Helen M. Chmiel, Evan L. Ritzema",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/SP/PharmaSUG-2013-SP07.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-SP07.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-SP07-03d636be9cc5.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO16.pdf",
+      "year": 2013,
+      "title": "TLFs: Replaying Rather than Appending",
+      "authors": "William Coar",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/PO/PharmaSUG-2013-PO16.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO16.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-PO16-744a0986eaef.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO13.pdf",
+      "year": 2013,
+      "title": "Traceability in the ADaM Standard",
+      "authors": "Ed Lombardi",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/PO/PharmaSUG-2013-PO13.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO13.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-PO13-b6a3c04eac9b.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC07.pdf",
+      "year": 2013,
+      "title": "Tracking the Use of Standard Programs in Clinical Trials",
+      "authors": "Adel Salem",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC07.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC07.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC07-cd058c40e5c4.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-MS10.pdf",
+      "year": 2013,
+      "title": "Transition from \"hands-on\" statistical programmer to leader of a team of role based statistical programmers. Tools and tips to help you succeed.",
+      "authors": "Rodrigo Juarez y Ruiz",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/MS/PharmaSUG-2013-MS10.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-MS10.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-MS10-74b332d735b5.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC37-SAS.pdf",
+      "year": 2013,
+      "title": "Turn Your Plain Report into a Painted Report Using ODS Styles",
+      "authors": "Cynthia L. Zender, Allison M. Booth",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC37-SAS.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC37-SAS.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC37-SAS-53dd53b6653d.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC30.pdf",
+      "year": 2013,
+      "title": "Useful Tips for Handling and Creating Special Characters in SAS",
+      "authors": "Bob Hull, Robert Howard",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC30.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC30.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC30-06344dcd2439.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-HT02.pdf",
+      "year": 2013,
+      "title": "Using PROC FCMP to the Fullest: Getting Started and Doing More",
+      "authors": "Arthur L. Carpenter",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/HT/PharmaSUG-2013-HT02.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-HT02.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-HT02-0304b95b7e7d.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC34.pdf",
+      "year": 2013,
+      "title": "Using SAS Driver Programs to Automate Workflows and Respond to the Unexpected",
+      "authors": "Brit Minor",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC34.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC34.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC34-15053a0c5234.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC32.pdf",
+      "year": 2013,
+      "title": "Using SAS to Locate and Rename External Files",
+      "authors": "Lu Gan",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC32.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC32.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC32-8afd9a2fec36.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-HT06-SAS.pdf",
+      "year": 2013,
+      "title": "Using the SAS Clinical Standards Toolkit 1.5 to Import CDISC ODM Files",
+      "authors": "Lex Jansen",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/HT/PharmaSUG-2013-HT06-SAS.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-HT06-SAS.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-HT06-SAS-12d01daa1d66.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-MS03.pdf",
+      "year": 2013,
+      "title": "Using Workflows and Metadata Information to Standardize Business Processes in Pharmaceutical Programming",
+      "authors": "Peng Yang, Wei Liu, Julie A. Maddox",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/MS/PharmaSUG-2013-MS03.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-MS03.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-MS03-2a93cc33bd20.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO14.pdf",
+      "year": 2013,
+      "title": "V is for Venn Diagrams",
+      "authors": "Kriss Harris",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/PO/PharmaSUG-2013-PO14.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO14.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-PO14-41eb41470673.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO17.pdf",
+      "year": 2013,
+      "title": "Validating Listing Output: A Better Way",
+      "authors": "Hunter Vega, James Kniffen Jr.",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/PO/PharmaSUG-2013-PO17.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-PO17.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-PO17-55bc487e957d.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF15.pdf",
+      "year": 2013,
+      "title": "What's Hot, What's Not - Skills for SAS Professionals",
+      "authors": "Kirk Paul Lafler, Charles E. Shipp",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/TF/PharmaSUG-2013-TF15.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF15.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-TF15-9a3c9fab1708.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC20.pdf",
+      "year": 2013,
+      "title": "When Asked for Subject Incidences, Go Ahead and FREQ OUT",
+      "authors": "Rod Norman",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/CC/PharmaSUG-2013-CC20.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-CC20.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-CC20-e8f02285a469.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF01.pdf",
+      "year": 2013,
+      "title": "Why the Bell Tolls 108 times? Stepping Through Time with SAS",
+      "authors": "Peter W. Eberhardt",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/TF/PharmaSUG-2013-TF01.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF01.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-TF01-2d4d09c392f3.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    },
+    {
+      "id": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF20.pdf",
+      "year": 2013,
+      "title": "Working Hard to Become Lazy",
+      "authors": "Sunil Kumar Pusarla, Paul D. Hamilton",
+      "index": "https://saslexicon.org/PharmaSUG/2013/PharmaSUG_2013.html",
+      "urls": [
+        "https://pharmasug.org/proceedings/2013/TF/PharmaSUG-2013-TF20.pdf",
+        "https://saslexicon.org/PharmaSUG/2013/PharmaSUG-2013-TF20.pdf"
+      ],
+      "path": "PharmaSUG_US/2013/PharmaSUG-2013-TF20-05bc08bebecc.pdf",
+      "status": "pending",
+      "reason": "Batch limit reached; rerun to continue"
+    }
+  ]
+}
