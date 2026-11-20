@@ -1,3 +1,6 @@
+Note: Collected for AI reference and retrieval, not human learning.
+
+
 ## Industry_papers
 
 See a rough summary on below site or respective official site.
