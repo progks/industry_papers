@@ -2859,8 +2859,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_RE04.pdf"
     ],
     "filename": "PAP-RE04-7749eafde2.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_RE04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_RE04.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_RE04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_RE04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_RE04.pdf",
+    "bytes": 385973,
+    "sha256": "f8743faecd108bd0385c03ce63478e1e671e65aed209cd60c62854cebe980205"
   },
   {
     "title": "Performance-Driven Risk Oversight for AI Agents in Clinical Research",
@@ -2872,8 +2874,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_ML05.pdf"
     ],
     "filename": "PAP-ML05-62987e0f22.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML05.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_ML05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_ML05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML05.pdf",
+    "bytes": 358655,
+    "sha256": "0032ee55d808eb90bdc0fefd3575519625ef61e5ad8702902f56c2b64958d39f"
   },
   {
     "title": "Perspective on Enterprise AI and Posit Tooling",
@@ -2885,8 +2889,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_ET26.pdf"
     ],
     "filename": "PAP-ET26-f444f5adfd.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET26.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET26.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_ET26.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_ET26.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET26.pdf",
+    "bytes": 3298469,
+    "sha256": "f312a9341cab98b7cb48861b6785d7aa58e48e92e6a15cca030aa50b5644afce"
   },
   {
     "title": "Pharmacokinetic Noncompartmental Analysis (PK NCA) Using R: An Efficient Cost-Effective Alternative to Industry-Standard Software",
@@ -2898,8 +2904,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_PP16.pdf"
     ],
     "filename": "PAP-PP16-d7dc9c4254.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PP16.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PP16.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_PP16.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_PP16.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PP16.pdf",
+    "bytes": 281095,
+    "sha256": "a03cce02416bb3318e4a1087ff563e9df8ccc71166f76fcf879b40dab8fe0d73"
   },
   {
     "title": "Pharmula 1 - Driving Innovation in Reporting",
@@ -2911,8 +2919,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_OS03.pdf"
     ],
     "filename": "PAP-OS03-9fa7deef1c.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS03.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_OS03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_OS03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS03.pdf",
+    "bytes": 180936,
+    "sha256": "7a5b771e1e803613b135b898aaf6d73d280ecedc598a2e59e9163086ac097183"
   },
   {
     "title": "PHUSE Working Groups Highlights",
@@ -2924,8 +2934,10 @@
       "https://saslexicon.org/PHUSE_US/2026/POS_PP08.pdf"
     ],
     "filename": "POS-PP08-ada7f313bd.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/POS_PP08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/POS_PP08.pdf | https://saslexicon.org/PHUSE_US/2026/POS_PP08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/POS_PP08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/POS_PP08.pdf",
+    "bytes": 3282376,
+    "sha256": "da2d04c0381bbb283eaa860fe393072a94ffa200e888c614086f9740a00c47d3"
   },
   {
     "title": "Practical Survival Analysis Techniques for Clinical Trials Using SAS",
@@ -2937,8 +2949,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_AS20.pdf"
     ],
     "filename": "PAP-AS20-1a743d545a.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS20.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS20.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_AS20.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_AS20.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS20.pdf",
+    "bytes": 661739,
+    "sha256": "3b4915badaac50de11177909ba607b4d56df7d74701b6950b9afb5b5f910d245"
   },
   {
     "title": "Pre-Conf as a Data Review Layer: An AbbVie Case Study for Optimised Clinical Data Flow",
@@ -2950,8 +2964,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_DH11.pdf"
     ],
     "filename": "PAP-DH11-82a3231da1.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DH11.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DH11.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_DH11.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_DH11.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DH11.pdf",
+    "bytes": 47019,
+    "sha256": "b87a634c2cacd7ba7bdc35e56842f8dad0743e34dffab44959853d52e2d5fa5d"
   },
   {
     "title": "Privacy Considerations of Using RWD from a Statistical Programming Perspective",
@@ -2963,8 +2979,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_RE03.pdf"
     ],
     "filename": "PAP-RE03-a4ac5ab297.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_RE03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_RE03.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_RE03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_RE03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_RE03.pdf",
+    "bytes": 358503,
+    "sha256": "1150daf6efbe4e53179873fd3bd68ecab84588ec21de750cb4f0535b2100bcbe"
   },
   {
     "title": "Privacy-Preserving Methods for Oncology Research Using Differential Privacy",
@@ -2976,8 +2994,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_PP01.pdf"
     ],
     "filename": "PAP-PP01-76ba40a0c4.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PP01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PP01.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_PP01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_PP01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PP01.pdf",
+    "bytes": 1070676,
+    "sha256": "5023a9a2868581e7e295e52b85022590390e659563427dc78f4a39117a5c6f29"
   },
   {
     "title": "Problem-First Agentic AI: Transforming Statistical Computing with Purposeful Automation",
