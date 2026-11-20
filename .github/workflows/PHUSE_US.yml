@@ -1,0 +1,405 @@
+# Save this workflow in your repository as .github/workflows/PHUSE_US.yml
+# Source: PHUSE US. Output folder name follows the repository owner's request.
+name: PHUSE US - Download All Papers
+
+on:
+  workflow_dispatch:
+    inputs:
+      year:
+        description: 'all = every year; or enter a year such as 2026'
+        required: true
+        default: 'all'
+        type: string
+      limit:
+        description: '0 = all papers; or test first N papers per year'
+        required: true
+        default: '0'
+        type: string
+      dry-run:
+        description: 'Discover links only; do not download or commit'
+        required: true
+        default: false
+        type: boolean
+  # Optional weekly sync. Uncomment only after a successful initial run.
+  # schedule:
+  #   - cron: '17 3 * * 0'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: phuse-us-sync
+  cancel-in-progress: false
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+
+    steps:
+      - name: Check out the default branch
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 1
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: python -m pip install 'requests>=2.32,<3' 'beautifulsoup4>=4.12,<5'
+
+      - name: Configure commit identity
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
+      - name: Create the embedded downloader
+        shell: bash
+        run: |
+          cat > "$RUNNER_TEMP/download-phuse.py" <<'PYTHON'
+          #!/usr/bin/env python3
+          """Download PHUSE US papers; optionally checkpoint and push to this repository."""
+          import argparse
+          import hashlib
+          import json
+          import os
+          from pathlib import Path
+          import re
+          import subprocess
+          import time
+          from urllib.parse import urljoin, urlsplit, unquote, urldefrag
+          from urllib.robotparser import RobotFileParser
+
+          import requests
+          from bs4 import BeautifulSoup
+
+          INDEX = 'https://saslexicon.org/PHUSE_US/PHUSE_US.html'
+          ROOT = Path('PharmaSUG_US')
+          MAX_BYTES = 95 * 1024 * 1024
+          AGENT = 'IndustryPapersArchiver'
+
+
+          def pdf_url(url):
+              return urlsplit(url).path.lower().endswith('.pdf')
+
+
+          def discover_years(html, base=INDEX):
+              result = {}
+              for a in BeautifulSoup(html, 'html.parser').select('a[href]'):
+                  year = a.get_text(' ', strip=True)
+                  url = urljoin(base, a['href'])
+                  if (re.fullmatch(r'20\d{2}', year)
+                          and urlsplit(url).netloc == urlsplit(base).netloc
+                          and re.search(r'/PHUSE_US/' + year + r'/[^/]+\.html$', urlsplit(url).path)):
+                      result[year] = url
+              if not result:
+                  raise RuntimeError('No year links found: index structure may have changed')
+              return dict(sorted(result.items(), reverse=True))
+
+
+          def parse_papers(html, base):
+              records, seen = [], set()
+              for row in BeautifulSoup(html, 'html.parser').select('tr'):
+                  cells = row.find_all('td', recursive=False)
+                  # Columns: number, title, authors, abstract, keywords, extras, pages.
+                  if len(cells) < 6 or not cells[0].get_text(strip=True).isdigit():
+                      continue
+                  title_link = cells[1].find('a', href=True)
+                  if not title_link:
+                      continue
+                  mirror = urldefrag(urljoin(base, title_link['href']))[0]
+                  sources = []
+                  for a in cells[5].select('a[href]'):
+                      label = a.get_text(' ', strip=True).lower()
+                      url = urldefrag(urljoin(base, a['href']))[0]
+                      # Exact match intentionally excludes "presentation source".
+                      if label == 'source' and pdf_url(url):
+                          sources.append(url)
+                  candidates = list(dict.fromkeys(sources + ([mirror] if pdf_url(mirror) else [])))
+                  if not candidates:
+                      continue
+                  identity = candidates[0]
+                  if identity in seen:
+                      continue
+                  seen.add(identity)
+                  stem = Path(unquote(urlsplit(identity).path)).stem
+                  stem = re.sub(r'[^A-Za-z0-9.-]+', '-', stem).strip('.-')[:90] or 'paper'
+                  suffix = hashlib.sha256(identity.encode()).hexdigest()[:10]
+                  records.append({
+                      'title': cells[1].get_text(' ', strip=True),
+                      'authors': cells[2].get_text(' ', strip=True),
+                      'abstract': cells[3].get_text(' ', strip=True),
+                      'keywords': cells[4].get_text(' ', strip=True),
+                      'source_urls': candidates,
+                      'filename': f'{stem}-{suffix}.pdf',
+                  })
+              if not records:
+                  raise RuntimeError(f'No paper rows found: {base}')
+              return records
+
+
+          class Fetcher:
+              def __init__(self, delay=0.8):
+                  self.session = requests.Session()
+                  repo = os.getenv('GITHUB_REPOSITORY', 'progks/industry_papers')
+                  self.session.headers['User-Agent'] = f'{AGENT}/1.0 (+https://github.com/{repo})'
+                  self.delay = delay
+                  self.policies = {}
+                  self.last = {}
+
+              def policy(self, url):
+                  parts = urlsplit(url)
+                  if parts.scheme != 'https':
+                      raise RuntimeError(f'Only HTTPS is allowed: {url}')
+                  origin = f'{parts.scheme}://{parts.netloc}'
+                  if origin not in self.policies:
+                      robots = origin + '/robots.txt'
+                      with self.session.get(robots, timeout=(15, 45)) as response:
+                          parser = RobotFileParser(robots)
+                          if response.status_code == 404:
+                              parser.parse([])
+                          elif response.status_code in (401, 403):
+                              parser.parse(['User-agent: *', 'Disallow: /'])
+                          else:
+                              response.raise_for_status()
+                              if 'text/html' in response.headers.get('Content-Type', '').lower():
+                                  raise RuntimeError(f'Unexpected HTML robots.txt: {robots}')
+                              parser.parse(response.text.splitlines())
+                      self.policies[origin] = parser
+                      self.last[origin] = time.monotonic()
+                  parser = self.policies[origin]
+                  if not parser.can_fetch(AGENT, url):
+                      raise RuntimeError(f'robots.txt disallows: {url}')
+                  delay = max(self.delay, parser.crawl_delay(AGENT) or 0)
+                  rate = parser.request_rate(AGENT)
+                  if rate and rate.requests:
+                      delay = max(delay, rate.seconds / rate.requests)
+                  time.sleep(max(0, delay - (time.monotonic() - self.last.get(origin, 0))))
+                  self.last[origin] = time.monotonic()
+
+              def get(self, url, stream=False):
+                  # Follow redirects explicitly so each destination gets its robots check.
+                  for _ in range(6):
+                      self.policy(url)
+                      response = self.session.get(url, stream=stream, allow_redirects=False,
+                                                  timeout=(15, 90))
+                      if response.status_code in (301, 302, 303, 307, 308):
+                          next_url = urljoin(url, response.headers.get('Location', ''))
+                          response.close()
+                          url = next_url
+                          continue
+                      try:
+                          response.raise_for_status()
+                      except Exception:
+                          response.close()
+                          raise
+                      return response
+                  raise RuntimeError('Too many redirects')
+
+              def text(self, url):
+                  for attempt in range(3):
+                      try:
+                          with self.get(url) as response:
+                              return response.text
+                      except requests.RequestException:
+                          if attempt == 2:
+                              raise
+                          time.sleep(5 * 2 ** attempt)
+
+              def download(self, url, path):
+                  part = path.with_suffix('.part')
+                  for attempt in range(3):
+                      try:
+                          with self.get(url, stream=True) as response:
+                              if int(response.headers.get('Content-Length', '0')) > MAX_BYTES:
+                                  raise ValueError('PDF exceeds the 95 MiB repository safety limit')
+                              size = 0
+                              with part.open('wb') as out:
+                                  for chunk in response.iter_content(128 * 1024):
+                                      if not chunk:
+                                          continue
+                                      size += len(chunk)
+                                      if size > MAX_BYTES:
+                                          raise ValueError('PDF exceeds the 95 MiB repository safety limit')
+                                      out.write(chunk)
+                          if not valid_pdf(part):
+                              raise ValueError('Not a PDF or missing EOF marker (possibly truncated)')
+                          part.replace(path)
+                          return
+                      except Exception as exc:
+                          part.unlink(missing_ok=True)
+                          # Retry transient HTTP/network failures, not permanent 4xx responses.
+                          status = getattr(getattr(exc, 'response', None), 'status_code', None)
+                          transient = isinstance(exc, requests.RequestException) and (
+                              status is None or status in (408, 429) or status >= 500)
+                          if attempt == 2 or not transient:
+                              raise
+                          retry_after = getattr(getattr(exc, 'response', None), 'headers', {}).get('Retry-After', '')
+                          wait = int(retry_after) if retry_after.isdigit() else 5 * 2 ** attempt
+                          time.sleep(max(wait, 5))
+
+
+          def valid_pdf(path):
+              if not path.is_file() or not (10 <= path.stat().st_size <= MAX_BYTES):
+                  return False
+              with path.open('rb') as handle:
+                  head = handle.read(1024)
+                  handle.seek(max(0, path.stat().st_size - 4096))
+                  tail = handle.read()
+              return b'%PDF-' in head and b'%%EOF' in tail
+
+
+          def checksum(path):
+              with path.open('rb') as handle:
+                  return hashlib.file_digest(handle, 'sha256').hexdigest()
+
+
+          def git(*args):
+              subprocess.run(['git', *args], check=True)
+
+
+          def checkpoint(folder, records, commit, branch):
+              manifest = folder / 'manifest.json'
+              temporary = folder / 'manifest.tmp'
+              temporary.write_text(json.dumps(records, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+              temporary.replace(manifest)
+              if not commit:
+                  return
+              git('add', '--', str(folder))
+              changed = subprocess.run(['git', 'diff', '--cached', '--quiet', '--', str(folder)])
+              if changed.returncode == 0:
+                  return
+              if changed.returncode != 1:
+                  raise RuntimeError('Could not inspect staged changes')
+              git('commit', '-m', f'Sync PHUSE US {folder.name} papers', '--', str(folder))
+              for attempt in range(3):
+                  if subprocess.run(['git', 'push', 'origin', f'HEAD:refs/heads/{branch}']).returncode == 0:
+                      return
+                  if attempt < 2:
+                      time.sleep(5)
+                      git('pull', '--rebase', 'origin', branch)
+              raise RuntimeError('Push failed: check write permissions or branch protection')
+
+
+          def main():
+              parser = argparse.ArgumentParser(description=__doc__)
+              parser.add_argument('--year', default='all', help='all or a four-digit year')
+              parser.add_argument('--limit', type=int, default=0, help='test first N papers per year; 0 = all')
+              parser.add_argument('--dry-run', action='store_true', help='discover links without downloading or committing')
+              parser.add_argument('--commit', action='store_true', help='commit/push every 10 papers and after each year')
+              parser.add_argument('--branch', default='main')
+              args = parser.parse_args()
+              if args.year != 'all' and not re.fullmatch(r'20\d{2}', args.year):
+                  parser.error('--year must be all or a four-digit year')
+              if args.limit < 0:
+                  parser.error('--limit must not be negative')
+              fetcher = Fetcher()
+              years = discover_years(fetcher.text(INDEX))
+              if args.year != 'all':
+                  if args.year not in years:
+                      parser.error(f'Year not listed: {args.year}')
+                  years = {args.year: years[args.year]}
+              failures, summaries = [], []
+              for year, index in years.items():
+                  print(f'\n=== {year}: {index} ===', flush=True)
+                  try:
+                      records = parse_papers(fetcher.text(index), index)
+                  except Exception as exc:
+                      failures.append(f'{year}: {exc}')
+                      print(f'ERROR {failures[-1]}', flush=True)
+                      continue
+                  selected = records[:args.limit] if args.limit else records
+                  if args.dry_run:
+                      print(json.dumps({'year': year, 'discovered': len(records), 'sample': selected[:3]},
+                                       ensure_ascii=False, indent=2))
+                      continue
+                  folder = ROOT / year
+                  folder.mkdir(parents=True, exist_ok=True)
+                  # Preserve records outside a limited test run, but do not retain stale statuses.
+                  old_path = folder / 'manifest.json'
+                  old = json.loads(old_path.read_text(encoding='utf-8')) if old_path.exists() else []
+                  previous = {r['filename']: r for r in old}
+                  catalog = []
+                  for record in records:
+                      if record['filename'] in previous:
+                          catalog.append({**record, **{k: v for k, v in previous[record['filename']].items()
+                                                      if k not in record}})
+                      else:
+                          catalog.append(record)
+                  by_name = {r['filename']: r for r in catalog}
+                  downloaded = existing = failed = 0
+                  for number, item in enumerate(selected, 1):
+                      record = by_name[item['filename']]
+                      path = folder / record['filename']
+                      old_hash = record.get('sha256')
+                      local_ok = valid_pdf(path) and (not old_hash or checksum(path) == old_hash)
+                      success = local_ok
+                      if not local_ok:
+                          errors = []
+                          for url in record['source_urls']:
+                              try:
+                                  fetcher.download(url, path)
+                                  record['downloaded_from'] = url
+                                  success = True
+                                  break
+                              except Exception as exc:
+                                  errors.append(f'{url}: {exc}')
+                          if not success:
+                              # Do not commit a previously corrupted file as though it were valid.
+                              path.unlink(missing_ok=True)
+                              record.update(status='failed', error=' | '.join(errors))
+                              record.pop('sha256', None)
+                              record.pop('bytes', None)
+                              failed += 1
+                              failures.append(f'{year}/{record["filename"]}')
+                          else:
+                              downloaded += 1
+                      else:
+                          existing += 1
+                      if success:
+                          record.update(status='ok', bytes=path.stat().st_size, sha256=checksum(path))
+                          record.pop('error', None)
+                      print(f'{year} {number}/{len(selected)} {record["status"]} {record["filename"]}', flush=True)
+                      if number % 10 == 0:
+                          checkpoint(folder, catalog, args.commit, args.branch)
+                  checkpoint(folder, catalog, args.commit, args.branch)
+                  summaries.append(f'| {year} | {len(records)} | {downloaded} | {existing} | {failed} |')
+              summary = ('## PHUSE US download summary\n\n'
+                         '| Year | Discovered | Downloaded | Existing | Failed |\n'
+                         '|---|---:|---:|---:|---:|\n' + '\n'.join(summaries) + '\n')
+              if failures:
+                  summary += f'\nFailures: {len(failures)}. See workflow log and per-year manifest.json.\n'
+              if args.dry_run:
+                  summary += '\nDry run: discovery only; no PDFs or repository changes.\n'
+              print(summary, flush=True)
+              if os.getenv('GITHUB_STEP_SUMMARY'):
+                  with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as handle:
+                      handle.write(summary)
+              return 1 if failures else 0
+
+
+          if __name__ == '__main__':
+              raise SystemExit(main())
+          PYTHON
+          python -m py_compile "$RUNNER_TEMP/download-phuse.py"
+
+      - name: Download all PHUSE US papers and push checkpoints
+        env:
+          PYTHONUNBUFFERED: '1'
+          SELECTED_YEAR: ${{ inputs.year || 'all' }}
+          PAPER_LIMIT: ${{ inputs.limit || '0' }}
+          DRY_RUN: ${{ inputs['dry-run'] && 'true' || 'false' }}
+          TARGET_BRANCH: ${{ github.event.repository.default_branch }}
+        shell: bash
+        run: |
+          args=(--year "$SELECTED_YEAR" --limit "$PAPER_LIMIT" --branch "$TARGET_BRANCH")
+          if [[ "$DRY_RUN" == 'true' ]]; then
+            args+=(--dry-run)
+          else
+            args+=(--commit)
+          fi
+          python "$RUNNER_TEMP/download-phuse.py" "${args[@]}"
