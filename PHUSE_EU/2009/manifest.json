@@ -1658,7 +1658,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2009/Connect/EU/Basel/PAP_TU04.pdf",
       "https://saslexicon.org/PHUSE_EU/2009/PAP_TU04.pdf"
     ],
-    "filename": "PAP-TU04-6d9132f0ae.pdf"
+    "filename": "PAP-TU04-6d9132f0ae.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2009/Connect/EU/Basel/PAP_TU04.pdf",
+    "status": "ok",
+    "bytes": 50452,
+    "sha256": "b1abf3977d0e686fbe023109b97e8bbf4ff9e0da83d1a923caafb555ea9594fe"
   },
   {
     "title": "XML Managment Using SAS",
@@ -1669,7 +1673,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2009/Connect/EU/Basel/PAP_TS01.pdf",
       "https://saslexicon.org/PHUSE_EU/2009/PAP_TS01.pdf"
     ],
-    "filename": "PAP-TS01-c48cef5056.pdf"
+    "filename": "PAP-TS01-c48cef5056.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2009/Connect/EU/Basel/PAP_TS01.pdf",
+    "status": "ok",
+    "bytes": 633535,
+    "sha256": "09e6c1f738994664cde97f254fd23cde4d9c713f315df0fb69d11bd655fdf1c1"
   },
   {
     "title": "Zooming in on graphics",
@@ -1680,6 +1688,10 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2009/Connect/EU/Basel/PAP_CS04.pdf",
       "https://saslexicon.org/PHUSE_EU/2009/PAP_CS04.pdf"
     ],
-    "filename": "PAP-CS04-eeb4ac5730.pdf"
+    "filename": "PAP-CS04-eeb4ac5730.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2009/Connect/EU/Basel/PAP_CS04.pdf",
+    "status": "ok",
+    "bytes": 278160,
+    "sha256": "b67a0d372128f6bc35d94958af6d046c5eaff5a3b17cf83884fb1881cb25cbfc"
   }
 ]
