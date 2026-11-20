@@ -528,7 +528,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP06.pdf",
       "https://saslexicon.org/PHUSE_US/2019/PAP_SP06.pdf"
     ],
-    "filename": "PAP-SP06-a102d43630.pdf"
+    "filename": "PAP-SP06-a102d43630.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP06.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SP06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SP06.pdf"
   },
   {
     "title": "Data Harmonization Using Machine Learning",
@@ -539,7 +541,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PRE_ML09.pdf",
       "https://saslexicon.org/PHUSE_US/2019/PRE_ML09.pdf"
     ],
-    "filename": "PRE-ML09-cee7ce175e.pdf"
+    "filename": "PRE-ML09-cee7ce175e.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PRE_ML09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PRE_ML09.pdf | https://saslexicon.org/PHUSE_US/2019/PRE_ML09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PRE_ML09.pdf"
   },
   {
     "title": "Data Preparation and Publishing Best Practices for a Successful RBM Implementation",
@@ -550,7 +554,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR05.pdf",
       "https://saslexicon.org/PHUSE_US/2019/PAP_AR05.pdf"
     ],
-    "filename": "PAP-AR05-ff4ffa01a7.pdf"
+    "filename": "PAP-AR05-ff4ffa01a7.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR05.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_AR05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_AR05.pdf"
   },
   {
     "title": "Data Visualization",
@@ -561,7 +567,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DV04.pdf",
       "https://saslexicon.org/PHUSE_US/2019/PAP_DV04.pdf"
     ],
-    "filename": "PAP-DV04-fd038b0d81.pdf"
+    "filename": "PAP-DV04-fd038b0d81.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DV04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DV04.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_DV04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_DV04.pdf"
   },
   {
     "title": "Delivery of Data Visualizations within GlaxoSmithKline Clinical Development and Partners via an ELD Model",
@@ -572,7 +580,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DV06.pdf",
       "https://saslexicon.org/PHUSE_US/2019/PAP_DV06.pdf"
     ],
-    "filename": "PAP-DV06-af6895dbb6.pdf"
+    "filename": "PAP-DV06-af6895dbb6.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DV06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DV06.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_DV06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_DV06.pdf"
   },
   {
     "title": "Developing SEND for CBER - Collaborative Workstream Initiative",
@@ -583,7 +593,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA06.pdf",
       "https://saslexicon.org/PHUSE_US/2019/PAP_SA06.pdf"
     ],
-    "filename": "PAP-SA06-4140ddf499.pdf"
+    "filename": "PAP-SA06-4140ddf499.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA06.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SA06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SA06.pdf"
   },
   {
     "title": "Developing, Implementing and Governing End-to-End Standards at Gilead",
@@ -594,7 +606,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DS01.pdf",
       "https://saslexicon.org/PHUSE_US/2019/PAP_DS01.pdf"
     ],
-    "filename": "PAP-DS01-8d5d089864.pdf"
+    "filename": "PAP-DS01-8d5d089864.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DS01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DS01.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_DS01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_DS01.pdf"
   },
   {
     "title": "Development of a Risk-based Monitoring (RBM) Visualization Application Interface Using JMP Scripting",
@@ -605,7 +619,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR04.pdf",
       "https://saslexicon.org/PHUSE_US/2019/PAP_AR04.pdf"
     ],
-    "filename": "PAP-AR04-d28fb75b43.pdf"
+    "filename": "PAP-AR04-d28fb75b43.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR04.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_AR04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_AR04.pdf"
   },
   {
     "title": "Digital Analysis Results - #killTFLs",
@@ -616,7 +632,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH12.pdf",
       "https://saslexicon.org/PHUSE_US/2019/PAP_DH12.pdf"
     ],
-    "filename": "PAP-DH12-ab7b4e5594.pdf"
+    "filename": "PAP-DH12-ab7b4e5594.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH12.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_DH12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_DH12.pdf"
   },
   {
     "title": "Don't Let Your Data Handle You: A Novel Approach to Clinical Programming",
@@ -627,7 +645,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH01.pdf",
       "https://saslexicon.org/PHUSE_US/2019/PAP_DH01.pdf"
     ],
-    "filename": "PAP-DH01-343839c80a.pdf"
+    "filename": "PAP-DH01-343839c80a.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH01.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_DH01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_DH01.pdf"
   },
   {
     "title": "DR3 - A Tool to Create Define-XML (SDTM/ADaM with ARM)",
