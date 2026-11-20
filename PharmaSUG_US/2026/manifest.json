@@ -1359,8 +1359,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_DV08.pdf"
     ],
     "filename": "PAP-DV08-2d11d69cf5.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DV08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DV08.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_DV08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_DV08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DV08.pdf",
+    "bytes": 46162,
+    "sha256": "442db0d7ad2c27bf39c3174a45334cfb0b8d53a193b80a6a1089a72bd3e9eb0a"
   },
   {
     "title": "Detecting Trends Before They Appear: AI-Driven Visualisations in Clinical Trials",
@@ -1372,8 +1374,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_DV10.pdf"
     ],
     "filename": "PAP-DV10-f4e76305fb.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DV10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DV10.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_DV10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_DV10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DV10.pdf",
+    "bytes": 166647,
+    "sha256": "f0548f8f19acb011e4215d3d81d1dbe2689c49599e8b4a4a6f6924a94d490cfc"
   },
   {
     "title": "Deterministic Foundations, AI Acceleration: Lessons from Developing Hybrid Clinical Review Tools",
@@ -1385,8 +1389,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_ML20.pdf"
     ],
     "filename": "PAP-ML20-51c80baa1e.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML20.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML20.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_ML20.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_ML20.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ML20.pdf",
+    "bytes": 758282,
+    "sha256": "8a7a6406c7fa5e071812702dacef77a64ec599a1fbd240b7f774ce679767781e"
   },
   {
     "title": "Developing the Workforce of the Future",
@@ -1398,8 +1404,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_PD18.pdf"
     ],
     "filename": "PAP-PD18-ba718710b2.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PD18.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PD18.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_PD18.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_PD18.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_PD18.pdf",
+    "bytes": 392639,
+    "sha256": "cd1256cb817597242f0e765ab19f45e2eb66c527fb3c84cc137929f008e86e53"
   },
   {
     "title": "Development Process of the Bioresearch Monitoring (BIMO) Package and the Obstacles Successfully Addressed",
@@ -1411,8 +1419,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PRE_SA12.pdf"
     ],
     "filename": "PRE-SA12-a3ba163418.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_SA12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_SA12.pdf | https://saslexicon.org/PHUSE_US/2026/PRE_SA12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PRE_SA12.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_SA12.pdf",
+    "bytes": 1121641,
+    "sha256": "36bfd518875ab858c07f95cd678d24d5da668c75a095b4607430cf60726c4f85"
   },
   {
     "title": "DevOps for Clinical Data Science: A Leap into the Future of Clinical Analysis",
@@ -1424,8 +1434,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_ET07.pdf"
     ],
     "filename": "PAP-ET07-c295ca543d.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET07.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_ET07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_ET07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_ET07.pdf",
+    "bytes": 369172,
+    "sha256": "7ead2b17072e3a19dfe4478cb741cacc15fb7d788cd8711f47c08320c298d2f0"
   },
   {
     "title": "Digital Twins for Clinical Submissions: Simulating Regulatory Review Before Submission",
@@ -1437,8 +1449,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_SA13.pdf"
     ],
     "filename": "PAP-SA13-57d50677b6.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SA13.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SA13.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_SA13.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_SA13.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SA13.pdf",
+    "bytes": 549482,
+    "sha256": "80ac2599b2e279417130d8a89d7b5e16b90d1b0da546d97bf14594add17f36b6"
   },
   {
     "title": "Electronic Clinical Data Submissions Across Global Regulatory Authorities",
@@ -1450,8 +1464,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_SA18.pdf"
     ],
     "filename": "PAP-SA18-9ed249a742.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SA18.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SA18.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_SA18.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_SA18.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SA18.pdf",
+    "bytes": 458979,
+    "sha256": "011e69910e471eacdfc6fb641e6a8531c9a8ce5992b7488a44455e6200ed291b"
   },
   {
     "title": "Electronic Submission of Population PK Analysis Files ... What's Your Modus Operandi?",
@@ -1463,8 +1479,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_SA05.pdf"
     ],
     "filename": "PAP-SA05-f803f15b09.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SA05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SA05.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_SA05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_SA05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SA05.pdf",
+    "bytes": 886547,
+    "sha256": "bce3731fefa4d5324e8b8939f7175ef9c8aac10589b5f5ea9a4e12294339b1ea"
   },
   {
     "title": "Empowering Clinical Data Review with Interactive Patient-Level Visualisations in {teal}",
@@ -1476,8 +1494,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_DV09.pdf"
     ],
     "filename": "PAP-DV09-756d08d86e.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DV09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DV09.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_DV09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_DV09.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DV09.pdf",
+    "bytes": 104182,
+    "sha256": "1b90f262761a47ce954e7aa9bca2c048211391764c409e558073329d9fe4a604"
   },
   {
     "title": "Enabling Innovation: Lessons from the CDISC AI Innovation Challenge",
