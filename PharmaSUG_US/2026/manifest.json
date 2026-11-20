@@ -2409,8 +2409,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_OS02.pdf"
     ],
     "filename": "PAP-OS02-a89bc75b1e.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS02.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_OS02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_OS02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS02.pdf",
+    "bytes": 470868,
+    "sha256": "565eb6810ae3d5b8c8dd3a84c32fc8bf7399a8368b68c4ff62b109600f91e53d"
   },
   {
     "title": "Managing Commercially Confidential Information Redaction in Contemporary Regulatory Submissions",
@@ -2422,8 +2424,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PRE_DT22.pdf"
     ],
     "filename": "PRE-DT22-0d7b2e039f.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_DT22.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_DT22.pdf | https://saslexicon.org/PHUSE_US/2026/PRE_DT22.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PRE_DT22.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_DT22.pdf",
+    "bytes": 1406212,
+    "sha256": "42190a896adb8a20ff893bbc710eb80d826b4855431e44483b9bf844ecccc414"
   },
   {
     "title": "Manual vs AI-Assisted Workflows: Practical Strategies for Complex R Package Development",
@@ -2435,8 +2439,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PRE_OS21.pdf"
     ],
     "filename": "PRE-OS21-e539d8a4a0.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_OS21.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_OS21.pdf | https://saslexicon.org/PHUSE_US/2026/PRE_OS21.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PRE_OS21.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PRE_OS21.pdf",
+    "bytes": 3788213,
+    "sha256": "72330f4a8094f424a4a489fcf8eca1b2575468313603a307d636cf756fb78288"
   },
   {
     "title": "Mapping Minimal Residual Disease (MRD) Biomarker Data in Hematologic Malignancies: Clinical Significance and Data Standards in SDTM and ADaM",
@@ -2448,8 +2454,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_DS03.pdf"
     ],
     "filename": "PAP-DS03-84062c1ad2.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DS03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DS03.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_DS03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_DS03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DS03.pdf",
+    "bytes": 663479,
+    "sha256": "ad430959c70950c3417d20896d9ffc681477b42f73cb9731f07c8d8d4010a75d"
   },
   {
     "title": "Maximising Longevity and Saving Costs Through Refactoring of Statistical Computing Environments",
@@ -2461,8 +2469,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_SD11.pdf"
     ],
     "filename": "PAP-SD11-639fdd36bb.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SD11.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SD11.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_SD11.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_SD11.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SD11.pdf",
+    "bytes": 271538,
+    "sha256": "a1a4cf57b7be9e79709dd75a4a971c8750c33d5efa467f60770351a106d38e49"
   },
   {
     "title": "Metadata-Driven TFL Generation: End-to-End Automation from Protocol to Output",
@@ -2474,8 +2484,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_DS18.pdf"
     ],
     "filename": "PAP-DS18-10a8109ab3.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DS18.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DS18.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_DS18.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_DS18.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_DS18.pdf",
+    "bytes": 544452,
+    "sha256": "b17c59bfb11723925617337c0772fbf979af80d7d5fa10fc9acc57700b027bfd"
   },
   {
     "title": "Methods of a Fully Automated CONSORT Diagram Macro %CONSORT",
@@ -2487,8 +2499,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_SM11.pdf"
     ],
     "filename": "PAP-SM11-c50fe387cd.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SM11.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SM11.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_SM11.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_SM11.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_SM11.pdf",
+    "bytes": 547872,
+    "sha256": "ed1e955e2b5fa67e1cc4400fa593091a6477e81d63846c3a7e29b01fc7ca6fc0"
   },
   {
     "title": "mkheader: An R Package for Automated Generation and Management of Program Headers in Clinical Trial Programming",
@@ -2500,8 +2514,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_OS16.pdf"
     ],
     "filename": "PAP-OS16-fd35795775.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS16.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS16.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_OS16.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_OS16.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_OS16.pdf",
+    "bytes": 307067,
+    "sha256": "8f950330a21bd378bd038c606bab3cb7f684478e0bc215e7e4dd322ea5f7bc0e"
   },
   {
     "title": "Modernising Statistical Computing Environments: Scalable, AI-Ready and GxP-Compliant by Design",
@@ -2513,8 +2529,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_AS13.pdf"
     ],
     "filename": "PAP-AS13-52966851cc.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS13.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS13.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_AS13.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_AS13.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS13.pdf",
+    "bytes": 100288,
+    "sha256": "e9cec75b6294666b8d4af39bb90484dbebfa88bd91db470ae7e983d38fcb04a2"
   },
   {
     "title": "Multi-Dimension Comparison Using SAS in the Context of Counting Hemophilia Bleeding Episodes",
@@ -2526,8 +2544,10 @@
       "https://saslexicon.org/PHUSE_US/2026/PAP_AS22.pdf"
     ],
     "filename": "PAP-AS22-be4a9b1bd2.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS22.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS22.pdf | https://saslexicon.org/PHUSE_US/2026/PAP_AS22.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2026/PAP_AS22.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2026/Connect/US/Austin/PAP_AS22.pdf",
+    "bytes": 427314,
+    "sha256": "ec6727568977c57f560ff640d8431d05b5d76e5b2349bc75796b81220ab37ff4"
   },
   {
     "title": "Multi-Standard Submission - Process, Learnings and Recommendations for Best Practice",
