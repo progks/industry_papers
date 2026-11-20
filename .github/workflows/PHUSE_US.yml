@@ -78,7 +78,7 @@ jobs:
           from bs4 import BeautifulSoup
 
           INDEX = 'https://saslexicon.org/PHUSE_US/PHUSE_US.html'
-          ROOT = Path('PharmaSUG_US')
+          ROOT = Path('PHUSE_US')
           MAX_BYTES = 95 * 1024 * 1024
           AGENT = 'IndustryPapersArchiver'
 
