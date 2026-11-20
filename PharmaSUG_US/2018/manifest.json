@@ -159,8 +159,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_RG01.pdf"
     ],
     "filename": "PAP-RG01-4ff851c6aa.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_RG01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_RG01.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_RG01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_RG01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_RG01.pdf",
+    "bytes": 343275,
+    "sha256": "274f821e8687a8eb66237a8b8ab92c2e9aa2ec2a8782dac49d69ebac0b68c032"
   },
   {
     "title": "ADaM Intermediate Dataset: How to Improve Your Analysis Traceability",
@@ -172,8 +174,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_SI16.pdf"
     ],
     "filename": "PAP-SI16-afb3954001.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_SI16.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_SI16.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_SI16.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_SI16.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_SI16.pdf",
+    "bytes": 262601,
+    "sha256": "7956251dd23dc638e131909089839989447dd366a51fe3019410f24407e8da66"
   },
   {
     "title": "Adverse Event Analysis - One step forward!",
@@ -185,8 +189,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_AB02.pdf"
     ],
     "filename": "PAP-AB02-712701882d.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_AB02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_AB02.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_AB02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_AB02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_AB02.pdf",
+    "bytes": 370857,
+    "sha256": "cb7586c948caf3f30263a736be7a265c731e1e4096dd30f9ec3f6f5dff07e6a2"
   },
   {
     "title": "Alexa for Clinical Research",
@@ -198,8 +204,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_TT01.pdf"
     ],
     "filename": "PAP-TT01-1717719763.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_TT01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_TT01.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_TT01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_TT01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_TT01.pdf",
+    "bytes": 543404,
+    "sha256": "52ece05576ac9ac1da34ffd8b4370864024384120fb8e90b6e6545df1286cfce"
   },
   {
     "title": "Alternative Programming Approach for Conditional Processing in SAS",
@@ -211,8 +219,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_CT11.pdf"
     ],
     "filename": "PAP-CT11-fe5b9bf71f.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_CT11.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_CT11.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_CT11.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_CT11.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_CT11.pdf",
+    "bytes": 532617,
+    "sha256": "a0b302ba8dd0fb8334666a1baeec3855ebbd52c7932a14fd3b81a537f838971b"
   },
   {
     "title": "An Automated Macro to Compare Data Transfers",
@@ -224,8 +234,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_DH12.pdf"
     ],
     "filename": "PAP-DH12-23ccf11fea.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DH12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DH12.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_DH12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_DH12.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DH12.pdf",
+    "bytes": 512540,
+    "sha256": "00d05e6705180ad1f089ab19856981132aa5fb8a1bc7b99e5de68f80bf62cffd"
   },
   {
     "title": "ANALOG an Interactive Browser-Based and Business-Oriented SAS Log Checker",
@@ -237,8 +249,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_CT15.pdf"
     ],
     "filename": "PAP-CT15-1ad1b47b11.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_CT15.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_CT15.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_CT15.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_CT15.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_CT15.pdf",
+    "bytes": 209542,
+    "sha256": "2b762939135863a900128ddba850e57158cffec3db680db3584cdc341c193a8e"
   },
   {
     "title": "Assuring Data Integrity and Data Quality in Sponsor Submissions",
@@ -250,8 +264,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_RG12.pdf"
     ],
     "filename": "PAP-RG12-7988dcf2f8.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_RG12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_RG12.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_RG12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_RG12.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_RG12.pdf",
+    "bytes": 82025,
+    "sha256": "23d61217849dd6bc824b854a1bf358e1a63ea3decc4015d6a2e809209381221a"
   },
   {
     "title": "Augmented Realtime Clinical DataMart",
@@ -263,8 +279,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_AB13.pdf"
     ],
     "filename": "PAP-AB13-88d95de895.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_AB13.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_AB13.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_AB13.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_AB13.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_AB13.pdf",
+    "bytes": 344056,
+    "sha256": "0c15d5351959a16c5657b2993e58bc3ef5643ce454a89e4d2096c8db5c73a842"
   },
   {
     "title": "Automate Analysis Result Metadata in the Define-XML v2.0",
@@ -276,8 +294,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_DS11.pdf"
     ],
     "filename": "PAP-DS11-0e29004656.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DS11.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DS11.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_DS11.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_DS11.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DS11.pdf",
+    "bytes": 882266,
+    "sha256": "05f289c01c7b8de993b28f4c96d352e3b3de9ffe92874680250944c610e5187d"
   },
   {
     "title": "Automated Creation of Submission-Ready Artifacts",
