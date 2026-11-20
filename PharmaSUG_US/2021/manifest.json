@@ -909,8 +909,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PAP_TT01.pdf"
     ],
     "filename": "PAP-TT01-187cf766a7.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_TT01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_TT01.pdf | https://saslexicon.org/PHUSE_US/2021/PAP_TT01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PAP_TT01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_TT01.pdf",
+    "bytes": 495975,
+    "sha256": "c8f0e34092a35bcc46e2dfecbca1cab3a972b0d4b3f7e19b0ae4874ab18ce096"
   },
   {
     "title": "How to Submit Study Data to Comply with Technical Rejection Criteria",
@@ -922,8 +924,10 @@
       "https://saslexicon.org/PHUSE_US/2021/POS_PP07.pdf"
     ],
     "filename": "POS-PP07-9d5560ad87.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP07.pdf | https://saslexicon.org/PHUSE_US/2021/POS_PP07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/POS_PP07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP07.pdf",
+    "bytes": 434260,
+    "sha256": "6a41814abffaea34e654f414bf058b388ee4aaeff3102fd22b3c4566f82ae53b"
   },
   {
     "title": "How Will Knowledge Graphs Improve Clinical Reporting Workflows?",
@@ -935,8 +939,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_ET01.pdf"
     ],
     "filename": "PRE-ET01-62ac597383.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ET01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ET01.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_ET01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_ET01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ET01.pdf",
+    "bytes": 901434,
+    "sha256": "7366f177038a9858ce67b2e28c4e40ac1399aeff363086c0b3550b89f8068775"
   },
   {
     "title": "Hydrating a Data Lake to Power Innovation - Enabling Pharmaceutical Companies to Automate Data De-identification for Secondary Use",
@@ -948,8 +954,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_DH01.pdf"
     ],
     "filename": "PRE-DH01-c17aea48d9.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DH01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DH01.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_DH01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_DH01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DH01.pdf",
+    "bytes": 5000241,
+    "sha256": "d29e61ae2725967324d3e744a94aab2dd8805f21d941cf7f1f45f039e63a993a"
   },
   {
     "title": "Indenting Lengthy Text Strings in PROC REPORT Outputs",
@@ -961,8 +969,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_CT04.pdf"
     ],
     "filename": "PRE-CT04-a442bbd2a7.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CT04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CT04.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_CT04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_CT04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CT04.pdf",
+    "bytes": 738423,
+    "sha256": "585166e24835e49fef4d4408aa7f00b07847e127023ad81b87662e9a2fdc0822"
   },
   {
     "title": "Industry Metrics for Extensions of CDISC Terminology",
@@ -974,8 +984,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_DS08.pdf"
     ],
     "filename": "PRE-DS08-c93919c953.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DS08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DS08.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_DS08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_DS08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DS08.pdf",
+    "bytes": 14860905,
+    "sha256": "4849847195e04f22318a8fb915a3481320fcd9ce9d48a26077e7c1070d89531f"
   },
   {
     "title": "Integration of Translational and Longitudinal Clinical Trial Data Using Machine Learning to Gain Predictive Insights from Legacy Studies",
@@ -987,8 +999,10 @@
       "https://saslexicon.org/PHUSE_US/2021/POS_PP14.pdf"
     ],
     "filename": "POS-PP14-f47601a1ec.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP14.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP14.pdf | https://saslexicon.org/PHUSE_US/2021/POS_PP14.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/POS_PP14.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP14.pdf",
+    "bytes": 204355,
+    "sha256": "79c1e2c4f625f06fd64ec0edbf7d4db5c15835a110c4e4e4caffe27e88658e0a"
   },
   {
     "title": "Interactive Visualization and Summarization of Toxicology Study Results Across Species, Routes and Durations Throughout a Drug Development Program Using R Shiny",
@@ -1000,8 +1014,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_DV12.pdf"
     ],
     "filename": "PRE-DV12-897da57656.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DV12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DV12.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_DV12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_DV12.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DV12.pdf",
+    "bytes": 2172558,
+    "sha256": "f32a558b515a4930847a3072608686f6414ec5b3185dafa68fae1e26ab76cf9e"
   },
   {
     "title": "Is it ART? An Application of TransCelerate's MoA Framework for Assessing Accuracy, Reproducibility and Traceability in Novel Software Implementations",
@@ -1013,8 +1029,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_FC02.pdf"
     ],
     "filename": "PRE-FC02-c4ea26b223.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_FC02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_FC02.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_FC02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_FC02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_FC02.pdf",
+    "bytes": 22569118,
+    "sha256": "52286bc39bbfd924b0e53ac5ccbabd8baefe30ff73640e300396ea957234d51a"
   },
   {
     "title": "Keeping Calm and Carrying On: Bringing Graduates Onboard in a World Disrupted",
@@ -1026,8 +1044,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_SP10.pdf"
     ],
     "filename": "PRE-SP10-3d9066ee59.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SP10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SP10.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_SP10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_SP10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SP10.pdf",
+    "bytes": 2424566,
+    "sha256": "222643f507f71c29500a192a161d5646bbbc33592a96280a436667fbeaf5b5cc"
   },
   {
     "title": "Keynote Presentation: Our Access to Real-world Data is Not Sustainable Without Transparency and Inclusion",
