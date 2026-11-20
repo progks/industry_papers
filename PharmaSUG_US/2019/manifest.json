@@ -1659,8 +1659,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_AR07.pdf"
     ],
     "filename": "PAP-AR07-951b0798bd.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR07.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_AR07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_AR07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR07.pdf",
+    "bytes": 104770,
+    "sha256": "cd89ffa77120ed09bd8e42795edf54e1842120a9fdddb1c049c0c15cc8450b77"
   },
   {
     "title": "Proof of Concept (PoC) Development of Safety Visual Analytics (SVA) Using R Shiny and SAS",
@@ -1672,8 +1674,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_TT06.pdf"
     ],
     "filename": "PAP-TT06-b6338dd839.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_TT06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_TT06.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_TT06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_TT06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_TT06.pdf",
+    "bytes": 2106882,
+    "sha256": "67a550ec43c10b15cab5bf934ad96e97bac1995f4d3f8a2cb90fa52671554d21"
   },
   {
     "title": "Quantifying Dynamic Risk with Predictive Analytics",
@@ -1685,8 +1689,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_AR10.pdf"
     ],
     "filename": "PAP-AR10-d207fd9117.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR10.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_AR10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_AR10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR10.pdf",
+    "bytes": 471548,
+    "sha256": "f28a8f42d156ab0dd92f1f72f51073ec27d783ea9ea97c04d6a4f739d359ad8d"
   },
   {
     "title": "Quick Start Your Trials - A Shell Script for Preparing Your Trials with a Standard Set-up",
@@ -1698,8 +1704,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_CT04.pdf"
     ],
     "filename": "PAP-CT04-cf08627350.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_CT04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_CT04.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_CT04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_CT04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_CT04.pdf",
+    "bytes": 638728,
+    "sha256": "47027314d9bd5bbfb68ca0000c7a8e959c5555606fa6fe62b6bf098fc1a60d70"
   },
   {
     "title": "R and Python Differences, Techniques and Challenges for SAS Programmers",
@@ -1711,8 +1719,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_DV02.pdf"
     ],
     "filename": "PAP-DV02-979097c816.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DV02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DV02.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_DV02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_DV02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DV02.pdf",
+    "bytes": 3161181,
+    "sha256": "07389f39e6847e31d0eebc1b2066751a8a336033dfe2c5f7b8d4c35f0ddfcfce"
   },
   {
     "title": "R Markdown for Reproducible Research",
@@ -1724,8 +1734,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_SP04.pdf"
     ],
     "filename": "PAP-SP04-accf30d162.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP04.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SP04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SP04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP04.pdf",
+    "bytes": 291591,
+    "sha256": "e2447a58330236276b59197bc844f9587c2e49335f752cbcd894223bffb6176d"
   },
   {
     "title": "R Markdown for Reproducible Research",
@@ -1737,8 +1749,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_SP05.pdf"
     ],
     "filename": "PAP-SP05-1ee33ce990.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP05.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SP05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SP05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP05.pdf",
+    "bytes": 340190,
+    "sha256": "cd0d0a4e28da3432b428876a69f6b399ab153d02290d9e7de794338e8f900f50"
   },
   {
     "title": "Remotely Manage Your Team's Time and Tasks Efficiently",
@@ -1750,8 +1764,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_SP03.pdf"
     ],
     "filename": "PAP-SP03-07ada8097a.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP03.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SP03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SP03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP03.pdf",
+    "bytes": 267971,
+    "sha256": "39d8a9d0eb7db01da05679b24914e88bf53b5fa5b2ef4f8ed7d1222dab287ca2"
   },
   {
     "title": "Removing Silos: Placing Data at the Center",
@@ -1763,8 +1779,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_SI13.pdf"
     ],
     "filename": "PAP-SI13-570f57c5ab.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SI13.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SI13.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SI13.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SI13.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SI13.pdf",
+    "bytes": 1218233,
+    "sha256": "46539b721f1e6ac4db941806673899d098f54510e02242b01f9f61884c1a3daf"
   },
   {
     "title": "SAS is Still a Winner",
@@ -1776,8 +1794,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_CT02.pdf"
     ],
     "filename": "PAP-CT02-7841206834.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_CT02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_CT02.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_CT02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_CT02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_CT02.pdf",
+    "bytes": 307937,
+    "sha256": "b5843139d9fbac8161e20a141bced130a5faf9f15aee8b986040e81dacfbe3f4"
   },
   {
     "title": "SDSP (Study Data Standardization Plan) Case Studies and Considerations",
