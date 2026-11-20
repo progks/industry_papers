@@ -609,8 +609,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PAP_SD08.pdf"
     ],
     "filename": "PAP-SD08-147ce5dd1e.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SD08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SD08.pdf | https://saslexicon.org/PHUSE_US/2023/PAP_SD08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PAP_SD08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SD08.pdf",
+    "bytes": 1419585,
+    "sha256": "c83fddc1b5475a89f5a65a16bcd54e6189d958c8e4102e6a25a4c3ad6b10b844"
   },
   {
     "title": "Dashboarding a Clinical Trial Study",
@@ -622,8 +624,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PAP_SD03.pdf"
     ],
     "filename": "PAP-SD03-39abe3e791.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SD03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SD03.pdf | https://saslexicon.org/PHUSE_US/2023/PAP_SD03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PAP_SD03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_SD03.pdf",
+    "bytes": 1985134,
+    "sha256": "415848d562cddd7d6065e5c0872e8ea05f946968e08c3c5b4471c6a1d85dc410"
   },
   {
     "title": "Data Handling of CTCAE Toxicity Grade Made Easier - A Metadata-driven Approach by SAS Macro",
@@ -635,8 +639,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PRE_DH07.pdf"
     ],
     "filename": "PRE-DH07-a48a14c3b3.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_DH07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_DH07.pdf | https://saslexicon.org/PHUSE_US/2023/PRE_DH07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PRE_DH07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_DH07.pdf",
+    "bytes": 304458,
+    "sha256": "9eaeb82820dd7e4753a0f2432fd3a861689bcd89f65389461709e26def83fefe"
   },
   {
     "title": "Data Handling Using SASMarkdown in RStudio",
@@ -648,8 +654,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PAP_DH06.pdf"
     ],
     "filename": "PAP-DH06-9357fd2ede.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_DH06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_DH06.pdf | https://saslexicon.org/PHUSE_US/2023/PAP_DH06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PAP_DH06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_DH06.pdf",
+    "bytes": 382193,
+    "sha256": "9dac3f431f264153d40ffacd2e7cf94576a840489247499ec4797426d82a291b"
   },
   {
     "title": "Data Standards Governance and Implementation Across Industry: Key Challenges and Benefits",
@@ -661,8 +669,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PRE_DS02.pdf"
     ],
     "filename": "PRE-DS02-a990a90ba2.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_DS02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_DS02.pdf | https://saslexicon.org/PHUSE_US/2023/PRE_DS02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PRE_DS02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_DS02.pdf",
+    "bytes": 733352,
+    "sha256": "29656c1c5c775edee8ca7e34f5697229918a907659ae42ed2d522cceb9a9f787"
   },
   {
     "title": "Database Tools Needed for Personalised Study Participant Risk Surveillance",
@@ -674,8 +684,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PAP_AS07.pdf"
     ],
     "filename": "PAP-AS07-a6e77b5a66.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_AS07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_AS07.pdf | https://saslexicon.org/PHUSE_US/2023/PAP_AS07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PAP_AS07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_AS07.pdf",
+    "bytes": 362673,
+    "sha256": "a4a1c918f693ec8f85b1a709a7b6bdd610a6fa92a573350ef2277dc5555e5555"
   },
   {
     "title": "Decentralized Clinical Data Management (D-CDM): An Innovative 3-Way Approach (Risk-Data-Analytics) to Protect Data Integrity",
@@ -687,8 +699,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PRE_RM04.pdf"
     ],
     "filename": "PRE-RM04-0ebd66e3fd.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_RM04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_RM04.pdf | https://saslexicon.org/PHUSE_US/2023/PRE_RM04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PRE_RM04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_RM04.pdf",
+    "bytes": 981178,
+    "sha256": "fe95963b451e677e4491a97746f79d4c54abae2bd948848aebdc90a84b3488f4"
   },
   {
     "title": "Delivering Electronic Submissions (eSubs) in Light Speed: Days Rather than Months",
@@ -700,8 +714,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PRE_SA02.pdf"
     ],
     "filename": "PRE-SA02-79e0520f95.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_SA02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_SA02.pdf | https://saslexicon.org/PHUSE_US/2023/PRE_SA02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PRE_SA02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_SA02.pdf",
+    "bytes": 510099,
+    "sha256": "810132df160dc21502db07ed526084c52d0b41bd17d32a0e387e2faba24ee6da"
   },
   {
     "title": "Digging Deep into Digital Biomarkers: Empowering Clinical Trials",
@@ -713,8 +729,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PAP_ST10.pdf"
     ],
     "filename": "PAP-ST10-d1fe32042e.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_ST10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_ST10.pdf | https://saslexicon.org/PHUSE_US/2023/PAP_ST10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PAP_ST10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PAP_ST10.pdf",
+    "bytes": 775763,
+    "sha256": "51f6ede806f8dc17b8bd8dcbb43b58b4bf470309a97f753e5d24f4cb17cb9d8e"
   },
   {
     "title": "Display Layout Specifications to Flexibly Design and Generate Tables",
@@ -726,8 +744,10 @@
       "https://saslexicon.org/PHUSE_US/2023/PRE_ET20.pdf"
     ],
     "filename": "PRE-ET20-02873d42db.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ET20.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ET20.pdf | https://saslexicon.org/PHUSE_US/2023/PRE_ET20.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2023/PRE_ET20.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2023/Connect/US/Florida/PRE_ET20.pdf",
+    "bytes": 1388977,
+    "sha256": "06a31b6ce0cd2c5ae90ffa0c0661ceb0c8be5e44b5fc882ba3766e7691b1bd6f"
   },
   {
     "title": "DIY: Building a Raw Metadata Library with Integrated SDTM Annotations",
