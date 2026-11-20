@@ -2259,8 +2259,10 @@
       "https://saslexicon.org/PHUSE_US/2018/POS_PP07.pdf"
     ],
     "filename": "POS-PP07-7af24a4982.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/POS_PP07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/POS_PP07.pdf | https://saslexicon.org/PHUSE_US/2018/POS_PP07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/POS_PP07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/POS_PP07.pdf",
+    "bytes": 2239780,
+    "sha256": "dcff394e85224fb51c1fd46c726b9e6e77db041f4aedb0c81ce872906b6f3a55"
   },
   {
     "title": "Utilizing Visualizations Developed in R Shiny for Exploratory Safety Analysis",
@@ -2272,8 +2274,10 @@
       "https://saslexicon.org/PHUSE_US/2018/POS_PP06.pdf"
     ],
     "filename": "POS-PP06-5a859218d3.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/POS_PP06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/POS_PP06.pdf | https://saslexicon.org/PHUSE_US/2018/POS_PP06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/POS_PP06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/POS_PP06.pdf",
+    "bytes": 7097146,
+    "sha256": "4406c3fc35c6e90e97fdae8e2bc1198c9a42c426a0cfbec4f32140d4881bde15"
   },
   {
     "title": "Want Submission-Ready Datasets Package from the Get-Go?",
@@ -2285,8 +2289,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_SI17.pdf"
     ],
     "filename": "PAP-SI17-bb86f89492.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_SI17.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_SI17.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_SI17.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_SI17.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_SI17.pdf",
+    "bytes": 132747,
+    "sha256": "c5da6c21073bfd51025ab91fca57ee5c0a44eec7d784e9ea1978522e4711cc9e"
   },
   {
     "title": "Web Codebooks - Interactive Data Summaries for Clinical Trial Data",
@@ -2298,8 +2304,10 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_DV12.pdf"
     ],
     "filename": "PAP-DV12-afb38208c4.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DV12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DV12.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_DV12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_DV12.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_DV12.pdf",
+    "bytes": 1290677,
+    "sha256": "edf7b651989ce7542e44fdde271fa5f7180189e01e7d708628266be863830f1a"
   },
   {
     "title": "Why Data and Document Anonymization Must Carpool?",
@@ -2311,8 +2319,10 @@
       "https://saslexicon.org/PHUSE_US/2018/POS_PP24.pdf"
     ],
     "filename": "POS-PP24-a7914b3013.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/POS_PP24.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/POS_PP24.pdf | https://saslexicon.org/PHUSE_US/2018/POS_PP24.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/POS_PP24.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/POS_PP24.pdf",
+    "bytes": 899397,
+    "sha256": "f151764fc0554bad3095ff6fd9d190f9a2c80d4f1991eebc98ea9310213124d4"
   },
   {
     "title": "Why SAS Programmers Should Learn Python Too",
@@ -2324,7 +2334,9 @@
       "https://saslexicon.org/PHUSE_US/2018/PAP_TT02.pdf"
     ],
     "filename": "PAP-TT02-2ec98274a6.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_TT02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_TT02.pdf | https://saslexicon.org/PHUSE_US/2018/PAP_TT02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2018/PAP_TT02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2018/Connect/US/Raleigh/PAP_TT02.pdf",
+    "bytes": 215778,
+    "sha256": "ede98c295e5c0be73f7c49a756fee5b9fe915dc02a2ab6ccd1d19981d77c197f"
   }
 ]
