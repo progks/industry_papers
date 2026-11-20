@@ -2408,7 +2408,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/EU/Amsterdam/PAP_SM03.pdf",
       "https://saslexicon.org/PHUSE_EU/2019/PAP_SM03.pdf"
     ],
-    "filename": "PAP-SM03-d1c052cd88.pdf"
+    "filename": "PAP-SM03-d1c052cd88.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/EU/Amsterdam/PAP_SM03.pdf",
+    "status": "ok",
+    "bytes": 1256822,
+    "sha256": "12d8d97dcf7434fbd9c480520fead052f8ab15336c01e464e275350f0e36fb8f"
   },
   {
     "title": "Work Less - Do More: An Automated Approach to Define-XML Validation",
@@ -2419,6 +2423,10 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/EU/Amsterdam/PAP_CT02.pdf",
       "https://saslexicon.org/PHUSE_EU/2019/PAP_CT02.pdf"
     ],
-    "filename": "PAP-CT02-73716d8f3f.pdf"
+    "filename": "PAP-CT02-73716d8f3f.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/EU/Amsterdam/PAP_CT02.pdf",
+    "status": "ok",
+    "bytes": 215319,
+    "sha256": "2564014a58eae5966e9ab39efc2e341b19efead26a3546c5a36df847550e631c"
   }
 ]
