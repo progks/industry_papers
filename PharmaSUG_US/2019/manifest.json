@@ -609,8 +609,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_SP06.pdf"
     ],
     "filename": "PAP-SP06-a102d43630.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP06.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SP06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SP06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SP06.pdf",
+    "bytes": 216625,
+    "sha256": "77c7c1ea85b2e57d1646ca523fa8e2028e69029a411ad205e8ae7f0819584e13"
   },
   {
     "title": "Data Harmonization Using Machine Learning",
@@ -622,8 +624,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PRE_ML09.pdf"
     ],
     "filename": "PRE-ML09-cee7ce175e.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PRE_ML09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PRE_ML09.pdf | https://saslexicon.org/PHUSE_US/2019/PRE_ML09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PRE_ML09.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PRE_ML09.pdf",
+    "bytes": 746568,
+    "sha256": "8bdd07eb52a1a6c2446c53284005c8c40119a638cd76567ecf26304b0e91a06c"
   },
   {
     "title": "Data Preparation and Publishing Best Practices for a Successful RBM Implementation",
@@ -635,8 +639,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_AR05.pdf"
     ],
     "filename": "PAP-AR05-ff4ffa01a7.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR05.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_AR05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_AR05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR05.pdf",
+    "bytes": 287121,
+    "sha256": "a7f721b46d9cd3239db926b96b7bcc4ed1fa8669c83e985c2a92e8eecb3aac3d"
   },
   {
     "title": "Data Visualization",
@@ -648,8 +654,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_DV04.pdf"
     ],
     "filename": "PAP-DV04-fd038b0d81.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DV04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DV04.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_DV04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_DV04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DV04.pdf",
+    "bytes": 827400,
+    "sha256": "19d5c8799b78f2f03c0407f0208bdd9161263180aae97fe18d1762b075e3ad4e"
   },
   {
     "title": "Delivery of Data Visualizations within GlaxoSmithKline Clinical Development and Partners via an ELD Model",
@@ -661,8 +669,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_DV06.pdf"
     ],
     "filename": "PAP-DV06-af6895dbb6.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DV06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DV06.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_DV06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_DV06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DV06.pdf",
+    "bytes": 277386,
+    "sha256": "fd66baed210a6a3bff775f37346b8ed6542a13c63a65988d028d1c8e3e066e15"
   },
   {
     "title": "Developing SEND for CBER - Collaborative Workstream Initiative",
@@ -674,8 +684,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_SA06.pdf"
     ],
     "filename": "PAP-SA06-4140ddf499.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA06.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_SA06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_SA06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_SA06.pdf",
+    "bytes": 333498,
+    "sha256": "23443d0c9c5b2e497550f8ff4327004c51eff1774a0b148d4207304b0da094ad"
   },
   {
     "title": "Developing, Implementing and Governing End-to-End Standards at Gilead",
@@ -687,8 +699,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_DS01.pdf"
     ],
     "filename": "PAP-DS01-8d5d089864.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DS01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DS01.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_DS01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_DS01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DS01.pdf",
+    "bytes": 388569,
+    "sha256": "2f8413b860951405555ddd3bcff7b7f4f787ba72f807f57f56329a11b3c66880"
   },
   {
     "title": "Development of a Risk-based Monitoring (RBM) Visualization Application Interface Using JMP Scripting",
@@ -700,8 +714,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_AR04.pdf"
     ],
     "filename": "PAP-AR04-d28fb75b43.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR04.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_AR04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_AR04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_AR04.pdf",
+    "bytes": 1465056,
+    "sha256": "979f9882ef64636cc4ea7cc71c812ecac1202e110b303e14f6103ee36dfd0d86"
   },
   {
     "title": "Digital Analysis Results - #killTFLs",
@@ -713,8 +729,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_DH12.pdf"
     ],
     "filename": "PAP-DH12-ab7b4e5594.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH12.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH12.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_DH12.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_DH12.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH12.pdf",
+    "bytes": 756543,
+    "sha256": "4f9a50d965aee0727fbb1ef82506fee74674d99016640bc7fd9462334f45dc31"
   },
   {
     "title": "Don't Let Your Data Handle You: A Novel Approach to Clinical Programming",
@@ -726,8 +744,10 @@
       "https://saslexicon.org/PHUSE_US/2019/PAP_DH01.pdf"
     ],
     "filename": "PAP-DH01-343839c80a.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH01.pdf | https://saslexicon.org/PHUSE_US/2019/PAP_DH01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2019/PAP_DH01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2019/Connect/US/Baltimore/PAP_DH01.pdf",
+    "bytes": 191862,
+    "sha256": "ebbdfa243c1bf707a7b810665a5a63157ca65b1179b33545821bcf46ca9b42ad"
   },
   {
     "title": "DR3 - A Tool to Create Define-XML (SDTM/ADaM with ARM)",
