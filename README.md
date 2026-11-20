@@ -11,6 +11,8 @@ https://saslexicon.org/index.html
 
 [PharmaSUG_US](https://saslexicon.org/PharmaSUG/PharmaSUG.html)
 
+[PharmaSUG_JP](https://pharmasug.org/conferences/japan2026/presenter-info/)
+
 [PharmaSUG_CN](https://saslexicon.org/PharmaSUG_CN/PharmaSUG_CN.html)
 
 [PHUSE_US](https://saslexicon.org/PHUSE_US/PHUSE_US.html)
