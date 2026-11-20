@@ -1809,8 +1809,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_SD14.pdf"
     ],
     "filename": "PRE-SD14-96e78a1816.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SD14.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SD14.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_SD14.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_SD14.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SD14.pdf",
+    "bytes": 2739252,
+    "sha256": "cd385a02e9ef79f8e458b139546c925e2ec496a6785bb1c712862e1504d0e1c9"
   },
   {
     "title": "Solution When a Global Pandemic Resurrects Paper-based PROs, Creating Collection Headaches for Data Managers",
@@ -1822,8 +1824,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PAP_DH10.pdf"
     ],
     "filename": "PAP-DH10-2fb044b828.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_DH10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_DH10.pdf | https://saslexicon.org/PHUSE_US/2021/PAP_DH10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PAP_DH10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_DH10.pdf",
+    "bytes": 609306,
+    "sha256": "570b4f621d1c39a5047b76c9085a157e8b465257175c3bf581eb46f63036f7ec"
   },
   {
     "title": "Splitting Character Variables into Meaningful Text",
@@ -1835,8 +1839,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PAP_CT07.pdf"
     ],
     "filename": "PAP-CT07-b110ee959e.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_CT07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_CT07.pdf | https://saslexicon.org/PHUSE_US/2021/PAP_CT07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PAP_CT07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_CT07.pdf",
+    "bytes": 492865,
+    "sha256": "bf40d24f383686e5b90bb38a044c90e8da218ef942a1d63e29e49f361c6b7066"
   },
   {
     "title": "Standards and Governed Data in the Clinical Data Pipeline",
@@ -1848,8 +1854,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_DS09.pdf"
     ],
     "filename": "PRE-DS09-6f6681ede5.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DS09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DS09.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_DS09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_DS09.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DS09.pdf",
+    "bytes": 752466,
+    "sha256": "938dc1b39df500f6f956fa5e4713d6d32d026bbd99d31cb99773dd09431a142e"
   },
   {
     "title": "Standing Room Only Presentation: AS11: Cross-study Analysis of SEND Datasets Using an R Package: sendigR",
@@ -1861,8 +1869,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_AS11.pdf"
     ],
     "filename": "PRE-AS11-4a6f78dae4.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_AS11.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_AS11.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_AS11.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_AS11.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_AS11.pdf",
+    "bytes": 2437380,
+    "sha256": "163b3dfd84abba1197e8b53ae3a3bfd73c7f39f4bc0e135c379ec22a0933d4c5"
   },
   {
     "title": "Standing Room Only Presentation: CM03: Quality Tolerance Limits: Leveraging Predictive Modeling",
@@ -1874,8 +1884,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_CM03.pdf"
     ],
     "filename": "PRE-CM03-82d0cabfb5.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CM03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CM03.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_CM03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_CM03.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CM03.pdf",
+    "bytes": 7507827,
+    "sha256": "f584b4f82ea52c0af3113fb025160f1c31626c803c4bb30c208db2fd8e218f06"
   },
   {
     "title": "Standing Room Only Presentation: CT05: Programmatic Approach to Ensure Data Package Contents",
@@ -1887,8 +1899,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_CT05.pdf"
     ],
     "filename": "PRE-CT05-969003751c.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CT05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CT05.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_CT05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_CT05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CT05.pdf",
+    "bytes": 265780,
+    "sha256": "42839fea6de0aaec5135f98c47bdc869c3da49d50c25b53cb4fddc1ff8f39c31"
   },
   {
     "title": "Standing Room Only Presentation: DH02: On the Other Side of the Fence: When Two Skill Areas Join Forces and Boundaries Dissolve",
@@ -1900,8 +1914,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_DH02.pdf"
     ],
     "filename": "PRE-DH02-22e7a406c0.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DH02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DH02.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_DH02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_DH02.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DH02.pdf",
+    "bytes": 2443481,
+    "sha256": "7d6b4c544908c263bea630d84d9cd5667784f536609e06820212b9e700a7917c"
   },
   {
     "title": "Standing Room Only Presentation: DS06: CDISC Analysis Results Standard",
@@ -1913,8 +1929,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_DS06.pdf"
     ],
     "filename": "PRE-DS06-b150de7ec8.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DS06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DS06.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_DS06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_DS06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DS06.pdf",
+    "bytes": 4077063,
+    "sha256": "a92115175a3c93bc4790038f74de9e67afae921da9c3c694dcef73e3373667ce"
   },
   {
     "title": "Standing Room Only Presentation: DV10: Topline Results Dashboards with Rmarkdown & Flexdashboard",
@@ -1926,8 +1944,10 @@
       "https://saslexicon.org/PHUSE_US/2021/PRE_DV10.pdf"
     ],
     "filename": "PRE-DV10-715ebbb23e.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DV10.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DV10.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_DV10.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_DV10.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DV10.pdf",
+    "bytes": 9428497,
+    "sha256": "10137fecbb17653dbe76816067ee42e2f5c8bf15f3a29b24e9bbdd1317c72f30"
   },
   {
     "title": "Standing Room Only Presentation: ML08: You Are the Company You Keep: Converting Words to Numbers Using Text Embeddings",
