@@ -2348,7 +2348,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_AS18.pdf",
       "https://saslexicon.org/PHUSE_US/2025/PAP_AS18.pdf"
     ],
-    "filename": "PAP-AS18-b599ca5932.pdf"
+    "filename": "PAP-AS18-b599ca5932.pdf",
+    "downloaded_from": "https://saslexicon.org/PHUSE_US/2025/PAP_AS18.pdf",
+    "status": "ok",
+    "bytes": 979002,
+    "sha256": "b01dc674b4510209eca4fba3aa32e97196ac6a98c0bde210eadc904e55c8323d"
   },
   {
     "title": "Synthetic Data Will Save the Day: Fact or Fiction",
@@ -2359,7 +2363,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_ET18.pdf",
       "https://saslexicon.org/PHUSE_US/2025/PAP_ET18.pdf"
     ],
-    "filename": "PAP-ET18-6cc13b5fbb.pdf"
+    "filename": "PAP-ET18-6cc13b5fbb.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_ET18.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_ET18.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_ET18.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_ET18.pdf"
   },
   {
     "title": "Table Numbers Presentation Made Easy with Custom Functions",
@@ -2370,7 +2376,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_SM16.pdf",
       "https://saslexicon.org/PHUSE_US/2025/PAP_SM16.pdf"
     ],
-    "filename": "PAP-SM16-7cf24c3857.pdf"
+    "filename": "PAP-SM16-7cf24c3857.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_SM16.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_SM16.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_SM16.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_SM16.pdf"
   },
   {
     "title": "The Best of Both Worlds: Machine Learning and Human-in-the-Loop Processing in TFl Design, Production and Validation",
@@ -2381,7 +2389,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_ML18.pdf",
       "https://saslexicon.org/PHUSE_US/2025/PAP_ML18.pdf"
     ],
-    "filename": "PAP-ML18-9fb0f3ac9d.pdf"
+    "filename": "PAP-ML18-9fb0f3ac9d.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_ML18.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_ML18.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_ML18.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_ML18.pdf"
   },
   {
     "title": "The Development of the CDISC eTFL Portal To Support the Adoption and Implementation of the Analysis Result Standard",
@@ -2392,7 +2402,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DS02.pdf",
       "https://saslexicon.org/PHUSE_US/2025/PAP_DS02.pdf"
     ],
-    "filename": "PAP-DS02-ed6a4435a0.pdf"
+    "filename": "PAP-DS02-ed6a4435a0.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DS02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DS02.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_DS02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_DS02.pdf"
   },
   {
     "title": "The Future of Data Surveillance in Clinical Studies: A Comprehensive Approach to Data Monitoring Using an R Shiny Application for Study Health",
@@ -2403,7 +2415,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_OS19.pdf",
       "https://saslexicon.org/PHUSE_US/2025/PAP_OS19.pdf"
     ],
-    "filename": "PAP-OS19-eeb99d66b3.pdf"
+    "filename": "PAP-OS19-eeb99d66b3.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_OS19.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_OS19.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_OS19.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_OS19.pdf"
   },
   {
     "title": "The Implementation of {teal} Shiny Apps for DMC Activities",
@@ -2414,7 +2428,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_OS09.pdf",
       "https://saslexicon.org/PHUSE_US/2025/PAP_OS09.pdf"
     ],
-    "filename": "PAP-OS09-8834d186dc.pdf"
+    "filename": "PAP-OS09-8834d186dc.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_OS09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_OS09.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_OS09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_OS09.pdf"
   },
   {
     "title": "The Olympics of Data Ingestions",
@@ -2425,7 +2441,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DH09.pdf",
       "https://saslexicon.org/PHUSE_US/2025/PAP_DH09.pdf"
     ],
-    "filename": "PAP-DH09-a02fe6aabb.pdf"
+    "filename": "PAP-DH09-a02fe6aabb.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DH09.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_DH09.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_DH09.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_DH09.pdf"
   },
   {
     "title": "The R Test Kitchen: Cooking Up Quality in Clinical Analytics & Reporting",
@@ -2436,7 +2454,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_SM11.pdf",
       "https://saslexicon.org/PHUSE_US/2025/PAP_SM11.pdf"
     ],
-    "filename": "PAP-SM11-b99672c02d.pdf"
+    "filename": "PAP-SM11-b99672c02d.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_SM11.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_SM11.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_SM11.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_SM11.pdf"
   },
   {
     "title": "The Right Tool for the Job: Enhancing Risk-Based Monitoring and Data Cleaning",
@@ -2447,7 +2467,9 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_AR04.pdf",
       "https://saslexicon.org/PHUSE_US/2025/PAP_AR04.pdf"
     ],
-    "filename": "PAP-AR04-13628f1aea.pdf"
+    "filename": "PAP-AR04-13628f1aea.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_AR04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2025/Connect/US/Orlando/PAP_AR04.pdf | https://saslexicon.org/PHUSE_US/2025/PAP_AR04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2025/PAP_AR04.pdf"
   },
   {
     "title": "The Role of Quantitative Bias Analysis (QBA) in Ensuring the Reliability of Real-World Evidence (RWE) in Regulatory Submissions",
