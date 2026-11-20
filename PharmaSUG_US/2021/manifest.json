@@ -1,0 +1,1815 @@
+[
+  {
+    "title": "A Bayesian Approach to Detection of Treatment-related Effects in Toxicology Studies by Borrowing Information from Historical Control Animals",
+    "authors": "Kevin Snyder , Md Yousuf Ali",
+    "abstract": "Presentation",
+    "keywords": "confidence interval , sample , sample size , binomial distribution , logistic regression , likelihood function , logistic distribution",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_AS08.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_AS08.pdf"
+    ],
+    "filename": "PRE-AS08-678591bd32.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_AS08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_AS08.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_AS08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_AS08.pdf"
+  },
+  {
+    "title": "A Macro to Automate Detection of Date Variables and Derivation of RFPENDTC",
+    "authors": "Kiran Kumar Babu P",
+    "abstract": "RFPENDTC is a Demographic variable, As per the Implementation Guide, RFPENDTC is the Date/time when a subject ended participation or follow -up in a trial, as defined in the protocol. It should correspond to the last known date of contact. Examples include completion date, withdrawal date, last follow-up, date recorded for lost to follow-up, or death date. So, it requires a check of various sdtm domains, depending up on the study for last contact date of a subject. Manually searching each domain and date variables for latest dates requires lot of time limiting working efficiency and also results in very long code. A simple and easy to understand macro for RFPENDTC derivation using transpose and last.variable is proposed consequently in this paper",
+    "keywords": "date variable , proc step , proc contents , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_CT01.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PAP_CT01.pdf"
+    ],
+    "filename": "PAP-CT01-8f711631f5.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_CT01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_CT01.pdf | https://saslexicon.org/PHUSE_US/2021/PAP_CT01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PAP_CT01.pdf"
+  },
+  {
+    "title": "A Quantitative and Metrics-driven Framework for Maximizing Data Utility While Balancing Re-identification Risk",
+    "authors": "Stephen Doogan",
+    "abstract": "Presentation",
+    "keywords": "threshold , by group processing , standard deviation",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DH03.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_DH03.pdf"
+    ],
+    "filename": "PRE-DH03-b569159dcc.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DH03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DH03.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_DH03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_DH03.pdf"
+  },
+  {
+    "title": "A Sequel Better than the Original: Intuitive Ideas Beyond the Basics of Proc SQL",
+    "authors": "Hector Leitch",
+    "abstract": "Presentation",
+    "keywords": "proc sql , group by , proc step",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CT06.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_CT06.pdf"
+    ],
+    "filename": "PRE-CT06-9c2523bfbd.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CT06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CT06.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_CT06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_CT06.pdf"
+  },
+  {
+    "title": "A Well Design QC Toolkit for Clinical Programming Compliance Checking",
+    "authors": "Huei-Ling Chen , Sandeep Meesala",
+    "abstract": "Presentation",
+    "keywords": "quality control , adam dataset , data cleaning , clinical programming , output delivery system , clinical trial , ods tagsets.excelxp",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SP04.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SP04.pdf"
+    ],
+    "filename": "PRE-SP04-82f620e9fc.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SP04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SP04.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_SP04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_SP04.pdf"
+  },
+  {
+    "title": "ADaM Generator Tool",
+    "authors": "Gustav Bernard",
+    "abstract": "Presentation",
+    "keywords": "adam dataset , sdtm domain , bds , dataset , label statement , excel , format statement , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SD01.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SD01.pdf"
+    ],
+    "filename": "PRE-SD01-c5b069c1ff.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SD01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SD01.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_SD01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_SD01.pdf"
+  },
+  {
+    "title": "AI as a Service (AIaaS) in the RWD/RWE Space",
+    "authors": "Aaron C. Clark , Himanshu Pandya",
+    "abstract": "Presentation",
+    "keywords": "data science",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ML07.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_ML07.pdf"
+    ],
+    "filename": "PRE-ML07-ce7a3e7153.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ML07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ML07.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_ML07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_ML07.pdf"
+  },
+  {
+    "title": "AI Powered Decision Support Systems with Wearable Sensors for Remote Patient Monitoring in Clinical Trials",
+    "authors": "Surabhi Dutta",
+    "abstract": "Poster",
+    "keywords": "clinical database",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP11.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/POS_PP11.pdf"
+    ],
+    "filename": "POS-PP11-4970dbc935.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP11.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP11.pdf | https://saslexicon.org/PHUSE_US/2021/POS_PP11.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/POS_PP11.pdf"
+  },
+  {
+    "title": "An R-based Tool to Build Questionnaires, Ratings and Scales (QRS) in EDC for Clinical Trials",
+    "authors": "Catherine Abogado , Rammprasad Ganapathy",
+    "abstract": "Presentation",
+    "keywords": "data standard , clinical trial , controlled terminology , rest api , clinical data , clinical research , edc , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SI03.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SI03.pdf"
+    ],
+    "filename": "PRE-SI03-5538d86640.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SI03.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SI03.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_SI03.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_SI03.pdf"
+  },
+  {
+    "title": "An SAS Macro for Dynamic Page Breaks",
+    "authors": "Bhavana Bommisetty , Manohar Modem",
+    "abstract": "Presentation",
+    "keywords": "demographics table , change from baseline , efficacy summary , macro parameter , proc report , proc calis , analysis set",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CT02.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_CT02.pdf"
+    ],
+    "filename": "PRE-CT02-254aa14698.pdf",
+    "status": "failed",
+    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CT02.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CT02.pdf | https://saslexicon.org/PHUSE_US/2021/PRE_CT02.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2021/PRE_CT02.pdf"
+  },
+  {
+    "title": "Application of Machine Learning (ML) in Tumor Detection in Oncology Study",
+    "authors": "Animesh Patel",
+    "abstract": "Machine Learning (ML) has been a buzz word nowadays due to its power to bring huge change. However, the application of ML has been minimal in oncology clinical research and healthcare industry. Deep learning is the current trend of the machine learning field. It is widely used in numerous applications for solving complex problems that required more accurate result and sensitivity like in medical field. In oncology studies, the detection of brain tumor (lesion) is performed by investigator and independent reviewer . This method is impractical in large amount of data so tumor detection using Machine learning would save radiologist time. Our work involves develop and implementation of convolution neural network (CNN) for Magnetic resonance imaging(MRI). The dataset we used in this paper have around 3000 images belong four classes where three o f different type of tumors and no tumor class. The proposed CNN model gives 97.5% training accuracy and 91.6% testing accuracy",
+    "keywords": "machine learning , deep learning",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_ML13.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PAP_ML13.pdf"
+    ],
+    "filename": "PAP-ML13-b2d0adb294.pdf"
+  },
+  {
+    "title": "Artificial Intelligence (AI) Innovations in Clinical Research",
+    "authors": "Sanjeeva Thalla",
+    "abstract": "Poster: Most drugs take about 10 years or more to come to market, cost billions, and have a potential to financially damage an organization where the late-stage trials fail. Also, patients hardly can wait 15 years for a lifesaving drug. Thus, now is the time to focus on medication revelation and other productive processes which can be easily achieved through Artificial Intelligence (AI). AI can significantly reduce the time spent in the drug development process and can cut the expenses by more than half. In this poster, I aim to explain the different areas of a clinical task to which expert systems can be applied. This poster also states the various ways we may adopt AI in the field of Medicine",
+    "keywords": "artificial intelligence , clinical research",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP04.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/POS_PP04.pdf"
+    ],
+    "filename": "POS-PP04-d6b8d92d55.pdf"
+  },
+  {
+    "title": "Automate Scientific Document such as CSR Generation using ML/NLP",
+    "authors": "Farha Feroze",
+    "abstract": "Presentation",
+    "keywords": "csr , clinical trial , neural network , deep learning , gcp , serious adverse event , adverse events",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ML01.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_ML01.pdf"
+    ],
+    "filename": "PRE-ML01-c91427ccba.pdf"
+  },
+  {
+    "title": "Automated Validation of Clinical Trial Analysis and Reporting Deliverables Using 'testthat'",
+    "authors": "Amin Shirazi , Jane X. Liao",
+    "abstract": "Presentation",
+    "keywords": "clinical trial , data cleaning , adverse events , regression analysis , survival function , serious adverse event , clinical data",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SP03.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SP03.pdf"
+    ],
+    "filename": "PRE-SP03-ef8dd7f493.pdf"
+  },
+  {
+    "title": "Automation of a Web-based Metadata Repository for SAS Datasets with Selenium Technology",
+    "authors": "Eugene Tsykalov",
+    "abstract": "Presentation",
+    "keywords": "excel , clinical trial , adam dataset , sdtm domain , proc contents , reference data , phase ii , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT03.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_TT03.pdf"
+    ],
+    "filename": "PRE-TT03-19a76c187a.pdf"
+  },
+  {
+    "title": "Automation of CDISC ADaM Using Statistical Data and Metadata eXchange (SDMX)",
+    "authors": "Stuart Malcolm",
+    "abstract": "Presentation",
+    "keywords": "cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SI08.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SI08.pdf"
+    ],
+    "filename": "PRE-SI08-a7f3d72c96.pdf"
+  },
+  {
+    "title": "Automation of Patient Narratives Using Natural Language Generation",
+    "authors": "Sam Tomioka , Shiva Katepalli",
+    "abstract": "Presentation",
+    "keywords": "adverse event leading to discontinuation , adverse events , data science , audit trail , verbatim term , concomitant medications , dose",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ML02.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_ML02.pdf"
+    ],
+    "filename": "PRE-ML02-ea7baea9fc.pdf"
+  },
+  {
+    "title": "Becoming Agile in a Regulated Environment",
+    "authors": "Anton Sarov",
+    "abstract": "Presentation",
+    "keywords": "data cleaning",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_LE04.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_LE04.pdf"
+    ],
+    "filename": "PRE-LE04-7e4d00dc46.pdf"
+  },
+  {
+    "title": "Building an SCE that Users Want to Use",
+    "authors": "Alastair Scarlett , Chris Decker",
+    "abstract": "Presentation",
+    "keywords": "data science , clinical programming , audit trail , clinical data , clinical trial , statistical programmer",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SD06.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SD06.pdf"
+    ],
+    "filename": "PRE-SD06-048abe8544.pdf"
+  },
+  {
+    "title": "Central Statistical False Positives - Predicting True Signals with Machine Learning",
+    "authors": "Dorothea Ugi",
+    "abstract": "Presentation",
+    "keywords": "type i error , sample , test set , sensitivity analysis , auc , phase iii , response variable",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ML12.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_ML12.pdf"
+    ],
+    "filename": "PRE-ML12-d929dc6e33.pdf"
+  },
+  {
+    "title": "Challenges and Solutions in SDTM Implementation and Programming of the Ophthalmic Examinations (OE) Domain",
+    "authors": "Shivam Kumar , Vinita Dora",
+    "abstract": "Presentation",
+    "keywords": "output delivery system , repeated measures , longitudinal data , do loop , array , controlled terminology , if-then-else , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SI05.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SI05.pdf"
+    ],
+    "filename": "PRE-SI05-9933761fe8.pdf"
+  },
+  {
+    "title": "Changing How We Collect, Store, Manage, Transform and Analyze Clinical Data, One Microservice at a Time",
+    "authors": "Mark Bynens , Paul Fioole",
+    "abstract": "Presentation",
+    "keywords": "clinical data",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT09.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_TT09.pdf"
+    ],
+    "filename": "PRE-TT09-3c06185595.pdf"
+  },
+  {
+    "title": "China Center for Drug Evaluation, NMPA Electronic Study Data Submission Requirements",
+    "authors": "Majdoub Haloui , Yanhong Li",
+    "abstract": "Presentation",
+    "keywords": "clinical trial , adam dataset , clinical data , reviewer guide , label statement , clinical programming , annotated crf , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SA02.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SA02.pdf"
+    ],
+    "filename": "PRE-SA02-cd490267a6.pdf"
+  },
+  {
+    "title": "CO Hands-on Workshop: COVID Data Access to Analysis with Power BI",
+    "authors": "Aditya Gadiko , Christopher C. Hurley",
+    "abstract": "Presentation",
+    "keywords": "excel , proc sql , sql server , machine learning , output delivery system , standard deviation , data visualization",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_HoW01.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_HoW01.pdf"
+    ],
+    "filename": "PRE-HoW01-88cce8f3f4.pdf"
+  },
+  {
+    "title": "CO Panel Discussion: COVID-19 Managing Programming Deliverables Under an EUA",
+    "authors": "Caroline Shi , Liping Zhang",
+    "abstract": "Presentation",
+    "keywords": "output delivery system",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_Panel01.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_Panel01.pdf"
+    ],
+    "filename": "PRE-Panel01-605f56db2c.pdf"
+  },
+  {
+    "title": "Coming Out Ahead by Driving Change in Teams and Departments",
+    "authors": "Paul K. Slagle",
+    "abstract": "Presentation",
+    "keywords": "proof of concept",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_LE05.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_LE05.pdf"
+    ],
+    "filename": "PRE-LE05-852ae7ec85.pdf"
+  },
+  {
+    "title": "Commercially Confidential Information in clinical data publishing",
+    "authors": "Parvee Kumar",
+    "abstract": "Presentation",
+    "keywords": "clinical trial , clinical data , key , service provider , data science",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SA01.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SA01.pdf"
+    ],
+    "filename": "PRE-SA01-dc3e341151.pdf"
+  },
+  {
+    "title": "Common JumpStart Data Quality Findings",
+    "authors": "Alan Shapiro , Michael Xue",
+    "abstract": "Presentation",
+    "keywords": "cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SA04.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SA04.pdf"
+    ],
+    "filename": "PRE-SA04-a4f4ea15c1.pdf"
+  },
+  {
+    "title": "Comparative Characteristics of Logistic Regression Implementation in SAS and R in the Example of Cardiovascular Diseases",
+    "authors": "Serhii Kashyn",
+    "abstract": "Presentation",
+    "keywords": "logistic regression , logistic distribution , regression analysis , maximum likelihood estimation , likelihood function , model validation , odds ratio",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_AS05.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_AS05.pdf"
+    ],
+    "filename": "PRE-AS05-898ed2cad9.pdf"
+  },
+  {
+    "title": "Concept of Generating Polished SAS Code for Regulatory Submissions",
+    "authors": "Norihiko Oharu , Ravi Mokkarala",
+    "abstract": "Poster",
+    "keywords": "data cleaning , mprint",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP08.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/POS_PP08.pdf"
+    ],
+    "filename": "POS-PP08-aacf1609b5.pdf"
+  },
+  {
+    "title": "Confused with PROC MIXED? Find Out What is the Best Model",
+    "authors": "Savithri Jajam , Vamshi Matta",
+    "abstract": "",
+    "keywords": "proc mixed , covariance structure , covariance , proc step , correlation , ods output , output delivery system , data science",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_AS09.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PAP_AS09.pdf"
+    ],
+    "filename": "PAP-AS09-4edfe6cdaf.pdf"
+  },
+  {
+    "title": "Containers You Can Count On: A Framework for Qualifying Community Container Images",
+    "authors": "Eli Miller",
+    "abstract": "Presentation",
+    "keywords": "data cleaning",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT05.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_TT05.pdf"
+    ],
+    "filename": "PRE-TT05-6f0e393ed5.pdf"
+  },
+  {
+    "title": "Controlled Terminology Best Practices",
+    "authors": "Sarah Angelo",
+    "abstract": "Presentation",
+    "keywords": "cdisc controlled terminology , data cleaning , controlled terminology , sdtm programming , raw data , data validation rules , adverse events , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SI10.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SI10.pdf"
+    ],
+    "filename": "PRE-SI10-88fc7f02dd.pdf"
+  },
+  {
+    "title": "COVID-19 Outbreak Visualization Using a Clinical Data Science Platform",
+    "authors": "Iryna Kotenko , Sergey Glushakov",
+    "abstract": "Presentation",
+    "keywords": "statistical programmer , output delivery system , clinical endpoint , clinical programming , clinical sas , data standard , sas programmer",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SD05.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SD05.pdf"
+    ],
+    "filename": "PRE-SD05-d0ae3062c8.pdf"
+  },
+  {
+    "title": "COVID-19 Presentation: CO01: Harnessing the Power of Shiny to Visualize Missing Data due to the COVID-19 Pandemic",
+    "authors": "Mark Rothe , Sangeeta Bhattacharya",
+    "abstract": "Presentation",
+    "keywords": "study day , missing value , adam dataset , data visualization , clinical trial , protocol deviations , likelihood function , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CO01.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_CO01.pdf"
+    ],
+    "filename": "PRE-CO01-600cbdb9f0.pdf"
+  },
+  {
+    "title": "COVID-19 Presentation: CO02: Takeda's COVID-19 Response to Aid Collection to Submission",
+    "authors": "Veena Nataraj",
+    "abstract": "Presentation",
+    "keywords": "",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CO02.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_CO02.pdf"
+    ],
+    "filename": "PRE-CO02-839642d2eb.pdf"
+  },
+  {
+    "title": "Creation of Adverse Event (AE) Table Using R Programming",
+    "authors": "Dilip Patel , Kamleshkumar Patel",
+    "abstract": "Poster",
+    "keywords": "",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP17.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/POS_PP17.pdf"
+    ],
+    "filename": "POS-PP17-4f3542f674.pdf"
+  },
+  {
+    "title": "CSR Narratives Automation",
+    "authors": "Ritesh Dhimmar",
+    "abstract": "Presentation",
+    "keywords": "adverse events , concomitant medications , vital signs , serious adverse event , medical history , clinical trial , adverse event of special interest",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT15.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_TT15.pdf"
+    ],
+    "filename": "PRE-TT15-903e4b4cc8.pdf"
+  },
+  {
+    "title": "Data Science Presentations: DSc01: How Automation Using Machine Learning Technology Can Overcome the Limitations of Double Programming",
+    "authors": "Hugh Donovan , Ilan Carmeli",
+    "abstract": "Presentation",
+    "keywords": "independent qc , data cleaning , clinical research , tables , life sciences , clinical programming",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DSc01.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_DSc01.pdf"
+    ],
+    "filename": "PRE-DSc01-d98dd300a8.pdf"
+  },
+  {
+    "title": "Data Science Presentations: DSc02: The Digital Era Outpaces Traditional QA",
+    "authors": "Karl Brand , Miriam Ferrer-Gonzale",
+    "abstract": "Presentation",
+    "keywords": "quality assurance , data cleaning",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DSc02.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_DSc02.pdf"
+    ],
+    "filename": "PRE-DSc02-9afc52e8d7.pdf"
+  },
+  {
+    "title": "Data Visualizations for Publication, Decision-making and Submission",
+    "authors": "Maria Dalton",
+    "abstract": "Presentation",
+    "keywords": "data cleaning , validation documentation , access control , audit trail , data visualization , inferential statistics , clinical trial",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DV04.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_DV04.pdf"
+    ],
+    "filename": "PRE-DV04-3414eda6fd.pdf"
+  },
+  {
+    "title": "Demographic and Socio-economic Disparities in Preference to Getting Vaccinated by the Flu Shot versus the Flu Spray in the United States",
+    "authors": "Swapna Ambati",
+    "abstract": "Influenza (Flu) is one of the most common causes of respiratory illness and absenteeism at work and school. Flu is a common virus whose ability to change its genetic makeup could result in a pandemic proportion of the disease. In 2009, a novel Influenza virus caused the first Influenza related pandemic in the 21st century. The major step in preventing Flu is taking a Flu vaccine every year. A Flu vaccine can be administered as a shot or a spray. In this paper, we examined children using the national survey database the National Immunization Survey (NIS) in 2019. We discussed the disparities in the demographic and the socio-economic characteristics in preferring to get vaccinated for Flu. We also discuss ed the availability and preference to take Flu vaccine based on the type of administration mainly Flu shot and Flu spray. Also, we examined the reasons for the low usage in administration types and their trends in the past and prospects in the future",
+    "keywords": "proc step , proc surveymeans , proc surveyfreq , nominal variable , data science",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_AS04.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PAP_AS04.pdf"
+    ],
+    "filename": "PAP-AS04-ca436db5fd.pdf"
+  },
+  {
+    "title": "Developing R Package Capability in a Historically SAS-based Organization - The GSK Clinical Programming Experience",
+    "authors": "Benjamin Straub , Michael Rimler",
+    "abstract": "Poster: Our roadmap to R includes a commitment to continued development of internal R package functionality and more contributions to open-sourced R packages which support the delivery of the clinical data pipeline",
+    "keywords": "clinical programming , data pipeline , r package",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP02.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/POS_PP02.pdf"
+    ],
+    "filename": "POS-PP02-3943b81819.pdf"
+  },
+  {
+    "title": "Digitalization, Agile Mindset and Virtual Collaboration - Yet Delivering a \"Pile of Paper\"?",
+    "authors": "Jesper Zeth , Parag Wani",
+    "abstract": "Presentation",
+    "keywords": "pharmaceutical industry , statistical programmer , missing value , adam dataset , adam programmer , adverse event summary , artificial intelligence",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SP08.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SP08.pdf"
+    ],
+    "filename": "PRE-SP08-1c357d11a2.pdf"
+  },
+  {
+    "title": "Do EudraCT the Easy Way: Semi-automation of Inputting Study & Treatment Event Information in EudraCT",
+    "authors": "Kevin Miller , Larry Sleeper",
+    "abstract": "Presentation",
+    "keywords": "adverse events , serious adverse event , clinical trial , excel , system organ class , clinical research , error message",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SI11.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SI11.pdf"
+    ],
+    "filename": "PRE-SI11-607e9f3739.pdf"
+  },
+  {
+    "title": "DSc Hands-on Workshop: Data Storytelling",
+    "authors": "Sascha Ahrweiler",
+    "abstract": "Presentation",
+    "keywords": "statistical programmer",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_HoW03.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_HoW03.pdf"
+    ],
+    "filename": "PRE-HoW03-e13b10242c.pdf"
+  },
+  {
+    "title": "DSc Panel Discussion: How Data Scientists are Transforming the Biometrics Organization",
+    "authors": "Asha Mahesh , Christopher J. Colangelo",
+    "abstract": "Presentation",
+    "keywords": "data science , pharmaceutical industry , clinical programming",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_Panel03.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_Panel03.pdf"
+    ],
+    "filename": "PRE-Panel03-ede737f269.pdf"
+  },
+  {
+    "title": "Dynamic Macro Using the Convergence Dataset to Generate the Odds Ratio (OR), Risk Ratio (RR) and Risk Difference (RD) per SOC and PT Using the Genmod Procedure",
+    "authors": "Jagadish Katam",
+    "abstract": "Presentation",
+    "keywords": "proc genmod , keyword parameter , %macro parameters , macro call , system organ class , call execute , macro parameter , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_AS06.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_AS06.pdf"
+    ],
+    "filename": "PRE-AS06-cfa7302e48.pdf"
+  },
+  {
+    "title": "Effective Leadership to Thrive in the \"New Normal\"",
+    "authors": "Bhavesh S. Patkar",
+    "abstract": "Presentation",
+    "keywords": "",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_LE03.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_LE03.pdf"
+    ],
+    "filename": "PRE-LE03-e3fe472aff.pdf"
+  },
+  {
+    "title": "Exploring Categorical Data Using Unsupervised Graph-based Machine Learning",
+    "authors": "Irina Kotenko , Kostiantyn Drach",
+    "abstract": "Presentation",
+    "keywords": "logistic regression , regression analysis , logistic distribution , machine learning , odds ratio , unsupervised learning , clinical trial",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ML09.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_ML09.pdf"
+    ],
+    "filename": "PRE-ML09-fc90e039fd.pdf"
+  },
+  {
+    "title": "FDA & PMDA Validator Rules - What, Why and How ... But Should You Care?",
+    "authors": "Charanjit Kahlon , Kishore Pothuri",
+    "abstract": "Presentation",
+    "keywords": "adverse events , data validation rules , trial summary , system organ class , cdisc controlled terminology , data cleaning , clinical trial , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DS10.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_DS10.pdf"
+    ],
+    "filename": "PRE-DS10-4df13e55ce.pdf"
+  },
+  {
+    "title": "FDA Conformance Analysis and Upcoming Implementation of Technical Rejection Criteria for Study Data",
+    "authors": "Ethan Chen , Heather Crandall",
+    "abstract": "Presentation",
+    "keywords": "data cleaning , clinical trial , data validation rules , trial summary , csr , sample",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_RS01.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_RS01.pdf"
+    ],
+    "filename": "PRE-RS01-5eec20abfe.pdf"
+  },
+  {
+    "title": "File Split: Handling LB, QS and VS Listing Files",
+    "authors": "Deepak Kumar , Swetha Mandava",
+    "abstract": "Poster",
+    "keywords": "proc step , proc print",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP06.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/POS_PP06.pdf"
+    ],
+    "filename": "POS-PP06-35bafe5d10.pdf"
+  },
+  {
+    "title": "From Digital Data to Decision Intelligence: Infrastructure and Algorithms Powering Automation in RBM and Data Review",
+    "authors": "Raj Indupuri",
+    "abstract": "Presentation",
+    "keywords": "artificial intelligence , clinical research",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CM04.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_CM04.pdf"
+    ],
+    "filename": "PRE-CM04-38a8099cf7.pdf"
+  },
+  {
+    "title": "Generating .xpt files with SAS, R and Python",
+    "authors": "Todd Case",
+    "abstract": "Presentation",
+    "keywords": "dataset , trial summary , label statement , adaptive design , in= , regulatory submission , sas library",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CT03.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_CT03.pdf"
+    ],
+    "filename": "PRE-CT03-eff212e437.pdf"
+  },
+  {
+    "title": "Get Ready in One Click: Clean SDTM Datasets by Using Library Backend Rules",
+    "authors": "Annelies Van Zeveren , Sofie Stynen",
+    "abstract": "Presentation",
+    "keywords": "sdtm domain , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DH11.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_DH11.pdf"
+    ],
+    "filename": "PRE-DH11-0ce92b500d.pdf"
+  },
+  {
+    "title": "Good Cooperation Between SAS and R for Regulatory Submission",
+    "authors": "Jingyuan Chen",
+    "abstract": "Presentation",
+    "keywords": "clinical trial , quality control , crf , csr , adlb , proc compare , adam dataset",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SP02.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SP02.pdf"
+    ],
+    "filename": "PRE-SP02-e7451e5686.pdf"
+  },
+  {
+    "title": "Graphs Made Easy Using SAS Graph Template Language",
+    "authors": "Manohar Modem",
+    "abstract": "In clinical domain, we used to create graphs using traditional SAS/GRAPH procedures like PROC GPLOT . To create better graphs, SAS developed Graph Template Language (GTL). GTL has many significant advantages over traditional SAS/GRAPH procedures like more c ontrol over visual attributes of the graph, less annotation and minimal coding. Statistical Graphics (SG) procedures like PROC SGPLOT , SGPANEL etc., which require minimal coding use GTL to create commonly used graphs. But, writing graphs in GTL has more ad vantages compared to SG procedures and traditional SAS/GRAPH procedures. GTL code might look a little lengthy and intimidating, but once you understand how to read GTL code, it will be very useful to cr eate not only simple graphs but also complex graphs. T he purpose of this paper is to help the programmer understand and utilize various elements of GTL to create wonderful graphs",
+    "keywords": "proc step , proc template , line chart , scatter plot , bar chart , box plot , class variable , adverse events , forest plot , histogram , confidence interval , output delivery system , if-then-else , kaplan-meier plot , proc freq",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_DV02.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PAP_DV02.pdf"
+    ],
+    "filename": "PAP-DV02-d29e247b55.pdf"
+  },
+  {
+    "title": "Harness Analytical Strengths: SAS, R, Python Web Services",
+    "authors": "Ben E. Bocchicchio , Sandeep Juneja",
+    "abstract": "Presentation",
+    "keywords": "",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT11.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_TT11.pdf"
+    ],
+    "filename": "PRE-TT11-b8e788e61c.pdf"
+  },
+  {
+    "title": "How Enterprise Architecture Can Benefit the Clinical Trial Process",
+    "authors": "Guy R. Garrett",
+    "abstract": "Poster",
+    "keywords": "",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP13.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/POS_PP13.pdf"
+    ],
+    "filename": "POS-PP13-c3acfb7ba0.pdf"
+  },
+  {
+    "title": "How the R Programming Language Handles the CDISC Library API",
+    "authors": "Joseph W. Hinson",
+    "abstract": "CDISC is currently ushering in a new era of automated standards-based clinical programming where software can directly access the CDISC standards. This is through a massive cloud-based metadata repository called \"CDISC Library\", which also contains a REST-based Application Programming Interface (API) and which already has been shown to be accessible by SAS and JAVA programs. Meanwhile, the R programming language is gaining a substantial foothold in big pharma and CROs, due to the open-source language's extensive suite of advanced statistical, modeling, and graphical tools, plus over 12,000 ancillary software packages. This paper aims to demonstrate that R is also well-suited for doing CDISC Library-based programming",
+    "keywords": "rest api , api , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_TT01.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PAP_TT01.pdf"
+    ],
+    "filename": "PAP-TT01-187cf766a7.pdf"
+  },
+  {
+    "title": "How to Submit Study Data to Comply with Technical Rejection Criteria",
+    "authors": "Lina Cong",
+    "abstract": "Poster",
+    "keywords": "data cleaning , data standard",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP07.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/POS_PP07.pdf"
+    ],
+    "filename": "POS-PP07-9d5560ad87.pdf"
+  },
+  {
+    "title": "How Will Knowledge Graphs Improve Clinical Reporting Workflows?",
+    "authors": "Alexey Kuznetsov , Jorine Putter",
+    "abstract": "Presentation",
+    "keywords": "adverse events , privacy , data standard , laboratory data , vital signs , data cleaning",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ET01.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_ET01.pdf"
+    ],
+    "filename": "PRE-ET01-62ac597383.pdf"
+  },
+  {
+    "title": "Hydrating a Data Lake to Power Innovation - Enabling Pharmaceutical Companies to Automate Data De-identification for Secondary Use",
+    "authors": "Cathal Gallagher , Kristin McDougall",
+    "abstract": "Presentation",
+    "keywords": "data lake , machine learning , audit trail , clinical trial , data masking , flat file",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DH01.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_DH01.pdf"
+    ],
+    "filename": "PRE-DH01-c17aea48d9.pdf"
+  },
+  {
+    "title": "Indenting Lengthy Text Strings in PROC REPORT Outputs",
+    "authors": "Jeppe Juul , Kavita Math",
+    "abstract": "Presentation",
+    "keywords": "do loop , proc report , macro call , proc step , system organ class , adverse events",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CT04.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_CT04.pdf"
+    ],
+    "filename": "PRE-CT04-a442bbd2a7.pdf"
+  },
+  {
+    "title": "Industry Metrics for Extensions of CDISC Terminology",
+    "authors": "Sergiy Sirichenko",
+    "abstract": "Presentation",
+    "keywords": "data cleaning , cdisc controlled terminology , missing value , label statement , crossover study , follow-up period , unstructured data , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DS08.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_DS08.pdf"
+    ],
+    "filename": "PRE-DS08-c93919c953.pdf"
+  },
+  {
+    "title": "Integration of Translational and Longitudinal Clinical Trial Data Using Machine Learning to Gain Predictive Insights from Legacy Studies",
+    "authors": "Arpitha Hanumanthiah , Rajalaxmi Sharanappa",
+    "abstract": "Poster: Data transformation for normalization and harmonization Data generated over a period in the immunological studies/ cell/ gene therapy are very large and are often stored in many places. To make it available for insight generation at the right time and right place will require tools to standardize and integrate these data for their respective clinical data. Automation and recommendation engine using Machine Learning algorithms working on the principle of supervised learning will both speed up and standardize and harmonize the data to a chosen libraries/ontologies. Validation of the data for transformation and consistency Indexed and stored in a customizable Universal Data Model. Metadata capturing at various levels of the data and making it available for search and selection of cohort",
+    "keywords": "machine learning , clinical data",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP14.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/POS_PP14.pdf"
+    ],
+    "filename": "POS-PP14-f47601a1ec.pdf"
+  },
+  {
+    "title": "Interactive Visualization and Summarization of Toxicology Study Results Across Species, Routes and Durations Throughout a Drug Development Program Using R Shiny",
+    "authors": "Kevin Snyder , Md Yousuf Ali",
+    "abstract": "Presentation",
+    "keywords": "clinical significance , clinical research",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DV12.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_DV12.pdf"
+    ],
+    "filename": "PRE-DV12-897da57656.pdf"
+  },
+  {
+    "title": "Is it ART? An Application of TransCelerate's MoA Framework for Assessing Accuracy, Reproducibility and Traceability in Novel Software Implementations",
+    "authors": "Michael S Rimler , Tim Kuhn",
+    "abstract": "Presentation",
+    "keywords": "machine learning , quality assurance , clinical programming , clinical research , regulatory reporting , data cleaning",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_FC02.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_FC02.pdf"
+    ],
+    "filename": "PRE-FC02-c4ea26b223.pdf"
+  },
+  {
+    "title": "Keeping Calm and Carrying On: Bringing Graduates Onboard in a World Disrupted",
+    "authors": "Diana Stuart , Stephanie Boyle",
+    "abstract": "Presentation",
+    "keywords": "",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SP10.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SP10.pdf"
+    ],
+    "filename": "PRE-SP10-3d9066ee59.pdf"
+  },
+  {
+    "title": "Keynote Presentation: Our Access to Real-world Data is Not Sustainable Without Transparency and Inclusion",
+    "authors": "Craig Lipset",
+    "abstract": "Presentation",
+    "keywords": "clinical trial , health insurance",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_KN01.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_KN01.pdf"
+    ],
+    "filename": "PRE-KN01-ea0ed91648.pdf"
+  },
+  {
+    "title": "LE Panel Discussion: Leadership and Innovation",
+    "authors": "Benedikt Egersdoerfer , Delyth Jones",
+    "abstract": "Presentation",
+    "keywords": "",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_Panel05.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_Panel05.pdf"
+    ],
+    "filename": "PRE-Panel05-8609b68e23.pdf"
+  },
+  {
+    "title": "Leadership Presentations: LE01: The Power of Three",
+    "authors": "Alberto Montironi , Ryan Krause",
+    "abstract": "Presentation",
+    "keywords": "clinical programming , data science , statistical programmer",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_LE01.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_LE01.pdf"
+    ],
+    "filename": "PRE-LE01-1a0cee56f7.pdf"
+  },
+  {
+    "title": "Leadership Presentations: LE02: How to Build Knowledge Capacity for a High-performance Team",
+    "authors": "Xiaohui Wang",
+    "abstract": "Presentation",
+    "keywords": "clinical trial , data validation rules , exploratory endpoint , phase i , clinical programming",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_LE02.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_LE02.pdf"
+    ],
+    "filename": "PRE-LE02-741720d153.pdf"
+  },
+  {
+    "title": "Leadership Presentations: LE06: One Sprint at a Time - Agile Transformation in Clinical Research",
+    "authors": "Aman Bahl , Steve Benjamin",
+    "abstract": "Presentation",
+    "keywords": "data science , clinical trial , clinical programming , clinical research , adaptive design , customer experience , predictive analytics",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_LE06.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_LE06.pdf"
+    ],
+    "filename": "PRE-LE06-7046b9089a.pdf"
+  },
+  {
+    "title": "Leveraging Standard Analytics in Central Monitoring: The Good, The Bad, & The Ugly",
+    "authors": "Angela Geiger , Arianna Galli",
+    "abstract": "Presentation",
+    "keywords": "data review , data science , adverse events , clinical data , bar chart , concomitant medications , dose modification",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CM01.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_CM01.pdf"
+    ],
+    "filename": "PRE-CM01-b2188b47df.pdf"
+  },
+  {
+    "title": "Managing Multiple Versions of R in a Clinical Environment",
+    "authors": "Philip Bowsher , Sean Lopp",
+    "abstract": "Presentation",
+    "keywords": "statistical programmer",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_AS01.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_AS01.pdf"
+    ],
+    "filename": "PRE-AS01-e9beb4601f.pdf"
+  },
+  {
+    "title": "Managing TFL Development in LSAF 5.3 Using SAS and R Code",
+    "authors": "Jean-Marc Ferran , Stijn Rogiers",
+    "abstract": "Presentation",
+    "keywords": "life sciences , data cleaning , full analysis set , dataset , adam dataset , analysis set , pharmaceutical industry , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DH04.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_DH04.pdf"
+    ],
+    "filename": "PRE-DH04-8cea00e6ec.pdf"
+  },
+  {
+    "title": "Mapping Missing QRS Responses in the SDTM",
+    "authors": "Mahesh Minnakanti , Vinita Dora",
+    "abstract": "Presentation",
+    "keywords": "",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DH05.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_DH05.pdf"
+    ],
+    "filename": "PRE-DH05-5fa59cf900.pdf"
+  },
+  {
+    "title": "Metadata-based Auto-programming by Python and SAS",
+    "authors": "Harry Chen",
+    "abstract": "Presentation",
+    "keywords": "data step , proc sort , if-then-else , implicit loop , raw data , sample , excel",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DH09.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_DH09.pdf"
+    ],
+    "filename": "PRE-DH09-12a50a74d6.pdf"
+  },
+  {
+    "title": "Neurological Examination and Procedure Results in SDTM: Challenges and Solutions",
+    "authors": "Shivam Kumar",
+    "abstract": "Presentation",
+    "keywords": "clinical significance , sample",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DS02.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_DS02.pdf"
+    ],
+    "filename": "PRE-DS02-e0ace68c3f.pdf"
+  },
+  {
+    "title": "Next Evolution Step(s) for Statistical Programmers: \"Clinical Data Scientist\" or \"Clinical Data Analytics Engineer\"?",
+    "authors": "Amar Mahidadia , Sascha Ahrweiler",
+    "abstract": "Presentation",
+    "keywords": "clinical research , data science , statistical programmer , machine learning , pharmaceutical industry , outlier , sas engineer",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_AS07.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_AS07.pdf"
+    ],
+    "filename": "PRE-AS07-5a9ae6670d.pdf"
+  },
+  {
+    "title": "Onboarding a junior Clinical Data Manager (CMD) in an Early Phase Team: My Story from University to First Database Lock",
+    "authors": "Glenn Borgmans , Sofie Stynen",
+    "abstract": "Presentation",
+    "keywords": "database lock",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DH07.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_DH07.pdf"
+    ],
+    "filename": "PRE-DH07-a0d6891f98.pdf"
+  },
+  {
+    "title": "Oncology Trial Endpoint Tracking Using RShiny",
+    "authors": "Kavitha Nagarajan , Michael Briganti",
+    "abstract": "Presentation",
+    "keywords": "proc means , excel",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DV13.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_DV13.pdf"
+    ],
+    "filename": "PRE-DV13-16931f5f38.pdf"
+  },
+  {
+    "title": "Open APIs and Open Source for Open Minds",
+    "authors": "Sven Prasse",
+    "abstract": "Presentation",
+    "keywords": "data cleaning , audit trail , clinical data , rest api , data science",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SP06.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SP06.pdf"
+    ],
+    "filename": "PRE-SP06-3124599ba4.pdf"
+  },
+  {
+    "title": "Open-Source Development for Traditional Clinical Reporting",
+    "authors": "Michael Stackhouse , Nathan Kosiba",
+    "abstract": "Presentation",
+    "keywords": "clinical programming , data standard , demographics table , pharmaceutical industry , regulatory reporting",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT08.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_TT08.pdf"
+    ],
+    "filename": "PRE-TT08-187100463c.pdf"
+  },
+  {
+    "title": "Our Experience with Scrum and Kanban: Noob to Novice",
+    "authors": "Ari Siggaard Knoph , Kristian TrÃ¸jelsgaard",
+    "abstract": "Presentation",
+    "keywords": "statistical programmer , clinical programming",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SP07.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SP07.pdf"
+    ],
+    "filename": "PRE-SP07-acc58e8d7c.pdf"
+  },
+  {
+    "title": "Parmsurv: An SAS Macro for Flexible Parametric Survival Analysis with Long-term Predictions",
+    "authors": "Han Fu , Shahrul Mt-Isa",
+    "abstract": "",
+    "keywords": "likelihood function , proc calis , macro call , macro definition , regression analysis , survival analysis , normal distribution , logistic distribution , hazard function , confidence interval , exponential distribution , covariance , proc phreg , follow-up period , interval censoring , maximum likelihood estimation , right censoring , sample size , survival function , sample , accelerated failure time",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_AS03.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PAP_AS03.pdf"
+    ],
+    "filename": "PAP-AS03-39899dbe73.pdf"
+  },
+  {
+    "title": "Patient Registries - New Gold Standard for Real World Data",
+    "authors": "Lavanya Peddibhotla , Sivasankar Konda",
+    "abstract": "Presentation",
+    "keywords": "clinical programming , population , clinical trial , life sciences , insurance claims , clinical research , raw data",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SA05.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SA05.pdf"
+    ],
+    "filename": "PRE-SA05-cd9bcca66d.pdf"
+  },
+  {
+    "title": "Pinnacle 21: Improving the Data Fitness Score for eSubmission",
+    "authors": "Renu Motwani",
+    "abstract": "",
+    "keywords": "data cleaning , controlled terminology , sdtm domain , cdisc controlled terminology , reviewer guide , data validation rules , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_SI02.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PAP_SI02.pdf"
+    ],
+    "filename": "PAP-SI02-b3c9b382c6.pdf"
+  },
+  {
+    "title": "Planning and Execution of Real-world Data Evidence Analysis",
+    "authors": "Nicole Thorne , Ramesh Sundaram",
+    "abstract": "The usage of Real World Data Evidence (RWDE) can optimize the cost and time of drug development process, so in recent days the role of RWDE analysis are significantly increased in each stage of drug development and its decision making process, like identifying target patient population, finding right variants, gene mutation, even comparators for an investigational product, etc. Unlike clinical studies, working with RWDE data has its own challenges, this paper demonstrates planning and execution of RWDE, like general workflow, data analysis, data Integration (RWDE & clinical data) related challenges and workarounds, overview of data review & cleaning process and a list of factors needs to consider for overall timeline estimation",
+    "keywords": "raw data , data cleaning , clinical trial , sample , adam dataset , data science , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_AS02.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PAP_AS02.pdf"
+    ],
+    "filename": "PAP-AS02-e84210617e.pdf"
+  },
+  {
+    "title": "Power BI in Clinical Data Exploration: Powerful Visuals that Answer Relevant Questions",
+    "authors": "Lotte Jacobs , Roxane Debrus",
+    "abstract": "Nowadays, dynamic data visualization is vital for clinical study conduct and decision making. Power BI is a user-friendly business analytics service by Microsoft which provides interactive visualizations and business intelligence capabilities, offering uni que integration options with Python, R and SQL. Although a leader in Business Intelligence (BI) and Analytics Platforms, its potential in clinical research is currently unexplored. To test it in this capacity and help our clinical and medical teams, we utilized it to design modern-looking, interactive dashboards, with the aim to improve the way we a ccess, review and interact with data. As a result, we developed several tools that facilitate monitoring, analyzing and testing the study data in real time throughout the study, confirming that Power BI is perfectly suited to answer the needs of clinical and medical teams",
+    "keywords": "adverse events , business intelligence , clinical trial , excel",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_DV07.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PAP_DV07.pdf"
+    ],
+    "filename": "PAP-DV07-cc10c534ca.pdf"
+  },
+  {
+    "title": "Process Improvements for Quality and Efficiency",
+    "authors": "Ghanshyam Jangid , Suresh Acharya",
+    "abstract": "Presentation",
+    "keywords": "data cleaning",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SP05.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SP05.pdf"
+    ],
+    "filename": "PRE-SP05-b4b5df4578.pdf"
+  },
+  {
+    "title": "Process Optimization for Submissions Participating in the FDA's Real Time Oncology Review Pilot Program",
+    "authors": "Grace Sun , Kevin Liu",
+    "abstract": "Poster: Pfizer has successfully completed several submissions participating FDA Real Time Oncology Review (RTOR) pilot program. To meet RTOR timelines, we have optimized operation process to plan and prepare submission package in advance in order to reduce cycle time. Study Data standardization Plan (SDSP) is created and communicated with FDA in type B/C meeting to clarify final data format. Pinnacle 21 (P21) report is run on regular basis from study start up to proactively address data issues in time and prepare final P21 report with minimum turnaround time. Before final database lock, technical documents in submission package such as Review Guide and Define.xml are completed to maximum, only need minor update once final data is available; PK and biomarker data in blinded format is made available for programming related outputs and completing technical documents. All CSR tables and datasets are submitted together to FDA for RTOR review",
+    "keywords": "database lock , clinical programming , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP10.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/POS_PP10.pdf"
+    ],
+    "filename": "POS-PP10-2ffd3754af.pdf"
+  },
+  {
+    "title": "Processes and Techniques for Creating Integrated Summary of Safety (ISS)",
+    "authors": "Ghanshyam Jangid , Jane E. Marrer",
+    "abstract": "",
+    "keywords": "adam dataset , adverse event summary , data cleaning , clinical trial , laboratory data , concomitant medications , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_DS03.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PAP_DS03.pdf"
+    ],
+    "filename": "PAP-DS03-c3a511d46d.pdf"
+  },
+  {
+    "title": "Project Success Forecast - Random Forest Machine Learning Application Using R Shiny",
+    "authors": "Aman Bahl , Hrideep Antony",
+    "abstract": "Poster",
+    "keywords": "",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP16.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/POS_PP16.pdf"
+    ],
+    "filename": "POS-PP16-f20c443e8f.pdf"
+  },
+  {
+    "title": "Protocols on FHIR - Exchanging Study Designs with EHR Systems",
+    "authors": "Andy Richardson , Geoffrey Low",
+    "abstract": "Presentation",
+    "keywords": "study day , sample , data integration , visit , vital signs",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DS04.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_DS04.pdf"
+    ],
+    "filename": "PRE-DS04-fb5fccdbf3.pdf"
+  },
+  {
+    "title": "Python for Visualization in Solid Tumor Studies",
+    "authors": "Hengwei Liu",
+    "abstract": "Visualization is an integral part of the statistical analysis in solid tumor studies. When it comes to the tools for visualization, the programmers do have a choice. There are many tools available: SAS visual analytics, R shiny and Spotfire, to name just a few. So why Python? Python has a large user community. It is easy to get help online. Python programs for figures are succinct and easy to understand. Python figures have dynamic features such as tooltip and can be saved in many formats. Python can handle compressed SAS datasets and can easily convert them to CSV files. In this paper we show how to use Python to create figures for solid tumor studies",
+    "keywords": "change from baseline , percent change from baseline , sample , forest plot , waterfall chart , swimmer plot , adam dataset , scatter plot , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_DV01.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PAP_DV01.pdf"
+    ],
+    "filename": "PAP-DV01-6400d001ae.pdf"
+  },
+  {
+    "title": "Python in Healthcare: Coding the Future of Medicine",
+    "authors": "Swetha Mandava",
+    "abstract": "Presentation",
+    "keywords": "data science",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SP01.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SP01.pdf"
+    ],
+    "filename": "PRE-SP01-0c1252eb6e.pdf"
+  },
+  {
+    "title": "R + JavaScript = Amazing Applications",
+    "authors": "Maya Gans",
+    "abstract": "Presentation",
+    "keywords": "visit , line chart",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT06.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_TT06.pdf"
+    ],
+    "filename": "PRE-TT06-3b1fe5aa2c.pdf"
+  },
+  {
+    "title": "R Clinical Cloud Strategy Developments",
+    "authors": "Philip Bowsher , Sean Lopp",
+    "abstract": "Poster",
+    "keywords": "",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP05.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/POS_PP05.pdf"
+    ],
+    "filename": "POS-PP05-75218ebdcd.pdf"
+  },
+  {
+    "title": "R Package Validation Framework",
+    "authors": "Ellis Hughes",
+    "abstract": "Presentation",
+    "keywords": "data cleaning , excel",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT10.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_TT10.pdf"
+    ],
+    "filename": "PRE-TT10-5b770b1b16.pdf"
+  },
+  {
+    "title": "R Shiny Application for the PHUSE Open Data Repository",
+    "authors": "Hanming Tu",
+    "abstract": "Presentation",
+    "keywords": "relational database , set statement , data cleaning , excel , data science , error message , raw data",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SD09.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SD09.pdf"
+    ],
+    "filename": "PRE-SD09-65c1d59268.pdf"
+  },
+  {
+    "title": "Rave Web Services (RWS) Approach for Rollover Trials: Reducing the Burden",
+    "authors": "Liesbeth Renneboog , Tom De Coster",
+    "abstract": "Presentation",
+    "keywords": "",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DH06.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_DH06.pdf"
+    ],
+    "filename": "PRE-DH06-a8b9078377.pdf"
+  },
+  {
+    "title": "Real-Time Clinical Trial Analytics Using Automation with IBM Clinical, Medidata Rave and Datacise",
+    "authors": "Amritpal Singh",
+    "abstract": "Presentation",
+    "keywords": "machine learning , data standard , data transformation , big data , excel",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DV05.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_DV05.pdf"
+    ],
+    "filename": "PRE-DV05-c0d82d0e3f.pdf"
+  },
+  {
+    "title": "Real-Time Clinical Trial Analytics Using Automation with IBM Clinical, Medidata Rave and Datacise",
+    "authors": "Aditya Gadiko , Christopher C. Hurley",
+    "abstract": "Presentation",
+    "keywords": "clinical trial , data science , sas visual analytics , outlier",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DV09.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_DV09.pdf"
+    ],
+    "filename": "PRE-DV09-867274fbf6.pdf"
+  },
+  {
+    "title": "Reflect and Get More Information Out of Data than Ever Before",
+    "authors": "Catharina Dahlbo , Eva Kelty",
+    "abstract": "Poster",
+    "keywords": "clinical trial , clinical data",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP03.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/POS_PP03.pdf"
+    ],
+    "filename": "POS-PP03-6af08a2b8d.pdf"
+  },
+  {
+    "title": "Regulatory Update & Townhall",
+    "authors": "Ram Iyer",
+    "abstract": "Presentation",
+    "keywords": "feature extraction",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_RS03.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_RS03.pdf"
+    ],
+    "filename": "PRE-RS03-eb5e6d87ff.pdf"
+  },
+  {
+    "title": "Regulatory Update & Townhall",
+    "authors": "Ethan Chen",
+    "abstract": "Presentation",
+    "keywords": "data cleaning , clinical trial , data standard , regulatory submission , adverse events , clinical data , raw data",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_RS04.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_RS04.pdf"
+    ],
+    "filename": "PRE-RS04-5375bec1d5.pdf"
+  },
+  {
+    "title": "Rescreened Subjects, Data Collection and Standard Domain Mapping",
+    "authors": "Savithri Jajam , Vamshi Matta",
+    "abstract": "",
+    "keywords": "per protocol , clinical trial",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_DS07.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PAP_DS07.pdf"
+    ],
+    "filename": "PAP-DS07-d415b60ff1.pdf"
+  },
+  {
+    "title": "SAS2P21CLI",
+    "authors": "Gustav Bernard",
+    "abstract": "Presentation",
+    "keywords": "macro definition , data cleaning , sas log , macro parameter , sas grid , sas enterprise guide , numeric functions",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SI01.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SI01.pdf"
+    ],
+    "filename": "PRE-SI01-b89f5ba2ed.pdf"
+  },
+  {
+    "title": "Scientific Listening: Content Analysis for Online Discussion of Bipolar Disorder",
+    "authors": "Bowen Lu",
+    "abstract": "Presentation",
+    "keywords": "data science , normalization",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ML05.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_ML05.pdf"
+    ],
+    "filename": "PRE-ML05-827c4ce578.pdf"
+  },
+  {
+    "title": "SDTM Mapping and Conversion Using NLP",
+    "authors": "Eric Weising",
+    "abstract": "Presentation",
+    "keywords": "sdtm programming , response variable , data cleaning , machine learning , neural network , proc freq , imbalanced data , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ML10.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_ML10.pdf"
+    ],
+    "filename": "PRE-ML10-19c25fa377.pdf"
+  },
+  {
+    "title": "SDTM, ADaM and Database Normal Forms Implementation",
+    "authors": "Andrii Borzenkov",
+    "abstract": "Presentation",
+    "keywords": "key , trial design model , length statement , adverse events , concomitant medications , natural key , relational database , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DS05.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_DS05.pdf"
+    ],
+    "filename": "PRE-DS05-703e85b2fe.pdf"
+  },
+  {
+    "title": "Self-sufficient Exploration of Clinical Trial Events in Different Ways and in Different Contexts",
+    "authors": "Eva Kelty",
+    "abstract": "Presentation",
+    "keywords": "clinical research , clinical trial , relational database",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT02.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_TT02.pdf"
+    ],
+    "filename": "PRE-TT02-6caecdfacf.pdf"
+  },
+  {
+    "title": "SimSCE: Building an SCE City to Support My Process",
+    "authors": "Andrew B. Ratcliffe , Chris Decker",
+    "abstract": "Presentation",
+    "keywords": "csr , big data , clinical trial , data cleaning",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT12.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_TT12.pdf"
+    ],
+    "filename": "PRE-TT12-16905e364c.pdf"
+  },
+  {
+    "title": "Software Demonstration: SD08: entimICE FastTrack Next Generation Statistical Computing Environment",
+    "authors": "JÃ¶rn Bilow",
+    "abstract": "Presentation",
+    "keywords": "hash table , rest api , 21 cfr part 11 , biostatistics , clinical data , macro loop , macro conditional",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SD08.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SD08.pdf"
+    ],
+    "filename": "PRE-SD08-cd5c411b9e.pdf"
+  },
+  {
+    "title": "Software Demonstration: SD11: Streamline Your Quantitative Anonymization Process and Deliver Consistent Outputs for Every Disclosure Scenario",
+    "authors": "Stephen Doogan",
+    "abstract": "Presentation",
+    "keywords": "privacy , data protection , threshold , unstructured data , batch processing , extract , key performance indicator",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SD11.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SD11.pdf"
+    ],
+    "filename": "PRE-SD11-f3e75df8c1.pdf"
+  },
+  {
+    "title": "Software Demonstration: SD12: Reporting Application that Provides Instant Oversight to Management and Actively Helps Programmers to Save Time, Implement Standards and Raise Quality",
+    "authors": "Shafi Chowdhury",
+    "abstract": "Presentation",
+    "keywords": "clinical trial , data cleaning , adam dataset , data review , resource allocation , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SD12.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SD12.pdf"
+    ],
+    "filename": "PRE-SD12-c7fcdf562a.pdf"
+  },
+  {
+    "title": "Software Demonstration: SD13: RStudio Pharma Updates",
+    "authors": "Sean Lopp",
+    "abstract": "Presentation",
+    "keywords": "data science , data cleaning",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SD13.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SD13.pdf"
+    ],
+    "filename": "PRE-SD13-0f6dcd1081.pdf"
+  },
+  {
+    "title": "Software Demonstration: SD14: Accelerate your Transition to R in 4 months: Learn About the Accel2R Accelerated Learning Program",
+    "authors": "Steve Walker",
+    "abstract": "Presentation",
+    "keywords": "confidence interval , safety population , proc phreg , hazard ratio , censoring , predictor variable , binary variable",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SD14.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SD14.pdf"
+    ],
+    "filename": "PRE-SD14-96e78a1816.pdf"
+  },
+  {
+    "title": "Solution When a Global Pandemic Resurrects Paper-based PROs, Creating Collection Headaches for Data Managers",
+    "authors": "Hayley Jeffery , Terek J. Peterson",
+    "abstract": "Unforeseen COVID-19, country wide lockdowns and site closures impacted data collection processes, shifting eCOA data collection to paper assessments. This paper explores the challenges of processing urgent paper assessments, estimated at 6 months to complete. Using dynamic worksheets, integrated with each study's SQL database, allowed accurate and efficient data entry. eCOA systems employ parent/child relationship database models, allowing dynamic question entry in logical order. The solution mirrored this approach for paper, maintaining data integrity and providing a logical/simple tool for Data Management. Dropdown selection boxes dynamically updated on selected choices, permitting only the correct options. Translations were implemented, applying the applicable language to reduce inaccuracies. Current processes leveraged existing verification step prior to committing, creating staging tables which were validated by another individual for accuracy",
+    "keywords": "data integrity , proc sql",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_DH10.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PAP_DH10.pdf"
+    ],
+    "filename": "PAP-DH10-2fb044b828.pdf"
+  },
+  {
+    "title": "Splitting Character Variables into Meaningful Text",
+    "authors": "Savithri Jajam , Vamshi Matta",
+    "abstract": "",
+    "keywords": "macro parameter , sample",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_CT07.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PAP_CT07.pdf"
+    ],
+    "filename": "PAP-CT07-b110ee959e.pdf"
+  },
+  {
+    "title": "Standards and Governed Data in the Clinical Data Pipeline",
+    "authors": "Robert Musterer",
+    "abstract": "Presentation",
+    "keywords": "web service",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DS09.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_DS09.pdf"
+    ],
+    "filename": "PRE-DS09-6f6681ede5.pdf"
+  },
+  {
+    "title": "Standing Room Only Presentation: AS11: Cross-study Analysis of SEND Datasets Using an R Package: sendigR",
+    "authors": "Kevin Snyder , William Houser",
+    "abstract": "Presentation",
+    "keywords": "r package",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_AS11.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_AS11.pdf"
+    ],
+    "filename": "PRE-AS11-4a6f78dae4.pdf"
+  },
+  {
+    "title": "Standing Room Only Presentation: CM03: Quality Tolerance Limits: Leveraging Predictive Modeling",
+    "authors": "Christina Dinger , Slade McKee",
+    "abstract": "Presentation",
+    "keywords": "csr , data audit , clinical trial , quality assurance",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CM03.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_CM03.pdf"
+    ],
+    "filename": "PRE-CM03-82d0cabfb5.pdf"
+  },
+  {
+    "title": "Standing Room Only Presentation: CT05: Programmatic Approach to Ensure Data Package Contents",
+    "authors": "Simon Xue , Tanmay Khole",
+    "abstract": "Presentation",
+    "keywords": "macro parameter , clinical programming , clinical trial , excel , macro definition",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CT05.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_CT05.pdf"
+    ],
+    "filename": "PRE-CT05-969003751c.pdf"
+  },
+  {
+    "title": "Standing Room Only Presentation: DH02: On the Other Side of the Fence: When Two Skill Areas Join Forces and Boundaries Dissolve",
+    "authors": "Mette Krogh Beyer , Stine Ross",
+    "abstract": "Presentation",
+    "keywords": "clinical trial , sdtm programmer , data cleaning , clinical database , statistical programmer , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DH02.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_DH02.pdf"
+    ],
+    "filename": "PRE-DH02-22e7a406c0.pdf"
+  },
+  {
+    "title": "Standing Room Only Presentation: DS06: CDISC Analysis Results Standard",
+    "authors": "Bess LeRoy",
+    "abstract": "Presentation",
+    "keywords": "change from baseline , confidence interval , adam dataset , bds , adsl , primary endpoint , sdtm programming , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DS06.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_DS06.pdf"
+    ],
+    "filename": "PRE-DS06-b150de7ec8.pdf"
+  },
+  {
+    "title": "Standing Room Only Presentation: DV10: Topline Results Dashboards with Rmarkdown & Flexdashboard",
+    "authors": "Harsha Kalikivayi , Robert Adams",
+    "abstract": "Presentation",
+    "keywords": "dataset , data wrangling , clinical trial , secondary endpoint , data cleaning",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DV10.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_DV10.pdf"
+    ],
+    "filename": "PRE-DV10-715ebbb23e.pdf"
+  },
+  {
+    "title": "Standing Room Only Presentation: ML08: You Are the Company You Keep: Converting Words to Numbers Using Text Embeddings",
+    "authors": "Michael Stackhouse",
+    "abstract": "Presentation",
+    "keywords": "machine learning , test set , training set , proc freq",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ML08.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_ML08.pdf"
+    ],
+    "filename": "PRE-ML08-7acf1dcdf4.pdf"
+  },
+  {
+    "title": "Standing Room Only Presentation: SI09: Accelerating Beyond Excel: Mapping Specifications in an Intelligent Web-based GUI",
+    "authors": "Nathan Johnson",
+    "abstract": "Presentation",
+    "keywords": "excel",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SI09.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SI09.pdf"
+    ],
+    "filename": "PRE-SI09-5538775d13.pdf"
+  },
+  {
+    "title": "Standing Room Only Presentation: SP11: Agile Development Methodology for Delivery of the Clinical Data Pipeline",
+    "authors": "Benjamin Arancibia , Michael S Rimler",
+    "abstract": "Presentation",
+    "keywords": "proof of concept , clinical programming",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SP11.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SP11.pdf"
+    ],
+    "filename": "PRE-SP11-f3b502f6d3.pdf"
+  },
+  {
+    "title": "Statistical Computing Environment White Paper",
+    "authors": "Jorine Putter , Mark Bynens",
+    "abstract": "",
+    "keywords": "data cleaning , validation documentation , cloud storage , quality control , clinical trial",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/SDOC_HoW04.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/SDOC_HoW04.pdf"
+    ],
+    "filename": "SDOC-HoW04-7528c995d2.pdf"
+  },
+  {
+    "title": "Statistical Programming Team Contributions to Registrational Clinical Research Collaborations (rCRCs)",
+    "authors": "Norihiko Oharu , Yan Shen",
+    "abstract": "Poster: Pfizer has a number of collaborative studies with academic collaborators and their study data are intended to be used for Pfizer regulatory submissions. Statistical programming team has been involved in more than statistical programming activities but engaged with collaborators of the trials to gain alignment of Pfizer submission activities using their data by explaining regulatory requirements and Pfizer processes for the successful regulatory submissions. Number of collaborative discussions and meetings and SMEs input are needed between organizations as interest of data usage and processes are different between pharmaceutical and academic collaborators. Proactively preparing for the technical challenges are critical for the successful submission. The poster is to illustrate the involvement and contribution of the statistical programming team to successful regulatory submissions using CRC collaborator data for Pfizer regulatory submissions",
+    "keywords": "regulatory submission , clinical programming , clinical research",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP09.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/POS_PP09.pdf"
+    ],
+    "filename": "POS-PP09-e953175142.pdf"
+  },
+  {
+    "title": "Strengthening Relationships with External Business Partners in Statistical Programming - The Why and the How",
+    "authors": "Devang Bhatt , Yongcun Zhang",
+    "abstract": "Presentation",
+    "keywords": "customer satisfaction , statistical programmer , clinical programming",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_LE08.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_LE08.pdf"
+    ],
+    "filename": "PRE-LE08-267a61c7fc.pdf"
+  },
+  {
+    "title": "Table-based Data Visualizations Using R",
+    "authors": "Matthew Kumar",
+    "abstract": "Presentation",
+    "keywords": "data visualization , swimmer plot , hazard ratio , feature selection , cards , odds ratio , relative risk",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DV08.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_DV08.pdf"
+    ],
+    "filename": "PRE-DV08-61763976a1.pdf"
+  },
+  {
+    "title": "Taking better control of ODS outputs using ODS TAGSETS",
+    "authors": "Kamleshkumar Patel",
+    "abstract": "Most of the outputs in pharmaceutical industry are produced by using SAS/ODS . SAS/ODS is powerful to produce various custom reports as per stakeholders' requirements. One of unique feature of SAS/ODS is ODS TAGSETS . It gives immense power to programmer to control ODS outputs. However, the usage of ODS TAGSETS among programmer is comparatively less. Hence, this paper would try to cover simple ways to take control of various types of ODS outputs using ODS TAGSETS",
+    "keywords": "put statement , pharmaceutical industry",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_CT08.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PAP_CT08.pdf"
+    ],
+    "filename": "PAP-CT08-659c5fbd97.pdf"
+  },
+  {
+    "title": "Template of Analysis Reviewer's Guide in Oncology",
+    "authors": "Hong Qi , Mary N. Varughese",
+    "abstract": "Presentation",
+    "keywords": "adam dataset , adverse events , sample , adae , clinical programming , in= , crosswalk , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SI06.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SI06.pdf"
+    ],
+    "filename": "PRE-SI06-a1a8a6ac6c.pdf"
+  },
+  {
+    "title": "The Case for Pandemic-disrupted Studies and Challenges Implementing CDISC and FDA COVID-19 Guidelines for NDA Submissions",
+    "authors": "Vidya Muthukumar",
+    "abstract": "Presentation",
+    "keywords": "clinical trial , protocol deviations , weighted mean , output delivery system , edc , adverse events , clinical endpoint",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_RS02.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_RS02.pdf"
+    ],
+    "filename": "PRE-RS02-bb52b07345.pdf"
+  },
+  {
+    "title": "The Encoding Dilemma",
+    "authors": "Angelo Tinazzi",
+    "abstract": "It is not uncommon to see in SAS log files messages such as \"Some character data was lost during transcoding in the dataset.\" What are we risking if we do not take care of such a message? What is the message telling us? How can we prevent the message to occur or what actions do we need to take to eventually correctly reading the data we have received? Moreover, regulatory agencies such as the Japanese (PMDA) or more recently the Chinese (NMPA) [8], are now asking to submit datasets, and not surprisingly (or surprisingly for someone), they are requesting not only datasets in CDISC format but they are also requesting or suggesting the use of SAS XPT format as a file data format; furthermore, the NMPA has specific requirements with regards to the use of Chinese language for things like label of datasets and variables and contact of character variables e.g. adverse events terms",
+    "keywords": "sas library , dataset , sas log , sdtm domain , proc step , adverse events , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_DH12.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PAP_DH12.pdf"
+    ],
+    "filename": "PAP-DH12-5114c3da15.pdf"
+  },
+  {
+    "title": "The Journey to Responsible and Ethical AI",
+    "authors": "Shobhit Shrotriya",
+    "abstract": "Presentation",
+    "keywords": "artificial intelligence , privacy",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ML03.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_ML03.pdf"
+    ],
+    "filename": "PRE-ML03-27f631e4d1.pdf"
+  },
+  {
+    "title": "The JumpStart Traceability Assessment",
+    "authors": "Jesse Anderson , Sarah Rodgers",
+    "abstract": "Presentation",
+    "keywords": "",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SA03.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SA03.pdf"
+    ],
+    "filename": "PRE-SA03-cbe7704734.pdf"
+  },
+  {
+    "title": "Tipping the Scale: Moving from Scaling Experts to Balancing them with Novel Technologies",
+    "authors": "Christopher J. Colangelo",
+    "abstract": "Presentation",
+    "keywords": "cpu time , raw data",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ML14.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_ML14.pdf"
+    ],
+    "filename": "PRE-ML14-99f4195d21.pdf"
+  },
+  {
+    "title": "Transforming Clinical Data Chaos with elluminate",
+    "authors": "Dawn Kaminski",
+    "abstract": "Presentation",
+    "keywords": "data cleaning , web service",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SD10.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SD10.pdf"
+    ],
+    "filename": "PRE-SD10-4a21e83929.pdf"
+  },
+  {
+    "title": "Transitioning to R for Clinical Submissions",
+    "authors": "Philip Bowsher , Sean Lopp",
+    "abstract": "Presentation",
+    "keywords": "data cleaning , data governance",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_FC01.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_FC01.pdf"
+    ],
+    "filename": "PRE-FC01-b4a1bdbfa2.pdf"
+  },
+  {
+    "title": "Unnoticed Individual and Mean Line Plot Issue While Using the SGPLOT Procedure, and the Solution to Avoid",
+    "authors": "Jagadish Katam",
+    "abstract": "Poster",
+    "keywords": "",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP12.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/POS_PP12.pdf"
+    ],
+    "filename": "POS-PP12-0113ccc554.pdf"
+  },
+  {
+    "title": "Using Central Monitoring to Mitigate Data Quality Risk during the COVID-19 Pandemic",
+    "authors": "Adrienne Strickler , Anna Wojcik",
+    "abstract": "Presentation",
+    "keywords": "sas risk engine , protocol deviations , adverse events , data cleaning , missing value , insurance risk score , raw data",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_CM02.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_CM02.pdf"
+    ],
+    "filename": "PRE-CM02-3b83eb1316.pdf"
+  },
+  {
+    "title": "Using Computer Vision to Identify and Extract Tables from Various File Formats",
+    "authors": "Kanishk Mair , Shashank Pagidimarri",
+    "abstract": "Presentation",
+    "keywords": "csr , neural network , batch processing , clinical trial , deep learning , model training , protocol deviations",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ML06.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_ML06.pdf"
+    ],
+    "filename": "PRE-ML06-c4fb9ec7eb.pdf"
+  },
+  {
+    "title": "Using Natural Language Processing to Create Subject Safety Narratives",
+    "authors": "Frank Meloni , Tim Willittes",
+    "abstract": "Presentation",
+    "keywords": "neural network , adverse events , clinical data , clinical research , clinical trial , medical history , regulatory submission",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ML04.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_ML04.pdf"
+    ],
+    "filename": "PRE-ML04-a5b1c8c7c1.pdf"
+  },
+  {
+    "title": "Using Real-world Data in Supporting Health Authority Submission",
+    "authors": "Ruoying Fang , Shuang Zhang",
+    "abstract": "Presentation",
+    "keywords": "clinical trial , propensity score , analysis set , data science , imputation , multiple imputation , pd",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_AS10.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_AS10.pdf"
+    ],
+    "filename": "PRE-AS10-869caf5d27.pdf"
+  },
+  {
+    "title": "Using the Computational Power of Julia to Drive Clinical Trial Simulations (CTS)",
+    "authors": "Patrick Hannon",
+    "abstract": "Presentation",
+    "keywords": "imputation , multiple imputation , parallel processing",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_ET02.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_ET02.pdf"
+    ],
+    "filename": "PRE-ET02-80e8680f30.pdf"
+  },
+  {
+    "title": "VALSPEC Utility to Validate CDISC Specifications",
+    "authors": "Aman Bahl , Hrideep Antony",
+    "abstract": "Presentation",
+    "keywords": "clinical programming , data cleaning , controlled terminology , database lock , sdtm domain , sdtm programming , statistical programmer , cdisc",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SI07.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SI07.pdf"
+    ],
+    "filename": "PRE-SI07-0dd2dda7da.pdf"
+  },
+  {
+    "title": "Veeva CDB Workbench Accelerates Data Cleaning, Mapping and Reporting with Complete and Concurrent Clinical Data in the Cloud",
+    "authors": "Drew Garty , Pavel Burmenko",
+    "abstract": "Presentation",
+    "keywords": "",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SD07.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SD07.pdf"
+    ],
+    "filename": "PRE-SD07-6229a1d00a.pdf"
+  },
+  {
+    "title": "Visual Programming for ADaM Derivation",
+    "authors": "Clara Beck , Robert Adams",
+    "abstract": "Presentation",
+    "keywords": "data cleaning , independent qc , clinical data , dataset , data science , sas log , deep learning",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT07.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_TT07.pdf"
+    ],
+    "filename": "PRE-TT07-edeee8eb02.pdf"
+  },
+  {
+    "title": "Visualization of Sparse PK Concentration Sampling Data, Step by Step (Improvement by Improvement)",
+    "authors": "Ilya Krivelevich",
+    "abstract": "Pharmacokinetic (PK) data is collected for a variety of purposes in clinical trials. PK data is critical in understanding a drug's safety and determining its dosing frequency. Pharmacokinetic analysis is a major part of clinical trials to obtain informatio n on drug disposition in humans. Graphics are always a powerful tool in reporting, and Concentration vs. Timeline graphs are standard for reporting PK data. Data visualization tools are widely used in PK analysis, so meaningful graphics play a very import ant role. There are many presentations and examples that deal with displaying results of rich sample collections; however, there is a significant shortage of similar presentations that cover the visualization of results of the widely used sparse PK data co llection. This article may be interesting from a methodology standpoint; it presents examples and suggestions of step -by-step development of figures for sparse PK concentration using powerful ODS SAS tools",
+    "keywords": "proc sgplot , proc step , box plot , sample , clinical trial",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_DV03.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PAP_DV03.pdf"
+    ],
+    "filename": "PAP-DV03-8e5fc0b65a.pdf"
+  },
+  {
+    "title": "Visualizations to Support DSMB Monitoring",
+    "authors": "Derek Coombs",
+    "abstract": "Presentation",
+    "keywords": "vital signs , data visualization , proc means , outlier , adverse events , bar chart , proc print",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DV14.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_DV14.pdf"
+    ],
+    "filename": "PRE-DV14-9aab16deee.pdf"
+  },
+  {
+    "title": "Visualizing Efficacy Data from Phase II or III Randomized, Double Blind Placebo Controlled Trials",
+    "authors": "Munish Mehra",
+    "abstract": "Presentation",
+    "keywords": "change from baseline , clinical trial , proc sgplot , proc step , bubble plot , heatmap , contour plot",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_DV15.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_DV15.pdf"
+    ],
+    "filename": "PRE-DV15-a33b050cdf.pdf"
+  },
+  {
+    "title": "Visually-enhanced Patient Narrative",
+    "authors": "Abhinav Srivastva",
+    "abstract": "Poster",
+    "keywords": "csr , serious adverse event",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP01.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/POS_PP01.pdf"
+    ],
+    "filename": "POS-PP01-c5673bc930.pdf"
+  },
+  {
+    "title": "Waffle Chart in SAS",
+    "authors": "Abhinav Srivastva",
+    "abstract": "A Waffle Chart can be used to represent parts -to-whole relationship, such as percentage of a metric completed to its target. Multiple waffle charts can be juxtaposed to compare similar or contrasting features among several categories. Although SAS has no direct charting option or Procedure ( PROC ) to create a waffle chart, it can be easily accomplished using the Graph Annotation utility. The paper utilized RECTANGLE annotation function to create filled squares, along with TEXT function to place custom text on the chart",
+    "keywords": "complete response , sample",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PAP_DV06.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PAP_DV06.pdf"
+    ],
+    "filename": "PAP-DV06-07e4a022ee.pdf"
+  },
+  {
+    "title": "What About Having a \"Google\" for Your Study Data? R-Shiny-based Customized Data Viewer and Search Engine",
+    "authors": "Aman Bahl , Hrideep Antony",
+    "abstract": "Poster",
+    "keywords": "",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/POS_PP15.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/POS_PP15.pdf"
+    ],
+    "filename": "POS-PP15-5d6e2b7483.pdf"
+  },
+  {
+    "title": "Why Business Users Should Care About Systems Architecture",
+    "authors": "Hans-Peter Schreiter",
+    "abstract": "Presentation",
+    "keywords": "out= , where statement , data cleaning",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_TT13.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_TT13.pdf"
+    ],
+    "filename": "PRE-TT13-ac666adf0b.pdf"
+  },
+  {
+    "title": "Wiki - Your Team's Collective Memory",
+    "authors": "Michael Hedegaard Thomsen",
+    "abstract": "Presentation",
+    "keywords": "",
+    "source_urls": [
+      "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2021/Connect/US/Virtual/PRE_SP09.pdf",
+      "https://saslexicon.org/PHUSE_US/2021/PRE_SP09.pdf"
+    ],
+    "filename": "PRE-SP09-cd792eccd4.pdf"
+  }
+]
