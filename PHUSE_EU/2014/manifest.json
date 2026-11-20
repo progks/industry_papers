@@ -1958,7 +1958,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2014/Connect/EU/London/PAP_PD01.pdf",
       "https://saslexicon.org/PHUSE_EU/2014/PAP_PD01.pdf"
     ],
-    "filename": "PAP-PD01-b364c78973.pdf"
+    "filename": "PAP-PD01-b364c78973.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2014/Connect/EU/London/PAP_PD01.pdf",
+    "status": "ok",
+    "bytes": 129950,
+    "sha256": "f8ab85897d95bc7f89a333286683a242ff035159c148e601973e938d108f4bff"
   },
   {
     "title": "What's Next in Version Control for SAS Programming Environments?",
@@ -1969,7 +1973,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2014/Connect/EU/London/PAP_PP04.pdf",
       "https://saslexicon.org/PHUSE_EU/2014/PAP_PP04.pdf"
     ],
-    "filename": "PAP-PP04-0ce1037c3e.pdf"
+    "filename": "PAP-PP04-0ce1037c3e.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2014/Connect/EU/London/PAP_PP04.pdf",
+    "status": "ok",
+    "bytes": 538097,
+    "sha256": "b3f19803add93abbb7a008e7f54e1078b58d147521f6e96d113f66609208fcf5"
   },
   {
     "title": "Why Don't You Define It?",
@@ -1980,7 +1988,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2014/Connect/EU/London/PAP_SD03.pdf",
       "https://saslexicon.org/PHUSE_EU/2014/PAP_SD03.pdf"
     ],
-    "filename": "PAP-SD03-446343fb4f.pdf"
+    "filename": "PAP-SD03-446343fb4f.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2014/Connect/EU/London/PAP_SD03.pdf",
+    "status": "ok",
+    "bytes": 247187,
+    "sha256": "be7675c674e81bc186c80d106788082a8ec37402a7a8eec65b65a5ae3f7b7e5c"
   },
   {
     "title": "WISE a World Wide Integrated SAS Environment for Today and Beyond",
@@ -1991,7 +2003,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2014/Connect/EU/London/PRE_AD03.pdf",
       "https://saslexicon.org/PHUSE_EU/2014/PRE_AD03.pdf"
     ],
-    "filename": "PRE-AD03-47ea3e3821.pdf"
+    "filename": "PRE-AD03-47ea3e3821.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2014/Connect/EU/London/PRE_AD03.pdf",
+    "status": "ok",
+    "bytes": 1357396,
+    "sha256": "4c11b0ad4cc440d738d3c2a0dfc2283082e16341d6f0a2a5c7381d3e3bfd77bc"
   },
   {
     "title": "Work-Life Balance: Making it a Reality",
@@ -2002,6 +2018,10 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2014/Connect/EU/London/PAP_PD03.pdf",
       "https://saslexicon.org/PHUSE_EU/2014/PAP_PD03.pdf"
     ],
-    "filename": "PAP-PD03-0ff84c7239.pdf"
+    "filename": "PAP-PD03-0ff84c7239.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2014/Connect/EU/London/PAP_PD03.pdf",
+    "status": "ok",
+    "bytes": 432189,
+    "sha256": "1154437b58407546892e4cb05caa4f5dcd041d38f45a6a96456bab02eff11e01"
   }
 ]
