@@ -1209,8 +1209,10 @@
       "https://saslexicon.org/PHUSE_US/2022/PRE_OS06.pdf"
     ],
     "filename": "PRE-OS06-85981f2936.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_OS06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_OS06.pdf | https://saslexicon.org/PHUSE_US/2022/PRE_OS06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2022/PRE_OS06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_OS06.pdf",
+    "bytes": 20044751,
+    "sha256": "a97fe56d8938d20b585ceccd95c7b429085528cf34275a72fa9d24c1652e9fcf"
   },
   {
     "title": "Safety ADaM Automation from Design to Implementation",
@@ -1222,8 +1224,10 @@
       "https://saslexicon.org/PHUSE_US/2022/PRE_SI01.pdf"
     ],
     "filename": "PRE-SI01-1e1d612d1b.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_SI01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_SI01.pdf | https://saslexicon.org/PHUSE_US/2022/PRE_SI01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2022/PRE_SI01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_SI01.pdf",
+    "bytes": 9087436,
+    "sha256": "8954ea9782f8e94c7e8a59ec39cf06e8fa98609b537a721a21991cd873f57033"
   },
   {
     "title": "Safety First, Agility Comes: Challenges and Solutions to Fulfilling IND Safety Requirements",
@@ -1235,8 +1239,10 @@
       "https://saslexicon.org/PHUSE_US/2022/PAP_DH01.pdf"
     ],
     "filename": "PAP-DH01-dd5257ac36.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PAP_DH01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PAP_DH01.pdf | https://saslexicon.org/PHUSE_US/2022/PAP_DH01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2022/PAP_DH01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PAP_DH01.pdf",
+    "bytes": 1140448,
+    "sha256": "d22e0e10c6351233756ab7ea3ecc34d3eb7c82bd792e96b0da0f61ffab2e9402"
   },
   {
     "title": "SAS Features We Underestimate",
@@ -1248,8 +1254,10 @@
       "https://saslexicon.org/PHUSE_US/2022/PRE_SS05.pdf"
     ],
     "filename": "PRE-SS05-56587395fe.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_SS05.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_SS05.pdf | https://saslexicon.org/PHUSE_US/2022/PRE_SS05.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2022/PRE_SS05.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_SS05.pdf",
+    "bytes": 254303,
+    "sha256": "5ba3abdc0c7024d663b96a31c45324cff248486372fa5e31b5724b0b09b26e10"
   },
   {
     "title": "See No Data, Hear No Risk ...",
@@ -1261,8 +1269,10 @@
       "https://saslexicon.org/PHUSE_US/2022/PRE_DH04.pdf"
     ],
     "filename": "PRE-DH04-7519a217da.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_DH04.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_DH04.pdf | https://saslexicon.org/PHUSE_US/2022/PRE_DH04.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2022/PRE_DH04.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_DH04.pdf",
+    "bytes": 5392795,
+    "sha256": "14026e16fd0f8e80667d28591219d47b5a1aa49ca57012b59f245997cf5ff132"
   },
   {
     "title": "SPACE - Launching GSK Biostatistics towards new horizons",
@@ -1274,8 +1284,10 @@
       "https://saslexicon.org/PHUSE_US/2022/PAP_AS01.pdf"
     ],
     "filename": "PAP-AS01-42749a6b87.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PAP_AS01.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PAP_AS01.pdf | https://saslexicon.org/PHUSE_US/2022/PAP_AS01.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2022/PAP_AS01.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PAP_AS01.pdf",
+    "bytes": 599978,
+    "sha256": "b80615fe88af5393762ac3a1d15043a6981574dd5ec25fe9913e471bee7746ea"
   },
   {
     "title": "Standards Governance Strengthened by MDR Technology",
@@ -1287,8 +1299,10 @@
       "https://saslexicon.org/PHUSE_US/2022/PRE_DS08.pdf"
     ],
     "filename": "PRE-DS08-43663bd7d0.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_DS08.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_DS08.pdf | https://saslexicon.org/PHUSE_US/2022/PRE_DS08.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2022/PRE_DS08.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_DS08.pdf",
+    "bytes": 1158740,
+    "sha256": "bff5d88ab873ef33731a993f391ddd8b2de2e41cd2da908fc4f00bc6616d71a8"
   },
   {
     "title": "Statistical Programming Operational Review Dashboard",
@@ -1300,8 +1314,10 @@
       "https://saslexicon.org/PHUSE_US/2022/PRE_ET14.pdf"
     ],
     "filename": "PRE-ET14-d084f35587.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_ET14.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_ET14.pdf | https://saslexicon.org/PHUSE_US/2022/PRE_ET14.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2022/PRE_ET14.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_ET14.pdf",
+    "bytes": 1483582,
+    "sha256": "825074decd907845a3dca378d2c015a3f5d385a23c01ff220030f6b924b129e9"
   },
   {
     "title": "Staying Ahead of the Curve: The Future Direction of Modernization of Statistical Analytics (MSA)",
@@ -1313,8 +1329,10 @@
       "https://saslexicon.org/PHUSE_US/2022/PRE_ET06.pdf"
     ],
     "filename": "PRE-ET06-a36f1832b0.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_ET06.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_ET06.pdf | https://saslexicon.org/PHUSE_US/2022/PRE_ET06.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2022/PRE_ET06.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_ET06.pdf",
+    "bytes": 13570858,
+    "sha256": "868e9b040462a7a8cfbf174c58a65d028c31313c47bbeae2bbb30ef3702fe0b9"
   },
   {
     "title": "Table Mining: The Barrier for Automation",
@@ -1326,8 +1344,10 @@
       "https://saslexicon.org/PHUSE_US/2022/PRE_DH07.pdf"
     ],
     "filename": "PRE-DH07-918a04fbbd.pdf",
-    "status": "failed",
-    "error": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_DH07.pdf: robots.txt disallows: https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_DH07.pdf | https://saslexicon.org/PHUSE_US/2022/PRE_DH07.pdf: 404 Client Error: Not Found for url: https://saslexicon.org/PHUSE_US/2022/PRE_DH07.pdf"
+    "status": "ok",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2022/Connect/US/Atlanta/PRE_DH07.pdf",
+    "bytes": 5419126,
+    "sha256": "1ba89e0962f828894255eb9b4558624b0dca1a7472e9fc186db82dcadd360b57"
   },
   {
     "title": "The Art of Work Flowing Your Clinical Submission Scripts",
