@@ -1658,7 +1658,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2013/Connect/EU/Brussels/PRE_SD07.pdf",
       "https://saslexicon.org/PHUSE_EU/2013/PRE_SD07.pdf"
     ],
-    "filename": "PRE-SD07-a612fc14ff.pdf"
+    "filename": "PRE-SD07-a612fc14ff.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2013/Connect/EU/Brussels/PRE_SD07.pdf",
+    "status": "ok",
+    "bytes": 491161,
+    "sha256": "9d8dfca0ef2f5fd231834ac0517888520deb37148c55e98ae9d6530016fa1ed2"
   },
   {
     "title": "Your SAS Secrets Exposed!",
@@ -1669,6 +1673,10 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2013/Connect/EU/Brussels/PRE_CC04.pdf",
       "https://saslexicon.org/PHUSE_EU/2013/PRE_CC04.pdf"
     ],
-    "filename": "PRE-CC04-34a571c731.pdf"
+    "filename": "PRE-CC04-34a571c731.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2013/Connect/EU/Brussels/PRE_CC04.pdf",
+    "status": "ok",
+    "bytes": 573196,
+    "sha256": "195fe5fbd989d3d8acf321f801d755a87ed133ee8370eff50c5e4b294844dbec"
   }
 ]
