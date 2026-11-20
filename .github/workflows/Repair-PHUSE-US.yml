@@ -1,0 +1,334 @@
+name: Repair PHUSE US folder mixup
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'preview = report only; apply = prepare repair on a NEW branch'
+        required: true
+        type: choice
+        options:
+          - preview
+          - apply
+        default: preview
+      downloads-stopped:
+        description: 'For apply: I have stopped all paper-download workflows and will keep them stopped until this repair is reviewed/merged'
+        required: true
+        type: boolean
+
+permissions:
+  contents: read
+
+concurrency:
+  group: repair-phuse-us-folders
+  cancel-in-progress: false
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 1
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - name: Record the exact checkout commit
+        run: echo "BASE_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+      - name: Validate manifests and preview or prepare migration
+        id: repair
+        env:
+          REPAIR_MODE: ${{ inputs.mode }}
+          CONFIRMED: ${{ inputs.downloads-stopped && 'true' || 'false' }}
+        run: |
+          python -B - <<'PY'
+          """Conservative, offline PHUSE US relocation based on saved source manifests."""
+          import copy
+          import hashlib
+          import json
+          import os
+          from pathlib import Path
+          import re
+          import sys
+          from urllib.parse import urlsplit
+          
+          SOURCE = Path('PharmaSUG_US')
+          TARGET = Path('PHUSE_US')
+          
+          
+          def safe(path):
+              root = Path.cwd().resolve()
+              if not path.resolve().is_relative_to(root):
+                  raise ValueError(f'Path escapes checkout: {path}')
+              for p in (path, *path.parents):
+                  if p == Path('.'):
+                      break
+                  if p.is_symlink():
+                      raise ValueError(f'Symlink is not allowed: {p}')
+              return path
+          
+          
+          def us_url(url, year):
+              if not isinstance(url, str):
+                  return False
+              p = urlsplit(url)
+              if p.scheme != 'https' or p.username or p.password:
+                  return False
+              host = (p.hostname or '').lower()
+              if host == 'saslexicon.org':
+                  return p.path.startswith(f'/PHUSE_US/{year}/') and p.path.lower().endswith('.pdf')
+              return (host.startswith('phuse.s3.') and host.endswith('.amazonaws.com')
+                      and p.path.startswith(f'/Archive/{year}/Connect/US/')
+                      and p.path.lower().endswith('.pdf'))
+          
+          
+          def validate_record(record, year):
+              if not isinstance(record, dict):
+                  raise ValueError('Manifest record must be an object')
+              name = record.get('filename')
+              if not isinstance(name, str) or not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9.-]*\.pdf', name, re.I):
+                  raise ValueError(f'Unsafe/unexpected filename: {name!r}')
+              urls = record.get('source_urls')
+              if not isinstance(urls, list) or not urls or not all(us_url(url, year) for url in urls):
+                  raise ValueError(f'Not exclusively recognized PHUSE US sources for {year}: {name}')
+              if record.get('downloaded_from') and not us_url(record['downloaded_from'], year):
+                  raise ValueError(f'Unexpected downloaded_from: {name}')
+              return name
+          
+          
+          def read_manifest(path, year):
+              safe(path)
+              data = json.loads(path.read_text('utf-8'))
+              if not isinstance(data, list):
+                  raise ValueError(f'Expected list-format PHUSE manifest: {path}')
+              records = {}
+              for r in data:
+                  name = validate_record(r, year)
+                  if name in records:
+                      raise ValueError(f'Duplicate filename in manifest: {path}: {name}')
+                  records[name] = r
+              return records
+          
+          
+          def info(path):
+              safe(path)
+              if not path.is_file():
+                  raise ValueError(f'Not a regular file: {path}')
+              size = path.stat().st_size
+              with path.open('rb') as f:
+                  if b'%PDF-' not in f.read(1024):
+                      raise ValueError(f'PDF header missing: {path}')
+                  f.seek(max(0, size - 8192))
+                  if b'%%EOF' not in f.read():
+                      raise ValueError(f'PDF EOF missing: {path}')
+              with path.open('rb') as f:
+                  digest = hashlib.file_digest(f, 'sha256').hexdigest()
+              return {'bytes': size, 'sha256': digest}
+          
+          
+          def verify(path, records):
+              actual = info(path)
+              baseline = False
+              for r in records:
+                  if not r:
+                      continue
+                  if r.get('bytes') is not None and r['bytes'] != actual['bytes']:
+                      raise ValueError(f'Saved size mismatch: {path}')
+                  if r.get('sha256') is not None and r['sha256'] != actual['sha256']:
+                      raise ValueError(f'Saved SHA-256 mismatch: {path}')
+                  if isinstance(r.get('bytes'), int) and isinstance(r.get('sha256'), str) and re.fullmatch('[0-9a-f]{64}', r['sha256']):
+                      baseline = True
+              if not baseline:
+                  raise ValueError(f'No complete saved size/SHA-256 baseline; refusing automatic move: {path}')
+              return actual
+          
+          
+          def protected_paths(year):
+              path = SOURCE / year / 'catalog.json'
+              safe(path)
+              if not path.exists():
+                  return set()
+              data = json.loads(path.read_text('utf-8'))
+              if not isinstance(data, dict) or not isinstance(data.get('papers'), list):
+                  raise ValueError(f'Cannot read PharmaSUG protection catalog: {path}')
+              result = set()
+              for record in data['papers']:
+                  if not isinstance(record, dict) or not isinstance(record.get('path'), str):
+                      raise ValueError(f'Malformed PharmaSUG catalog record: {path}')
+                  result.add(safe(Path(record['path'])).resolve())
+              return result
+          
+          
+          def plan_repair():
+              safe(SOURCE)
+              safe(TARGET)
+              plans, errors = [], []
+              if not SOURCE.exists():
+                  return [], ['PharmaSUG_US folder does not exist']
+              for old_manifest in sorted(SOURCE.glob('*/manifest.json')):
+                  year = old_manifest.parent.name
+                  try:
+                      if not re.fullmatch(r'\d{4}', year):
+                          raise ValueError('Invalid year directory')
+                      src_records = read_manifest(old_manifest, year)
+                      new_manifest = TARGET / year / 'manifest.json'
+                      dst_records = read_manifest(new_manifest, year) if new_manifest.exists() else {}
+                      protected = protected_paths(year)
+                      merged = copy.deepcopy(dst_records)
+                      actions, absent = [], 0
+                      for name, sr in src_records.items():
+                          source, target = safe(SOURCE / year / name), safe(TARGET / year / name)
+                          dr = dst_records.get(name)
+                          if source.resolve() in protected:
+                              raise ValueError(f'Also referenced by PharmaSUG catalog; refusing move: {source}')
+                          if dr:
+                              for field in ('bytes', 'sha256'):
+                                  if sr.get(field) is not None and dr.get(field) is not None and sr[field] != dr[field]:
+                                      raise ValueError(f'Conflicting source/target manifest {field}: {name}')
+                              if sr['source_urls'][0] != dr['source_urls'][0]:
+                                  raise ValueError(f'Conflicting source identity for filename: {name}')
+                          source_exists, target_exists = source.exists(), target.exists()
+                          source_info = verify(source, [sr, dr]) if source_exists else None
+                          target_info = verify(target, [sr, dr]) if target_exists else None
+                          if source_info and target_info and source_info != target_info:
+                              raise ValueError(f'Target file differs; never overwrite: {target}')
+                          selected = copy.deepcopy(dr or sr)
+                          # Preserve target metadata when present; source provides fields absent there.
+                          selected = {**copy.deepcopy(sr), **selected}
+                          if source_exists or target_exists:
+                              selected.update(source_info or target_info)
+                              selected['status'] = 'ok'
+                              selected.pop('error', None)
+                          elif sr.get('status') == 'ok' or (dr and dr.get('status') == 'ok'):
+                              raise ValueError(f'Manifest says ok but PDF missing from both folders: {name}')
+                          else:
+                              # Missing failed/pending PDFs remain pending/failed, not reported repaired.
+                              absent += 1
+                          merged[name] = selected
+                          if source_exists:
+                              actions.append({'source': str(source), 'target': str(target),
+                                              'kind': 'remove-identical-old-copy' if target_exists else 'move',
+                                              'sha256': source_info['sha256']})
+                      unmapped = [str(p) for p in old_manifest.parent.iterdir()
+                                  if p.is_file() and p.suffix.lower() == '.pdf' and p.name not in src_records]
+                      plans.append({'year': year, 'old_manifest': str(old_manifest), 'new_manifest': str(new_manifest),
+                                    'actions': actions, 'records': list(merged.values()), 'absent': absent,
+                                    'untouched_pdf_count': len(unmapped)})
+                  except Exception as exc:
+                      errors.append(f'{year}: {exc}')
+              return plans, errors
+          
+          
+          def apply_repair(plans, errors):
+              if errors:
+                  raise ValueError('Preflight has blockers; no changes applied')
+              # Re-verify every action globally before changing even one file.
+              for p in plans:
+                  for a in p['actions']:
+                      if info(Path(a['source']))['sha256'] != a['sha256']:
+                          raise ValueError('Source changed since preview')
+                      if Path(a['target']).exists() and info(Path(a['target']))['sha256'] != a['sha256']:
+                          raise ValueError('Target changed since preview')
+              for p in plans:
+                  target_manifest = safe(Path(p['new_manifest']))
+                  target_manifest.parent.mkdir(parents=True, exist_ok=True)
+                  for a in p['actions']:
+                      source, target = Path(a['source']), Path(a['target'])
+                      if a['kind'] == 'move':
+                          if target.exists():
+                              raise ValueError(f'Target appeared unexpectedly: {target}')
+                          source.rename(target)
+                      else:
+                          # Only remove the old reference after exact content equality was verified.
+                          source.unlink()
+                  temporary = target_manifest.with_suffix('.tmp')
+                  if temporary.exists():
+                      raise ValueError(f'Unexpected temporary file: {temporary}')
+                  temporary.write_text(json.dumps(p['records'], ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+                  temporary.replace(target_manifest)
+                  Path(p['old_manifest']).unlink()
+          
+          
+          def emit(text):
+              print(text, flush=True)
+              if os.environ.get('GITHUB_STEP_SUMMARY'):
+                  with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
+                      f.write(text + '\n')
+          
+          
+          def main():
+              mode = os.environ.get('REPAIR_MODE', 'preview')
+              if mode not in ('preview', 'apply'):
+                  raise ValueError('Invalid mode')
+              if mode == 'apply' and os.environ.get('CONFIRMED') != 'true':
+                  raise ValueError('Apply requires explicit confirmation that all download workflows are stopped')
+              plans, errors = plan_repair()
+              lines = ['# PHUSE US misplaced-file repair', '', f'Mode: **{mode}**. Base commit: `{os.environ.get("BASE_SHA", "local")}`.', '',
+                       '| Year | PDFs to move | Identical old copies to remove | Missing failed/pending PDFs | Other PDFs left untouched |',
+                       '| --- | ---: | ---: | ---: | ---: |']
+              for p in plans:
+                  lines.append(f"| {p['year']} | {sum(a['kind'] == 'move' for a in p['actions'])} | {sum(a['kind'] != 'move' for a in p['actions'])} | {p['absent']} | {p['untouched_pdf_count']} |")
+                  for a in p['actions']:
+                      print(f"PLAN {a['kind']}: {a['source']} -> {a['target']}", flush=True)
+              if errors:
+                  lines += ['', '## BLOCKERS — no migration applied', *['- ' + e for e in errors]]
+              elif not plans:
+                  lines += ['', 'No misplaced PHUSE manifest.json files found. Nothing to migrate.']
+              elif mode == 'preview':
+                  lines += ['', 'Preview only. No repository files changed. Missing failed/pending PDFs are not downloaded by this repair.']
+              else:
+                  apply_repair(plans, errors)
+                  lines += ['', 'Migration prepared in the runner. The next step pushes a NEW repair branch only, never main. Review a pull request before merging.']
+              lines += ['', 'Scope: only PHUSE US files explicitly listed in PharmaSUG_US/<year>/manifest.json and supported by recognized source URLs plus saved checksums.',
+                        'PharmaSUG catalog.json/report.md and PDFs not listed in the PHUSE manifest are left untouched. PHUSE_EU, PHUSE_APAC and PharmaSUG_CN are not modified.',
+                        'Source and target manifests are merged; differing target files or metadata cause preflight failure, not overwrite.',
+                        'No paper downloads. Moving existing Git blobs does not require downloading the papers again. Preview/apply still check out the repository in GitHub cloud.',
+                        'A source manifest is repository metadata, not independent publisher proof. Missing/invalid/conflicting data are blockers for automatic relocation.']
+              emit('\n'.join(lines))
+              if os.environ.get('GITHUB_OUTPUT'):
+                  with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as out:
+                      out.write(f"changed={'true' if mode == 'apply' and plans and not errors else 'false'}\n")
+              return 1 if errors else 0
+          
+          
+          if __name__ == '__main__':
+              sys.exit(main())
+          PY
+      - name: Push ONE repair commit to a NEW branch (never to main)
+        if: ${{ steps.repair.outputs.changed == 'true' }}
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          # Stop if the default branch changed while preparing the migration.
+          remote_sha=$(git ls-remote origin "refs/heads/$DEFAULT_BRANCH" | cut -f1)
+          if [ "$remote_sha" != "$BASE_SHA" ]; then
+            echo 'Default branch changed. Stop all download jobs and rerun preview/apply against the latest branch.' >&2
+            exit 1
+          fi
+          branch="repair/phuse-us-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          git switch -c "$branch"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- PharmaSUG_US PHUSE_US
+          if git diff --cached --quiet; then
+            echo 'No file changes to commit.'
+            exit 0
+          fi
+          git diff --cached --stat
+          git commit -m 'Repair PHUSE US files misplaced in PharmaSUG US'
+          git push origin "HEAD:refs/heads/$branch"
+          {
+            echo '## Repair branch ready — main was NOT changed'
+            echo
+            echo "Branch: \`$branch\`"
+            echo
+            echo "Open Pull requests > New pull request; base: \`$DEFAULT_BRANCH\`; compare: \`$branch\`."
+            echo 'Review file moves and merged manifests, then merge the repair PR. Keep paper-download workflows stopped until merged.'
+            echo 'To discard before merging: close the PR/delete this repair branch. No default-branch files were changed by this workflow.'
+          } >> "$GITHUB_STEP_SUMMARY"
