@@ -1508,7 +1508,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP01.pdf",
       "https://saslexicon.org/PHUSE_EU/2012/PAP_PP01.pdf"
     ],
-    "filename": "PAP-PP01-0fbdd72840.pdf"
+    "filename": "PAP-PP01-0fbdd72840.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP01.pdf",
+    "status": "ok",
+    "bytes": 1103077,
+    "sha256": "1476e2a84d80e12d0718a1405812d6591fa5846616102099d263de1f00d22b24"
   },
   {
     "title": "Validation in Epidemiological Studies",
@@ -1519,7 +1523,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PRE_HE05.pdf",
       "https://saslexicon.org/PHUSE_EU/2012/PRE_HE05.pdf"
     ],
-    "filename": "PRE-HE05-2f79fb2848.pdf"
+    "filename": "PRE-HE05-2f79fb2848.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PRE_HE05.pdf",
+    "status": "ok",
+    "bytes": 375621,
+    "sha256": "d7e3a5a896e0221ee1b49b07e329b2495b4c1877f806d411728f6b837ad09f5c"
   },
   {
     "title": "Validation to define.xml",
@@ -1530,7 +1538,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP04.pdf",
       "https://saslexicon.org/PHUSE_EU/2012/PAP_PP04.pdf"
     ],
-    "filename": "PAP-PP04-22da648ab2.pdf"
+    "filename": "PAP-PP04-22da648ab2.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP04.pdf",
+    "status": "ok",
+    "bytes": 236919,
+    "sha256": "1f5be1d2bcc036fc78859fdd519da65637f6a3ccf8e41b0ad651be5086069eee"
   },
   {
     "title": "Viva Usability!",
@@ -1541,7 +1553,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_AD03.pdf",
       "https://saslexicon.org/PHUSE_EU/2012/PAP_AD03.pdf"
     ],
-    "filename": "PAP-AD03-06fc6a7afa.pdf"
+    "filename": "PAP-AD03-06fc6a7afa.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_AD03.pdf",
+    "status": "ok",
+    "bytes": 76571,
+    "sha256": "96da6fc33382fd13530e468c2edc2938a9431c99f5e1294f688ca78ce27d3a34"
   },
   {
     "title": "What Makes Oncology Special?",
@@ -1552,7 +1568,11 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_IS06.pdf",
       "https://saslexicon.org/PHUSE_EU/2012/PAP_IS06.pdf"
     ],
-    "filename": "PAP-IS06-3981d50655.pdf"
+    "filename": "PAP-IS06-3981d50655.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_IS06.pdf",
+    "status": "ok",
+    "bytes": 85859,
+    "sha256": "46bd476adc11f701c56f3f000a1ccd36104723ba5d57732d7b063aec71694a2a"
   },
   {
     "title": "Which Programs use that Dataset?",
@@ -1563,6 +1583,10 @@
       "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP08.pdf",
       "https://saslexicon.org/PHUSE_EU/2012/PAP_PP08.pdf"
     ],
-    "filename": "PAP-PP08-5e122c8206.pdf"
+    "filename": "PAP-PP08-5e122c8206.pdf",
+    "downloaded_from": "https://phuse.s3.eu-central-1.amazonaws.com/Archive/2012/Connect/EU/Budapest/PAP_PP08.pdf",
+    "status": "ok",
+    "bytes": 91811,
+    "sha256": "d61822730c6505993c714aa69f76d3e9622c58ccd56748c3c69bfd5148ce0522"
   }
 ]
